@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "production": "Produzione",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "products": "Prodotti",
+    "bolts": "Bulloni",
+    "nuts": "Dadi",
+    "washers": "Rondelle"
+  },
+  "slider": {
+    "slide1": {
+      "title": "Precisione in Ogni Forgiatura",
+      "subtitle": "Bulloni e dadi forgiati a caldo progettati con forza, precisione e durata — scelti dalle industrie di tutto il mondo."
+    },
+    "slide2": {
+      "title": "Costruito per Resistere",
+      "subtitle": "Soluzioni di fissaggio certificate che soddisfano gli standard DIN, BS, TE — dai bulloni standard alle specifiche personalizzate."
+    },
+    "slide3": {
+      "title": "Plasmare la Forza",
+      "subtitle": "Soluzioni di forgiatura a stampo chiuso per componenti ad alte prestazioni e critici per la sicurezza."
+    }
+  },
+  "buttons": {
+    "getQuote": "Richiedi Preventivo",
+    "contactUs": "Contattaci",
+    "learnMore": "Scopri di Più",
+    "viewAll": "Visualizza Tutti i Prodotti"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "language": "Lingua"
+  }
+}

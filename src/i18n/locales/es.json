@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "production": "Producción",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "products": "Productos",
+    "bolts": "Pernos",
+    "nuts": "Tuercas",
+    "washers": "Arandelas"
+  },
+  "slider": {
+    "slide1": {
+      "title": "Precisión en Cada Forja",
+      "subtitle": "Pernos y tuercas forjados en caliente diseñados con resistencia, precisión y durabilidad — confiados por industrias de todo el mundo."
+    },
+    "slide2": {
+      "title": "Construido para Resistir",
+      "subtitle": "Soluciones de fijación certificadas que cumplen con los estándares DIN, BS, TE — desde pernos estándar hasta especificaciones personalizadas."
+    },
+    "slide3": {
+      "title": "Dando Forma a la Resistencia",
+      "subtitle": "Soluciones de forja en matriz cerrada para componentes de alto rendimiento y críticos para la seguridad."
+    }
+  },
+  "buttons": {
+    "getQuote": "Solicitar Cotización",
+    "contactUs": "Contáctanos",
+    "learnMore": "Saber Más",
+    "viewAll": "Ver Todos los Productos"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "language": "Idioma"
+  }
+}

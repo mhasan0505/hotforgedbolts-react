@@ -1,54 +1,48 @@
-import React from "react";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-import { useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import React from "react";
+import { useTranslation } from "react-i18next";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-// import required modules
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-// Add these imports at the top
-import slider1 from "../assets/slider/slider1.jpg";
-import slider2 from "../assets/slider/Slider2.jpg";
-import slider3 from "../assets/slider/slider3.jpg";
+// Import images
+import slide1 from "../assets/slider/slider1.jpg";
+import slide2 from "../assets/slider/Slider2.jpg";
+import slide3 from "../assets/slider/slider3.jpg";
 
-// Replace the slidesData array:
-const slidesData = [
-  {
-    title: "Precision in Every Forge",
-    subtitle:
-      "Hot forged bolts and nuts engineered with strength, accuracy, and durability — trusted by industries worldwide",
-    imageSrc: slider1,
-  },
-  {
-    title: "Built to Withstand",
-    subtitle:
-      "Certified fastening solutions that meet DIN, BS, TE standards — from standard bolts to custom specifications.",
-    imageSrc: slider2,
-  },
-  {
-    title: "Shaping Strength",
-    subtitle:
-      "Closed die forging solutions for high-performance, safety-critical components.",
-    imageSrc: slider3,
-  },
-];
+const Slider = () => {
+  const { t } = useTranslation();
 
-export default function Slider() {
-  useEffect(() => {
+  React.useEffect(() => {
     AOS.init({
-      duration: 800,
-      once: false,
-      mirror: true,
+      duration: 1000,
+      once: true,
     });
   }, []);
+
+  const slidesData = [
+    {
+      id: 1,
+      image: slide1,
+      title: t("slider.slide1.title"),
+      subtitle: t("slider.slide1.subtitle"),
+    },
+    {
+      id: 2,
+      image: slide2,
+      title: t("slider.slide2.title"),
+      subtitle: t("slider.slide2.subtitle"),
+    },
+    {
+      id: 3,
+      image: slide3,
+      title: t("slider.slide3.title"),
+      subtitle: t("slider.slide3.subtitle"),
+    },
+  ];
 
   return (
     <div className="w-screen relative left-1/2 -translate-x-1/2 mt-20 md:mt-24">
@@ -70,8 +64,8 @@ export default function Slider() {
           AOS.refresh();
         }}
       >
-        {slidesData.map((slide) => (
-          <SwiperSlide key={slide.imageSrc} className="relative w-full h-full">
+        {slidesData.map((slide, index) => (
+          <SwiperSlide key={index} className="relative w-full h-full">
             <div className="absolute inset-0 bg-black/40 z-10" />
             <div className="absolute top-1/2 left-[5%] sm:left-[10%] transform -translate-y-1/2 text-left z-20 w-full max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-2xl px-4">
               <h1
@@ -90,7 +84,7 @@ export default function Slider() {
               </h3>
             </div>
             <img
-              src={slide.imageSrc}
+              src={slide.image}
               alt={slide.title}
               className="absolute inset-0 w-full h-full object-cover -z-10"
             />
@@ -99,4 +93,6 @@ export default function Slider() {
       </Swiper>
     </div>
   );
-}
+};
+
+export default Slider;

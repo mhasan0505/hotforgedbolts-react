@@ -1,10 +1,10 @@
 import { allenBoltImages } from "../assets/Bolts/images";
 import BoltNavigator from "../components/BoltNavigator";
 import ImageGallery from "../components/ImageGallery";
-import { useTranslation } from "../translations";
+import { useTranslation } from 'react-i18next';
 
-const Bolts = () => {
-  const { t: _t } = useTranslation();
+function Bolts() {
+  const { t } = useTranslation();
 
   return (
     <div className="mt-28 px-4 sm:px-6 lg:px-8">

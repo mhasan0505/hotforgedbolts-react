@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "production": "Üretim",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "products": "Ürünler",
+    "bolts": "Cıvatalar",
+    "nuts": "Somunlar",
+    "washers": "Pullar"
+  },
+  "slider": {
+    "slide1": {
+      "title": "Her Dövmede Hassasiyet",
+      "subtitle": "Dünya çapında endüstriler tarafından güvenilen, güç, doğruluk ve dayanıklılıkla tasarlanmış sıcak dövme cıvatalar ve somunlar"
+    },
+    "slide2": {
+      "title": "Dayanacak Şekilde Üretildi",
+      "subtitle": "DIN, BS, TE standartlarını karşılayan sertifikalı bağlantı çözümleri — standart cıvatalardan özel spesifikasyonlara kadar."
+    },
+    "slide3": {
+      "title": "Gücü Şekillendirme",
+      "subtitle": "Yüksek performanslı, güvenlik açısından kritik bileşenler için kapalı kalıp dövme çözümleri."
+    }
+  },
+  "buttons": {
+    "getQuote": "Teklif Al",
+    "contactUs": "Bize Ulaşın",
+    "learnMore": "Daha Fazla Öğren",
+    "viewAll": "Tüm Ürünleri Görüntüle"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "language": "Dil"
+  }
+}

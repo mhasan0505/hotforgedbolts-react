@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "production": "Production",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products",
+    "bolts": "Bolts",
+    "nuts": "Nuts",
+    "washers": "Washers"
+  },
+  "slider": {
+    "slide1": {
+      "title": "Precision in Every Forge",
+      "subtitle": "Hot forged bolts and nuts engineered with strength, accuracy, and durability — trusted by industries worldwide"
+    },
+    "slide2": {
+      "title": "Built to Withstand",
+      "subtitle": "Certified fastening solutions that meet DIN, BS, TE standards — from standard bolts to custom specifications."
+    },
+    "slide3": {
+      "title": "Shaping Strength",
+      "subtitle": "Closed die forging solutions for high-performance, safety-critical components."
+    }
+  },
+  "buttons": {
+    "getQuote": "Get Quote",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "viewAll": "View All Products"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "language": "Language"
+  }
+}

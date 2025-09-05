@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "production": "Produktion",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "products": "Produkte",
+    "bolts": "Schrauben",
+    "nuts": "Muttern",
+    "washers": "Unterlegscheiben"
+  },
+  "slider": {
+    "slide1": {
+      "title": "Präzision in jedem Schmiedevorgang",
+      "subtitle": "Warmgeschmiedete Schrauben und Muttern, entwickelt mit Stärke, Präzision und Langlebigkeit — weltweit von Industrien geschätzt."
+    },
+    "slide2": {
+      "title": "Gebaut, um zu Bestehen",
+      "subtitle": "Zertifizierte Befestigungslösungen, die den Normen DIN, BS, TE entsprechen — von Standardschrauben bis zu kundenspezifischen Anforderungen."
+    },
+    "slide3": {
+      "title": "Stärke Formen",
+      "subtitle": "Geschlossenes Gesenkschmieden für hochleistungsfähige, sicherheitskritische Komponenten."
+    }
+  },
+  "buttons": {
+    "getQuote": "Angebot Anfordern",
+    "contactUs": "Kontaktieren Sie Uns",
+    "learnMore": "Mehr Erfahren",
+    "viewAll": "Alle Produkte Anzeigen"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "language": "Sprache"
+  }
+}
