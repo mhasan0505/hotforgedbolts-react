@@ -72,5 +72,83 @@
       "title": "La Nostra Missione",
       "description": "Essere il principale fornitore di soluzioni di fissaggio forgiate a caldo di alta qualità, potenziando le industrie di tutto il mondo con prodotti che superano le aspettative in termini di qualità, prestazioni e affidabilità. Siamo impegnati nell'innovazione, nella sostenibilità e nella costruzione di partnership durature con i nostri clienti."
     }
+  },
+  "contact": {
+    "header": {
+      "tagline": "Mettiti in contatto",
+      "title": "Costruiamo <br /> <span>qualcosa di grande</span>",
+      "description": "Pronto a discutere del tuo progetto? Siamo qui per aiutarti a creare soluzioni di forgiatura a caldo eccezionali. Contattaci e iniziamo la conversazione."
+    },
+    "form": {
+      "title": "Modulo di contatto",
+      "labels": {
+        "name": "Nome completo *",
+        "email": "Indirizzo email *",
+        "company": "Azienda (Facoltativo)",
+        "phone": "Telefono (Facoltativo)",
+        "subject": "Oggetto (Facoltativo)",
+        "message": "Il tuo messaggio *"
+      },
+      "placeholders": {
+        "name": "Inserisci il tuo nome completo",
+        "email": "tuo.email@esempio.com",
+        "company": "Nome della tua azienda",
+        "phone": "+39 (555) 123 45 67",
+        "subject": "Di cosa si tratta?",
+        "message": "Raccontaci del tuo progetto, dei requisiti o di qualsiasi domanda tu abbia..."
+      },
+      "errors": {
+        "name_required": "Il nome è obbligatorio",
+        "email_required": "L'email è obbligatoria",
+        "email_invalid": "Per favore, inserisci un'email valida",
+        "message_required": "Il messaggio è obbligatorio"
+      },
+      "submit_button": {
+        "send": "Invia messaggio",
+        "sending": "Invio in corso..."
+      },
+      "status": {
+        "success": "Messaggio inviato con successo! Ti risponderemo presto.",
+        "error": "Impossibile inviare il messaggio. Per favore, riprova o contattaci direttamente."
+      }
+    },
+    "contact_info": [
+      {
+        "title": "Inviaci un'email",
+        "content": "info@hotforgedbolts.com",
+        "description": "Inviaci un'email in qualsiasi momento"
+      },
+      {
+        "title": "Chiamaci",
+        "content": "+905435533387",
+        "description": "Da lunedì a venerdì, dalle 8:00 alle 17:00"
+      },
+      {
+        "title": "Vieni a trovarci",
+        "content": "3. Kazan Sk. 7/A",
+        "description": "Altınova, 16250 Osmangazi/Bursa, Turchia"
+      }
+    ],
+    "features": {
+      "title": "Perché scegliere noi?",
+      "items": [
+        {
+          "title": "Risposta rapida",
+          "description": "Rispondiamo entro 24 ore"
+        },
+        {
+          "title": "Sicuro e privato",
+          "description": "Le tue informazioni sono protette"
+        },
+        {
+          "title": "Supporto esperto",
+          "description": "Assistenza tecnica professionale"
+        }
+      ]
+    },
+    "company": {
+      "title": "Azienda",
+      "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Specializzata in bulloni forgiati a caldo ad alta resistenza e soluzioni di fissaggio di precisione per applicazioni industriali impegnative."
+    }
   }
 }

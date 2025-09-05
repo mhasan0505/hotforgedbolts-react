@@ -72,5 +72,83 @@
       "title": "Nuestra Misión",
       "description": "Ser el proveedor líder de soluciones de fijación forjadas en caliente de primera calidad, empoderando a las industrias de todo el mundo con productos que superan las expectativas en calidad, rendimiento y confiabilidad. Estamos comprometidos con la innovación, la sostenibilidad y la construcción de asociaciones duraderas con nuestros clientes."
     }
+  },
+  "contact": {
+    "header": {
+      "tagline": "Ponte en contacto",
+      "title": "Construyamos <br /> <span>algo grandioso</span>",
+      "description": "¿Listo para discutir tu proyecto? Estamos aquí para ayudarte a crear soluciones de forja en caliente excepcionales. Contáctanos y empecemos la conversación."
+    },
+    "form": {
+      "title": "Formulario de contacto",
+      "labels": {
+        "name": "Nombre completo *",
+        "email": "Dirección de correo electrónico *",
+        "company": "Empresa (Opcional)",
+        "phone": "Teléfono (Opcional)",
+        "subject": "Asunto (Opcional)",
+        "message": "Tu mensaje *"
+      },
+      "placeholders": {
+        "name": "Introduce tu nombre completo",
+        "email": "tu.email@ejemplo.com",
+        "company": "Nombre de tu empresa",
+        "phone": "+34 (555) 123 45 67",
+        "subject": "¿De qué trata esto?",
+        "message": "Cuéntanos sobre tu proyecto, requisitos o cualquier pregunta que tengas..."
+      },
+      "errors": {
+        "name_required": "El nombre es obligatorio",
+        "email_required": "El correo electrónico es obligatorio",
+        "email_invalid": "Por favor, introduce un correo electrónico válido",
+        "message_required": "El mensaje es obligatorio"
+      },
+      "submit_button": {
+        "send": "Enviar mensaje",
+        "sending": "Enviando..."
+      },
+      "status": {
+        "success": "¡Mensaje enviado con éxito! Te responderemos pronto.",
+        "error": "No se pudo enviar el mensaje. Por favor, intenta de nuevo o contáctanos directamente."
+      }
+    },
+    "contact_info": [
+      {
+        "title": "Envíanos un correo",
+        "content": "info@hotforgedbolts.com",
+        "description": "Envíanos un correo en cualquier momento"
+      },
+      {
+        "title": "Llámanos",
+        "content": "+905435533387",
+        "description": "Lunes a viernes de 8:00 a 17:00"
+      },
+      {
+        "title": "Visítanos",
+        "content": "3. Kazan Sk. 7/A",
+        "description": "Altınova, 16250 Osmangazi/Bursa, Turquía"
+      }
+    ],
+    "features": {
+      "title": "¿Por qué elegirnos?",
+      "items": [
+        {
+          "title": "Respuesta rápida",
+          "description": "Respondemos en 24 horas"
+        },
+        {
+          "title": "Seguro y privado",
+          "description": "Tu información está protegida"
+        },
+        {
+          "title": "Soporte experto",
+          "description": "Asistencia técnica profesional"
+        }
+      ]
+    },
+    "company": {
+      "title": "Empresa",
+      "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Especializada en pernos forjados en caliente de alta resistencia y soluciones de fijación de precisión para aplicaciones industriales exigentes."
+    }
   }
 }

@@ -36,8 +36,6 @@
     "language": "Language"
   },
 
-
-
   "about": {
     "hero": {
       "title": "We increase the power of industries with our innovative <span>hot forging solutions</span>",
@@ -74,6 +72,84 @@
     "mission": {
       "title": "Our Mission",
       "description": "To be the leading provider of premium hot forged fastening solutions, empowering industries worldwide with products that exceed expectations in quality, performance, and reliability. We are committed to innovation, sustainability, and building lasting partnerships with our clients."
+    }
+  },
+  "contact": {
+    "header": {
+      "tagline": "Get In Touch",
+      "title": "Let's Build <br /> <span>Something Great</span>",
+      "description": "Ready to discuss your project? We're here to help you create exceptional hot forged solutions. Reach out and let's start the conversation."
+    },
+    "form": {
+      "title": "Contact Form",
+      "labels": {
+        "name": "Full Name *",
+        "email": "Email Address *",
+        "company": "Company (Optional)",
+        "phone": "Phone (Optional)",
+        "subject": "Subject (Optional)",
+        "message": "Your Message *"
+      },
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "your.email@example.com",
+        "company": "Your company name",
+        "phone": "+1 (555) 123-4567",
+        "subject": "What's this about?",
+        "message": "Tell us about your project, requirements, or any questions you have..."
+      },
+      "errors": {
+        "name_required": "Name is required",
+        "email_required": "Email is required",
+        "email_invalid": "Please enter a valid email",
+        "message_required": "Message is required"
+      },
+      "submit_button": {
+        "send": "Send Message",
+        "sending": "Sending..."
+      },
+      "status": {
+        "success": "Message sent successfully! We'll get back to you soon.",
+        "error": "Failed to send message. Please try again or contact us directly."
+      }
+    },
+    "contact_info": [
+      {
+        "title": "Email Us",
+        "content": "info@hotforgedbolts.com",
+        "description": "Send us an email anytime"
+      },
+      {
+        "title": "Call Us",
+        "content": "+905435533387",
+        "description": "Mon-Fri from 8am to 5pm"
+      },
+      {
+        "title": "Visit Us",
+        "content": "3. Kazan Sk. 7/A",
+        "description": "Altınova, 16250 Osmangazi/Bursa, Türkiye"
+      }
+    ],
+    "features": {
+      "title": "Why Choose Us?",
+      "items": [
+        {
+          "title": "Quick Response",
+          "description": "We respond within 24 hours"
+        },
+        {
+          "title": "Secure & Private",
+          "description": "Your information is protected"
+        },
+        {
+          "title": "Expert Support",
+          "description": "Professional technical assistance"
+        }
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Specialized in high-strength hot forged bolts and precision fastening solutions for demanding industrial applications."
     }
   }
 }

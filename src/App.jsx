@@ -10,7 +10,6 @@ import CounterSunkPage from './pages/CounterSunkPage';
 import EyeBoltPage from './pages/EyeBoltPage';
 import FastenersPage from './pages/FastenersPage';
 import HexHeadBoltPage from './pages/HexHeadBoltPage';
-import Home from './pages/Home';
 import HotForgingPage from './pages/HotForgingPage';
 import MachiningPage from './pages/MachiningPage';
 import Nut from './pages/Nut';
@@ -18,6 +17,7 @@ import ProductionPage from './pages/ProductionPage';
 import SquareBoltPage from './pages/SquareBoltPage';
 import StudBolt from './pages/StudBolt';
 import GoToTop from './components/GoToTop';
+import Home from './layout/Home';
 
 function App() {
   return (

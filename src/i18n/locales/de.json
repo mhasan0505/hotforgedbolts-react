@@ -72,5 +72,83 @@
       "title": "Unsere Mission",
       "description": "Der führende Anbieter von hochwertigen warmgeschmiedeten Befestigungslösungen zu sein, die Industrien weltweit mit Produkten ausstatten, die die Erwartungen an Qualität, Leistung und Zuverlässigkeit übertreffen. Wir setzen auf Innovation, Nachhaltigkeit und den Aufbau langfristiger Partnerschaften mit unseren Kunden."
     }
+  },
+  "contact": {
+    "header": {
+      "tagline": "Kontaktieren Sie uns",
+      "title": "Lassen Sie uns <br /> <span>etwas Großartiges schaffen</span>",
+      "description": "Bereit, Ihr Projekt zu besprechen? Wir sind hier, um Ihnen bei der Entwicklung außergewöhnlicher Warmumformlösungen zu helfen. Nehmen Sie Kontakt auf und lassen Sie uns das Gespräch beginnen."
+    },
+    "form": {
+      "title": "Kontaktformular",
+      "labels": {
+        "name": "Vollständiger Name *",
+        "email": "E-Mail-Adresse *",
+        "company": "Unternehmen (Optional)",
+        "phone": "Telefon (Optional)",
+        "subject": "Betreff (Optional)",
+        "message": "Ihre Nachricht *"
+      },
+      "placeholders": {
+        "name": "Geben Sie Ihren vollständigen Namen ein",
+        "email": "ihre.email@beispiel.com",
+        "company": "Name Ihres Unternehmens",
+        "phone": "+49 (555) 123 45 67",
+        "subject": "Worum geht es?",
+        "message": "Erzählen Sie uns von Ihrem Projekt, Ihren Anforderungen oder Fragen..."
+      },
+      "errors": {
+        "name_required": "Name ist erforderlich",
+        "email_required": "E-Mail ist erforderlich",
+        "email_invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "message_required": "Nachricht ist erforderlich"
+      },
+      "submit_button": {
+        "send": "Nachricht senden",
+        "sending": "Wird gesendet..."
+      },
+      "status": {
+        "success": "Nachricht erfolgreich gesendet! Wir melden uns bald bei Ihnen.",
+        "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+      }
+    },
+    "contact_info": [
+      {
+        "title": "Schreiben Sie uns",
+        "content": "info@hotforgedbolts.com",
+        "description": "Schicken Sie uns jederzeit eine E-Mail"
+      },
+      {
+        "title": "Rufen Sie uns an",
+        "content": "+905435533387",
+        "description": "Montag bis Freitag von 8:00 bis 17:00 Uhr"
+      },
+      {
+        "title": "Besuchen Sie uns",
+        "content": "3. Kazan Sk. 7/A",
+        "description": "Altınova, 16250 Osmangazi/Bursa, Türkei"
+      }
+    ],
+    "features": {
+      "title": "Warum uns wählen?",
+      "items": [
+        {
+          "title": "Schnelle Antwort",
+          "description": "Wir antworten innerhalb von 24 Stunden"
+        },
+        {
+          "title": "Sicher und privat",
+          "description": "Ihre Informationen sind geschützt"
+        },
+        {
+          "title": "Fachkundige Unterstützung",
+          "description": "Professionelle technische Unterstützung"
+        }
+      ]
+    },
+    "company": {
+      "title": "Unternehmen",
+      "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Spezialisiert auf hochfeste Warmumformschrauben und Präzisionsbefestigungslösungen für anspruchsvolle industrielle Anwendungen."
+    }
   }
 }

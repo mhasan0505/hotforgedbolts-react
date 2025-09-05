@@ -1,15 +1,6 @@
-import React from 'react';
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Twitter,
-} from 'lucide-react';
-import logo from '../assets/logo/logo-1-png.png';
-import { navLinks } from '../constants';
+import { Mail, MapPin, Phone } from "lucide-react";
+import logo from "../assets/logo/logo-1-png.png";
+import { navLinks } from "../constants";
 
 const Footer = () => {
   return (
@@ -28,7 +19,7 @@ const Footer = () => {
               and precision machined components for industrial applications
               worldwide.
             </p>
-            <div className="flex items-center gap-4">
+            {/* <div className="flex items-center gap-4">
               <a
                 href="#"
                 className="p-2 bg-violet-50 rounded-full hover:bg-violet-100 transition-colors duration-300"
@@ -57,7 +48,7 @@ const Footer = () => {
               >
                 <Instagram size={18} className="text-blue-600" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Navigation & Info Sections */}
@@ -89,7 +80,7 @@ const Footer = () => {
               <ul className="space-y-3 text-sm text-gray-600">
                 <li>
                   <a
-                    href="#"
+                    href="/hot-forging"
                     className="hover:text-blue-600 transition-colors duration-300"
                   >
                     Hot Forged Bolts
@@ -97,7 +88,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/fasteners"
                     className="hover:text-blue-600 transition-colors duration-300"
                   >
                     Fasteners
@@ -105,7 +96,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/machining"
                     className="hover:text-blue-600 transition-colors duration-300"
                   >
                     Precision Machining
@@ -113,7 +104,32 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/bolts"
+                    className="hover:text-blue-600 transition-colors duration-300"
+                  >
+                    Bolts
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/nuts"
+                    className="hover:text-blue-600 transition-colors duration-300"
+                  >
+                    Nuts
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/studs-bolts"
+                    className="hover:text-blue-600 transition-colors duration-300"
+                  >
+                    Studs Bolts
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/contact"
                     className="hover:text-blue-600 transition-colors duration-300"
                   >
                     Custom Solutions
@@ -178,6 +194,17 @@ const Footer = () => {
                 Cookie Policy
               </a>
             </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <p className="text-sm text-gray-500 flex items-center">
+              Design & Developed by <br />
+              <a
+                href="https://www.creativeartix.com"
+                className="hover:text-blue-600 transition-colors duration-300 px-2"
+              >
+                Creative Artix
+              </a>
+            </p>
           </div>
         </div>
       </div>

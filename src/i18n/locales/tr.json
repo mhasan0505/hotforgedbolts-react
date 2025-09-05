@@ -72,5 +72,83 @@
       "title": "Misyonumuz",
       "description": "Birinci sınıf sıcak dövme bağlantı çözümlerinin lider sağlayıcısı olmak, dünya çapındaki endüstrileri kalite, performans ve güvenilirlikte beklentileri aşan ürünlerle güçlendirmek. Yenilik, sürdürülebilirlik ve müşterilerimizle kalıcı ortaklıklar kurmaya bağlıyız."
     }
+  },
+  "contact": {
+    "header": {
+      "tagline": "İletişime Geçin",
+      "title": "Birlikte <br /> <span>Harika Bir Şey Yapalım</span>",
+      "description": "Projenizi tartışmaya hazır mısınız? Olağanüstü sıcak dövme çözümleri oluşturmanıza yardımcı olmak için buradayız. Ulaşın ve konuşmaya başlayalım."
+    },
+    "form": {
+      "title": "İletişim Formu",
+      "labels": {
+        "name": "Tam Ad *",
+        "email": "E-posta Adresi *",
+        "company": "Şirket (İsteğe Bağlı)",
+        "phone": "Telefon (İsteğe Bağlı)",
+        "subject": "Konu (İsteğe Bağlı)",
+        "message": "Mesajınız *"
+      },
+      "placeholders": {
+        "name": "Tam adınızı girin",
+        "email": "ornek.email@ornek.com",
+        "company": "Şirket adınız",
+        "phone": "+90 (555) 123 45 67",
+        "subject": "Bu ne hakkında?",
+        "message": "Projeniz, gereksinimleriniz veya sorularınız hakkında bize bilgi verin..."
+      },
+      "errors": {
+        "name_required": "Ad gerekli",
+        "email_required": "E-posta gerekli",
+        "email_invalid": "Lütfen geçerli bir e-posta adresi girin",
+        "message_required": "Mesaj gerekli"
+      },
+      "submit_button": {
+        "send": "Mesaj Gönder",
+        "sending": "Gönderiliyor..."
+      },
+      "status": {
+        "success": "Mesaj başarıyla gönderildi! Yakında size geri döneceğiz.",
+        "error": "Mesaj gönderilemedi. Lütfen tekrar deneyin veya doğrudan bizimle iletişime geçin."
+      }
+    },
+    "contact_info": [
+      {
+        "title": "Bize E-posta Gönderin",
+        "content": "info@hotforgedbolts.com",
+        "description": "Bize istediğiniz zaman e-posta gönderin"
+      },
+      {
+        "title": "Bizi Arayın",
+        "content": "+905435533387",
+        "description": "Pazartesi-Cuma, sabah 8'den akşam 5'e kadar"
+      },
+      {
+        "title": "Bizi Ziyaret Edin",
+        "content": "3. Kazan Sk. 7/A",
+        "description": "Altınova, 16250 Osmangazi/Bursa, Türkiye"
+      }
+    ],
+    "features": {
+      "title": "Neden Bizi Seçmelisiniz?",
+      "items": [
+        {
+          "title": "Hızlı Yanıt",
+          "description": "24 saat içinde yanıt veriyoruz"
+        },
+        {
+          "title": "Güvenli ve Özel",
+          "description": "Bilgileriniz korunuyor"
+        },
+        {
+          "title": "Uzman Desteği",
+          "description": "Profesyonel teknik destek"
+        }
+      ]
+    },
+    "company": {
+      "title": "Şirket",
+      "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Yüksek mukavemetli sıcak dövme cıvatalar ve zorlu endüstriyel uygulamalar için hassas bağlantı çözümleri konusunda uzmanlaşmıştır."
+    }
   }
 }
