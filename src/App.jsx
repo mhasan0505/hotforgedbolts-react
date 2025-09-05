@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
-import Footer from './components/Footer';
+import { Suspense } from 'react';
+
 import Header from './components/Header';
 import ScrollToTop from './components/ScrollToTop';
 import ErrorBoundary from './components/shared/ErrorBoundary';
@@ -18,6 +19,7 @@ import SquareBoltPage from './pages/SquareBoltPage';
 import StudBolt from './pages/StudBolt';
 import GoToTop from './components/GoToTop';
 import Home from './layout/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
       <div className="App">
         <Header />
         <ScrollToTop />
+        <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/production" element={<ProductionPage />} />
@@ -42,6 +45,7 @@ function App() {
           <Route path="/bolts/stud-bolts" element={<StudBolt />} />
           <Route path="/bolts/countersunk-bolts" element={<CounterSunkPage />} />
         </Routes>
+        </Suspense>
         <Footer />
         <GoToTop />
       </div>

@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight, Menu, X } from "lucide-react";
+import { ArrowDown, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
@@ -66,7 +66,7 @@ const Header = () => {
           </nav>
 
           {/* Language Selector & Mobile Menu */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center">
             <LanguageSelector />
 
             {/* Mobile Menu Button */}
