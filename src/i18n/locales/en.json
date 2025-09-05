@@ -34,5 +34,46 @@
     "error": "Error",
     "success": "Success",
     "language": "Language"
+  },
+
+
+
+  "about": {
+    "hero": {
+      "title": "We increase the power of industries with our innovative <span>hot forging solutions</span>",
+      "description": "At Brkkol Alüminyum Metal Endüstri Tic Ltd, we specialize in the production of high-strength hot forged bolts designed to meet the most demanding industrial requirements. With decades of experience in metal forming and precision forging, we manufacture fastening solutions that deliver unmatched performance, durability, and reliability."
+    },
+    "stats": {
+      "years_experience": "Years Experience",
+      "satisfied_clients": "Satisfied Clients",
+      "quality_assurance": "Quality Assurance",
+      "customer_support": "Customer Support"
+    },
+    "values": {
+      "title": "Our Core Values",
+      "description": "These principles guide everything we do and define who we are as a company.",
+      "items": [
+        {
+          "title": "Quality Excellence",
+          "description": "We maintain the highest standards in every product we manufacture, ensuring superior performance and reliability."
+        },
+        {
+          "title": "Innovation",
+          "description": "Cutting-edge technology and continuous improvement drive our manufacturing processes and product development."
+        },
+        {
+          "title": "Customer Focus",
+          "description": "Our client's success is our priority. We provide tailored solutions to meet specific industrial requirements."
+        },
+        {
+          "title": "Sustainability",
+          "description": "We are committed to environmentally responsible manufacturing practices and sustainable business operations."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To be the leading provider of premium hot forged fastening solutions, empowering industries worldwide with products that exceed expectations in quality, performance, and reliability. We are committed to innovation, sustainability, and building lasting partnerships with our clients."
+    }
   }
 }

@@ -34,5 +34,43 @@
     "error": "Fehler",
     "success": "Erfolg",
     "language": "Sprache"
+  },
+  "about": {
+    "hero": {
+      "title": "Wir steigern die Leistungsfähigkeit von Industrien mit unseren innovativen <span>Warmumformlösungen</span>",
+      "description": "Bei Brkkol Alüminyum Metal Endüstri Tic Ltd sind wir auf die Herstellung hochfester warmgeschmiedeter Schrauben spezialisiert, die den anspruchsvollsten industriellen Anforderungen gerecht werden. Mit jahrzehntelanger Erfahrung in der Metallumformung und Präzisionsschmiede produzieren wir Befestigungslösungen, die unübertroffene Leistung, Haltbarkeit und Zuverlässigkeit bieten."
+    },
+    "stats": {
+      "years_experience": "Jahre Erfahrung",
+      "satisfied_clients": "Zufriedene Kunden",
+      "quality_assurance": "Qualitätssicherung",
+      "customer_support": "Kundensupport"
+    },
+    "values": {
+      "title": "Unsere Kernwerte",
+      "description": "Diese Prinzipien leiten alles, was wir tun, und definieren, wer wir als Unternehmen sind.",
+      "items": [
+        {
+          "title": "Qualitäts-Exzellenz",
+          "description": "Wir halten die höchsten Standards bei jedem Produkt ein, das wir herstellen, und gewährleisten überlegene Leistung und Zuverlässigkeit."
+        },
+        {
+          "title": "Innovation",
+          "description": "Spitzentechnologie und kontinuierliche Verbesserung treiben unsere Fertigungsprozesse und Produktentwicklung voran."
+        },
+        {
+          "title": "Kundenorientierung",
+          "description": "Der Erfolg unserer Kunden ist unsere Priorität. Wir bieten maßgeschneiderte Lösungen, um spezifische industrielle Anforderungen zu erfüllen."
+        },
+        {
+          "title": "Nachhaltigkeit",
+          "description": "Wir verpflichten uns zu umweltverantwortlichen Fertigungspraktiken und nachhaltigen Geschäftsabläufen."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Der führende Anbieter von hochwertigen warmgeschmiedeten Befestigungslösungen zu sein, die Industrien weltweit mit Produkten ausstatten, die die Erwartungen an Qualität, Leistung und Zuverlässigkeit übertreffen. Wir setzen auf Innovation, Nachhaltigkeit und den Aufbau langfristiger Partnerschaften mit unseren Kunden."
+    }
   }
 }

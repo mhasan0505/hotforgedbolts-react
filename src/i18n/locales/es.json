@@ -34,5 +34,43 @@
     "error": "Error",
     "success": "Éxito",
     "language": "Idioma"
+  },
+  "about": {
+    "hero": {
+      "title": "Aumentamos el poder de las industrias con nuestras soluciones innovadoras de <span>forja en caliente</span>",
+      "description": "En Brkkol Alüminyum Metal Endüstri Tic Ltd, nos especializamos en la producción de pernos forjados en caliente de alta resistencia diseñados para cumplir con los requisitos industriales más exigentes. Con décadas de experiencia en conformado de metales y forja de precisión, fabricamos soluciones de fijación que ofrecen un rendimiento, durabilidad y confiabilidad incomparables."
+    },
+    "stats": {
+      "years_experience": "Años de Experiencia",
+      "satisfied_clients": "Clientes Satisfechos",
+      "quality_assurance": "Garantía de Calidad",
+      "customer_support": "Soporte al Cliente"
+    },
+    "values": {
+      "title": "Nuestros Valores Fundamentales",
+      "description": "Estos principios guían todo lo que hacemos y definen quiénes somos como empresa.",
+      "items": [
+        {
+          "title": "Excelencia en Calidad",
+          "description": "Mantenemos los más altos estándares en cada producto que fabricamos, asegurando un rendimiento y confiabilidad superiores."
+        },
+        {
+          "title": "Innovación",
+          "description": "La tecnología de vanguardia y la mejora continua impulsan nuestros procesos de fabricación y desarrollo de productos."
+        },
+        {
+          "title": "Enfoque en el Cliente",
+          "description": "El éxito de nuestros clientes es nuestra prioridad. Ofrecemos soluciones personalizadas para cumplir con requisitos industriales específicos."
+        },
+        {
+          "title": "Sostenibilidad",
+          "description": "Estamos comprometidos con prácticas de fabricación responsables con el medio ambiente y operaciones comerciales sostenibles."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Ser el proveedor líder de soluciones de fijación forjadas en caliente de primera calidad, empoderando a las industrias de todo el mundo con productos que superan las expectativas en calidad, rendimiento y confiabilidad. Estamos comprometidos con la innovación, la sostenibilidad y la construcción de asociaciones duraderas con nuestros clientes."
+    }
   }
 }

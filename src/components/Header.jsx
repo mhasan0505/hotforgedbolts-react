@@ -1,4 +1,4 @@
-import { Menu, X } from "lucide-react";
+import { ArrowDown, ArrowRight, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
@@ -85,12 +85,22 @@ const Header = () => {
               )}
             </button>
           </div>
+
+          <div className="hidden md:block">
+            <Link
+              to="/contact"
+              className="bg-orange-500 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 hover:bg-orange-600 flex items-center sm:hidden md:flex"
+            >
+              {t("buttons.getQuote")}
+              <ArrowDown className="animate-bounce duration-75 ml-2" />
+            </Link>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-white border-t border-gray-200 py-4">
-            <nav className="flex flex-col space-y-4">
+          <div className="lg:hidden bg-white border-t border-gray-200 py-4 h-80 ">
+            <nav className="flex flex-col space-y-2">
               {navLinks.map((link) => {
                 const isActive = location.pathname === link.path;
                 return (
@@ -109,6 +119,15 @@ const Header = () => {
                 );
               })}
             </nav>
+            <div className="mt-6 flex items-center justify-center">
+              <Link
+                to="/contact"
+                className="bg-orange-500 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 hover:bg-orange-600 ml-3 flex"
+              >
+                {t("buttons.getQuote")}
+                <ArrowDown className="animate-bounce duration-75" />
+              </Link>
+            </div>
           </div>
         )}
       </div>

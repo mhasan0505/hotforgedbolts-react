@@ -1,4 +1,3 @@
-import i18next from "i18next";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronDown } from "lucide-react";
@@ -23,15 +22,14 @@ const languageOptions = [
 ];
 
 const LanguageSelector = ({ isMobile = false }) => {
-  const [language, setLanguage] = useState(i18next.language);
-  const [isOpen, setIsOpen] = useState(false);
   const { i18n } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
 
-  const currentLanguage = languageOptions.find(lang => lang.code === language);
+  // Use i18n.language directly instead of separate state
+  const currentLanguage = languageOptions.find(lang => lang.code === i18n.language);
 
   const handleLanguageChange = (selectedCode) => {
-    setLanguage(selectedCode);
-    i18next.changeLanguage(selectedCode);
+    i18n.changeLanguage(selectedCode); // This will trigger re-renders
     setIsOpen(false);
   };
 
@@ -73,7 +71,7 @@ const LanguageSelector = ({ isMobile = false }) => {
               key={code}
               onClick={() => handleLanguageChange(code)}
               className={`w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-50 transition-colors ${
-                code === language ? 'bg-indigo-50 text-indigo-700' : 'text-gray-700'
+                code === i18n.language ? 'bg-indigo-50 text-indigo-700' : 'text-gray-700'
               }`}
             >
               <img
@@ -82,7 +80,7 @@ const LanguageSelector = ({ isMobile = false }) => {
                 className="w-5 h-4 object-cover rounded-sm"
               />
               <span className="text-sm font-medium">{langName}</span>
-              {code === language && (
+              {code === i18n.language && (
                 <div className="ml-auto w-2 h-2 bg-indigo-600 rounded-full"></div>
               )}
             </button>

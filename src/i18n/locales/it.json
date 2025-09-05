@@ -34,5 +34,43 @@
     "error": "Errore",
     "success": "Successo",
     "language": "Lingua"
+  },
+  "about": {
+    "hero": {
+      "title": "Aumentiamo la potenza delle industrie con le nostre innovative <span>soluzioni di forgiatura a caldo</span>",
+      "description": "Presso Brkkol Alüminyum Metal Endüstri Tic Ltd, siamo specializzati nella produzione di bulloni forgiati a caldo ad alta resistenza, progettati per soddisfare i requisiti industriali più esigenti. Con decenni di esperienza nella formatura dei metalli e nella forgiatura di precisione, produciamo soluzioni di fissaggio che offrono prestazioni, durata e affidabilità senza pari."
+    },
+    "stats": {
+      "years_experience": "Anni di Esperienza",
+      "satisfied_clients": "Clienti Soddisfatti",
+      "quality_assurance": "Garanzia di Qualità",
+      "customer_support": "Supporto Clienti"
+    },
+    "values": {
+      "title": "I Nostri Valori Fondamentali",
+      "description": "Questi principi guidano tutto ciò che facciamo e definiscono chi siamo come azienda.",
+      "items": [
+        {
+          "title": "Eccellenza nella Qualità",
+          "description": "Manteniamo i più alti standard in ogni prodotto che fabbrichiamo, garantendo prestazioni e affidabilità superiori."
+        },
+        {
+          "title": "Innovazione",
+          "description": "Tecnologie all'avanguardia e miglioramento continuo guidano i nostri processi di produzione e lo sviluppo dei prodotti."
+        },
+        {
+          "title": "Focus sul Cliente",
+          "description": "Il successo dei nostri clienti è la nostra priorità. Offriamo soluzioni personalizzate per soddisfare requisiti industriali specifici."
+        },
+        {
+          "title": "Sostenibilità",
+          "description": "Ci impegniamo per pratiche di produzione responsabili dal punto di vista ambientale e operazioni aziendali sostenibili."
+        }
+      ]
+    },
+    "mission": {
+      "title": "La Nostra Missione",
+      "description": "Essere il principale fornitore di soluzioni di fissaggio forgiate a caldo di alta qualità, potenziando le industrie di tutto il mondo con prodotti che superano le aspettative in termini di qualità, prestazioni e affidabilità. Siamo impegnati nell'innovazione, nella sostenibilità e nella costruzione di partnership durature con i nostri clienti."
+    }
   }
 }

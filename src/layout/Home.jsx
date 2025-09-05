@@ -1,12 +1,12 @@
+import Production from "@/components/Production";
 import Slider from "@/components/Slider";
-import About from "@/components/About";
-import Production from '@/components/Production';
+import AboutPage from "../pages/AboutPage";
 
 const Home = () => {
   return (
     <>
       <Slider />
-      <About />
+      <AboutPage />
       <Production />
     </>
   );

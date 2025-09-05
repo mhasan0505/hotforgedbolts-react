@@ -34,5 +34,43 @@
     "error": "Hata",
     "success": "Başarılı",
     "language": "Dil"
+  },
+  "about": {
+    "hero": {
+      "title": "Yenilikçi <span>sıcak dövme çözümlerimizle</span> endüstrilerin gücünü artırıyoruz",
+      "description": "Brkkol Alüminyum Metal Endüstri Tic Ltd olarak, en zorlu endüstriyel gereksinimleri karşılamak için tasarlanmış yüksek mukavemetli sıcak dövme cıvataların üretiminde uzmanız. Metal şekillendirme ve hassas dövme alanında onlarca yıllık deneyimimizle, eşsiz performans, dayanıklılık ve güvenilirlik sunan bağlantı çözümleri üretiyoruz."
+    },
+    "stats": {
+      "years_experience": "Yıl Deneyim",
+      "satisfied_clients": "Memnun Müşteri",
+      "quality_assurance": "Kalite Güvencesi",
+      "customer_support": "Müşteri Desteği"
+    },
+    "values": {
+      "title": "Temel Değerlerimiz",
+      "description": "Bu ilkeler, yaptığımız her şeyi yönlendirir ve bir şirket olarak kim olduğumuzu tanımlar.",
+      "items": [
+        {
+          "title": "Kalite Mükemmeliyeti",
+          "description": "Ürettiğimiz her üründe en yüksek standartları koruyor, üstün performans ve güvenilirlik sağlıyoruz."
+        },
+        {
+          "title": "Yenilik",
+          "description": "Son teknoloji ve sürekli iyileştirme, üretim süreçlerimizi ve ürün geliştirmemizi yönlendiriyor."
+        },
+        {
+          "title": "Müşteri Odaklılık",
+          "description": "Müşterilerimizin başarısı bizim önceliğimizdir. Özel endüstriyel gereksinimlere uygun çözümler sunuyoruz."
+        },
+        {
+          "title": "Sürdürülebilirlik",
+          "description": "Çevreye duyarlı üretim uygulamalarına ve sürdürülebilir iş operasyonlarına bağlıyız."
+        }
+      ]
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Birinci sınıf sıcak dövme bağlantı çözümlerinin lider sağlayıcısı olmak, dünya çapındaki endüstrileri kalite, performans ve güvenilirlikte beklentileri aşan ürünlerle güçlendirmek. Yenilik, sürdürülebilirlik ve müşterilerimizle kalıcı ortaklıklar kurmaya bağlıyız."
+    }
   }
 }

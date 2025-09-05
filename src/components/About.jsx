@@ -1,37 +1,54 @@
-import React from 'react';
-import aboutBanner from '../assets/aboutus.jpg';
-import { Award, Users, Factory, Target, Star, Lightbulb, Heart, Leaf } from 'lucide-react';
+import { useTranslation, Trans } from "react-i18next";
+import aboutBanner from "../assets/aboutus.jpg";
+import {
+  Award,
+  Users,
+  Factory,
+  Target,
+  Star,
+  Lightbulb,
+  Heart,
+  Leaf,
+} from "lucide-react";
 
 const About = () => {
+  const { t } = useTranslation();
+
   const stats = [
-    { icon: <Factory size={24} />, value: '25+', label: 'Years Experience' },
-    { icon: <Users size={24} />, value: '500+', label: 'Satisfied Clients' },
-    { icon: <Award size={24} />, value: '99%', label: 'Quality Assurance' },
-    { icon: <Target size={24} />, value: '24/7', label: 'Customer Support' },
+    {
+      icon: <Factory size={24} />,
+      value: "25+",
+      label: t("about.stats.years_experience"),
+    },
+    {
+      icon: <Users size={24} />,
+      value: "500+",
+      label: t("about.stats.satisfied_clients"),
+    },
+    {
+      icon: <Award size={24} />,
+      value: "99%",
+      label: t("about.stats.quality_assurance"),
+    },
+    {
+      icon: <Target size={24} />,
+      value: "24/7",
+      label: t("about.stats.customer_support"),
+    },
   ];
 
-  const values = [
-    {
-      icon: <Star size={24} />,
-      title: 'Quality Excellence',
-      description: 'We maintain the highest standards in every product we manufacture, ensuring superior performance and reliability.',
-    },
-    {
-      icon: <Lightbulb size={24} />,
-      title: 'Innovation',
-      description: 'Cutting-edge technology and continuous improvement drive our manufacturing processes and product development.',
-    },
-    {
-      icon: <Heart size={24} />,
-      title: 'Customer Focus',
-      description: 'Our client\'s success is our priority. We provide tailored solutions to meet specific industrial requirements.',
-    },
-    {
-      icon: <Leaf size={24} />,
-      title: 'Sustainability',
-      description: 'We are committed to environmentally responsible manufacturing practices and sustainable business operations.',
-    },
-  ];
+  // Move values array inside render to recalculate on language change
+  const valuesData = t("about.values.items", { returnObjects: true });
+  const values = valuesData.map((item, index) => ({
+    icon: [
+      <Star size={24} />,
+      <Lightbulb size={24} />,
+      <Heart size={24} />,
+      <Leaf size={24} />,
+    ][index],
+    title: item.title,
+    description: item.description,
+  }));
 
   return (
     <section className="bg-white py-20">
@@ -41,16 +58,13 @@ const About = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                We increase the power of industries with our innovative
-                <span className="text-violet-600"> hot forging solutions</span>
+                <Trans
+                  i18nKey="about.hero.title"
+                  components={{ span: <span className="text-violet-600" /> }}
+                />
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                At Hot Forged Bolts, we specialize in the production of
-                high-strength hot forged bolts designed to meet the most
-                demanding industrial requirements. With decades of experience in
-                metal forming and precision forging, we manufacture fastening
-                solutions that deliver unmatched performance, durability, and
-                reliability.
+                {t("about.hero.description")}
               </p>
             </div>
 
@@ -77,7 +91,7 @@ const About = () => {
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
                 src={aboutBanner}
-                alt="About Us - Hot Forging Manufacturing"
+                alt={t("about.hero.image_alt")}
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
@@ -90,11 +104,10 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-6 mt-24">
         <div className="text-center mb-16">
           <h3 className="text-3xl font-bold text-gray-900 mb-4">
-            Our Core Values
+            {t("about.values.title")}
           </h3>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            These principles guide everything we do and define who we are as a
-            company.
+            {t("about.values.description")}
           </p>
         </div>
 
@@ -104,9 +117,7 @@ const About = () => {
               key={index}
               className="bg-white border border-gray-100 rounded-xl p-6 hover:shadow-lg transition-shadow duration-200"
             >
-              <div className="text-blue-600 mb-4">
-                {value.icon}
-              </div>
+              <div className="text-blue-600 mb-4">{value.icon}</div>
               <h4 className="text-xl font-semibold text-gray-900 mb-3">
                 {value.title}
               </h4>
@@ -121,18 +132,16 @@ const About = () => {
       {/* Mission Statement */}
       <div className="max-w-7xl mx-auto px-6 mt-24">
         <div className="bg-gradient-to-r from-violet-600 to-violet-700 rounded-2xl p-12 text-center">
-          <h3 className="text-3xl font-bold text-white mb-6">Our Mission</h3>
+          <h3 className="text-3xl font-bold text-white mb-6">
+            {t("about.mission.title")}
+          </h3>
           <p className="text-xl text-violet-100 leading-relaxed max-w-4xl mx-auto">
-            To be the leading provider of premium hot forged fastening
-            solutions, empowering industries worldwide with products that exceed
-            expectations in quality, performance, and reliability. We are
-            committed to innovation, sustainability, and building lasting
-            partnerships with our clients.
+            {t("about.mission.description")}
           </p>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;
