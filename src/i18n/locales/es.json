@@ -150,5 +150,59 @@
       "title": "Empresa",
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Especializada en pernos forjados en caliente de alta resistencia y soluciones de fijación de precisión para aplicaciones industriales exigentes."
     }
+  },
+  "footer": {
+    "brand": {
+      "description": "Fabricante líder de pernos forjados en caliente de alta calidad, elementos de fijación y componentes mecanizados de precisión para aplicaciones industriales en todo el mundo.",
+      "image_alt": "Logo de Pernos Forjados en Caliente"
+    },
+    "quick_links": {
+      "title": "Enlaces rápidos",
+      "items": [
+        { "path": "/home", "name": "Inicio" },
+        { "path": "/about", "name": "Acerca de" },
+        { "path": "/products", "name": "Productos" },
+        { "path": "/services", "name": "Servicios" },
+        { "path": "/contact", "name": "Contacto" }
+      ]
+    },
+    "products": {
+      "title": "Nuestros productos",
+      "items": [
+        { "path": "/hot-forging", "name": "Pernos forjados en caliente" },
+        { "path": "/fasteners", "name": "Elementos de fijación" },
+        { "path": "/machining", "name": "Mecanizado" },
+        { "path": "/bolts", "name": "Pernos" },
+        { "path": "/nuts", "name": "Tuercas" },
+        { "path": "/studs-bolts", "name": "Pernos de espárrago" },
+        { "path": "/contact", "name": "Soluciones personalizadas" }
+      ]
+    },
+    "contact_info": {
+      "title": "Información de contacto",
+      "items": [
+        {
+          "icon": "MapPin",
+          "content": "3. Kazan Sk. 7/A, Altınova, 16250 Osmangazi/Bursa, Turquía"
+        },
+        {
+          "icon": "Phone",
+          "content": "+905435533387"
+        },
+        {
+          "icon": "Mail",
+          "content": "info@hotforgedbolts.com"
+        }
+      ]
+    },
+    "bottom_bar": {
+      "copyright": "© 2025 Brkkol Alüminyum Metal Endüstri Tic Ltd. Todos los derechos reservados.",
+      "links": [
+        { "path": "#", "name": "Política de privacidad" },
+        { "path": "#", "name": "Términos de servicio" },
+        { "path": "#", "name": "Política de cookies" }
+      ],
+      "developed_by": "Diseño y desarrollo por <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
+    }
   }
 }

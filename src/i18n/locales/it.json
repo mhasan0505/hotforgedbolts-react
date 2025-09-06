@@ -150,5 +150,59 @@
       "title": "Azienda",
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Specializzata in bulloni forgiati a caldo ad alta resistenza e soluzioni di fissaggio di precisione per applicazioni industriali impegnative."
     }
+  },
+  "footer": {
+    "brand": {
+      "description": "Produttore leader di bulloni forgiati a caldo di alta qualità, elementi di fissaggio e componenti lavorati con precisione per applicazioni industriali in tutto il mondo.",
+      "image_alt": "Logo di Bulloni Forgiati a Caldo"
+    },
+    "quick_links": {
+      "title": "Link Rapidi",
+      "items": [
+        { "path": "/home", "name": "Home" },
+        { "path": "/about", "name": "Chi Siamo" },
+        { "path": "/products", "name": "Prodotti" },
+        { "path": "/services", "name": "Servizi" },
+        { "path": "/contact", "name": "Contatti" }
+      ]
+    },
+    "products": {
+      "title": "I Nostri Prodotti",
+      "items": [
+        { "path": "/hot-forging", "name": "Bulloni Forgiati a Caldo" },
+        { "path": "/fasteners", "name": "Elementi di Fissaggio" },
+        { "path": "/machining", "name": "Lavorazioni Meccaniche" },
+        { "path": "/bolts", "name": "Bulloni" },
+        { "path": "/nuts", "name": "Dadi" },
+        { "path": "/studs-bolts", "name": "Bulloni a Vite" },
+        { "path": "/contact", "name": "Soluzioni Personalizzate" }
+      ]
+    },
+    "contact_info": {
+      "title": "Informazioni di Contatto",
+      "items": [
+        {
+          "icon": "MapPin",
+          "content": "3. Kazan Sk. 7/A, Altınova, 16250 Osmangazi/Bursa, Turchia"
+        },
+        {
+          "icon": "Phone",
+          "content": "+905435533387"
+        },
+        {
+          "icon": "Mail",
+          "content": "info@hotforgedbolts.com"
+        }
+      ]
+    },
+    "bottom_bar": {
+      "copyright": "© 2025 Brkkol Alüminyum Metal Endüstri Tic Ltd. Tutti i diritti riservati.",
+      "links": [
+        { "path": "#", "name": "Informativa sulla Privacy" },
+        { "path": "#", "name": "Termini di Servizio" },
+        { "path": "#", "name": "Politica sui Cookie" }
+      ],
+      "developed_by": "Design e Sviluppo di <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
+    }
   }
 }

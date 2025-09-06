@@ -150,5 +150,59 @@
       "title": "Şirket",
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Yüksek mukavemetli sıcak dövme cıvatalar ve zorlu endüstriyel uygulamalar için hassas bağlantı çözümleri konusunda uzmanlaşmıştır."
     }
+  },
+  "footer": {
+    "brand": {
+      "description": "Yüksek kaliteli sıcak dövme cıvatalar, bağlantı elemanları ve dünya çapında endüstriyel uygulamalar için hassas işlenmiş bileşenler üreten lider üretici.",
+      "image_alt": "Sıcak Dövme Cıvatalar Logosu"
+    },
+    "quick_links": {
+      "title": "Hızlı Bağlantılar",
+      "items": [
+        { "path": "/home", "name": "Ana Sayfa" },
+        { "path": "/about", "name": "Hakkımızda" },
+        { "path": "/products", "name": "Ürünler" },
+        { "path": "/services", "name": "Hizmetler" },
+        { "path": "/contact", "name": "İletişim" }
+      ]
+    },
+    "products": {
+      "title": "Ürünlerimiz",
+      "items": [
+        { "path": "/hot-forging", "name": "Sıcak Dövme Cıvatalar" },
+        { "path": "/fasteners", "name": "Bağlantı Elemanları" },
+        { "path": "/machining", "name": "Talaşlı İmalat" },
+        { "path": "/bolts", "name": "Cıvatalar" },
+        { "path": "/nuts", "name": "Somunlar" },
+        { "path": "/studs-bolts", "name": "Saplamalar" },
+        { "path": "/contact", "name": "Özel Çözümler" }
+      ]
+    },
+    "contact_info": {
+      "title": "İletişim Bilgileri",
+      "items": [
+        {
+          "icon": "MapPin",
+          "content": "3. Kazan Sk. 7/A, Altınova, 16250 Osmangazi/Bursa, Türkiye"
+        },
+        {
+          "icon": "Phone",
+          "content": "+905435533387"
+        },
+        {
+          "icon": "Mail",
+          "content": "info@hotforgedbolts.com"
+        }
+      ]
+    },
+    "bottom_bar": {
+      "copyright": "© 2025 Brkkol Alüminyum Metal Endüstri Tic Ltd. Tüm hakları saklıdır.",
+      "links": [
+        { "path": "#", "name": "Gizlilik Politikası" },
+        { "path": "#", "name": "Hizmet Şartları" },
+        { "path": "#", "name": "Çerez Politikası" }
+      ],
+      "developed_by": "Tasarım ve Geliştirme <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
+    }
   }
 }

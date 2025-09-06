@@ -151,5 +151,59 @@
       "title": "Company",
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Specialized in high-strength hot forged bolts and precision fastening solutions for demanding industrial applications."
     }
+  },
+  "footer": {
+    "brand": {
+      "description": "Leading manufacturer of high-quality hot forged bolts, fasteners, and precision machined components for industrial applications worldwide.",
+      "image_alt": "Hot Forged Bolts Logo"
+    },
+    "quick_links": {
+      "title": "Quick Links",
+      "items": [
+        { "path": "/home", "name": "Home" },
+        { "path": "/about", "name": "About" },
+        { "path": "/products", "name": "Products" },
+        { "path": "/services", "name": "Services" },
+        { "path": "/contact", "name": "Contact" }
+      ]
+    },
+    "products": {
+      "title": "Our Products",
+      "items": [
+        { "path": "/hot-forging", "name": "Hot Forged Bolts" },
+        { "path": "/fasteners", "name": "Fasteners" },
+        { "path": "/machining", "name": "Machining" },
+        { "path": "/bolts", "name": "Bolts" },
+        { "path": "/nuts", "name": "Nuts" },
+        { "path": "/studs-bolts", "name": "Studs Bolts" },
+        { "path": "/contact", "name": "Custom Solutions" }
+      ]
+    },
+    "contact_info": {
+      "title": "Contact Info",
+      "items": [
+        {
+          "icon": "MapPin",
+          "content": "3. Kazan Sk. 7/A, Altınova, 16250 Osmangazi/Bursa, Türkiye"
+        },
+        {
+          "icon": "Phone",
+          "content": "+905435533387"
+        },
+        {
+          "icon": "Mail",
+          "content": "info@hotforgedbolts.com"
+        }
+      ]
+    },
+    "bottom_bar": {
+      "copyright": "© 2025 Brkkol Alüminyum Metal Endüstri Tic Ltd. All rights reserved.",
+      "links": [
+        { "path": "#", "name": "Privacy Policy" },
+        { "path": "#", "name": "Terms of Service" },
+        { "path": "#", "name": "Cookie Policy" }
+      ],
+      "developed_by": "Design & Developed by <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
+    }
   }
 }

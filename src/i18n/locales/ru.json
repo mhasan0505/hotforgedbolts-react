@@ -150,5 +150,59 @@
       "title": "Компания",
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Специализируется на высокопрочных болтах горячей ковки и прецизионных крепежных решениях для сложных промышленных применений."
     }
+  },
+  "footer": {
+    "brand": {
+      "description": "Ведущий производитель высококачественных болтов горячей ковки, крепежных элементов и прецизионно обработанных компонентов для промышленных применений по всему миру.",
+      "image_alt": "Логотип Болтов Горячей Ковки"
+    },
+    "quick_links": {
+      "title": "Быстрые ссылки",
+      "items": [
+        { "path": "/home", "name": "Главная" },
+        { "path": "/about", "name": "О нас" },
+        { "path": "/products", "name": "Продукты" },
+        { "path": "/services", "name": "Услуги" },
+        { "path": "/contact", "name": "Контакты" }
+      ]
+    },
+    "products": {
+      "title": "Наши продукты",
+      "items": [
+        { "path": "/hot-forging", "name": "Болты горячей ковки" },
+        { "path": "/fasteners", "name": "Крепежные элементы" },
+        { "path": "/machining", "name": "Механическая обработка" },
+        { "path": "/bolts", "name": "Болты" },
+        { "path": "/nuts", "name": "Гайки" },
+        { "path": "/studs-bolts", "name": "Шпильки" },
+        { "path": "/contact", "name": "Индивидуальные решения" }
+      ]
+    },
+    "contact_info": {
+      "title": "Контактная информация",
+      "items": [
+        {
+          "icon": "MapPin",
+          "content": "3. Казан Ск. 7/А, Алтынова, 16250 Османгази/Бурса, Турция"
+        },
+        {
+          "icon": "Phone",
+          "content": "+905435533387"
+        },
+        {
+          "icon": "Mail",
+          "content": "info@hotforgedbolts.com"
+        }
+      ]
+    },
+    "bottom_bar": {
+      "copyright": "© 2025 Brkkol Alüminyum Metal Endüstri Tic Ltd. Все права защищены.",
+      "links": [
+        { "path": "#", "name": "Политика конфиденциальности" },
+        { "path": "#", "name": "Условия использования" },
+        { "path": "#", "name": "Политика использования файлов cookie" }
+      ],
+      "developed_by": "Дизайн и разработка от <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
+    }
   }
 }

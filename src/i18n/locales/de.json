@@ -150,5 +150,59 @@
       "title": "Unternehmen",
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Spezialisiert auf hochfeste Warmumformschrauben und Präzisionsbefestigungslösungen für anspruchsvolle industrielle Anwendungen."
     }
+  },
+  "footer": {
+    "brand": {
+      "description": "Führender Hersteller von hochwertigen Warmumformschrauben, Befestigungselementen und präzisionsgefertigten Komponenten für industrielle Anwendungen weltweit.",
+      "image_alt": "Logo für Warmumformschrauben"
+    },
+    "quick_links": {
+      "title": "Schnellzugriff",
+      "items": [
+        { "path": "/home", "name": "Startseite" },
+        { "path": "/about", "name": "Über uns" },
+        { "path": "/products", "name": "Produkte" },
+        { "path": "/services", "name": "Dienstleistungen" },
+        { "path": "/contact", "name": "Kontakt" }
+      ]
+    },
+    "products": {
+      "title": "Unsere Produkte",
+      "items": [
+        { "path": "/hot-forging", "name": "Warmumformschrauben" },
+        { "path": "/fasteners", "name": "Befestigungselemente" },
+        { "path": "/machining", "name": "Zerspanung" },
+        { "path": "/bolts", "name": "Schrauben" },
+        { "path": "/nuts", "name": "Muttern" },
+        { "path": "/studs-bolts", "name": "Gewindebolzen" },
+        { "path": "/contact", "name": "Maßgeschneiderte Lösungen" }
+      ]
+    },
+    "contact_info": {
+      "title": "Kontaktinformationen",
+      "items": [
+        {
+          "icon": "MapPin",
+          "content": "3. Kazan Sk. 7/A, Altınova, 16250 Osmangazi/Bursa, Türkei"
+        },
+        {
+          "icon": "Phone",
+          "content": "+905435533387"
+        },
+        {
+          "icon": "Mail",
+          "content": "info@hotforgedbolts.com"
+        }
+      ]
+    },
+    "bottom_bar": {
+      "copyright": "© 2025 Brkkol Alüminyum Metal Endüstri Tic Ltd. Alle Rechte vorbehalten.",
+      "links": [
+        { "path": "#", "name": "Datenschutzrichtlinie" },
+        { "path": "#", "name": "Nutzungsbedingungen" },
+        { "path": "#", "name": "Cookie-Richtlinie" }
+      ],
+      "developed_by": "Design & Entwicklung von <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
+    }
   }
 }
