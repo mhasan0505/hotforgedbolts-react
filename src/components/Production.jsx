@@ -1,55 +1,112 @@
 import { ChevronRight, Factory, Wrench, Zap } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import fasteners from "../assets/Fasteners.jpg";
 import hotForging from "../assets/Hotforging.webp";
 import machining from "../assets/machining.png";
 
 const Production = () => {
-  const [activeCategory, setActiveCategory] = useState("fasteners");
+  const { t, ready, i18n } = useTranslation();
+  const [isInitialized, setIsInitialized] = useState(false);
 
-  const productionCategories = [
-    {
-      id: "fasteners",
-      title: "Fasteners",
-      description:
-        "High-quality fastening solutions for industrial applications",
-      image: fasteners,
-      icon: Factory,
-      features: [
-        "Precision Engineering",
-        "Corrosion Resistant",
-        "Multiple Grades",
-      ],
-      route: "/fasteners",
-    },
-    {
-      id: "hotforging",
-      title: "Hot Forging",
-      description: "Advanced hot forging processes for superior strength",
-      image: hotForging,
-      icon: Zap,
-      features: [
-        "Enhanced Strength",
-        "Grain Flow Optimization",
-        "Cost Effective",
-      ],
-      route: "/hot-forging",
-    },
-    {
-      id: "machining",
-      title: "Machining",
-      description: "Precision machining services with tight tolerances",
-      image: machining,
-      icon: Wrench,
-      features: ["CNC Precision", "Custom Solutions", "Quality Assurance"],
-      route: "/machining",
-    },
-  ];
+  // Wait for both i18n ready and ensure translations are loaded
+  useEffect(() => {
+    if (ready && i18n.exists("production.categories")) {
+      setIsInitialized(true);
+    }
+  }, [ready, i18n, i18n.language]);
+
+  // Add error handling for missing translations
+  const productionCategories = useMemo(() => {
+    // Wait for i18n to be ready and initialized
+    if (!ready || !isInitialized) {
+      return [];
+    }
+
+    // Use i18n.exists to check if the key exists before accessing
+    if (!i18n.exists("production.categories")) {
+      console.warn("production.categories key does not exist in translations");
+      return [];
+    }
+
+    try {
+      const categories = t("production.categories", { returnObjects: true });
+
+      // Debug logging
+      console.log(
+        "Raw categories from translation:",
+        categories,
+        typeof categories
+      );
+
+      // Check if it's the translation key itself (fallback)
+      if (typeof categories === "string") {
+        console.warn("Translation returned as string:", categories);
+        return [];
+      }
+
+      // More robust checking
+      if (
+        !categories ||
+        !Array.isArray(categories) ||
+        categories.length === 0
+      ) {
+        console.warn("Production categories not found or invalid:", categories);
+        return [];
+      }
+
+      return categories.map((cat, index) => ({
+        id: cat.id,
+        title: cat.title,
+        description: cat.description,
+        image: [fasteners, hotForging, machining][index] || fasteners,
+        icon: [Factory, Zap, Wrench][index] || Factory, // fallback to Factory
+        features: Array.isArray(cat.features) ? cat.features : [],
+        route: cat.route,
+      }));
+    } catch (error) {
+      console.error("Error processing categories:", error);
+      return [];
+    }
+  }, [t, ready, isInitialized, i18n, i18n.language]);
+
+  const [activeCategory, setActiveCategory] = useState("fasteners");
 
   const activeProduct = productionCategories.find(
     (cat) => cat.id === activeCategory
   );
+
+  // Show loading while i18n is initializing
+  if (!ready || !isInitialized || productionCategories.length === 0) {
+    return (
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
+            <p className="text-xl text-gray-600">
+              Loading production categories...
+            </p>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  // Don't render if no active product found
+  if (!activeProduct) {
+    return (
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center">
+            <p className="text-xl text-gray-600">
+              Product category not found...
+            </p>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
@@ -57,11 +114,10 @@ const Production = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Our Production
+            {t("production.header.title")}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our comprehensive manufacturing capabilities and advanced
-            production processes
+            {t("production.header.description")}
           </p>
         </div>
 
@@ -93,7 +149,7 @@ const Production = () => {
             <div className="relative overflow-hidden">
               <img
                 src={activeProduct.image}
-                alt={activeProduct.title}
+                alt={activeProduct.image_alt}
                 className="w-full h-96 lg:h-full object-cover transition-transform duration-700 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
@@ -117,7 +173,7 @@ const Production = () => {
               {/* Features */}
               <div className="space-y-4 mb-8">
                 <h4 className="text-xl font-semibold text-gray-900 mb-4">
-                  Key Features
+                  {t("production.categories.keyfeatures")}
                 </h4>
                 {activeProduct.features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
@@ -132,7 +188,7 @@ const Production = () => {
                 to={activeProduct.route}
                 className="inline-flex items-center gap-2 bg-violet-600 text-white px-8 py-3 rounded-full hover:bg-violet-700 transition-all duration-300 transform hover:scale-105 shadow-lg w-fit"
               >
-                View Products
+                {t("buttons.viewAll")}
                 <ChevronRight className="w-5 h-5" />
               </Link>
             </div>
@@ -140,20 +196,19 @@ const Production = () => {
         </div>
 
         {/* Production Stats */}
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
-          <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-3xl font-bold text-violet-600 mb-2">25+</div>
-            <div className="text-gray-600">Years Experience</div>
-          </div>
-          <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-3xl font-bold text-violet-600 mb-2">1000+</div>
-            <div className="text-gray-600">Products Delivered</div>
-          </div>
-          <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-3xl font-bold text-violet-600 mb-2">99%</div>
-            <div className="text-gray-600">Quality Assurance</div>
-          </div>
-        </div>
+        {/* <div className="grid md:grid-cols-3 gap-8 mt-16">
+          {t("production.stats", { returnObjects: true }).map((stat, index) => (
+            <div
+              key={index}
+              className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
+              <div className="text-3xl font-bold text-violet-600 mb-2">
+                {stat.value}
+              </div>
+              <div className="text-gray-600">{stat.label}</div>
+            </div>
+          ))}
+        </div> */}
       </div>
     </section>
   );

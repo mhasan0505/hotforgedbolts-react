@@ -35,6 +35,48 @@
     "success": "Başarılı",
     "language": "Dil"
   },
+  "production": {
+    "categories": [
+      {
+        "id": "fasteners",
+        "title": "Bağlantı Elemanları",
+        "description": "Çeşitli endüstriyel uygulamalar için hassasiyet ve dayanıklılıkla üretilen yüksek kaliteli bağlantı elemanları.",
+        "features": [
+          "DIN, BS, TE Standartları Uyumluluğu",
+          "Özel Spesifikasyonlar Mevcut",
+          "Yüksek Çekme Mukavemeti",
+          "Korozyon Dirençli Kaplamalar"
+        ],
+        "route": "/fasteners"
+      },
+      {
+        "id": "hot-forging",
+        "title": "Sıcak Dövme",
+        "description": "Üstün mekanik özelliklerle güçlü, dayanıklı bileşenler oluşturmak için gelişmiş sıcak dövme işlemleri.",
+        "features": [
+          "DIN, BS, TE Standartları Uyumluluğu",
+          "Kapalı Kalıp Dövme",
+          "Üstün Tane Yapısı",
+          "Gelişmiş Mekanik Özellikler",
+          "Karmaşık Geometriler"
+        ],
+        "route": "/hot-forging"
+      },
+      {
+        "id": "machining",
+        "title": "Hassas İşleme",
+        "description": "Hassas bitirme ve özel bileşen üretimi için son teknoloji işleme hizmetleri.",
+        "features": [
+          "CNC İşleme",
+          "Sıkı Toleranslar",
+          "Yüzey Bitirme",
+          "Kalite Kontrol"
+        ],
+        "route": "/machining"
+      }
+    ],
+    "categories.keyfeatures": "Temel Özellikler"
+  },
   "about": {
     "hero": {
       "title": "Yenilikçi <span>sıcak dövme çözümlerimizle</span> endüstrilerin gücünü artırıyoruz",

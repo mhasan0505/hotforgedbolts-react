@@ -35,6 +35,47 @@
     "success": "Successo",
     "language": "Lingua"
   },
+  "production": {
+    "categories": [
+      {
+        "id": "fasteners",
+        "title": "Elementi di Fissaggio",
+        "description": "Elementi di fissaggio di alta qualità prodotti con precisione e durata per varie applicazioni industriali.",
+        "features": [
+          "Conformità agli Standard DIN, BS, TE",
+          "Specifiche Personalizzate Disponibili",
+          "Alta Resistenza alla Trazione",
+          "Rivestimenti Resistenti alla Corrosione"
+        ],
+        "route": "/fasteners"
+      },
+      {
+        "id": "hot-forging",
+        "title": "Forgiatura a Caldo",
+        "description": "Processi avanzati di forgiatura a caldo per creare componenti forti e durevoli con proprietà meccaniche superiori.",
+        "features": [
+          "Conformità agli Standard DIN, BS, TE",
+          "Forgiatura a Stampo Chiuso",
+          "Struttura del Grano Superiore",
+          "Proprietà Meccaniche Migliorate",
+          "Geometrie Complesse"
+        ],
+        "route": "/hot-forging"
+      },
+      {
+        "id": "machining",
+        "title": "Lavorazione di Precisione",
+        "description": "Servizi di lavorazione all'avanguardia per finitura precisa e produzione di componenti personalizzati.",
+        "features": [
+          "Lavorazione CNC",
+          "Tolleranze Strette",
+          "Finitura Superficiale",
+          "Controllo Qualità"
+        ],
+        "route": "/machining"
+      }
+    ]
+  },
   "about": {
     "hero": {
       "title": "Aumentiamo la potenza delle industrie con le nostre innovative <span>soluzioni di forgiatura a caldo</span>",

@@ -12,6 +12,28 @@ export const translations = {
       nuts: "Nuts",
       washers: "Washers",
     },
+    production: {
+      categories: [
+        {
+          id: 1,
+          name: "Hot Forged Bolts",
+          description: "High-strength bolts manufactured through hot forging process",
+          image: "/images/bolts.jpg"
+        },
+        {
+          id: 2,
+          name: "Nuts & Fasteners",
+          description: "Precision-engineered nuts and fastening solutions",
+          image: "/images/nuts.jpg"
+        },
+        {
+          id: 3,
+          name: "Washers",
+          description: "Durable washers for secure fastening applications",
+          image: "/images/washers.jpg"
+        }
+      ]
+    },
 
     slider: {
       slide1: {
@@ -53,6 +75,28 @@ export const translations = {
       bolts: "Bulloni",
       nuts: "Dadi",
       washers: "Rondelle",
+    },
+    production: {
+      categories: [
+        {
+          id: 1,
+          name: "Bulloni Forgiati a Caldo",
+          description: "Bulloni ad alta resistenza prodotti attraverso il processo di forgiatura a caldo",
+          image: "/images/bolts.jpg"
+        },
+        {
+          id: 2,
+          name: "Dadi e Elementi di Fissaggio",
+          description: "Dadi e soluzioni di fissaggio di precisione",
+          image: "/images/nuts.jpg"
+        },
+        {
+          id: 3,
+          name: "Rondelle",
+          description: "Rondelle durevoli per applicazioni di fissaggio sicuro",
+          image: "/images/washers.jpg"
+        }
+      ]
     },
 
     slider: {
@@ -96,6 +140,29 @@ export const translations = {
       nuts: "Muttern",
       washers: "Unterlegscheiben",
     },
+    production: {
+      categories: [
+        {
+          id: 1,
+          name: "Warmgeschmiedete Schrauben",
+          description: "Hochfeste Schrauben durch Warmschmiedeverfahren hergestellt",
+          image: "/images/bolts.jpg"
+        },
+        {
+          id: 2,
+          name: "Muttern & Befestigungselemente",
+          description: "Präzisionsgefertigte Muttern und Befestigungslösungen",
+          image: "/images/nuts.jpg"
+        },
+        {
+          id: 3,
+          name: "Unterlegscheiben",
+          description: "Langlebige Unterlegscheiben für sichere Befestigungsanwendungen",
+          image: "/images/washers.jpg"
+        }
+      ]
+    },
+
     slider: {
       slide1: {
         title: "Präzision in jedem Schmiedevorgang",
@@ -137,6 +204,29 @@ export const translations = {
       nuts: "Tuercas",
       washers: "Arandelas",
     },
+    production: {
+      categories: [
+        {
+          id: 1,
+          name: "Pernos Forjados en Caliente",
+          description: "Pernos de alta resistencia fabricados mediante proceso de forja en caliente",
+          image: "/images/bolts.jpg"
+        },
+        {
+          id: 2,
+          name: "Tuercas y Elementos de Fijación",
+          description: "Tuercas y soluciones de fijación de precisión",
+          image: "/images/nuts.jpg"
+        },
+        {
+          id: 3,
+          name: "Arandelas",
+          description: "Arandelas duraderas para aplicaciones de fijación segura",
+          image: "/images/washers.jpg"
+        }
+      ]
+    },
+
     slider: {
       slide1: {
         title: "Precisión en Cada Forja",
@@ -179,6 +269,29 @@ export const translations = {
       nuts: "Гайки",
       washers: "Шайбы",
     },
+    production: {
+      categories: [
+        {
+          id: 1,
+          name: "Горячекованые Болты",
+          description: "Высокопрочные болты, изготовленные методом горячей ковки",
+          image: "/images/bolts.jpg"
+        },
+        {
+          id: 2,
+          name: "Гайки и Крепежные Элементы",
+          description: "Прецизионные гайки и крепежные решения",
+          image: "/images/nuts.jpg"
+        },
+        {
+          id: 3,
+          name: "Шайбы",
+          description: "Прочные шайбы для надежных крепежных применений",
+          image: "/images/washers.jpg"
+        }
+      ]
+    },
+
     slider: {
       slide1: {
         title: "Точность в каждой ковке",
@@ -220,6 +333,29 @@ export const translations = {
       nuts: "Somunlar",
       washers: "Pullar",
     },
+    production: {
+      categories: [
+        {
+          id: 1,
+          name: "Sıcak Dövme Cıvatalar",
+          description: "Sıcak dövme işlemi ile üretilen yüksek mukavemetli cıvatalar",
+          image: "/images/bolts.jpg"
+        },
+        {
+          id: 2,
+          name: "Somunlar ve Bağlantı Elemanları",
+          description: "Hassas mühendislik ile üretilmiş somunlar ve bağlantı çözümleri",
+          image: "/images/nuts.jpg"
+        },
+        {
+          id: 3,
+          name: "Pullar",
+          description: "Güvenli bağlantı uygulamaları için dayanıklı pullar",
+          image: "/images/washers.jpg"
+        }
+      ]
+    },
+
     slider: {
       slide1: {
         title: "Her Dövmede Hassasiyet",

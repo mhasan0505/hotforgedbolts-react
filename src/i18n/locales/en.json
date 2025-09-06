@@ -35,7 +35,50 @@
     "success": "Success",
     "language": "Language"
   },
-
+  "production": {
+    "categories": [
+      {
+        "keyfeature": "Key Features"
+      },
+      {
+        "id": "fasteners",
+        "title": "Fasteners",
+        "description": "High-quality fasteners manufactured with precision and durability for various industrial applications.",
+        "features": [
+          "DIN, BS, TE Standards Compliance",
+          "Custom Specifications Available",
+          "High Tensile Strength",
+          "Corrosion Resistant Coatings"
+        ],
+        "route": "/fasteners"
+      },
+      {
+        "id": "hot-forging",
+        "title": "Hot Forging",
+        "description": "Advanced hot forging processes for creating strong, durable components with superior mechanical properties.",
+        "features": [
+          "DIN, BS, TE Standards Compliance",
+          "Closed Die Forging",
+          "Superior Grain Structure",
+          "Enhanced Mechanical Properties",
+          "Complex Geometries"
+        ],
+        "route": "/hot-forging"
+      },
+      {
+        "id": "machining",
+        "title": "Precision Machining",
+        "description": "State-of-the-art machining services for precise finishing and custom component manufacturing.",
+        "features": [
+          "CNC Machining",
+          "Tight Tolerances",
+          "Surface Finishing",
+          "Quality Control"
+        ],
+        "route": "/machining"
+      }
+    ]
+  },
   "about": {
     "hero": {
       "title": "We increase the power of industries with our innovative <span>hot forging solutions</span>",

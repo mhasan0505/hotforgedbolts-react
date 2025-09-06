@@ -35,6 +35,47 @@
     "success": "Éxito",
     "language": "Idioma"
   },
+  "production": {
+    "categories": [
+      {
+        "id": "fasteners",
+        "title": "Elementos de Fijación",
+        "description": "Elementos de fijación de alta calidad fabricados con precisión y durabilidad para diversas aplicaciones industriales.",
+        "features": [
+          "Cumplimiento de Estándares DIN, BS, TE",
+          "Especificaciones Personalizadas Disponibles",
+          "Alta Resistencia a la Tracción",
+          "Recubrimientos Resistentes a la Corrosión"
+        ],
+        "route": "/fasteners"
+      },
+      {
+        "id": "hot-forging",
+        "title": "Forja en Caliente",
+        "description": "Procesos avanzados de forja en caliente para crear componentes fuertes y duraderos con propiedades mecánicas superiores.",
+        "features": [
+          "Cumplimiento de Estándares DIN, BS, TE",
+          "Forja en Matriz Cerrada",
+          "Estructura de Grano Superior",
+          "Propiedades Mecánicas Mejoradas",
+          "Geometrías Complejas"
+        ],
+        "route": "/hot-forging"
+      },
+      {
+        "id": "machining",
+        "title": "Mecanizado de Precisión",
+        "description": "Servicios de mecanizado de última generación para acabado preciso y fabricación de componentes personalizados.",
+        "features": [
+          "Mecanizado CNC",
+          "Tolerancias Estrictas",
+          "Acabado Superficial",
+          "Control de Calidad"
+        ],
+        "route": "/machining"
+      }
+    ]
+  },
   "about": {
     "hero": {
       "title": "Aumentamos el poder de las industrias con nuestras soluciones innovadoras de <span>forja en caliente</span>",

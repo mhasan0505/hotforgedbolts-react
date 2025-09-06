@@ -204,5 +204,65 @@
       ],
       "developed_by": "Design & Entwicklung von <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
     }
+  },
+  "production": {
+    "header": {
+      "title": "Unsere Produktion",
+      "description": "Entdecken Sie unsere umfassenden Fertigungskapazitäten und fortschrittlichen Produktionsprozesse"
+    },
+    "categories": [
+      {
+        "id": "fasteners",
+        "title": "Befestigungselemente",
+        "description": "Hochwertige Befestigungslösungen für industrielle Anwendungen",
+        "image_alt": "Befestigungselemente",
+        "features": [
+          "Präzisionstechnik",
+          "Korrosionsbeständig",
+          "Verschiedene Güteklassen"
+        ],
+        "route": "/befestigungselemente"
+      },
+      {
+        "id": "hotforging",
+        "title": "Warmumformung",
+        "description": "Fortschrittliche Warmumformungsprozesse für überlegene Festigkeit",
+        "image_alt": "Warmumformung",
+        "features": [
+          "Erhöhte Festigkeit",
+          "Optimierung des Kornflusses",
+          "Kosteneffizient"
+        ],
+        "route": "/warmumformung"
+      },
+      {
+        "id": "machining",
+        "title": "Zerspanung",
+        "description": "Präzisionsbearbeitungsdienste mit engen Toleranzen",
+        "image_alt": "Zerspanung",
+        "features": [
+          "CNC-Präzision",
+          "Maßgeschneiderte Lösungen",
+          "Qualitätssicherung"
+        ],
+        "route": "/zerspanung"
+      }
+    ],
+    "features_title": "Hauptmerkmale",
+    "cta_button": "Produkte ansehen",
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "1000+",
+        "label": "Gelieferte Produkte"
+      },
+      {
+        "value": "99%",
+        "label": "Qualitätssicherung"
+      }
+    ]
   }
 }
