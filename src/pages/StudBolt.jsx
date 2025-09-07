@@ -1,9 +1,11 @@
-import React from 'react'
+import DIN529 from "../components/Stud_Bolts/DIN529";
 
 const StudBolt = () => {
   return (
-    <div>StudBolt</div>
-  )
-}
+    <div>
+      <DIN529 />
+    </div>
+  );
+};
 
-export default StudBolt
+export default StudBolt;

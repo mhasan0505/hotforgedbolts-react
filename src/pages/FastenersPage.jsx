@@ -48,7 +48,7 @@ const FastenersPage = () => {
       icon: Award,
       title: 'Stud Bolts',
       description: 'ISO 9001:2015 certified manufacturing processes',
-      path: '/stud-bolts',
+      path: '/fasteners/stud-bolts',
     },
   ];
 

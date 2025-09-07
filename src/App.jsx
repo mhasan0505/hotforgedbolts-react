@@ -42,7 +42,7 @@ function App() {
           <Route path="/bolts/eye-bolts" element={<EyeBoltPage />} />
           <Route path="/bolts/hex-head-bolts" element={<HexHeadBoltPage />} />
           <Route path="/bolts/square-bolts" element={<SquareBoltPage />} />
-          <Route path="/bolts/stud-bolts" element={<StudBolt />} />
+          <Route path="/fasteners/stud-bolts" element={<StudBolt />} />
           <Route path="/bolts/countersunk-bolts" element={<CounterSunkPage />} />
         </Routes>
         </Suspense>

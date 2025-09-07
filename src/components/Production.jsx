@@ -69,7 +69,7 @@ const Production = () => {
       console.error("Error processing categories:", error);
       return [];
     }
-  }, [t, ready, isInitialized, i18n, i18n.language]);
+  },);
 
   const [activeCategory, setActiveCategory] = useState("fasteners");
 
