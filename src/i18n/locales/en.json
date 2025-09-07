@@ -36,10 +36,12 @@
     "language": "Language"
   },
   "production": {
+    "header": {
+      "title": "Production",
+      "description": "High-quality fasteners manufactured with precision and durability for various industrial applications."
+    },
+    "keyfeatures": "Key Features",
     "categories": [
-      {
-        "keyfeature": "Key Features"
-      },
       {
         "id": "fasteners",
         "title": "Fasteners",

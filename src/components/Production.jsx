@@ -69,7 +69,7 @@ const Production = () => {
       console.error("Error processing categories:", error);
       return [];
     }
-  },);
+  }, [t, ready, isInitialized, i18n]);
 
   const [activeCategory, setActiveCategory] = useState("fasteners");
 
@@ -116,7 +116,7 @@ const Production = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {t("production.header.title")}
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-500 max-w-3xl mx-auto">
             {t("production.header.description")}
           </p>
         </div>
@@ -173,7 +173,7 @@ const Production = () => {
               {/* Features */}
               <div className="space-y-4 mb-8">
                 <h4 className="text-xl font-semibold text-gray-900 mb-4">
-                  {t("production.categories.keyfeatures")}
+                  {t("production.keyfeatures")}
                 </h4>
                 {activeProduct.features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">

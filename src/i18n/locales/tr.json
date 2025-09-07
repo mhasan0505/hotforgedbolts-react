@@ -36,6 +36,11 @@
     "language": "Dil"
   },
   "production": {
+    "header": {
+      "title": "Üretim",
+      "description": "Dünya çapında endüstriler tarafından güvenilen, güç, doğruluk ve dayanıklılıkla tasarlanmış sıcak dövme cıvatalar ve somunlar"
+    },
+    "keyfeatures": "Temel Özellikler",
     "categories": [
       {
         "id": "fasteners",

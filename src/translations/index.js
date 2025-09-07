@@ -32,7 +32,8 @@ export const translations = {
           description: "Durable washers for secure fastening applications",
           image: "/images/washers.jpg"
         }
-      ]
+      ],
+      keyfeatures: "Key Features" // Add this line
     },
 
     slider: {
@@ -96,7 +97,8 @@ export const translations = {
           description: "Rondelle durevoli per applicazioni di fissaggio sicuro",
           image: "/images/washers.jpg"
         }
-      ]
+      ],
+      keyfeatures: "Caratteristiche Primarie" // Add this line
     },
 
     slider: {
@@ -160,7 +162,8 @@ export const translations = {
           description: "Langlebige Unterlegscheiben für sichere Befestigungsanwendungen",
           image: "/images/washers.jpg"
         }
-      ]
+      ],
+      keyfeatures: "Hauptmerkmale" // Add this line
     },
 
     slider: {
@@ -224,7 +227,8 @@ export const translations = {
           description: "Arandelas duraderas para aplicaciones de fijación segura",
           image: "/images/washers.jpg"
         }
-      ]
+      ],
+      keyfeatures: "Características Clave" // Add this line
     },
 
     slider: {
@@ -289,7 +293,8 @@ export const translations = {
           description: "Прочные шайбы для надежных крепежных применений",
           image: "/images/washers.jpg"
         }
-      ]
+      ],
+      keyfeatures: "Основные Характеристики" // Add this line
     },
 
     slider: {
@@ -353,7 +358,8 @@ export const translations = {
           description: "Güvenli bağlantı uygulamaları için dayanıklı pullar",
           image: "/images/washers.jpg"
         }
-      ]
+      ],
+      keyfeatures: "Ana Özellikler" // Add this line
     },
 
     slider: {

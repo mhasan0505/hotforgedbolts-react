@@ -36,6 +36,11 @@
     "language": "Lingua"
   },
   "production": {
+    "header": {
+      "title": "Produzione",
+      "description": "Elementi di fissaggio di alta qualità prodotti con precisione e durata per varie applicazioni industriali."
+    },
+    "keyfeatures": "Caratteristiche Chiave",
     "categories": [
       {
         "id": "fasteners",
