@@ -113,7 +113,7 @@ import din912 from './Allen bolt/DIN 912  ISO 4762/din912.jpg';
 import din7991diagram from './countersunk Allen bolt/DIN 7991-2.webp';
 import eyeboltdg from './eyebolt/din 944-dg.jpg';
 import { default as din444 } from './eyebolt/din 944.jpg';
-import din960DG from './hex head screws/DIN 960 -ISO 8765/din 960_DG.png';
+import din960DG from './Hex head screws/DIN 960 -ISO 8765/din 960_DG.png';
 import din960Main from './hex head screws/DIN 960 -ISO 8765/din-960main.jpg';
 import din961Main from './Hex head screws/DIN 961/DIN961_main.jpg';
 import din961DG from './hex head screws/DIN 961/din 961_DG.png';
