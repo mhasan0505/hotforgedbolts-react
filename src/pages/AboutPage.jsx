@@ -13,7 +13,7 @@ const AboutPage = () => {
       />
       <div className="pt-20">
         <div className="container mx-auto px-4 py-8 text-center">
-          <h1 className="text-3xl md:text-7xl font-bold mb-6 text-orange-500">
+          <h1 className="text-3xl md:text-7xl font-bold mb-6 text-orange-700">
             About Hot Forged Bolts
           </h1>
           <p className="text-lg text-gray-900 text-center mb-12 max-w-3xl mx-auto">

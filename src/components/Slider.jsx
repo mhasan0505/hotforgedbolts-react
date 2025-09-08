@@ -29,18 +29,21 @@ const Slider = () => {
       image: slide1,
       title: t("slider.slide1.title"),
       subtitle: t("slider.slide1.subtitle"),
+      altText: "Hot forged bolts and nuts manufacturing - Precision in Every Forge"
     },
     {
       id: 2,
       image: slide2,
       title: t("slider.slide2.title"),
       subtitle: t("slider.slide2.subtitle"),
+      altText: "Industrial fastening solutions - Built to Withstand"
     },
     {
       id: 3,
       image: slide3,
       title: t("slider.slide3.title"),
       subtitle: t("slider.slide3.subtitle"),
+      altText: "Closed die forging components - Shaping Strength"
     },
   ];
 
@@ -75,17 +78,17 @@ const Slider = () => {
               >
                 {slide.title}
               </h1>
-              <h3
+              <h2
                 data-aos="fade-up"
                 data-aos-delay="400"
                 className="text-xs sm:text-sm md:text-base lg:text-xl text-white max-w-[280px] sm:max-w-sm md:max-w-lg lg:max-w-xl leading-relaxed"
               >
                 {slide.subtitle}
-              </h3>
+              </h2>
             </div>
             <img
               src={slide.image}
-              alt={slide.title}
+              alt={slide.title || slide.altText}
               className="absolute inset-0 w-full h-full object-cover -z-10"
             />
           </SwiperSlide>

@@ -361,9 +361,9 @@ const ContactPage = () => {
                         <IconComponent className="w-6 h-6 text-orange-600" />
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold text-slate-800 mb-1">
+                        <h2 className="font-semibold text-slate-800 mb-1">
                           {info.title}
-                        </h3>
+                        </h2>
                         <p className="text-orange-600 font-medium mb-1">
                           {info.content}
                         </p>
@@ -379,9 +379,9 @@ const ContactPage = () => {
 
             {/* Features */}
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 border border-white/20">
-              <h3 className="font-semibold text-slate-800 mb-4">
+              <h2 className="font-semibold text-slate-800 mb-4">
                 {t("contact.features.title")}
-              </h3>
+              </h2>
               <div className="space-y-4">
                 {features.map((feature, index) => {
                   const IconComponent = feature.icon;
@@ -406,9 +406,9 @@ const ContactPage = () => {
 
             {/* Company Info */}
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 border border-white/20">
-              <h3 className="font-semibold text-slate-800 mb-4">
+              <h2 className="font-semibold text-slate-800 mb-4">
                 {t("contact.company.title")}
-              </h3>
+              </h2>
               <p className="text-sm text-slate-600 leading-relaxed">
                 <Trans
                   i18nKey="contact.company.description"
