@@ -391,9 +391,9 @@ const ContactPage = () => {
                         <IconComponent className="w-4 h-4 text-orange-600" />
                       </div>
                       <div>
-                        <h4 className="font-medium text-slate-800 text-sm">
+                        <h3 className="font-medium text-slate-800 text-sm">
                           {feature.title}
-                        </h4>
+                        </h3>
                         <p className="text-xs text-slate-500">
                           {feature.description}
                         </p>

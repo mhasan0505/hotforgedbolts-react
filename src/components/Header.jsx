@@ -78,7 +78,7 @@ const Header = memo(() => {
                         isActive || productionItems.some(item => location.pathname === item.path)
                           ? isScrolled
                             ? "text-orange-500"
-                            : "text-orange-400"
+                            : "text-orange-600"
                           : isScrolled
                           ? "text-gray-700 hover:text-orange-500"
                           : "text-black hover:text-orange-300"
@@ -117,7 +117,7 @@ const Header = memo(() => {
                     isActive
                       ? isScrolled
                         ? "text-orange-500"
-                        : "text-orange-400"
+                        : "text-orange-600"
                       : isScrolled
                       ? "text-gray-700 hover:text-orange-500"
                       : "text-black hover:text-orange-300"
