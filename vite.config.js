@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
 
   resolve: {
+    caseSensitive: true, // This will make Vite case-sensitive
     alias: {
       // eslint-disable-next-line no-undef
       "@": path.resolve(__dirname, "./src"),

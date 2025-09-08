@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronDown } from "lucide-react";
-import englishFlag from "../assets/Icons/flag/english.png";
+import englishFlag from "../assets/Icons/flag/English.png";
 import germanFlag from "../assets/Icons/flag/germany.png";
 import italianFlag from "../assets/Icons/flag/italy.png";
 import russianFlag from "../assets/Icons/flag/russia.png";
