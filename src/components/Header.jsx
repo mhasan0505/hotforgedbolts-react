@@ -33,11 +33,11 @@ const Header = memo(() => {
     setIsMobileMenuOpen(prev => !prev);
   }, []);
 
-  const toggleProductionDropdown = useCallback(() => {
-    setIsProductionDropdownOpen(prev => !prev);
+  const showProductionDropdown = useCallback(() => {
+    setIsProductionDropdownOpen(true);
   }, []);
 
-  const closeDropdown = useCallback(() => {
+  const hideProductionDropdown = useCallback(() => {
     setIsProductionDropdownOpen(false);
   }, []);
 
@@ -71,10 +71,14 @@ const Header = memo(() => {
 
               if (link.name === 'Production') {
                 return (
-                  <div key={link.name} className="relative">
-                    <button
-                      onClick={toggleProductionDropdown}
-                      className={`font-medium transition-colors duration-200 flex items-center space-x-1 ${
+                  <div
+                    key={link.name}
+                    className="relative"
+                    onMouseEnter={showProductionDropdown}
+                    onMouseLeave={hideProductionDropdown}
+                  >
+                    <div
+                      className={`font-medium transition-colors duration-200 flex items-center space-x-1 cursor-pointer ${
                         isActive || productionItems.some(item => location.pathname === item.path)
                           ? isScrolled
                             ? "text-orange-500"
@@ -88,7 +92,7 @@ const Header = memo(() => {
                       <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${
                         isProductionDropdownOpen ? 'rotate-180' : ''
                       }`} />
-                    </button>
+                    </div>
 
                     {/* Dropdown Menu */}
                     {isProductionDropdownOpen && (
@@ -97,7 +101,6 @@ const Header = memo(() => {
                           <Link
                             key={item.name}
                             to={item.path}
-                            onClick={closeDropdown}
                             className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-500 transition-colors duration-200"
                           >
                             {item.name}
@@ -173,7 +176,7 @@ const Header = memo(() => {
                   return (
                     <div key={link.name} className="px-4">
                       <button
-                        onClick={toggleProductionDropdown}
+                        onClick={() => setIsProductionDropdownOpen(prev => !prev)}
                         className={`font-medium transition-colors duration-200 py-2 rounded-lg flex items-center justify-between w-full ${
                           isActive || productionItems.some(item => location.pathname === item.path)
                             ? "text-orange-500 bg-orange-50"
