@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation, Trans } from "react-i18next";
+import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
 import logo from "../assets/logo/logo-1-png.png";
 
@@ -43,12 +44,12 @@ const Footer = () => {
               <ul className="space-y-3">
                 {navLinks.map((link) => (
                   <li key={link.path}>
-                    <a
-                      href={link.path}
-                      className="text-gray-600 hover:text-violet-600 transition-colors duration-300 text-sm"
+                    <Link
+                      to={link.path}
+                      className="text-gray-600 hover:text-orange-600 transition-colors duration-200 text-sm"
                     >
                       {link.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -59,15 +60,15 @@ const Footer = () => {
               <h3 className="font-semibold text-gray-900 mb-6 text-lg">
                 {t("footer.products.title")}
               </h3>
-              <ul className="space-y-3 text-sm text-gray-600">
+              <ul className="space-y-3">
                 {products.map((product) => (
                   <li key={product.path}>
-                    <a
-                      href={product.path}
-                      className="hover:text-violet-600 transition-colors duration-300"
+                    <Link
+                      to={product.path}
+                      className="text-gray-600 hover:text-orange-600 transition-colors duration-200 text-sm"
                     >
                       {product.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -78,54 +79,55 @@ const Footer = () => {
               <h3 className="font-semibold text-gray-900 mb-6 text-lg">
                 {t("footer.contact_info.title")}
               </h3>
-              <div className="space-y-4 text-sm text-gray-600">
+              <ul className="space-y-4">
                 {contactInfo.map((info, index) => {
                   const IconComponent = iconMap[info.icon];
                   return (
-                    <div key={index} className="flex items-start gap-3">
-                      <IconComponent
-                        size={16}
-                        className="text-violet-600 mt-0.5 flex-shrink-0"
-                      />
-                      <span>{info.content}</span>
-                    </div>
+                    <li key={index} className="flex items-start gap-3">
+                      <IconComponent className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
+                      <div>
+                        <p className="text-sm font-medium text-gray-900">
+                          {info.title}
+                        </p>
+                        <p className="text-sm text-gray-600">{info.content}</p>
+                      </div>
+                    </li>
                   );
                 })}
-              </div>
+              </ul>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-500">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-gray-600">
               {t("footer.bottom_bar.copyright")}
             </p>
-            <div className="flex gap-6 text-sm text-gray-500">
+            <div className="flex items-center gap-6">
               {t("footer.bottom_bar.links", { returnObjects: true }).map(
-                (link) => (
-                  <a
-                    key={link.path}
-                    href={link.path}
-                    className="hover:text-blue-600 transition-colors duration-300"
+                (link, index) => (
+                  <Link
+                    key={index}
+                    to={link.path}
+                    className="text-sm text-gray-600 hover:text-orange-600 transition-colors duration-200"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 )
               )}
             </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <p className="text-sm text-gray-500 flex items-center">
+            <p className="text-sm text-gray-600">
               <Trans
                 i18nKey="footer.bottom_bar.developed_by"
                 components={{
-                  br: <br />,
-                  a: (
+                  link: (
                     <a
-                      href="https://www.creativeartix.com"
-                      className="hover:text-blue-600 transition-colors duration-300 px-2"
+                      href="https://github.com/yourusername"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-orange-600 hover:text-orange-700 transition-colors duration-200"
                     />
                   ),
                 }}

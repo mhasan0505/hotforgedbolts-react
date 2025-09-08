@@ -22,19 +22,26 @@ export default defineConfig({
             "i18next",
             "react-i18next",
             "i18next-browser-languagedetector",
-            "i18next-http-backend",
           ],
+          ui: ["lucide-react", "clsx"],
+          swiper: ["swiper"],
+          aos: ["aos"],
         },
       },
     },
-    // Enable minification
     minify: "terser",
     terserOptions: {
       compress: {
         drop_console: true,
         drop_debugger: true,
+        pure_funcs: ["console.log", "console.info"],
       },
     },
-    chunkSizeWarningLimit: 1000, // Increase warning limit to 1MB
+    chunkSizeWarningLimit: 500,
+    target: "esnext",
+    sourcemap: false,
+  },
+  optimizeDeps: {
+    include: ["react", "react-dom", "react-router-dom"],
   },
 });

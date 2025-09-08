@@ -1,28 +1,36 @@
 import { ArrowDown, Menu, X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useState, memo, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo/logo-1-png.png";
 import { navLinks } from "../constants";
 import LanguageSelector from "../i18n/LanguageSelector";
 
-const Header = () => {
+const Header = memo(() => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
   const { t } = useTranslation();
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          setIsScrolled(window.scrollY > 50);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-    window.addEventListener("scroll", handleScroll);
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  const toggleMobileMenu = useCallback(() => {
+    setIsMobileMenuOpen(prev => !prev);
+  }, []);
 
   return (
     <header
@@ -72,6 +80,7 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMobileMenu}
+              aria-label={isMobileMenuOpen ? t('buttons.closeMenu') : t('buttons.openMenu')}
               className={`lg:hidden p-2 rounded-lg transition-colors duration-200 ${
                 isScrolled
                   ? "text-gray-700 hover:bg-gray-100"
@@ -133,6 +142,6 @@ const Header = () => {
       </div>
     </header>
   );
-};
+})
 
 export default Header;

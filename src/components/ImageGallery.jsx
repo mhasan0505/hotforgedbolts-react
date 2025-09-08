@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import { ChevronLeft, ChevronRight, X, ZoomIn } from 'lucide-react';
 
-const ImageGallery = ({ images, title }) => {
+const ImageGallery = memo(({ images, title }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [_loadedImages, setLoadedImages] = useState(new Set());
+
+  const _handleImageLoad = (index) => {
+    setLoadedImages(prev => new Set([...prev, index]));
+  };
 
   const openLightbox = (index) => {
     setCurrentImageIndex(index);
@@ -127,6 +132,6 @@ const ImageGallery = ({ images, title }) => {
       )}
     </>
   );
-};
+});
 
 export default ImageGallery;

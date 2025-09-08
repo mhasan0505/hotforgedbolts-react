@@ -205,10 +205,9 @@
     "quick_links": {
       "title": "Quick Links",
       "items": [
-        { "path": "/home", "name": "Home" },
+        { "path": "/", "name": "Home" },
         { "path": "/about", "name": "About" },
-        { "path": "/products", "name": "Products" },
-        { "path": "/services", "name": "Services" },
+        { "path": "/production", "name": "Products & Services" },
         { "path": "/contact", "name": "Contact" }
       ]
     },
@@ -220,7 +219,7 @@
         { "path": "/machining", "name": "Machining" },
         { "path": "/bolts", "name": "Bolts" },
         { "path": "/nuts", "name": "Nuts" },
-        { "path": "/studs-bolts", "name": "Studs Bolts" },
+        { "path": "/fasteners", "name": "Fasteners" },
         { "path": "/contact", "name": "Custom Solutions" }
       ]
     },

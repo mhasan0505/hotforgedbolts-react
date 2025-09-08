@@ -24,7 +24,8 @@ i18next
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: "en",
+    lng: "tr", // Force Turkish as default language
+    fallbackLng: "tr",
     debug: true,
     interpolation: {
       escapeValue: false, // React already escapes values
