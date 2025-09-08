@@ -2,7 +2,7 @@ import { ArrowDown, Menu, X, ChevronDown } from "lucide-react";
 import { useEffect, useState, memo, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo/logo-1-png.png";
+import logo from "../assets/logo/logo.webp";
 import { navLinks } from "../constants";
 import LanguageSelector from "../i18n/LanguageSelector";
 

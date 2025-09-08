@@ -9,9 +9,9 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import images
-import slide1 from "../assets/slider/slider1.jpg";
-import slide2 from "../assets/slider/Slider2.jpg";
-import slide3 from "../assets/slider/slider3.jpg";
+import slide1 from "../assets/slider/slider1.webp";
+import slide2 from "../assets/slider/Slider2.webp";
+import slide3 from "../assets/slider/slider3.webp";
 
 const Slider = () => {
   const { t } = useTranslation();

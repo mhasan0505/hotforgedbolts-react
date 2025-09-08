@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation, Trans } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import logo from "../assets/logo/logo-1-png.png";
+import logo from "../assets/logo/logo.webp";
 
 const Footer = () => {
   const { t } = useTranslation();
