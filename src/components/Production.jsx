@@ -149,7 +149,7 @@ const Production = () => {
             <div className="relative overflow-hidden">
               <img
                 src={activeProduct.image}
-                alt={activeProduct.image_alt}
+                alt={activeProduct.title}
                 className="w-full h-96 lg:h-full object-cover transition-transform duration-700 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
