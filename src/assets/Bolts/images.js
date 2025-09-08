@@ -115,7 +115,7 @@ import din931DG from "./Hex head screws/DIN 931/DIN931_DG.png";
 import din933DG from "./Hex head screws/DIN 933/din 933_DG.png";
 import din933Main from "./Hex head screws/DIN 933/din 933_mian.jpg";
 import din960DG from "./Hex head screws/DIN 960 -ISO 8765/din 960_DG.png";
-import din960Main from "./hex head screws/DIN 960 -ISO 8765/din-960main.jpg";
+import din960Main from "./Hex head screws/DIN 960 -ISO 8765/din-960main.jpg";
 import din961DG from "./Hex head screws/DIN 961/din 961_DG.png";
 import din961Main from "./Hex head screws/DIN 961/DIN961_main.jpg";
 import din262DG from "./SquareBolts/Din262/din-480_DG.jpg";
