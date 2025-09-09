@@ -3,6 +3,7 @@ import DIN529 from "../components/Stud_Bolts/DIN529";
 import DIN939 from "../components/Stud_Bolts/DIN939";
 import DIN976 from "../components/Stud_Bolts/DIN976";
 import J_Bolt from '../components/Stud_Bolts/J_Bolt';
+import L_Bolt from '../components/Stud_Bolts/L_Bolt';
 
 const StudBolt = () => {
   return (
@@ -12,6 +13,7 @@ const StudBolt = () => {
       <DIN976 />
       <DIN2510 />
       <J_Bolt />
+      <L_Bolt />
     </div>
   );
 };
