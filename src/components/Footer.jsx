@@ -124,7 +124,7 @@ const Footer = () => {
                 components={{
                   link: (
                     <a
-                      href="https://github.com/yourusername"
+                      href="https://creativeartix.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-orange-600 hover:text-orange-700 transition-colors duration-200"

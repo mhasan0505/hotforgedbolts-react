@@ -246,7 +246,7 @@
         { "path": "#", "name": "Terms of Service" },
         { "path": "#", "name": "Cookie Policy" }
       ],
-      "developed_by": "Design & Developed by <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
+      "developed_by": "Design & Developed by <link>Creative Artix</link>"
     }
   }
 }

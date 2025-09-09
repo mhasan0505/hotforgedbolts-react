@@ -3,8 +3,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
 // Import translation files directly
-import en from "./locales/en.json";
 import de from "./locales/de.json";
+import en from "./locales/en.json";
 import es from "./locales/es.json";
 import it from "./locales/it.json";
 import ru from "./locales/ru.json";
@@ -24,8 +24,8 @@ i18next
   .use(initReactI18next)
   .init({
     resources,
-    lng: "tr", // Force Turkish as default language
-    fallbackLng: "tr",
+    lng: "en", // Force Turkish as default language
+    fallbackLng: "en",
     debug: true,
     interpolation: {
       escapeValue: false, // React already escapes values
