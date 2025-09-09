@@ -1,3 +1,4 @@
+import { Package } from 'lucide-react';
 import { L_Bolt_image } from "./StudImage";
 
 const L_Bolt = () => {
