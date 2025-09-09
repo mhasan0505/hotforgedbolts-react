@@ -78,7 +78,7 @@ const Header = memo(() => {
                         isActive || productionItems.some(item => location.pathname === item.path)
                           ? isScrolled
                             ? "text-orange-500"
-                            : "text-orange-600"
+                            : "text-orange-700"
                           : isScrolled
                           ? "text-gray-700 hover:text-orange-500"
                           : "text-black hover:text-orange-300"
@@ -117,7 +117,7 @@ const Header = memo(() => {
                     isActive
                       ? isScrolled
                         ? "text-orange-500"
-                        : "text-orange-600"
+                        : "text-orange-700"
                       : isScrolled
                       ? "text-gray-700 hover:text-orange-500"
                       : "text-black hover:text-orange-300"
@@ -154,7 +154,7 @@ const Header = memo(() => {
           <div className="hidden md:block">
             <Link
               to="/contact"
-              className="bg-orange-500 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 hover:bg-orange-600 flex items-center sm:hidden md:flex"
+              className="bg-orange-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 hover:bg-orange-700 flex items-center sm:hidden md:flex"
             >
               {t("buttons.getQuote")}
               <ArrowDown className="animate-bounce duration-75 ml-2" />
