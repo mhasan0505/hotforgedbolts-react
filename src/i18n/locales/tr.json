@@ -414,5 +414,62 @@
       "description": "Kritik bileşenleriniz için hassas işlemenin farkını yaşayın. Bugün bir teklif alın!",
       "viewAllServices": "Tüm Hizmetleri Görüntüle"
     }
+  },
+  "hotForgingPage": {
+    "hero": {
+      "subtitle": "Sıcak Dövme",
+      "title": "Sıcak Dövme Mükemmelliği",
+      "description": "Üstün mukavemet, dayanıklılık ve hassasiyet sağlayan son teknoloji sıcak dövme işlemleri. Gelişmiş tekniklerimiz optimal tane akışı ve olağanüstü mekanik özellikler garanti eder.",
+      "imageAlt": "Sıcak Dövme Süreci"
+    },
+    "processes": {
+      "title": "Dövme Sürecimiz",
+      "description": "Üstün bileşen performansı için gelişmiş sıcak dövme teknikleri",
+      "controlledHeating": {
+        "title": "Kontrollü Isıtma",
+        "description": "Optimal malzeme özellikleri için hassas sıcaklık kontrolü"
+      },
+      "closedDieForging": {
+        "title": "Kapalı Kalıp Dövme",
+        "description": "Karmaşık geometriler için gelişmiş kalıp teknolojisi"
+      },
+      "qualityControl": {
+        "title": "Kalite Kontrolü",
+        "description": "Her aşamada titiz test ve muayene"
+      }
+    },
+    "capabilities": {
+      "title": "Üretim Kapasiteleri",
+      "materialTypes": {
+        "label": "Malzeme Türleri",
+        "value": "Karbon Çelik, Alaşım Çelik, Paslanmaz Çelik"
+      },
+      "weightRange": {
+        "label": "Ağırlık Aralığı",
+        "value": "Parça başına 0,1 kg ile 50 kg arası"
+      },
+      "temperatureRange": {
+        "label": "Sıcaklık Aralığı",
+        "value": "950°C ile 1250°C arası"
+      },
+      "productionCapacity": {
+        "label": "Üretim Kapasitesi",
+        "value": "Ayda 10.000+ parça"
+      }
+    },
+    "advantages": {
+      "title": "Temel Avantajlar",
+      "superiorMechanical": "Üstün mekanik özellikler",
+      "enhancedGrainFlow": "Gelişmiş tane akış yapısı",
+      "reducedWaste": "Azaltılmış malzeme israfı",
+      "costEffective": "Maliyet etkin üretim",
+      "improvedFatigue": "Gelişmiş yorulma direnci",
+      "consistentQuality": "Tutarlı kalite çıktısı"
+    },
+    "cta": {
+      "title": "Sıcak Dövme Mükemmelliğini Deneyimleyin",
+      "description": "Tam spesifikasyonlarınıza uygun üstün sıcak dövme bileşenleri için bizimle ortaklık yapın",
+      "viewAllServices": "Tüm Hizmetleri Görüntüle"
+    }
   }
 }

@@ -271,6 +271,63 @@
       "viewAllProducts": "View All Products"
     }
   },
+  "hotForgingPage": {
+    "hero": {
+      "subtitle": "Hot Forging",
+      "title": "Hot Forging Excellence",
+      "description": "State-of-the-art hot forging processes that deliver superior strength, durability, and precision. Our advanced techniques ensure optimal grain flow and exceptional mechanical properties.",
+      "imageAlt": "Hot Forging Process"
+    },
+    "processes": {
+      "title": "Our Forging Process",
+      "description": "Advanced hot forging techniques for superior component performance",
+      "controlledHeating": {
+        "title": "Controlled Heating",
+        "description": "Precise temperature control for optimal material properties"
+      },
+      "closedDieForging": {
+        "title": "Closed Die Forging",
+        "description": "Advanced die technology for complex geometries"
+      },
+      "qualityControl": {
+        "title": "Quality Control",
+        "description": "Rigorous testing and inspection at every stage"
+      }
+    },
+    "capabilities": {
+      "title": "Manufacturing Capabilities",
+      "materialTypes": {
+        "label": "Material Types",
+        "value": "Carbon Steel, Alloy Steel, Stainless Steel"
+      },
+      "weightRange": {
+        "label": "Weight Range",
+        "value": "0.1 kg to 50 kg per piece"
+      },
+      "temperatureRange": {
+        "label": "Temperature Range",
+        "value": "950°C to 1250°C"
+      },
+      "productionCapacity": {
+        "label": "Production Capacity",
+        "value": "10,000+ pieces per month"
+      }
+    },
+    "advantages": {
+      "title": "Key Advantages",
+      "superiorMechanical": "Superior mechanical properties",
+      "enhancedGrainFlow": "Enhanced grain flow structure",
+      "reducedWaste": "Reduced material waste",
+      "costEffective": "Cost-effective production",
+      "improvedFatigue": "Improved fatigue resistance",
+      "consistentQuality": "Consistent quality output"
+    },
+    "cta": {
+      "title": "Experience Hot Forging Excellence",
+      "description": "Partner with us for superior hot forged components that meet your exact specifications",
+      "viewAllServices": "View All Services"
+    }
+  },
   "machiningPage": {
     "hero": {
       "subtitle": "Precision Manufacturing",

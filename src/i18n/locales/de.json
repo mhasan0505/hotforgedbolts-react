@@ -423,5 +423,62 @@
         "label": "Qualitätssicherung"
       }
     ]
+  },
+  "hotForgingPage": {
+    "hero": {
+      "subtitle": "Warmschmieden",
+      "title": "Warmschmiede-Exzellenz",
+      "description": "Modernste Warmschmiedeprozesse, die überlegene Festigkeit, Haltbarkeit und Präzision liefern. Unsere fortschrittlichen Techniken gewährleisten optimalen Kornfluss und außergewöhnliche mechanische Eigenschaften.",
+      "imageAlt": "Warmschmiedeprozess"
+    },
+    "processes": {
+      "title": "Unser Schmiedeprozess",
+      "description": "Fortschrittliche Warmschmiedetechniken für überlegene Bauteilleistung",
+      "controlledHeating": {
+        "title": "Kontrollierte Erwärmung",
+        "description": "Präzise Temperaturkontrolle für optimale Materialeigenschaften"
+      },
+      "closedDieForging": {
+        "title": "Geschlossenes Gesenkschmieden",
+        "description": "Fortschrittliche Gesenktechnologie für komplexe Geometrien"
+      },
+      "qualityControl": {
+        "title": "Qualitätskontrolle",
+        "description": "Rigorose Prüfung und Inspektion in jeder Phase"
+      }
+    },
+    "capabilities": {
+      "title": "Fertigungskapazitäten",
+      "materialTypes": {
+        "label": "Materialtypen",
+        "value": "Kohlenstoffstahl, Legierungsstahl, Edelstahl"
+      },
+      "weightRange": {
+        "label": "Gewichtsbereich",
+        "value": "0,1 kg bis 50 kg pro Stück"
+      },
+      "temperatureRange": {
+        "label": "Temperaturbereich",
+        "value": "950°C bis 1250°C"
+      },
+      "productionCapacity": {
+        "label": "Produktionskapazität",
+        "value": "10.000+ Stück pro Monat"
+      }
+    },
+    "advantages": {
+      "title": "Hauptvorteile",
+      "superiorMechanical": "Überlegene mechanische Eigenschaften",
+      "enhancedGrainFlow": "Verbesserte Kornflussstruktur",
+      "reducedWaste": "Reduzierter Materialabfall",
+      "costEffective": "Kosteneffiziente Produktion",
+      "improvedFatigue": "Verbesserte Ermüdungsbeständigkeit",
+      "consistentQuality": "Konsistente Qualitätsausgabe"
+    },
+    "cta": {
+      "title": "Erleben Sie Warmschmiede-Exzellenz",
+      "description": "Arbeiten Sie mit uns zusammen für überlegene warmgeschmiedete Komponenten, die Ihren exakten Spezifikationen entsprechen",
+      "viewAllServices": "Alle Dienstleistungen anzeigen"
+    }
   }
 }

@@ -1,41 +1,56 @@
 import React from 'react';
 import { ChevronRight, Zap, Thermometer, Hammer, Target, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import hotForging from '../assets/Hotforging.webp';
 
 const HotForgingPage = () => {
+  const { t } = useTranslation();
+
   const processes = [
     {
       icon: Thermometer,
-      title: 'Controlled Heating',
-      description: 'Precise temperature control for optimal material properties'
+      title: t('hotForgingPage.processes.controlledHeating.title'),
+      description: t('hotForgingPage.processes.controlledHeating.description')
     },
     {
       icon: Hammer,
-      title: 'Closed Die Forging',
-      description: 'Advanced die technology for complex geometries'
+      title: t('hotForgingPage.processes.closedDieForging.title'),
+      description: t('hotForgingPage.processes.closedDieForging.description')
     },
     {
       icon: Target,
-      title: 'Quality Control',
-      description: 'Rigorous testing and inspection at every stage'
+      title: t('hotForgingPage.processes.qualityControl.title'),
+      description: t('hotForgingPage.processes.qualityControl.description')
     }
   ];
 
   const advantages = [
-    'Superior mechanical properties',
-    'Enhanced grain flow structure',
-    'Reduced material waste',
-    'Cost-effective production',
-    'Improved fatigue resistance',
-    'Consistent quality output'
+    t('hotForgingPage.advantages.superiorMechanical'),
+    t('hotForgingPage.advantages.enhancedGrainFlow'),
+    t('hotForgingPage.advantages.reducedWaste'),
+    t('hotForgingPage.advantages.costEffective'),
+    t('hotForgingPage.advantages.improvedFatigue'),
+    t('hotForgingPage.advantages.consistentQuality')
   ];
 
   const capabilities = [
-    { label: 'Material Types', value: 'Carbon Steel, Alloy Steel, Stainless Steel' },
-    { label: 'Weight Range', value: '0.1 kg to 50 kg per piece' },
-    { label: 'Temperature Range', value: '950°C to 1250°C' },
-    { label: 'Production Capacity', value: '10,000+ pieces per month' }
+    {
+      label: t('hotForgingPage.capabilities.materialTypes.label'),
+      value: t('hotForgingPage.capabilities.materialTypes.value')
+    },
+    {
+      label: t('hotForgingPage.capabilities.weightRange.label'),
+      value: t('hotForgingPage.capabilities.weightRange.value')
+    },
+    {
+      label: t('hotForgingPage.capabilities.temperatureRange.label'),
+      value: t('hotForgingPage.capabilities.temperatureRange.value')
+    },
+    {
+      label: t('hotForgingPage.capabilities.productionCapacity.label'),
+      value: t('hotForgingPage.capabilities.productionCapacity.value')
+    }
   ];
 
   return (
@@ -48,29 +63,27 @@ const HotForgingPage = () => {
               <div className="flex items-center gap-3 mb-6">
                 <Zap className="w-8 h-8" />
                 <span className="text-gray-600 font-medium">
-                  Hot Forging
+                  {t('hotForgingPage.hero.subtitle')}
                 </span>
               </div>
               <h1 className="text-5xl font-bold mb-6">
-                Hot Forging Excellence
+                {t('hotForgingPage.hero.title')}
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                State-of-the-art hot forging processes that deliver superior
-                strength, durability, and precision. Our advanced techniques
-                ensure optimal grain flow and exceptional mechanical properties.
+                {t('hotForgingPage.hero.description')}
               </p>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
               >
-                Get Quote
+                {t('buttons.getQuote')}
                 <ChevronRight className="w-5 h-5" />
               </Link>
             </div>
             <div className="relative">
               <img
                 src={hotForging}
-                alt="Hot Forging Process"
+                alt={t('hotForgingPage.hero.imageAlt')}
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
@@ -83,10 +96,10 @@ const HotForgingPage = () => {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Our Forging Process
+              {t('hotForgingPage.processes.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Advanced hot forging techniques for superior component performance
+              {t('hotForgingPage.processes.description')}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -117,7 +130,7 @@ const HotForgingPage = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                Manufacturing Capabilities
+                {t('hotForgingPage.capabilities.title')}
               </h2>
               <div className="space-y-6">
                 {capabilities.map((capability, index) => (
@@ -135,7 +148,7 @@ const HotForgingPage = () => {
             </div>
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                Key Advantages
+                {t('hotForgingPage.advantages.title')}
               </h2>
               <div className="space-y-4">
                 {advantages.map((advantage, index) => (
@@ -154,25 +167,24 @@ const HotForgingPage = () => {
       <section className="py-20 bg-gray-700 text-black">
         <div className="container mx-auto px-4 max-w-7xl text-center">
           <h2 className="text-4xl font-bold mb-6 text-white">
-            Experience Hot Forging Excellence
+            {t('hotForgingPage.cta.title')}
           </h2>
           <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
-            Partner with us for superior hot forged components that meet your
-            exact specifications
+            {t('hotForgingPage.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
               className="inline-flex items-center gap-2 bg-white text-orange-600 px-8 py-3 rounded-full hover:bg-orange-50 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
             >
-              Contact Us
+              {t('buttons.contactUs')}
               <ChevronRight className="w-5 h-5" />
             </Link>
             <Link
               to="/production"
               className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-orange-600 transition-all duration-300 transform hover:scale-105 font-medium"
             >
-              View All Services
+              {t('hotForgingPage.cta.viewAllServices')}
             </Link>
           </div>
         </div>
