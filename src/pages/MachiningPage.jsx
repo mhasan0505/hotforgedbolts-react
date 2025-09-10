@@ -1,50 +1,53 @@
 import { ChevronRight, Wrench, Cog, Target, Award, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import machining from '../assets/machining.png';
 import image1 from '../assets/machinig/gallery1.jpg';
 import image2 from '../assets/machinig/gallery 2.jpg';
 import image3 from '../assets/machinig/gallery 3.jpg';
 import ImageGallery from '../components/ImageGallery';
 
-const machinImage = [
-  { src: image1, alt: 'Machining Process 1' },
-  { src: image2, alt: 'Machining Process 2' },
-  { src: image3, alt: 'Machining Process 3' },
-];
-
-const machiningServices = [
-  {
-    icon: Cog,
-    title: "CNC Turning",
-    description: "Precision turning operations for cylindrical components with tight tolerances and superior surface finish."
-  },
-  {
-    icon: Target,
-    title: "CNC Milling",
-    description: "Complex milling operations for creating precise geometries and features on various workpiece materials."
-  },
-  {
-    icon: Wrench,
-    title: "Drilling & Threading",
-    description: "Accurate hole drilling and thread cutting operations to meet exact specifications and standards."
-  },
-  {
-    icon: Award,
-    title: "Surface Finishing",
-    description: "Professional surface finishing techniques to achieve required surface roughness and appearance."
-  }
-];
-
-const capabilities = [
-  "Tolerance: ±0.01mm precision",
-  "Surface finish: Ra 0.8 μm or better",
-  "Material compatibility: All steel grades",
-  "Size range: M6 to M100",
-  "Threading: Metric and Imperial",
-  "Quality control: 100% inspection"
-];
-
 const MachiningPage = () => {
+  const { t } = useTranslation();
+
+  const machinImage = [
+    { src: image1, alt: t('machiningPage.gallery.alt1') },
+    { src: image2, alt: t('machiningPage.gallery.alt2') },
+    { src: image3, alt: t('machiningPage.gallery.alt3') },
+  ];
+
+  const machiningServices = [
+    {
+      icon: Cog,
+      title: t('machiningPage.services.cncTurning.title'),
+      description: t('machiningPage.services.cncTurning.description')
+    },
+    {
+      icon: Target,
+      title: t('machiningPage.services.cncMilling.title'),
+      description: t('machiningPage.services.cncMilling.description')
+    },
+    {
+      icon: Wrench,
+      title: t('machiningPage.services.drillingThreading.title'),
+      description: t('machiningPage.services.drillingThreading.description')
+    },
+    {
+      icon: Award,
+      title: t('machiningPage.services.surfaceFinishing.title'),
+      description: t('machiningPage.services.surfaceFinishing.description')
+    }
+  ];
+
+  const capabilities = [
+    t('machiningPage.capabilities.tolerance'),
+    t('machiningPage.capabilities.surfaceFinish'),
+    t('machiningPage.capabilities.materialCompatibility'),
+    t('machiningPage.capabilities.sizeRange'),
+    t('machiningPage.capabilities.threading'),
+    t('machiningPage.capabilities.qualityControl')
+  ];
+
   return (
     <div className="pt-20">
       {/* Hero Section */}
@@ -55,32 +58,27 @@ const MachiningPage = () => {
               <div className="flex items-center gap-3 mb-6">
                 <Wrench className="w-8 h-8" />
                 <span className="text-gray-600 font-medium">
-                  Precision Manufacturing
+                  {t('machiningPage.hero.subtitle')}
                 </span>
               </div>
               <h1 className="text-5xl font-bold mb-6">
-                Precision Machining Services
+                {t('machiningPage.hero.title')}
               </h1>
               <p className="text-xl text-black mb-8 leading-relaxed">
-                To meet precise dimensional and functional requirements, we
-                offer comprehensive machining services following the hot forging
-                process. Our in-house machining capabilities include CNC
-                turning, milling, drilling, and threading operations, ensuring
-                complete control over final turned part accuracy and surface
-                finish.
+                {t('machiningPage.hero.description')}
               </p>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
               >
-                Get Quote
+                {t('buttons.getQuote')}
                 <ChevronRight className="w-5 h-5" />
               </Link>
             </div>
             <div className="relative">
               <img
                 src={machining}
-                alt="Precision Machining"
+                alt={t('machiningPage.hero.imageAlt')}
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
@@ -93,12 +91,10 @@ const MachiningPage = () => {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Our Machining Services
+              {t('machiningPage.services.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive machining solutions to transform your hot forged
-              components into precision-engineered parts that meet the most
-              demanding specifications.
+              {t('machiningPage.services.description')}
             </p>
           </div>
 
@@ -132,12 +128,10 @@ const MachiningPage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Technical Capabilities
+                {t('machiningPage.capabilities.title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Our state-of-the-art machining equipment and skilled technicians
-                ensure that every component meets the highest standards of
-                precision and quality.
+                {t('machiningPage.capabilities.description')}
               </p>
 
               <div className="space-y-4">
@@ -152,18 +146,17 @@ const MachiningPage = () => {
 
             <div className="bg-gradient-to-br from-violet-50 to-violet-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Why Choose Our Machining?
+                {t('machiningPage.whyChoose.title')}
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-violet-500 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900">
-                      Complete Integration
+                      {t('machiningPage.whyChoose.integration.title')}
                     </h4>
                     <p className="text-gray-600 text-sm">
-                      Seamless transition from hot forging to precision
-                      machining
+                      {t('machiningPage.whyChoose.integration.description')}
                     </p>
                   </div>
                 </div>
@@ -171,10 +164,10 @@ const MachiningPage = () => {
                   <div className="w-2 h-2 bg-violet-500 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900">
-                      Quality Assurance
+                      {t('machiningPage.whyChoose.qualityAssurance.title')}
                     </h4>
                     <p className="text-gray-600 text-sm">
-                      Rigorous quality control at every stage of production
+                      {t('machiningPage.whyChoose.qualityAssurance.description')}
                     </p>
                   </div>
                 </div>
@@ -182,10 +175,10 @@ const MachiningPage = () => {
                   <div className="w-2 h-2 bg-violet-500 rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-semibold text-gray-900">
-                      Fast Turnaround
+                      {t('machiningPage.whyChoose.fastTurnaround.title')}
                     </h4>
                     <p className="text-gray-600 text-sm">
-                      Efficient production processes for quick delivery
+                      {t('machiningPage.whyChoose.fastTurnaround.description')}
                     </p>
                   </div>
                 </div>
@@ -200,40 +193,39 @@ const MachiningPage = () => {
         <div className=" px-4 max-w-7xl items-center">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Machining Gallery
+              {t('machiningPage.gallery.title')}
             </h2>
             <p className="text-lg text-gray-600">
-              See our precision machining capabilities in action
+              {t('machiningPage.gallery.description')}
             </p>
           </div>
           <ImageGallery
             images={machinImage}
-            title="Machining Process Gallery"
+            title={t('machiningPage.gallery.galleryTitle')}
           />
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-violet-800 text-white">
+      <section className="py-20 bg-violet-400 text-white">
         <div className="container mx-auto px-4 max-w-7xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Precision You Can Trust</h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Experience the difference that precision machining makes for your
-            critical components. Get a quote today!
+          <h2 className="text-4xl font-bold mb-6">{t('machiningPage.cta.title')}</h2>
+          <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
+            {t('machiningPage.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
               className="inline-flex items-center gap-2 bg-white text-gray-800 px-8 py-3 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
             >
-              Contact Us
+              {t('buttons.contactUs')}
               <ChevronRight className="w-5 h-5" />
             </Link>
             <Link
               to="/production"
               className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-orange-500 transition-all duration-300 transform hover:scale-105 font-medium"
             >
-              View All Services
+              {t('machiningPage.cta.viewAllServices')}
             </Link>
           </div>
         </div>

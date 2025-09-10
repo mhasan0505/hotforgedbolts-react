@@ -347,5 +347,71 @@
       "contactUs": "Contattaci",
       "viewAllProducts": "Visualizza Tutti i Prodotti"
     }
+  },
+  "machiningPage": {
+    "hero": {
+      "subtitle": "Produzione di Precisione",
+      "title": "Servizi di Lavorazione di Precisione",
+      "description": "Per soddisfare requisiti dimensionali e funzionali precisi, offriamo servizi di lavorazione completi dopo il processo di forgiatura a caldo. Le nostre capacità di lavorazione interne includono tornitura CNC, fresatura, foratura e filettatura, garantendo un controllo totale sulla precisione e la finitura superficiale delle parti tornite finali.",
+      "imageAlt": "Lavorazione di Precisione"
+    },
+    "services": {
+      "title": "I Nostri Servizi di Lavorazione",
+      "description": "Soluzioni di lavorazione complete per trasformare i vostri componenti forgiati a caldo in parti di ingegneria di precisione che soddisfano le specifiche più esigenti.",
+      "cncTurning": {
+        "title": "Tornitura CNC",
+        "description": "Operazioni di tornitura di precisione per componenti cilindrici con tolleranze strette e finitura superficiale superiore."
+      },
+      "cncMilling": {
+        "title": "Fresatura CNC",
+        "description": "Operazioni di fresatura complesse per creare geometrie e caratteristiche precise su vari materiali di lavoro."
+      },
+      "drillingThreading": {
+        "title": "Foratura e Filettatura",
+        "description": "Operazioni precise di foratura di fori e taglio di filetti per soddisfare specifiche e standard esatti."
+      },
+      "surfaceFinishing": {
+        "title": "Finitura Superficiale",
+        "description": "Tecniche professionali di finitura superficiale per ottenere la rugosità e l'aspetto richiesti."
+      }
+    },
+    "capabilities": {
+      "title": "Capacità Tecniche",
+      "description": "Le nostre attrezzature di lavorazione all'avanguardia e i tecnici qualificati garantiscono che ogni componente soddisfi i più alti standard di precisione e qualità.",
+      "tolerance": "Tolleranza: precisione ±0.01mm",
+      "surfaceFinish": "Finitura superficiale: Ra 0.8 μm o migliore",
+      "materialCompatibility": "Compatibilità dei materiali: Tutti i gradi di acciaio",
+      "sizeRange": "Gamma di dimensioni: da M6 a M100",
+      "threading": "Filettatura: Metrica e Imperiale",
+      "qualityControl": "Controllo qualità: Ispezione al 100%"
+    },
+    "whyChoose": {
+      "title": "Perché Scegliere la Nostra Lavorazione?",
+      "integration": {
+        "title": "Integrazione Completa",
+        "description": "Transizione fluida dalla forgiatura a caldo alla lavorazione di precisione"
+      },
+      "qualityAssurance": {
+        "title": "Garanzia di Qualità",
+        "description": "Controllo qualità rigoroso in ogni fase della produzione"
+      },
+      "fastTurnaround": {
+        "title": "Consegna Rapida",
+        "description": "Processi di produzione efficienti per una consegna rapida"
+      }
+    },
+    "gallery": {
+      "title": "Galleria di Lavorazione",
+      "description": "Guarda le nostre capacità di lavorazione di precisione in azione",
+      "galleryTitle": "Galleria del Processo di Lavorazione",
+      "alt1": "Processo di Lavorazione 1",
+      "alt2": "Processo di Lavorazione 2",
+      "alt3": "Processo di Lavorazione 3"
+    },
+    "cta": {
+      "title": "Precisione di cui Puoi Fidarti",
+      "description": "Sperimenta la differenza che la lavorazione di precisione fa per i tuoi componenti critici. Richiedi un preventivo oggi!",
+      "viewAllServices": "Visualizza Tutti i Servizi"
+    }
   }
 }

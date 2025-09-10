@@ -348,5 +348,71 @@
       "contactUs": "Bize Ulaşın",
       "viewAllProducts": "Tüm Ürünleri Görüntüle"
     }
+  },
+  "machiningPage": {
+    "hero": {
+      "subtitle": "Hassas Üretim",
+      "title": "Hassas İşleme Hizmetleri",
+      "description": "Hassas boyutsal ve işlevsel gereksinimleri karşılamak için, sıcak dövme işleminden sonra kapsamlı işleme hizmetleri sunuyoruz. Tesis içi işleme yeteneklerimiz arasında CNC tornalama, frezeleme, delme ve diş açma işlemleri yer alır, bu da nihai işlenmiş parçaların doğruluğu ve yüzey kalitesi üzerinde tam kontrol sağlar.",
+      "imageAlt": "Hassas İşleme"
+    },
+    "services": {
+      "title": "İşleme Hizmetlerimiz",
+      "description": "Sıcak dövülmüş bileşenlerinizi en zorlu spesifikasyonlara uygun hassas mühendislik parçalarına dönüştürmek için kapsamlı işleme çözümleri.",
+      "cncTurning": {
+        "title": "CNC Tornalama",
+        "description": "Sıkı toleranslar ve üstün yüzey kalitesi ile silindirik bileşenler için hassas tornalama işlemleri."
+      },
+      "cncMilling": {
+        "title": "CNC Frezeleme",
+        "description": "Çeşitli iş parçası malzemelerinde hassas geometriler ve özellikler oluşturmak için karmaşık frezeleme işlemleri."
+      },
+      "drillingThreading": {
+        "title": "Delme ve Diş Açma",
+        "description": "Tam spesifikasyonlara ve standartlara uygun doğru delik delme ve diş kesme işlemleri."
+      },
+      "surfaceFinishing": {
+        "title": "Yüzey İşleme",
+        "description": "Gerekli yüzey pürüzlülüğünü ve görünümünü elde etmek için profesyonel yüzey işleme teknikleri."
+      }
+    },
+    "capabilities": {
+      "title": "Teknik Yetenekler",
+      "description": "Son teknoloji işleme ekipmanlarımız ve yetkin teknisyenlerimiz, her bileşenin en yüksek hassasiyet ve kalite standartlarını karşılamasını sağlar.",
+      "tolerance": "Tolerans: ±0.01mm hassasiyet",
+      "surfaceFinish": "Yüzey kalitesi: Ra 0.8 μm veya daha iyi",
+      "materialCompatibility": "Malzeme uyumluluğu: Tüm çelik sınıfları",
+      "sizeRange": "Boyut aralığı: M6 ila M100",
+      "threading": "Diş açma: Metrik ve İngiliz",
+      "qualityControl": "Kalite kontrol: %100 denetim"
+    },
+    "whyChoose": {
+      "title": "Neden İşleme Hizmetlerimizi Seçmelisiniz?",
+      "integration": {
+        "title": "Tam Entegrasyon",
+        "description": "Sıcak dövmeden hassas işlemeye sorunsuz geçiş"
+      },
+      "qualityAssurance": {
+        "title": "Kalite Güvencesi",
+        "description": "Üretimin her aşamasında titiz kalite kontrol"
+      },
+      "fastTurnaround": {
+        "title": "Hızlı Teslimat",
+        "description": "Hızlı teslimat için verimli üretim süreçleri"
+      }
+    },
+    "gallery": {
+      "title": "İşleme Galerisi",
+      "description": "Hassas işleme yeteneklerimizi iş başında görün",
+      "galleryTitle": "İşleme Süreci Galerisi",
+      "alt1": "İşleme Süreci 1",
+      "alt2": "İşleme Süreci 2",
+      "alt3": "İşleme Süreci 3"
+    },
+    "cta": {
+      "title": "Güvenebileceğiniz Hassasiyet",
+      "description": "Kritik bileşenleriniz için hassas işlemenin farkını yaşayın. Bugün bir teklif alın!",
+      "viewAllServices": "Tüm Hizmetleri Görüntüle"
+    }
   }
 }

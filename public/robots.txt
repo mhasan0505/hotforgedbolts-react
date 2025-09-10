@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /production
+Allow: /about
+Allow: /contact
+Allow: /fasteners
+Allow: /hot-forging
+Allow: /machining
+Allow: /bolts
+Allow: /nuts
+Allow: /stud-bolts
+
+# Sitemap location
+Sitemap: https://hotforgedbolts.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

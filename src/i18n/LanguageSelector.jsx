@@ -1,6 +1,6 @@
+import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { ChevronDown } from "lucide-react";
 import englishFlag from "../assets/Icons/flag/English.png";
 import germanFlag from "../assets/Icons/flag/germany.png";
 import italianFlag from "../assets/Icons/flag/italy.png";
@@ -14,11 +14,11 @@ const languageOptions = [
     code: "en",
     flag: englishFlag,
   },
+  { language: "Türkçe", code: "tr", flag: turkishFlag },
   { language: "Italiano", code: "it", flag: italianFlag },
   { language: "Deutsch", code: "de", flag: germanFlag },
   { language: "Español", code: "es", flag: spanishFlag },
   { language: "Русский", code: "ru", flag: russianFlag },
-  { language: "Türkçe", code: "tr", flag: turkishFlag },
 ];
 
 const LanguageSelector = ({ isMobile = false }) => {
@@ -26,7 +26,9 @@ const LanguageSelector = ({ isMobile = false }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   // Use i18n.language directly instead of separate state
-  const currentLanguage = languageOptions.find(lang => lang.code === i18n.language);
+  const currentLanguage = languageOptions.find(
+    (lang) => lang.code === i18n.language
+  );
 
   const handleLanguageChange = (selectedCode) => {
     i18n.changeLanguage(selectedCode); // This will trigger re-renders
@@ -38,12 +40,12 @@ const LanguageSelector = ({ isMobile = false }) => {
   }, [i18n, i18n.language]);
 
   return (
-    <div className={`relative ${isMobile ? 'w-full' : 'w-auto'}`}>
+    <div className={`relative ${isMobile ? "w-full" : "w-auto"}`}>
       {/* Selected Language Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={`flex items-center gap-2 p-2 border border-gray-300 rounded-md shadow-sm bg-white hover:bg-gray-50 focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 transition-colors ${
-          isMobile ? 'w-full justify-between' : 'min-w-[120px]'
+          isMobile ? "w-full justify-between" : "min-w-[120px]"
         }`}
       >
         <div className="flex items-center gap-2">
@@ -53,25 +55,33 @@ const LanguageSelector = ({ isMobile = false }) => {
             className="w-5 h-4 object-cover rounded-sm"
           />
           <span className="text-sm font-medium">
-            {isMobile ? currentLanguage?.language : currentLanguage?.code.toUpperCase()}
+            {isMobile
+              ? currentLanguage?.language
+              : currentLanguage?.code.toUpperCase()}
           </span>
         </div>
-        <ChevronDown className={`w-4 h-4 transition-transform ${
-          isOpen ? 'rotate-180' : ''
-        }`} />
+        <ChevronDown
+          className={`w-4 h-4 transition-transform ${
+            isOpen ? "rotate-180" : ""
+          }`}
+        />
       </button>
 
       {/* Dropdown Menu */}
       {isOpen && (
-        <div className={`absolute top-full mt-1 bg-white border border-gray-300 rounded-md shadow-lg z-50 ${
-          isMobile ? 'w-full' : 'min-w-[160px]'
-        }`}>
+        <div
+          className={`absolute top-full mt-1 bg-white border border-gray-300 rounded-md shadow-lg z-50 ${
+            isMobile ? "w-full" : "min-w-[160px]"
+          }`}
+        >
           {languageOptions.map(({ language: langName, code, flag }) => (
             <button
               key={code}
               onClick={() => handleLanguageChange(code)}
               className={`w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-50 transition-colors ${
-                code === i18n.language ? 'bg-indigo-50 text-indigo-700' : 'text-gray-700'
+                code === i18n.language
+                  ? "bg-indigo-50 text-indigo-700"
+                  : "text-gray-700"
               }`}
             >
               <img

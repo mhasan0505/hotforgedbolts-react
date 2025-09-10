@@ -348,5 +348,71 @@
       ],
       "developed_by": "Diseño y desarrollo por <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
     }
-  }
+  },
+  "machiningPage": {
+   "hero": {
+        "subtitle": "Fabricación de Precisión",
+        "title": "Servicios de Mecanizado de Precisión",
+        "description": "Para cumplir con requisitos dimensionales y funcionales precisos, ofrecemos servicios de mecanizado integrales tras el proceso de forja en caliente. Nuestras capacidades de mecanizado internas incluyen torneado CNC, fresado, taladrado y roscado, asegurando un control total sobre la precisión y el acabado superficial de las piezas torneadas finales.",
+        "imageAlt": "Mecanizado de Precisión"
+      },
+      "services": {
+        "title": "Nuestros Servicios de Mecanizado",
+        "description": "Soluciones de mecanizado integrales para transformar sus componentes forjados en caliente en piezas de ingeniería de precisión que cumplen con las especificaciones más exigentes.",
+        "cncTurning": {
+          "title": "Torneado CNC",
+          "description": "Operaciones de torneado de precisión para componentes cilíndricos con tolerancias estrictas y un acabado superficial superior."
+        },
+        "cncMilling": {
+          "title": "Fresado CNC",
+          "description": "Operaciones de fresado complejas para crear geometrías y características precisas en diversos materiales de piezas de trabajo."
+        },
+        "drillingThreading": {
+          "title": "Taladrado y Roscado",
+          "description": "Operaciones precisas de taladrado de orificios y corte de roscas para cumplir con especificaciones y estándares exactos."
+        },
+        "surfaceFinishing": {
+          "title": "Acabado Superficial",
+          "description": "Técnicas profesionales de acabado superficial para lograr la rugosidad y apariencia requeridas."
+        }
+      },
+      "capabilities": {
+        "title": "Capacidades Técnicas",
+        "description": "Nuestro equipo de mecanizado de última generación y técnicos capacitados aseguran que cada componente cumpla con los más altos estándares de precisión y calidad.",
+        "tolerance": "Tolerancia: ±0.01mm de precisión",
+        "surfaceFinish": "Acabado superficial: Ra 0.8 μm o mejor",
+        "materialCompatibility": "Compatibilidad de materiales: Todos los grados de acero",
+        "sizeRange": "Rango de tamaños: M6 a M100",
+        "threading": "Roscado: Métrico e Imperial",
+        "qualityControl": "Control de calidad: Inspección al 100%"
+      },
+      "whyChoose": {
+        "title": "¿Por Qué Elegir Nuestro Mecanizado?",
+        "integration": {
+          "title": "Integración Completa",
+          "description": "Transición fluida de la forja en caliente al mecanizado de precisión"
+        },
+        "qualityAssurance": {
+          "title": "Garantía de Calidad",
+          "description": "Control de calidad riguroso en cada etapa de la producción"
+        },
+        "fastTurnaround": {
+          "title": "Entrega Rápida",
+          "description": "Procesos de producción eficientes para una entrega rápida"
+        }
+      },
+      "gallery": {
+        "title": "Galería de Mecanizado",
+        "description": "Vea nuestras capacidades de mecanizado de precisión en acción",
+        "galleryTitle": "Galería del Proceso de Mecanizado",
+        "alt1": "Proceso de Mecanizado 1",
+        "alt2": "Proceso de Mecanizado 2",
+        "alt3": "Proceso de Mecanizado 3"
+      },
+      "cta": {
+        "title": "Precisión en la que Puede Confiar",
+        "description": "Experimente la diferencia que el mecanizado de precisión hace para sus componentes críticos. ¡Obtenga una cotización hoy!",
+        "viewAllServices": "Ver Todos los Servicios"
+      }
+    }
 }

@@ -206,7 +206,7 @@
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Specialized in high-strength hot forged bolts and precision fastening solutions for demanding industrial applications."
     }
   },
-  
+
   "fastenersPage": {
     "hero": {
       "badge": "Production Excellence",
@@ -269,6 +269,72 @@
       "description": "Contact our technical team to discuss your fastener requirements and get a custom quote",
       "contactUs": "Contact Us",
       "viewAllProducts": "View All Products"
+    }
+  },
+  "machiningPage": {
+    "hero": {
+      "subtitle": "Precision Manufacturing",
+      "title": "Precision Machining Services",
+      "description": "To meet precise dimensional and functional requirements, we offer comprehensive machining services following the hot forging process. Our in-house machining capabilities include CNC turning, milling, drilling, and threading operations, ensuring complete control over final turned part accuracy and surface finish.",
+      "imageAlt": "Precision Machining"
+    },
+    "services": {
+      "title": "Our Machining Services",
+      "description": "Comprehensive machining solutions to transform your hot forged components into precision-engineered parts that meet the most demanding specifications.",
+      "cncTurning": {
+        "title": "CNC Turning",
+        "description": "Precision turning operations for cylindrical components with tight tolerances and superior surface finish."
+      },
+      "cncMilling": {
+        "title": "CNC Milling",
+        "description": "Complex milling operations for creating precise geometries and features on various workpiece materials."
+      },
+      "drillingThreading": {
+        "title": "Drilling & Threading",
+        "description": "Accurate hole drilling and thread cutting operations to meet exact specifications and standards."
+      },
+      "surfaceFinishing": {
+        "title": "Surface Finishing",
+        "description": "Professional surface finishing techniques to achieve required surface roughness and appearance."
+      }
+    },
+    "capabilities": {
+      "title": "Technical Capabilities",
+      "description": "Our state-of-the-art machining equipment and skilled technicians ensure that every component meets the highest standards of precision and quality.",
+      "tolerance": "Tolerance: ±0.01mm precision",
+      "surfaceFinish": "Surface finish: Ra 0.8 μm or better",
+      "materialCompatibility": "Material compatibility: All steel grades",
+      "sizeRange": "Size range: M6 to M100",
+      "threading": "Threading: Metric and Imperial",
+      "qualityControl": "Quality control: 100% inspection"
+    },
+    "whyChoose": {
+      "title": "Why Choose Our Machining?",
+      "integration": {
+        "title": "Complete Integration",
+        "description": "Seamless transition from hot forging to precision machining"
+      },
+      "qualityAssurance": {
+        "title": "Quality Assurance",
+        "description": "Rigorous quality control at every stage of production"
+      },
+      "fastTurnaround": {
+        "title": "Fast Turnaround",
+        "description": "Efficient production processes for quick delivery"
+      }
+    },
+    "gallery": {
+      "title": "Machining Gallery",
+      "description": "See our precision machining capabilities in action",
+      "galleryTitle": "Machining Process Gallery",
+      "alt1": "Machining Process 1",
+      "alt2": "Machining Process 2",
+      "alt3": "Machining Process 3"
+    },
+    "cta": {
+      "title": "Precision You Can Trust",
+      "description": "Experience the difference that precision machining makes for your critical components. Get a quote today!",
+      "viewAllServices": "View All Services"
     }
   },
   "footer": {
