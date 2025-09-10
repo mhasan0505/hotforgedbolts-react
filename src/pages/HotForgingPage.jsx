@@ -41,23 +41,27 @@ const HotForgingPage = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-orange-500 to-red-400 text-white py-20">
+      <section className="relative bg-gradient-to-br from-gray-100 to-gray-200 text-black py-20">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex items-center gap-3 mb-6">
                 <Zap className="w-8 h-8" />
-                <span className="text-orange-200 font-medium">Advanced Manufacturing</span>
+                <span className="text-gray-600 font-medium">
+                  Hot Forging
+                </span>
               </div>
-              <h1 className="text-5xl font-bold mb-6">Hot Forging Excellence</h1>
-              <p className="text-xl text-orange-100 mb-8 leading-relaxed">
-                State-of-the-art hot forging processes that deliver superior strength,
-                durability, and precision. Our advanced techniques ensure optimal grain
-                flow and exceptional mechanical properties.
+              <h1 className="text-5xl font-bold mb-6">
+                Hot Forging Excellence
+              </h1>
+              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                State-of-the-art hot forging processes that deliver superior
+                strength, durability, and precision. Our advanced techniques
+                ensure optimal grain flow and exceptional mechanical properties.
               </p>
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 bg-white text-orange-900 px-8 py-3 rounded-full hover:bg-orange-50 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
+                className="inline-flex items-center gap-2 bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
               >
                 Get Quote
                 <ChevronRight className="w-5 h-5" />
@@ -78,7 +82,9 @@ const HotForgingPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Forging Process</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Our Forging Process
+            </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Advanced hot forging techniques for superior component performance
             </p>
@@ -87,11 +93,16 @@ const HotForgingPage = () => {
             {processes.map((process, index) => {
               const IconComponent = process.icon;
               return (
-                <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div
+                  key={index}
+                  className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                >
                   <div className="p-3 bg-orange-100 rounded-full w-fit mb-6">
                     <IconComponent className="w-6 h-6 text-orange-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">{process.title}</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">
+                    {process.title}
+                  </h3>
                   <p className="text-gray-600">{process.description}</p>
                 </div>
               );
@@ -105,18 +116,27 @@ const HotForgingPage = () => {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-8">Manufacturing Capabilities</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-8">
+                Manufacturing Capabilities
+              </h2>
               <div className="space-y-6">
                 {capabilities.map((capability, index) => (
-                  <div key={index} className="border-l-4 border-orange-600 pl-6">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{capability.label}</h3>
+                  <div
+                    key={index}
+                    className="border-l-4 border-orange-600 pl-6"
+                  >
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                      {capability.label}
+                    </h3>
                     <p className="text-gray-600">{capability.value}</p>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-8">Key Advantages</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-8">
+                Key Advantages
+              </h2>
               <div className="space-y-4">
                 {advantages.map((advantage, index) => (
                   <div key={index} className="flex items-center gap-3">
@@ -131,11 +151,14 @@ const HotForgingPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-orange-400 text-white">
+      <section className="py-20 bg-gray-700 text-black">
         <div className="container mx-auto px-4 max-w-7xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Experience Hot Forging Excellence</h2>
-          <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-            Partner with us for superior hot forged components that meet your exact specifications
+          <h2 className="text-4xl font-bold mb-6 text-white">
+            Experience Hot Forging Excellence
+          </h2>
+          <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
+            Partner with us for superior hot forged components that meet your
+            exact specifications
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
