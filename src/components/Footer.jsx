@@ -61,7 +61,7 @@ const Footer = () => {
                 {t("footer.products.title")}
               </h3>
               <ul className="space-y-3">
-                {products.map((product) => (
+                {Array.isArray(products) && products.map((product) => (
                   <li key={product.path}>
                     <Link
                       to={product.path}

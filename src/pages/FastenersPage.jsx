@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {
   Award,
   CheckCircle,
@@ -7,48 +5,49 @@ import {
   Cog,
   Factory,
   Shield,
-} from 'lucide-react';
-import { Link } from 'react-router-dom';
-import fasteners from '../assets/Fasteners.jpg';
-import Bolts from './Bolts';
-import Nut from './Nut';
-import StudBolt from './StudBolt';
+} from "lucide-react";
+import { Link } from "react-router-dom";
+import { fastenerImage } from "../assets/fastening/image";
+import ImageGallery from "../components/ImageGallery";
+import { useTranslation } from "react-i18next";
 
 const FastenersPage = () => {
+  const { t } = useTranslation();
+
   const specifications = [
-    { label: 'Material Grades', value: 'A325, A490, 8.8, 10.9, 12.9' },
-    { label: 'Size Range', value: 'M6 to M64 (1/4" to 2.5")' },
-    { label: 'Thread Types', value: 'Metric, UNC, UNF, BSW' },
-    { label: 'Coating Options', value: 'Zinc, HDG, Dacromet, Plain' },
+    { label: t("fastenersPage.specifications.materialGrades.label"), value: t("fastenersPage.specifications.materialGrades.value") },
+    { label: t("fastenersPage.specifications.sizeRange.label"), value: t("fastenersPage.specifications.sizeRange.value") },
+    { label: t("fastenersPage.specifications.threadTypes.label"), value: t("fastenersPage.specifications.threadTypes.value") },
+    { label: t("fastenersPage.specifications.coatingOptions.label"), value: t("fastenersPage.specifications.coatingOptions.value") },
   ];
 
   const applications = [
-    'Structural Steel Construction',
-    'Bridge Construction',
-    'Industrial Machinery',
-    'Automotive Industry',
-    'Railway Infrastructure',
-    'Power Generation',
+    t("fastenersPage.applications.structuralSteel"),
+    t("fastenersPage.applications.bridgeConstruction"),
+    t("fastenersPage.applications.industrialMachinery"),
+    t("fastenersPage.applications.automotiveIndustry"),
+    t("fastenersPage.applications.railwayInfrastructure"),
+    t("fastenersPage.applications.powerGeneration"),
   ];
 
   const features = [
     {
       icon: Shield,
-      title: 'Bolts',
-      description: 'Advanced coating technologies for long-lasting protection',
-      path: '/bolts',
+      title: t("fastenersPage.features.items.bolts.title"),
+      description: t("fastenersPage.features.items.bolts.description"),
+      path: "/bolts",
     },
     {
       icon: Cog,
-      title: 'Nuts',
-      description: 'Manufactured to exact specifications with tight tolerances',
-      path: '/nuts',
+      title: t("fastenersPage.features.items.nuts.title"),
+      description: t("fastenersPage.features.items.nuts.description"),
+      path: "/nuts",
     },
     {
       icon: Award,
-      title: 'Stud Bolts',
-      description: 'ISO 9001:2015 certified manufacturing processes',
-      path: '/fasteners/stud-bolts',
+      title: t("fastenersPage.features.items.studBolts.title"),
+      description: t("fastenersPage.features.items.studBolts.description"),
+      path: "/fasteners/stud-bolts",
     },
   ];
 
@@ -62,29 +61,27 @@ const FastenersPage = () => {
               <div className="flex items-center gap-3 mb-6">
                 <Factory className="w-8 h-8" />
                 <span className="text-textcolor font-medium">
-                  Production Excellence
+                  {t("common.productionExcellence")}
                 </span>
               </div>
               <h1 className="text-5xl font-bold mb-6">
-                High-Quality Fasteners
+                {t("fastenersPage.hero.title")}
               </h1>
               <p className="text-xl text-textcolor mb-8 leading-relaxed">
-                Precision-engineered fastening solutions designed for critical
-                applications. Our fasteners meet international standards and
-                deliver exceptional performance in demanding environments.
+                {t("fastenersPage.hero.description")}
               </p>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-textcolor bg-orange-400 text-white px-8 py-3 rounded-full hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
               >
-                Get Quote
+                {t("fastenersPage.hero.getQuote")}
                 <ChevronRight className="w-5 h-5" />
               </Link>
             </div>
             <div className="relative">
               <img
-                src={fasteners}
-                alt="High-Quality Fasteners"
+                src={fastenerImage.main}
+                alt={t("fastenersPage.hero.imageAlt")}
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
@@ -97,11 +94,10 @@ const FastenersPage = () => {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Our Fasteners?
+              {t("fastenersPage.features.title")}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our fasteners are engineered for reliability, durability, and
-              performance
+              {t("fastenersPage.features.description")}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -131,11 +127,14 @@ const FastenersPage = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                Technical Specifications
+                {t("fastenersPage.specifications.title")}
               </h2>
               <div className="space-y-6">
                 {specifications.map((spec, index) => (
-                  <div key={index} className="border-l-4 border-violet-600 pl-6">
+                  <div
+                    key={index}
+                    className="border-l-4 border-violet-600 pl-6"
+                  >
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
                       {spec.label}
                     </h3>
@@ -146,7 +145,7 @@ const FastenersPage = () => {
             </div>
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                Applications
+                {t("fastenersPage.applications.title")}
               </h2>
               <div className="space-y-4">
                 {applications.map((application, index) => (
@@ -160,28 +159,30 @@ const FastenersPage = () => {
           </div>
         </div>
       </section>
+      <div className="container mx-auto px-4 max-w-7xl">
+        <ImageGallery images={fastenerImage.gallery} title={t("fastenersPage.gallery.title")} />
+      </div>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-violet-400 text-white">
         <div className="container mx-auto px-4 max-w-7xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Contact our technical team to discuss your fastener requirements and
-            get a custom quote
+          <h2 className="text-4xl font-bold mb-6">{t("fastenersPage.cta.title")}</h2>
+          <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
+            {t("fastenersPage.cta.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
+              className="inline-flex items-center gap-2 bg-white text-violet-600 px-8 py-3 rounded-full hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
             >
-              Contact Us
+              {t("buttons.contactUs")}
               <ChevronRight className="w-5 h-5" />
             </Link>
             <Link
               to="/production"
               className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-violet-600 transition-all duration-300 transform hover:scale-105 font-medium"
             >
-              View All Products
+              {t("buttons.viewAll")}
             </Link>
           </div>
         </div>

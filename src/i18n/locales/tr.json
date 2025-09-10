@@ -284,5 +284,69 @@
       ],
       "developed_by": "Tasarım ve Geliştirme <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
     }
+  },
+  "fastenersPage": {
+    "hero": {
+      "badge": "Üretim Mükemmeliyeti",
+      "title": "Yüksek Kaliteli Bağlantı Elemanları",
+      "description": "Kritik uygulamalar için hassas mühendislik ürünü bağlantı çözümleri. Bağlantı elemanlarımız uluslararası standartlara uygundur ve zorlu ortamlarda olağanüstü performans sunar.",
+      "getQuote": "Teklif Al",
+      "imageAlt": "Yüksek Kaliteli Bağlantı Elemanları"
+    },
+    "features": {
+      "title": "Neden Bağlantı Elemanlarımızı Seçmelisiniz?",
+      "description": "Bağlantı elemanlarımız güvenilirlik, dayanıklılık ve performans için tasarlanmıştır",
+      "items": {
+        "bolts": {
+          "title": "Cıvatalar",
+          "description": "Uzun süreli koruma için gelişmiş kaplama teknolojileri"
+        },
+        "nuts": {
+          "title": "Somunlar",
+          "description": "Sıkı toleranslarla tam spesifikasyonlara göre üretilmiştir"
+        },
+        "studBolts": {
+          "title": "Saplamalar",
+          "description": "ISO 9001:2015 sertifikalı üretim süreçleri"
+        }
+      }
+    },
+    "specifications": {
+      "title": "Teknik Özellikler",
+      "materialGrades": {
+        "label": "Malzeme Sınıfları",
+        "value": "A325, A490, 8.8, 10.9, 12.9"
+      },
+      "sizeRange": {
+        "label": "Boyut Aralığı",
+        "value": "M6 - M64 (1/4\" - 2.5\")"
+      },
+      "threadTypes": {
+        "label": "Diş Tipleri",
+        "value": "Metrik, UNC, UNF, BSW"
+      },
+      "coatingOptions": {
+        "label": "Kaplama Seçenekleri",
+        "value": "Çinko, HDG, Dacromet, Düz"
+      }
+    },
+    "applications": {
+      "title": "Uygulamalar",
+      "structuralSteel": "Yapısal Çelik İnşaat",
+      "bridgeConstruction": "Köprü İnşaatı",
+      "industrialMachinery": "Endüstriyel Makineler",
+      "automotiveIndustry": "Otomotiv Endüstrisi",
+      "railwayInfrastructure": "Demiryolu Altyapısı",
+      "powerGeneration": "Enerji Üretimi"
+    },
+    "gallery": {
+      "title": "Bağlantı Elemanları Galerisi"
+    },
+    "cta": {
+      "title": "Başlamaya Hazır mısınız?",
+      "description": "Bağlantı elemanı gereksinimlerinizi tartışmak ve özel bir teklif almak için teknik ekibimizle iletişime geçin",
+      "contactUs": "Bize Ulaşın",
+      "viewAllProducts": "Tüm Ürünleri Görüntüle"
+    }
   }
 }

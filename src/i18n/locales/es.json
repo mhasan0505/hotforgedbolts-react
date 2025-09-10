@@ -230,6 +230,71 @@
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Especializada en pernos forjados en caliente de alta resistencia y soluciones de fijación de precisión para aplicaciones industriales exigentes."
     }
   },
+
+  "fastenersPage": {
+    "hero": {
+      "badge": "Excelencia en Producción",
+      "title": "Sujetadores de Alta Calidad",
+      "description": "Soluciones de fijación diseñadas con precisión para aplicaciones críticas. Nuestros sujetadores cumplen con estándares internacionales y ofrecen un rendimiento excepcional en entornos exigentes.",
+      "getQuote": "Obtener Cotización",
+      "imageAlt": "Sujetadores de Alta Calidad"
+    },
+    "features": {
+      "title": "¿Por Qué Elegir Nuestros Sujetadores?",
+      "description": "Nuestros sujetadores están diseñados para ofrecer confiabilidad, durabilidad y rendimiento",
+      "items": {
+        "bolts": {
+          "title": "Tornillos",
+          "description": "Tecnologías de recubrimiento avanzadas para una protección duradera"
+        },
+        "nuts": {
+          "title": "Tuercas",
+          "description": "Fabricadas según especificaciones exactas con tolerancias estrictas"
+        },
+        "studBolts": {
+          "title": "Pernos Prisioneros",
+          "description": "Procesos de fabricación certificados por ISO 9001:2015"
+        }
+      }
+    },
+    "specifications": {
+      "title": "Especificaciones Técnicas",
+      "materialGrades": {
+        "label": "Grados de Material",
+        "value": "A325, A490, 8.8, 10.9, 12.9"
+      },
+      "sizeRange": {
+        "label": "Rango de Tamaños",
+        "value": "M6 a M64 (1/4\" a 2.5\")"
+      },
+      "threadTypes": {
+        "label": "Tipos de Rosca",
+        "value": "Métrica, UNC, UNF, BSW"
+      },
+      "coatingOptions": {
+        "label": "Opciones de Recubrimiento",
+        "value": "Zinc, HDG, Dacromet, Sin Recubrimiento"
+      }
+    },
+    "applications": {
+      "title": "Aplicaciones",
+      "structuralSteel": "Construcción de Acero Estructural",
+      "bridgeConstruction": "Construcción de Puentes",
+      "industrialMachinery": "Maquinaria Industrial",
+      "automotiveIndustry": "Industria Automotriz",
+      "railwayInfrastructure": "Infraestructura Ferroviaria",
+      "powerGeneration": "Generación de Energía"
+    },
+    "gallery": {
+      "title": "Galería de Sujetadores"
+    },
+    "cta": {
+      "title": "Listo para Comenzar?",
+      "description": "Contacta a nuestro equipo técnico para discutir tus requerimientos de sujetadores y obtener una cotización personalizada",
+      "contactUs": "Contáctanos",
+      "viewAllProducts": "Ver Todos los Productos"
+    }
+  },
   "footer": {
     "brand": {
       "description": "Fabricante líder de pernos forjados en caliente de alta calidad, elementos de fijación y componentes mecanizados de precisión para aplicaciones industriales en todo el mundo.",

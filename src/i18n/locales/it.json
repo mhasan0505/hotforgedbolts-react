@@ -283,5 +283,69 @@
       ],
       "developed_by": "Design e Sviluppo di <br /> <a href='https://www.creativeartix.com'>Creative Artix</a>"
     }
+  },
+  "fastenersPage": {
+    "hero": {
+      "badge": "Eccellenza nella Produzione",
+      "title": "Elementi di Fissaggio di Alta Qualità",
+      "description": "Soluzioni di fissaggio progettate con precisione per applicazioni critiche. I nostri elementi di fissaggio soddisfano gli standard internazionali e offrono prestazioni eccezionali in ambienti esigenti.",
+      "getQuote": "Richiedi Preventivo",
+      "imageAlt": "Elementi di Fissaggio di Alta Qualità"
+    },
+    "features": {
+      "title": "Perché Scegliere i Nostri Elementi di Fissaggio?",
+      "description": "I nostri elementi di fissaggio sono progettati per affidabilità, durata e prestazioni",
+      "items": {
+        "bolts": {
+          "title": "Bulloni",
+          "description": "Tecnologie di rivestimento avanzate per una protezione a lungo termine"
+        },
+        "nuts": {
+          "title": "Dadi",
+          "description": "Prodotti secondo specifiche esatte con tolleranze ristrette"
+        },
+        "studBolts": {
+          "title": "Perni Prigionieri",
+          "description": "Processi di produzione certificati ISO 9001:2015"
+        }
+      }
+    },
+    "specifications": {
+      "title": "Specifiche Tecniche",
+      "materialGrades": {
+        "label": "Gradi di Materiale",
+        "value": "A325, A490, 8.8, 10.9, 12.9"
+      },
+      "sizeRange": {
+        "label": "Gamma di Dimensioni",
+        "value": "M6 a M64 (1/4\" a 2.5\")"
+      },
+      "threadTypes": {
+        "label": "Tipi di Filettatura",
+        "value": "Metrica, UNC, UNF, BSW"
+      },
+      "coatingOptions": {
+        "label": "Opzioni di Rivestimento",
+        "value": "Zinco, HDG, Dacromet, Naturale"
+      }
+    },
+    "applications": {
+      "title": "Applicazioni",
+      "structuralSteel": "Costruzione in Acciaio Strutturale",
+      "bridgeConstruction": "Costruzione di Ponti",
+      "industrialMachinery": "Macchinari Industriali",
+      "automotiveIndustry": "Industria Automobilistica",
+      "railwayInfrastructure": "Infrastruttura Ferroviaria",
+      "powerGeneration": "Produzione di Energia"
+    },
+    "gallery": {
+      "title": "Galleria di Elementi di Fissaggio"
+    },
+    "cta": {
+      "title": "Pronti a Iniziare?",
+      "description": "Contatta il nostro team tecnico per discutere delle tue esigenze di fissaggio e ottenere un preventivo personalizzato",
+      "contactUs": "Contattaci",
+      "viewAllProducts": "Visualizza Tutti i Prodotti"
+    }
   }
 }

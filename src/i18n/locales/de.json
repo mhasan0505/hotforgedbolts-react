@@ -178,6 +178,71 @@
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Spezialisiert auf hochfeste Warmumformschrauben und Präzisionsbefestigungslösungen für anspruchsvolle industrielle Anwendungen."
     }
   },
+
+  "fastenersPage": {
+    "hero": {
+      "badge": "Produktions-Exzellenz",
+      "title": "Hochwertige Verbindungselemente",
+      "description": "Präzisionsgefertigte Befestigungslösungen für kritische Anwendungen. Unsere Verbindungselemente entsprechen internationalen Standards und bieten außergewöhnliche Leistung in anspruchsvollen Umgebungen.",
+      "getQuote": "Angebot anfordern",
+      "imageAlt": "Hochwertige Verbindungselemente"
+    },
+    "features": {
+      "title": "Warum Unsere Verbindungselemente Wählen?",
+      "description": "Unsere Verbindungselemente sind für Zuverlässigkeit, Langlebigkeit und Leistung ausgelegt",
+      "items": {
+        "bolts": {
+          "title": "Schrauben",
+          "description": "Fortschrittliche Beschichtungstechnologien für langanhaltenden Schutz"
+        },
+        "nuts": {
+          "title": "Muttern",
+          "description": "Nach exakten Spezifikationen mit engen Toleranzen gefertigt"
+        },
+        "studBolts": {
+          "title": "Gewindebolzen",
+          "description": "ISO 9001:2015 zertifizierte Fertigungsprozesse"
+        }
+      }
+    },
+    "specifications": {
+      "title": "Technische Spezifikationen",
+      "materialGrades": {
+        "label": "Materialgüten",
+        "value": "A325, A490, 8.8, 10.9, 12.9"
+      },
+      "sizeRange": {
+        "label": "Größenbereich",
+        "value": "M6 bis M64 (1/4\" bis 2.5\")"
+      },
+      "threadTypes": {
+        "label": "Gewindearten",
+        "value": "Metrisch, UNC, UNF, BSW"
+      },
+      "coatingOptions": {
+        "label": "Beschichtungsoptionen",
+        "value": "Zink, HDG, Dacromet, Unbeschichtet"
+      }
+    },
+    "applications": {
+      "title": "Anwendungen",
+      "structuralSteel": "Stahlbau",
+      "bridgeConstruction": "Brückenbau",
+      "industrialMachinery": "Industriemaschinen",
+      "automotiveIndustry": "Automobilindustrie",
+      "railwayInfrastructure": "Bahninfrastruktur",
+      "powerGeneration": "Energieerzeugung"
+    },
+    "gallery": {
+      "title": "Verbindungselemente-Galerie"
+    },
+    "cta": {
+      "title": "Bereit zum Start?",
+      "description": "Kontaktieren Sie unser technisches Team, um Ihre Anforderungen an Verbindungselemente zu besprechen und ein individuelles Angebot zu erhalten",
+      "contactUs": "Kontaktieren Sie uns",
+      "viewAllProducts": "Alle Produkte ansehen"
+    }
+  },
   "footer": {
     "brand": {
       "description": "Führender Hersteller von hochwertigen Warmumformschrauben, Befestigungselementen und präzisionsgefertigten Komponenten für industrielle Anwendungen weltweit.",

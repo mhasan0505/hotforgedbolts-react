@@ -28,43 +28,21 @@
     "learnMore": "Learn More",
     "viewAll": "View All Products"
   },
-  "boltNavigator": {
-    "badge": "Explore Our Products",
-    "title": "Bolt Categories",
-    "description": "Discover our comprehensive range of high-quality hot forged bolts, engineered for strength and precision in every application.",
-    "boltTypes": {
-      "allen": {
-        "title": "Allen Bolts",
-        "description": "Socket head cap screws for precision applications"
-      },
-      "countersunk": {
-        "title": "Countersunk Allen Bolts",
-        "description": "Flush-mounted bolts for smooth surfaces"
-      },
-      "eye": {
-        "title": "Eye Bolts & Lifting Bolts",
-        "description": "Heavy-duty lifting and rigging solutions"
-      },
-      "hex": {
-        "title": "Hex Head Bolts",
-        "description": "Standard hexagonal head fasteners"
-      },
-      "square": {
-        "title": "Square & T-Head Bolts",
-        "description": "Specialized bolts for unique applications"
-      }
-    },
-    "learnMore": "Learn More",
-    "cta": {
-      "title": "Need Custom Solutions?",
-      "subtitle": "Contact our engineering team for specialized requirements"
-    }
-  },
   "common": {
     "loading": "Loading...",
     "error": "Error",
     "success": "Success",
-    "language": "Language"
+    "language": "Language",
+    "technicalSpecifications": "Technical Specifications",
+    "qualityStandards": "Quality Standards",
+    "AvailableCoating": "Available Coating",
+    "weightChart": "Weight Chart",
+    "productImage": "Product Image",
+    "productGallery": "Product Gallery",
+    "diameterrange": "Diameter Range",
+    "materialGrades": "Material Grades",
+    "dimensionalChart": "Dimensional Chart",
+    "fastenersGallery": "Fasteners Gallery"
   },
   "production": {
     "header": {
@@ -228,6 +206,71 @@
       "description": "<strong>Brkkol Alüminyum Metal Endüstri Tic Ltd.</strong><br />Specialized in high-strength hot forged bolts and precision fastening solutions for demanding industrial applications."
     }
   },
+  
+  "fastenersPage": {
+    "hero": {
+      "badge": "Production Excellence",
+      "title": "High-Quality Fasteners",
+      "description": "Precision-engineered fastening solutions designed for critical applications. Our fasteners meet international standards and deliver exceptional performance in demanding environments.",
+      "getQuote": "Get Quote",
+      "imageAlt": "High-Quality Fasteners"
+    },
+    "features": {
+      "title": "Why Choose Our Fasteners?",
+      "description": "Our fasteners are engineered for reliability, durability, and performance",
+      "items": {
+        "bolts": {
+          "title": "Bolts",
+          "description": "Advanced coating technologies for long-lasting protection"
+        },
+        "nuts": {
+          "title": "Nuts",
+          "description": "Manufactured to exact specifications with tight tolerances"
+        },
+        "studBolts": {
+          "title": "Stud Bolts",
+          "description": "ISO 9001:2015 certified manufacturing processes"
+        }
+      }
+    },
+    "specifications": {
+      "title": "Technical Specifications",
+      "materialGrades": {
+        "label": "Material Grades",
+        "value": "A325, A490, 8.8, 10.9, 12.9"
+      },
+      "sizeRange": {
+        "label": "Size Range",
+        "value": "M6 to M64 (1/4\" to 2.5\")"
+      },
+      "threadTypes": {
+        "label": "Thread Types",
+        "value": "Metric, UNC, UNF, BSW"
+      },
+      "coatingOptions": {
+        "label": "Coating Options",
+        "value": "Zinc, HDG, Dacromet, Plain"
+      }
+    },
+    "applications": {
+      "title": "Applications",
+      "structuralSteel": "Structural Steel Construction",
+      "bridgeConstruction": "Bridge Construction",
+      "industrialMachinery": "Industrial Machinery",
+      "automotiveIndustry": "Automotive Industry",
+      "railwayInfrastructure": "Railway Infrastructure",
+      "powerGeneration": "Power Generation"
+    },
+    "gallery": {
+      "title": "Fastener Gallery"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Contact our technical team to discuss your fastener requirements and get a custom quote",
+      "contactUs": "Contact Us",
+      "viewAllProducts": "View All Products"
+    }
+  },
   "footer": {
     "brand": {
       "description": "Leading manufacturer of high-quality hot forged bolts, fasteners, and precision machined components for industrial applications worldwide.",
@@ -250,7 +293,6 @@
         { "path": "/machining", "name": "Machining" },
         { "path": "/bolts", "name": "Bolts" },
         { "path": "/nuts", "name": "Nuts" },
-        { "path": "/fasteners", "name": "Fasteners" },
         { "path": "/contact", "name": "Custom Solutions" }
       ]
     },
