@@ -35,6 +35,39 @@
     "success": "Başarılı",
     "language": "Dil"
   },
+  "boltNavigator": {
+    "badge": "Keşfedin",
+    "title": "Cıvatalar",
+    "description": "Dünya çapında endüstriler tarafından güvenilen, güç, doğruluk ve dayanıklılıkla tasarlanmış sıcak dövme cıvatalar ve somunlar",
+    "boltTypes": {
+      "allen": {
+        "title": "Cıvatalar Allen",
+        "description": "Cıvatalar için kовка в горячую с головой socket head, идеально подходящие для точных приложений."
+      },
+      "countersunk": {
+        "title": "Cıvatalar Countersunk",
+        "description": "Cıvatalar для ковки в горячую с головой countersunk, идеально подходящие для точных приложений."
+      },
+      "eye": {
+        "title": "Cıvatalar Eye",
+        "description": "Cıvatalar для ковки в горячую с головой eye, идеально подходящие для точных приложений."
+      },
+      "hex": {
+        "title": "Cıvatalar Hex",
+        "description": "Cıvatalar для ковки в горячую с головой hex, идеально подходящие для точных приложений."
+      },
+      "square": {
+        "title": "Cıvatalar Square",
+        "description": "Cıvatalar для ковки в горячую с головой square, идеально подходящие для точных приложений."
+      }
+    },
+    "cta": {
+      "learnMore": "Daha Fazla Bilgi Edinin",
+      "title": "Özel Çözümlere mi İhtiyacınız Var?",
+      "subtitle": "Özel gereksinimler için mühendislik ekibimizle iletişime geçin"
+    }
+  },
+
   "production": {
     "header": {
       "title": "Üretim",

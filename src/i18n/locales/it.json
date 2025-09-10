@@ -29,6 +29,39 @@
     "learnMore": "Scopri di Più",
     "viewAll": "Visualizza Tutti i Prodotti"
   },
+  "boltNavigator": {
+    "badge": "Scopri i nostri prodotti",
+    "title": "Categorie di Bulloni",
+    "description": "Scopri la nostra vasta gamma di bulloni di alta qualità, progettati per forza, precisione e durata — da bulloni standard a specifiche personalizzate.",
+    "boltTypes": {
+      "allen": {
+        "title": "Bulloni Allen",
+        "description": "Bulloni per forgiatura a caldo con testa socket head, ideali per applicazioni precise."
+      },
+      "countersunk": {
+        "title": "Bulloni Countersunk",
+        "description": "Bulloni per forgiatura a caldo con testa countersunk, ideali per applicazioni precise."
+      },
+      "eye": {
+        "title": "Bulloni Eye",
+        "description": "Bulloni per forgiatura a caldo con testa eye, ideali per applicazioni precise."
+      },
+      "hex": {
+        "title": "Bulloni Hex",
+        "description": "Bulloni per forgiatura a caldo con testa hex, ideali per applicazioni precise."
+      },
+      "square": {
+        "title": "Bulloni Square",
+        "description": "Bulloni per forgiatura a caldo con testa square, ideali per applicazioni precise."
+      }
+    },
+    "cta": {
+      "learnMore": "Scopri di Più",
+      "title": "Sono alla ricerca di soluzioni specializzate?",
+      "subtitle": "Contattaci per ottenere ulteriori informazioni."
+    }
+  },
+
   "common": {
     "loading": "Caricamento...",
     "error": "Errore",

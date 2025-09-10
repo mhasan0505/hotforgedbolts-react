@@ -29,12 +29,39 @@
     "learnMore": "Mehr Erfahren",
     "viewAll": "Alle Produkte Anzeigen"
   },
-  "common": {
-    "loading": "Laden...",
-    "error": "Fehler",
-    "success": "Erfolg",
-    "language": "Sprache"
+  "boltNavigator": {
+    "badge": "Entdecken Sie unsere Produkte",
+    "title": "Schraubenkategorien",
+    "description": "Discover our comprehensive range of high-quality hot forged bolts, engineered for strength and precision in every application.",
+    "boltTypes": {
+      "allen": {
+        "title": "Allen Bolts",
+        "description": "Socket head cap screws for precision applications"
+      },
+      "countersunk": {
+        "title": "Countersunk Allen Bolts",
+        "description": "Flush-mounted bolts for smooth surfaces"
+      },
+      "eye": {
+        "title": "Eye Bolts & Lifting Bolts",
+        "description": "Heavy-duty lifting and rigging solutions"
+      },
+      "hex": {
+        "title": "Hex Head Bolts",
+        "description": "Standard hexagonal head fasteners"
+      },
+      "square": {
+        "title": "Square & T-Head Bolts",
+        "description": "Specialized bolts for unique applications"
+      }
+    },
+    "cta": {
+      "learnMore": "Mehr erfahren",
+      "title": "Sind Sie nach speziellen Lösungen suchen?",
+      "subtitle": "Kontaktieren Sie uns, um weitere Informationen zu erhalten."
+    }
   },
+
   "about": {
     "hero": {
       "title": "Wir steigern die Leistungsfähigkeit von Industrien mit unseren innovativen <span>Warmumformlösungen</span>",

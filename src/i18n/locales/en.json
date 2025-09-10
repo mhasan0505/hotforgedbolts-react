@@ -28,6 +28,38 @@
     "learnMore": "Learn More",
     "viewAll": "View All Products"
   },
+  "boltNavigator": {
+    "badge": "Explore Our Products",
+    "title": "Bolt Categories",
+    "description": "Discover our comprehensive range of high-quality hot forged bolts, engineered for strength and precision in every application.",
+    "boltTypes": {
+      "allen": {
+        "title": "Allen Bolts",
+        "description": "Socket head cap screws for precision applications"
+      },
+      "countersunk": {
+        "title": "Countersunk Allen Bolts",
+        "description": "Flush-mounted bolts for smooth surfaces"
+      },
+      "eye": {
+        "title": "Eye Bolts & Lifting Bolts",
+        "description": "Heavy-duty lifting and rigging solutions"
+      },
+      "hex": {
+        "title": "Hex Head Bolts",
+        "description": "Standard hexagonal head fasteners"
+      },
+      "square": {
+        "title": "Square & T-Head Bolts",
+        "description": "Specialized bolts for unique applications"
+      }
+    },
+    "learnMore": "Learn More",
+    "cta": {
+      "title": "Need Custom Solutions?",
+      "subtitle": "Contact our engineering team for specialized requirements"
+    }
+  },
   "common": {
     "loading": "Loading...",
     "error": "Error",

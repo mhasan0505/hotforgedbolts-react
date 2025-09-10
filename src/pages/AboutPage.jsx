@@ -1,3 +1,4 @@
+import { Sparkles } from 'lucide-react';
 import About from "../components/About";
 import SEOHead from "../components/shared/SEOHead";
 import { seoData } from "../data/seoData";
@@ -11,14 +12,22 @@ const AboutPage = () => {
         keywords={seoData.about.keywords}
         url="https://hotforgedbolts.com/about"
       />
-      <div className="pt-20">
-        <div className="container mx-auto px-4 py-8 text-center">
-          <h1 className="text-3xl md:text-7xl font-bold mb-6 text-orange-700">
-            About Hot Forged Bolts
-          </h1>
-          <p className="text-lg text-gray-900 text-center mb-12 max-w-3xl mx-auto">
-            Learn more about our company, our mission, and our commitment to
-            delivering high-quality fastening solutions to industries worldwide.
+      <div className="pt-40">
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-violet-100 text-violet-700 rounded-full text-sm font-medium mb-4 animate-fade-in">
+            <Sparkles className="w-4 h-4" />
+            About Bkk Bolts
+          </div>
+
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in-up">
+            <span className="bg-gradient-to-r from-slate-800 via-violet-600 to-indigo-600 bg-clip-text text-transparent">
+              About Bkk Bolts
+            </span>
+          </h2>
+
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
+            About Bkk Bolts is a leading provider of high-quality hot forged bolts,
+            engineered for strength and precision in every application.
           </p>
         </div>
         <About />

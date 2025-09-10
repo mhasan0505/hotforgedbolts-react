@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   Wrench,
   Zap,
@@ -11,11 +12,13 @@ import {
 } from 'lucide-react';
 
 const BoltNavigator = () => {
+  const { t } = useTranslation();
+
   const boltTypes = [
     {
       id: 'allen',
-      title: 'Allen Bolts',
-      description: 'Socket head cap screws for precision applications',
+      title: t('boltNavigator.boltTypes.allen.title'),
+      description: t('boltNavigator.boltTypes.allen.description'),
       icon: Wrench,
       path: '/bolts',
       color: 'violet',
@@ -23,8 +26,8 @@ const BoltNavigator = () => {
     },
     {
       id: 'countersunk',
-      title: 'Countersunk Allen Bolts',
-      description: 'Flush-mounted bolts for smooth surfaces',
+      title: t('boltNavigator.boltTypes.countersunk.title'),
+      description: t('boltNavigator.boltTypes.countersunk.description'),
       icon: Zap,
       path: '/bolts/countersunk-bolts',
       color: 'indigo',
@@ -32,8 +35,8 @@ const BoltNavigator = () => {
     },
     {
       id: 'eye',
-      title: 'Eye Bolts & Lifting Bolts',
-      description: 'Heavy-duty lifting and rigging solutions',
+      title: t('boltNavigator.boltTypes.eye.title'),
+      description: t('boltNavigator.boltTypes.eye.description'),
       icon: Eye,
       path: '/bolts/eye-bolts',
       color: 'purple',
@@ -41,8 +44,8 @@ const BoltNavigator = () => {
     },
     {
       id: 'hex',
-      title: 'Hex Head Bolts',
-      description: 'Standard hexagonal head fasteners',
+      title: t('boltNavigator.boltTypes.hex.title'),
+      description: t('boltNavigator.boltTypes.hex.description'),
       icon: Hexagon,
       path: '/bolts/hex-head-bolts',
       color: 'blue',
@@ -50,8 +53,8 @@ const BoltNavigator = () => {
     },
     {
       id: 'square',
-      title: 'Square & T-Head Bolts',
-      description: 'Specialized bolts for unique applications',
+      title: t('boltNavigator.boltTypes.square.title'),
+      description: t('boltNavigator.boltTypes.square.description'),
       icon: Square,
       path: '/bolts/square-bolts',
       color: 'teal',
@@ -66,18 +69,17 @@ const BoltNavigator = () => {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-violet-100 text-violet-700 rounded-full text-sm font-medium mb-4 animate-fade-in">
             <Sparkles className="w-4 h-4" />
-            Explore Our Products
+            {t('boltNavigator.badge')}
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in-up">
             <span className="bg-gradient-to-r from-slate-800 via-violet-600 to-indigo-600 bg-clip-text text-transparent">
-              Bolt Categories
+              {t('boltNavigator.title')}
             </span>
           </h2>
 
           <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
-            Discover our comprehensive range of high-quality hot forged bolts,
-            engineered for strength and precision in every application.
+            {t('boltNavigator.description')}
           </p>
         </div>
 
@@ -118,7 +120,7 @@ const BoltNavigator = () => {
                     {/* Action */}
                     <div className="flex items-center justify-between">
                       <span className={`text-sm font-medium text-${bolt.color}-600 group-hover:text-${bolt.color}-700 transition-colors`}>
-                        Learn More
+                        {t('boltNavigator.learnMore')}
                       </span>
                       <ArrowRight className={`w-4 h-4 text-${bolt.color}-600 group-hover:text-${bolt.color}-700 transform group-hover:translate-x-1 transition-all duration-300`} />
                     </div>
@@ -135,11 +137,11 @@ const BoltNavigator = () => {
         {/* Call to Action */}
         <div className="text-center mt-12 animate-fade-in-up animation-delay-600">
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-600 to-indigo-600 text-white rounded-full hover:from-violet-700 hover:to-indigo-700 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
-            <span className="font-medium">Need Custom Solutions?</span>
+            <span className="font-medium">{t('boltNavigator.cta.title')}</span>
             <ArrowRight className="w-4 h-4" />
           </div>
           <p className="text-sm text-slate-500 mt-2">
-            Contact our engineering team for specialized requirements
+            {t('boltNavigator.cta.subtitle')}
           </p>
         </div>
       </div>

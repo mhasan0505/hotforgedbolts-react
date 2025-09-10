@@ -35,6 +35,39 @@
     "success": "Éxito",
     "language": "Idioma"
   },
+  "boltNavigator": {
+    "badge": "Descubre nuestros productos",
+    "title": "Categorías de Pernos",
+    "description": "Descubre nuestra amplia gama de pernos de alta calidad, diseñados para resistencia, precisión y durabilidad — desde pernos estándar hasta especificaciones personalizadas.",
+    "boltTypes": {
+      "allen": {
+        "title": "Pernos Allen",
+        "description": "Pernos para forja en caliente con cabeza socket head, ideales para aplicaciones precisas."
+      },
+      "countersunk": {
+        "title": "Pernos Countersunk",
+        "description": "Pernos para forja en caliente con cabeza countersunk, ideales para aplicaciones precisas."
+      },
+      "eye": {
+        "title": "Pernos Eye",
+        "description": "Pernos para forja en caliente con cabeza eye, ideales para aplicaciones precisas."
+      },
+      "hex": {
+        "title": "Pernos Hex",
+        "description": "Pernos para forja en caliente con cabeza hex, ideales para aplicaciones precisas."
+      },
+      "square": {
+        "title": "Pernos Square",
+        "description": "Pernos para forja en caliente con cabeza square, ideales para aplicaciones precisas."
+      }
+    },
+    "cta": {
+      "learnMore": "Saber Más",
+      "title": "¿Necesitas Soluciones Especializadas?",
+      "subtitle": "Contáctanos para obtener más información sobre nuestros productos y servicios."
+    }
+  },
+
   "production": {
     "header": {
       "title": "Producción",
