@@ -553,5 +553,68 @@
       "title": "Tabla de Pesos",
       "alt": "Tabla de Pesos"
     }
+  },
+  "eyeBoltPage": {
+    "din444": {
+      "header": {
+        "title": "Pernos de Ojo y Pernos de Elevación",
+        "subtitle": "DIN 444 PERNOS DE OJO"
+      },
+      "overview": {
+        "title": "DIN 444 PERNOS DE OJO",
+        "description": "El perno de ojo DIN 444 UNI 6058 se utiliza en enlaces mecánicos, aplicaciones de elevación y como elementos de conexión"
+      },
+      "technicalSpecs": {
+        "title": "Especificaciones Técnicas"
+      },
+      "qualityStandards": {
+        "title": "Estándares de Calidad",
+        "steel": "Acero:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Acero Inoxidable:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Rosca:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Recubrimientos Disponibles",
+        "description": "Ya sea que necesite galvanizado de zinc, recubrimientos PTFE o cualquier otro tratamiento superficial, lo tenemos cubierto. Tales como: Galvanizado de zinc, galvanizado de zinc-níquel, recubrimientos de zinc-escamas como Geomet, Dörken, Magni, Corundum, recubrimientos PTFE como Xylan, Xylar, lubricación Lubo, galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc."
+      },
+      "gallery": {
+        "title": "Galería de Productos"
+      }
+    },
+    "din580": {
+      "header": {
+        "title": "Pernos de Ojo y Pernos de Elevación",
+        "subtitle": "DIN 580 PERNO DE OJO DE ELEVACIÓN"
+      },
+      "overview": {
+        "title": "DIN 580 PERNO DE OJO DE ELEVACIÓN",
+        "description": "El perno de ojo de elevación DIN 580 ISO 3266 UNI 2947 se utiliza para elevar y izar cargas pesadas de manera segura y estandarizada."
+      },
+      "technicalSpecs": {
+        "title": "Especificaciones Técnicas"
+      },
+      "qualityStandards": {
+        "title": "Estándares de Calidad",
+        "steel": "Acero:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Acero Inoxidable:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Rosca:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Recubrimientos Disponibles",
+        "description": "Ya sea que necesite galvanizado de zinc, recubrimientos PTFE o cualquier otro tratamiento superficial, lo tenemos cubierto. Tales como: Galvanizado de zinc, galvanizado de zinc-níquel, recubrimientos de zinc-escamas como Geomet, Dörken, Magni, Corundum, recubrimientos PTFE como Xylan, Xylar, lubricación Lubo, galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc."
+      },
+      "gallery": {
+        "title": "Galería de Productos"
+      },
+      "weightChart": {
+        "title": "Tabla de Peso"
+      }
+    }
   }
 }

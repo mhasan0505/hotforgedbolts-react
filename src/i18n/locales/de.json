@@ -554,5 +554,68 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "eyeBoltPage": {
+    "din444": {
+      "header": {
+        "title": "Augenschrauben & Hebeschrauben",
+        "subtitle": "DIN 444 AUGENSCHRAUBEN"
+      },
+      "overview": {
+        "title": "DIN 444 AUGENSCHRAUBEN",
+        "description": "DIN 444 UNI 6058 Augenschraube wird in mechanischen Verbindungen, Hebeanwendungen und als Verbindungselemente verwendet"
+      },
+      "technicalSpecs": {
+        "title": "Technische Spezifikationen"
+      },
+      "qualityStandards": {
+        "title": "Qualitätsstandards",
+        "steel": "Stahl:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Edelstahl:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Gewinde:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Verfügbare Beschichtungen",
+        "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, mechanische Verzinkung, Zink-Eisen... usw."
+      },
+      "gallery": {
+        "title": "Produktgalerie"
+      }
+    },
+    "din580": {
+      "header": {
+        "title": "Augenschrauben & Hebeschrauben",
+        "subtitle": "DIN 580 HEBE-AUGENSCHRAUBE"
+      },
+      "overview": {
+        "title": "DIN 580 HEBE-AUGENSCHRAUBE",
+        "description": "DIN 580 ISO 3266 UNI 2947 Hebe-Augenschraube wird zum sicheren und standardisierten Heben und Hieven schwerer Lasten verwendet."
+      },
+      "technicalSpecs": {
+        "title": "Technische Spezifikationen"
+      },
+      "qualityStandards": {
+        "title": "Qualitätsstandards",
+        "steel": "Stahl:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Edelstahl:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Gewinde:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Verfügbare Beschichtungen",
+        "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, mechanische Verzinkung, Zink-Eisen... usw."
+      },
+      "gallery": {
+        "title": "Produktgalerie"
+      },
+      "weightChart": {
+        "title": "Gewichtstabelle"
+      }
+    }
   }
 }

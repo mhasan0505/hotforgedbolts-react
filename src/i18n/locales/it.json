@@ -544,5 +544,68 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "eyeBoltPage": {
+    "din444": {
+      "header": {
+        "title": "Bulloni ad Occhiello e Bulloni di Sollevamento",
+        "subtitle": "DIN 444 BULLONI AD OCCHIELLO"
+      },
+      "overview": {
+        "title": "DIN 444 BULLONI AD OCCHIELLO",
+        "description": "Il bullone ad occhiello DIN 444 UNI 6058 è utilizzato in collegamenti meccanici, applicazioni di sollevamento e come elementi di connessione"
+      },
+      "technicalSpecs": {
+        "title": "Specifiche Tecniche"
+      },
+      "qualityStandards": {
+        "title": "Standard di Qualità",
+        "steel": "Acciaio:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Acciaio Inossidabile:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Filettatura:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Rivestimenti Disponibili",
+        "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo tutto coperto. Come ad esempio: Zincatura, zincatura zinco-nichel, rivestimenti zinco-scaglie come Geomet, Dörken, Magni, Corundum, rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-Ferro... ecc."
+      },
+      "gallery": {
+        "title": "Galleria Prodotti"
+      }
+    },
+    "din580": {
+      "header": {
+        "title": "Bulloni ad Occhiello e Bulloni di Sollevamento",
+        "subtitle": "DIN 580 BULLONE AD OCCHIELLO DI SOLLEVAMENTO"
+      },
+      "overview": {
+        "title": "DIN 580 BULLONE AD OCCHIELLO DI SOLLEVAMENTO",
+        "description": "Il bullone ad occhiello di sollevamento DIN 580 ISO 3266 UNI 2947 è utilizzato per sollevare e issare carichi pesanti in modo sicuro e standardizzato."
+      },
+      "technicalSpecs": {
+        "title": "Specifiche Tecniche"
+      },
+      "qualityStandards": {
+        "title": "Standard di Qualità",
+        "steel": "Acciaio:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Acciaio Inossidabile:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Filettatura:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Rivestimenti Disponibili",
+        "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo tutto coperto. Come ad esempio: Zincatura, zincatura zinco-nichel, rivestimenti zinco-scaglie come Geomet, Dörken, Magni, Corundum, rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-Ferro... ecc."
+      },
+      "gallery": {
+        "title": "Galleria Prodotti"
+      },
+      "weightChart": {
+        "title": "Tabella Peso"
+      }
+    }
   }
 }

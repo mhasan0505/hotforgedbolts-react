@@ -1,8 +1,11 @@
 import { eyeBoltImages, liftingEyeBoltImages } from '@/assets/Bolts/images';
 import ImageGallery from '@/components/ImageGallery';
 import BoltNavigator from '@/components/BoltNavigator';
+import { useTranslation } from 'react-i18next';
 
 const EyeBoltPage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="mt-28 px-4 sm:px-6 lg:px-8">
       <BoltNavigator />
@@ -11,9 +14,9 @@ const EyeBoltPage = () => {
           {/* Header */}
           <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-              Eye Bolts & Lifting Bolts
+              {t('eyeBoltPage.din444.header.title')}
             </h1>
-            <p className="text-violet-100 text-lg">DIN 444 EYE BOLTS</p>
+            <p className="text-violet-100 text-lg">{t('eyeBoltPage.din444.header.subtitle')}</p>
           </div>
 
           {/* Main Content */}
@@ -23,11 +26,10 @@ const EyeBoltPage = () => {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                    DIN 444 EYE BOLTS
+                    {t('eyeBoltPage.din444.overview.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                    DIN 444 UNI 6058 eye bolt is used in mechanical linkages,
-                    lifting applications, and as connecting elements
+                    {t('eyeBoltPage.din444.overview.description')}
                   </p>
                 </div>
               </div>
@@ -35,7 +37,7 @@ const EyeBoltPage = () => {
                 <div className="bg-gray-50 rounded-lg p-4 max-w-md">
                   <img
                     src={eyeBoltImages.mainImage}
-                    alt="DIN 444 Eye Bolt" // Fixed alt text
+                    alt="DIN 444 Eye Bolt"
                     className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                   />
                 </div>
@@ -45,12 +47,12 @@ const EyeBoltPage = () => {
             {/* Technical Diagram */}
             <div className="mb-12">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                Technical Specifications
+                {t('eyeBoltPage.din444.technicalSpecs.title')}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img
                   src={eyeBoltImages.diagram}
-                  alt="DIN 444 Eye Bolt Technical Diagram" // Fixed alt text
+                  alt="DIN 444 Eye Bolt Technical Diagram"
                   className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
                 />
               </div>
@@ -62,20 +64,18 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                    Quality Standards
+                    {t('eyeBoltPage.din444.qualityStandards.title')}
                   </h3>
                 </div>
                 <div className="space-y-2 text-green-700">
                   <p>
-                    <span className="font-semibold">Steel:</span> 8.8, 10.9,
-                    12.9
+                    <span className="font-semibold">{t('eyeBoltPage.din444.qualityStandards.steel')}</span> {t('eyeBoltPage.din444.qualityStandards.steelGrades')}
                   </p>
                   <p>
-                    <span className="font-semibold">Stainless Steel:</span> A2,
-                    A4
+                    <span className="font-semibold">{t('eyeBoltPage.din444.qualityStandards.stainlessSteel')}</span> {t('eyeBoltPage.din444.qualityStandards.stainlessGrades')}
                   </p>
                   <p>
-                    <span className="font-semibold">Thread:</span> 6g
+                    <span className="font-semibold">{t('eyeBoltPage.din444.qualityStandards.thread')}</span> {t('eyeBoltPage.din444.qualityStandards.threadSpec')}
                   </p>
                 </div>
               </div>
@@ -84,17 +84,11 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                    Available Coatings
+                    {t('eyeBoltPage.din444.coatings.title')}
                   </h3>
                 </div>
                 <p className="text-violet-700 leading-relaxed">
-                  Whether you need Zinc plating, PTFE coatings, or any other
-                  surface treatment, we've got you covered. Such as: Zinc
-                  plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet,
-                  Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo
-                  lubrication, Hot dip galvanising, HDG, Sherardising,
-                  Passivating, Antifricor, Powdercoating, Mechanical Zinc,
-                  Zinc-Iron... etc.
+                  {t('eyeBoltPage.din444.coatings.description')}
                 </p>
               </div>
             </div>
@@ -102,21 +96,20 @@ const EyeBoltPage = () => {
             {/* Image Gallery */}
             <ImageGallery
               images={eyeBoltImages.gallery}
-              title="Product Gallery"
+              title={t('eyeBoltPage.din444.gallery.title')}
             />
           </div>
         </div>
 
-        {/* diin 580 */}
-
+        {/* DIN 580 */}
         <div className="bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden mt-12">
           {/* Header */}
           <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-              Eye Bolts & Lifting Bolts
+              {t('eyeBoltPage.din580.header.title')}
             </h1>
-            <p className="text-violet-100 text-lg underline-offset-2 ">
-              DIN 580 LIFTING EYE BOLT
+            <p className="text-violet-100 text-lg underline-offset-2">
+              {t('eyeBoltPage.din580.header.subtitle')}
             </p>
           </div>
 
@@ -127,12 +120,10 @@ const EyeBoltPage = () => {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                    DIN 580 LIFTING EYE BOLT
+                    {t('eyeBoltPage.din580.overview.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                    DIN 580 ISO 3266 UNI 2947 lifting eye bolt is used in
-                    lifting and hoisting heavy loads in a safe and standardized
-                    way.
+                    {t('eyeBoltPage.din580.overview.description')}
                   </p>
                 </div>
               </div>
@@ -140,7 +131,7 @@ const EyeBoltPage = () => {
                 <div className="bg-gray-50 rounded-lg p-4 max-w-md">
                   <img
                     src={eyeBoltImages.mainImage}
-                    alt="DIN 580 Lifting Eye Bolt" // Fixed alt text
+                    alt="DIN 580 Lifting Eye Bolt"
                     className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                   />
                 </div>
@@ -150,12 +141,12 @@ const EyeBoltPage = () => {
             {/* Technical Diagram */}
             <div className="mb-12">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                Technical Specifications
+                {t('eyeBoltPage.din580.technicalSpecs.title')}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img
                   src={liftingEyeBoltImages.diagram}
-                  alt="DIN 580 Lifting Eye Bolt Technical Diagram" // Fixed alt text
+                  alt="DIN 580 Lifting Eye Bolt Technical Diagram"
                   className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
                 />
               </div>
@@ -167,20 +158,18 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                    Quality Standards
+                    {t('eyeBoltPage.din580.qualityStandards.title')}
                   </h3>
                 </div>
                 <div className="space-y-2 text-green-700">
                   <p>
-                    <span className="font-semibold">Steel:</span> 8.8, 10.9,
-                    12.9
+                    <span className="font-semibold">{t('eyeBoltPage.din580.qualityStandards.steel')}</span> {t('eyeBoltPage.din580.qualityStandards.steelGrades')}
                   </p>
                   <p>
-                    <span className="font-semibold">Stainless Steel:</span> A2,
-                    A4
+                    <span className="font-semibold">{t('eyeBoltPage.din580.qualityStandards.stainlessSteel')}</span> {t('eyeBoltPage.din580.qualityStandards.stainlessGrades')}
                   </p>
                   <p>
-                    <span className="font-semibold">Thread:</span> 6g
+                    <span className="font-semibold">{t('eyeBoltPage.din580.qualityStandards.thread')}</span> {t('eyeBoltPage.din580.qualityStandards.threadSpec')}
                   </p>
                 </div>
               </div>
@@ -189,17 +178,11 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                    Available Coatings
+                    {t('eyeBoltPage.din580.coatings.title')}
                   </h3>
                 </div>
                 <p className="text-violet-700 leading-relaxed">
-                  Whether you need Zinc plating, PTFE coatings, or any other
-                  surface treatment, we've got you covered. Such as: Zinc
-                  plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet,
-                  Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo
-                  lubrication, Hot dip galvanising, HDG, Sherardising,
-                  Passivating, Antifricor, Powdercoating, Mechanical Zinc,
-                  Zinc-Iron... etc.
+                  {t('eyeBoltPage.din580.coatings.description')}
                 </p>
               </div>
             </div>
@@ -207,18 +190,18 @@ const EyeBoltPage = () => {
             {/* Image Gallery */}
             <ImageGallery
               images={liftingEyeBoltImages.gallery}
-              title="Product Gallery"
+              title={t('eyeBoltPage.din580.gallery.title')}
             />
 
             {/* Weight Chart */}
             <div className="mb-8">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                Weight Chart
+                {t('eyeBoltPage.din580.weightChart.title')}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img
                   src={liftingEyeBoltImages.weightChart}
-                  alt="DIN 580 Lifting Eye Bolt Weight Chart" // Fixed alt text
+                  alt="DIN 580 Lifting Eye Bolt Weight Chart"
                   className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
                 />
               </div>

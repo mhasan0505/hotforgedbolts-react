@@ -552,5 +552,68 @@
     "weightChart": {
       "title": "Weight Chart"
     }
+  },
+  "eyeBoltPage": {
+    "din444": {
+      "header": {
+        "title": "Eye Bolts & Lifting Bolts",
+        "subtitle": "DIN 444 EYE BOLTS"
+      },
+      "overview": {
+        "title": "DIN 444 EYE BOLTS",
+        "description": "DIN 444 UNI 6058 eye bolt is used in mechanical linkages, lifting applications, and as connecting elements"
+      },
+      "technicalSpecs": {
+        "title": "Technical Specifications"
+      },
+      "qualityStandards": {
+        "title": "Quality Standards",
+        "steel": "Steel:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Stainless Steel:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Thread:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Available Coatings",
+        "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+      },
+      "gallery": {
+        "title": "Product Gallery"
+      }
+    },
+    "din580": {
+      "header": {
+        "title": "Eye Bolts & Lifting Bolts",
+        "subtitle": "DIN 580 LIFTING EYE BOLT"
+      },
+      "overview": {
+        "title": "DIN 580 LIFTING EYE BOLT",
+        "description": "DIN 580 ISO 3266 UNI 2947 lifting eye bolt is used in lifting and hoisting heavy loads in a safe and standardized way."
+      },
+      "technicalSpecs": {
+        "title": "Technical Specifications"
+      },
+      "qualityStandards": {
+        "title": "Quality Standards",
+        "steel": "Steel:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Stainless Steel:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Thread:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Available Coatings",
+        "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+      },
+      "gallery": {
+        "title": "Product Gallery"
+      },
+      "weightChart": {
+        "title": "Weight Chart"
+      }
+    }
   }
 }
