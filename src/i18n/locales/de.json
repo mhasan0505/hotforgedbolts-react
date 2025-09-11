@@ -521,5 +521,38 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "counterSunkPage": {
+    "header": {
+      "title": "Zähneinschrauben",
+      "subtitle": "DIN 7991 ZÄHNEINSCHRABEN"
+    },
+    "overview": {
+      "title": "DIN 7991 ZÄHNEINSCHRABEN",
+      "description": "ISO-10642-DIN-7991-UNI5933 Hexalobular Socket Countersunk Head Bolt Used when a flush surface is needed after installation.These attributes make them suitable for use in areas that are common in machinery, automotive, furniture, electronics, and structural assemblies"
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, mechanische Verzinkung, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }

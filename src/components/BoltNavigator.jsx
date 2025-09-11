@@ -30,8 +30,8 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.countersunk.description'),
       icon: Zap,
       path: '/bolts/countersunk-bolts',
-      color: 'indigo',
-      gradient: 'from-indigo-500 to-blue-600'
+      color: 'violet',
+      gradient: 'from-violet-500 to-purple-600'
     },
     {
       id: 'eye',
@@ -39,8 +39,8 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.eye.description'),
       icon: Eye,
       path: '/bolts/eye-bolts',
-      color: 'purple',
-      gradient: 'from-purple-500 to-pink-600'
+      color: 'violet',
+      gradient: 'from-violet-500 to-pink-600'
     },
     {
       id: 'hex',
@@ -48,8 +48,8 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.hex.description'),
       icon: Hexagon,
       path: '/bolts/hex-head-bolts',
-      color: 'blue',
-      gradient: 'from-blue-500 to-cyan-600'
+      color: 'violet',
+      gradient: 'from-violet-500 to-cyan-600'
     },
     {
       id: 'square',
@@ -57,8 +57,8 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.square.description'),
       icon: Square,
       path: '/bolts/square-bolts',
-      color: 'teal',
-      gradient: 'from-teal-500 to-green-600'
+      color: 'violet',
+      gradient: 'from-violet-500 to-green-600'
     }
   ];
 
@@ -120,7 +120,7 @@ const BoltNavigator = () => {
                     {/* Action */}
                     <div className="flex items-center justify-between">
                       <span className={`text-sm font-medium text-${bolt.color}-600 group-hover:text-${bolt.color}-700 transition-colors`}>
-                        {t('boltNavigator.learnMore')}
+                        {t('boltNavigator.cta.learnMore')}
                       </span>
                       <ArrowRight className={`w-4 h-4 text-${bolt.color}-600 group-hover:text-${bolt.color}-700 transform group-hover:translate-x-1 transition-all duration-300`} />
                     </div>

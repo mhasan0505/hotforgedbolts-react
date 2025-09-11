@@ -1,8 +1,11 @@
 import { countersunkBoltImages } from '@/assets/Bolts/images';
 import BoltNavigator from '@/components/BoltNavigator';
 import ImageGallery from '@/components/ImageGallery';
+import { useTranslation } from 'react-i18next';
 
 const CounterSunkPage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="mt-28 px-4 sm:px-6 lg:px-8">
       <BoltNavigator/>
@@ -11,10 +14,10 @@ const CounterSunkPage = () => {
           {/* Header */}
           <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-              Counter Sunk Allen Bolts
+              {t('counterSunkPage.header.title')}
             </h1>
             <p className="text-violet-100 text-lg">
-              DIN 7991 COUNTERSUNK ALLEN BOLT
+              {t('counterSunkPage.header.subtitle')}
             </p>
           </div>
 
@@ -25,14 +28,10 @@ const CounterSunkPage = () => {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                    DIN 7991 COUNTERSUNK ALLEN BOLT
+                    {t('counterSunkPage.overview.title')}
                   </h2>
                   <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                    ISO-10642-DIN-7991-UNI5933 Hexalobular Socket Countersunk
-                    Head Bolt Used when a flush surface is needed after
-                    installation.These attributes make them suitable for use in
-                    areas that are common in machinery, automotive, furniture,
-                    electronics, and structural assemblies
+                    {t('counterSunkPage.overview.description')}
                   </p>
                 </div>
               </div>
@@ -50,7 +49,7 @@ const CounterSunkPage = () => {
             {/* Technical Diagram */}
             <div className="mb-12">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                Technical Specifications
+                {t('counterSunkPage.technicalSpecs.title')}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img
@@ -67,20 +66,18 @@ const CounterSunkPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                    Quality Standards
+                    {t('counterSunkPage.qualityStandards.title')}
                   </h3>
                 </div>
                 <div className="space-y-2 text-green-700">
                   <p>
-                    <span className="font-semibold">Steel:</span> 8.8, 10.9,
-                    12.9
+                    <span className="font-semibold">{t('counterSunkPage.qualityStandards.steel')}</span> {t('counterSunkPage.qualityStandards.steelGrades')}
                   </p>
                   <p>
-                    <span className="font-semibold">Stainless Steel:</span> A2,
-                    A4
+                    <span className="font-semibold">{t('counterSunkPage.qualityStandards.stainlessSteel')}</span> {t('counterSunkPage.qualityStandards.stainlessGrades')}
                   </p>
                   <p>
-                    <span className="font-semibold">Thread:</span> 6g
+                    <span className="font-semibold">{t('counterSunkPage.qualityStandards.thread')}</span> {t('counterSunkPage.qualityStandards.threadSpec')}
                   </p>
                 </div>
               </div>
@@ -89,17 +86,11 @@ const CounterSunkPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                    Available Coatings
+                    {t('counterSunkPage.coatings.title')}
                   </h3>
                 </div>
                 <p className="text-violet-700 leading-relaxed">
-                  Whether you need Zinc plating, PTFE coatings, or any other
-                  surface treatment, we've got you covered. Such as: Zinc
-                  plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet,
-                  Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo
-                  lubrication, Hot dip galvanising, HDG, Sherardising,
-                  Passivating, Antifricor, Powdercoating, Mechanical Zinc,
-                  Zinc-Iron... etc.
+                  {t('counterSunkPage.coatings.description')}
                 </p>
               </div>
             </div>
@@ -107,13 +98,13 @@ const CounterSunkPage = () => {
             {/* Image Gallery */}
             <ImageGallery
               images={countersunkBoltImages.gallery}
-              title="Product Gallery"
+              title={t('counterSunkPage.gallery.title')}
             />
 
             {/* Weight Chart */}
             <div className="mb-8">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                Weight Chart
+                {t('counterSunkPage.weightChart.title')}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img

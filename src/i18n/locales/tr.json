@@ -512,5 +512,19 @@
       "title": "Ağırlık Tablosu",
       "alt": "Ağırlık Tablosu"
     }
+  },
+  "counterSunkPage": {
+    "header": {
+      "title": "Altı Köşe İç Anahtarlı Silindir Başlı Vida",
+      "subtitle": "DIN 912 ALTı KÖŞE İÇ ANAHTARLI SİLİNDİR BAŞLI VIDA"
+    },
+    "overview": {
+      "title": "DIN 912 ALTı KÖŞE İÇ ANAHTARLI SİLİNDİR BAŞLI VIDA",
+      "description": "DIN 912/ISO 4762/UNI5931 Altı köşe iç anahtarlı silindir başlı vidalar yüksek çekme mukavemetine sahiptir ve ayrıca iyi aşınma ve korozyon direnci özelliklerine sahiptir. Bu özellikler onları aşırı koşullarda ve zorlu uygulamalarda kullanım için uygun hale getirir. Ayrıca, vidalar müşterilerin ihtiyaçlarını karşılamak için farklı boyutlarda ve farklı malzemelerden mevcuttur."
+    },
+    "technicalSpecs": {
+      "title": "Teknik Özellikler",
+      "diagramAlt": "DIN 912 Teknik Diyagram"
+    }
   }
 }
