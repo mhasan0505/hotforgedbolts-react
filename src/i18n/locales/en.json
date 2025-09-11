@@ -44,6 +44,40 @@
     "dimensionalChart": "Dimensional Chart",
     "fastenersGallery": "Fasteners Gallery"
   },
+
+  "boltNavigator": {
+    "badge": "Discover Our Products",
+    "title": "Bolt Categories",
+    "description": "Discover our comprehensive range of high-quality hot forged bolts, engineered for strength and precision in every application.",
+    "boltTypes": {
+      "allen": {
+        "title": "Allen Bolts",
+        "description": "Socket head cap screws for precision applications"
+      },
+      "countersunk": {
+        "title": "Countersunk Allen Bolts",
+        "description": "Flush-mounted bolts for smooth surfaces"
+      },
+      "eye": {
+        "title": "Eye Bolts & Lifting Bolts",
+        "description": "Heavy-duty lifting and rigging solutions"
+      },
+      "hex": {
+        "title": "Hex Head Bolts",
+        "description": "Standard hexagonal head fasteners"
+      },
+      "square": {
+        "title": "Square & T-Head Bolts",
+        "description": "Specialized bolts for unique applications"
+      }
+    },
+    "cta": {
+      "learnMore": "Learn More",
+      "title": "Looking for Custom Solutions?",
+      "subtitle": "Contact us for more information."
+    }
+  },
+
   "production": {
     "header": {
       "title": "Production",
@@ -444,6 +478,47 @@
         { "path": "#", "name": "Cookie Policy" }
       ],
       "developed_by": "Design & Developed by <link>Creative Artix</link>"
+    }
+  },
+  "boltsPage": {
+    "header": {
+      "title": "Allen Bolts",
+      "subtitle": "DIN 912 HEXAGON SOCKET HEAD CAP"
+    },
+    "overview": {
+      "title": "DIN 912 HEXAGON SOCKET HEAD CAP",
+      "description": "DIN 912/ISO 4762/UNI5931 Hexagon Socket Head Cap Screws possess high tensile strength and also have good wear and corrosion resistant features. These attributes make them suitable for use in areas that are extreme and in applications that are demanding. Also, screws are of different sizes and of different materials to meet the needs of the customers as well.",
+      "imageAlt": "DIN 912 Allen Bolt"
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "diagramAlt": "DIN 912 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": {
+        "label": "Steel",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Stainless Steel",
+        "value": "A2, A4"
+      },
+      "thread": {
+        "label": "Thread",
+        "value": "6g"
+      }
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "alt": "Weight Chart"
     }
   }
 }

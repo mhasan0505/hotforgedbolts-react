@@ -471,5 +471,46 @@
       "description": "Tam spesifikasyonlarınıza uygun üstün sıcak dövme bileşenleri için bizimle ortaklık yapın",
       "viewAllServices": "Tüm Hizmetleri Görüntüle"
     }
+  },
+  "boltsPage": {
+    "header": {
+      "title": "Allen Cıvataları",
+      "subtitle": "DIN 912 ALTI KÖŞE İÇ ANAHTARLI SİLİNDİR BAŞLI VIDA"
+    },
+    "overview": {
+      "title": "DIN 912 ALTI KÖŞE İÇ ANAHTARLI SİLİNDİR BAŞLI VIDA",
+      "description": "DIN 912/ISO 4762/UNI5931 Altı köşe iç anahtarlı silindir başlı vidalar yüksek çekme mukavemetine sahiptir ve ayrıca iyi aşınma ve korozyon direnci özelliklerine sahiptir. Bu özellikler onları aşırı koşullarda ve zorlu uygulamalarda kullanım için uygun hale getirir. Ayrıca, vidalar müşterilerin ihtiyaçlarını karşılamak için farklı boyutlarda ve farklı malzemelerden mevcuttur.",
+      "imageAlt": "DIN 912 Allen Cıvatası"
+    },
+    "technicalSpecs": {
+      "title": "Teknik Özellikler",
+      "diagramAlt": "DIN 912 Teknik Diyagram"
+    },
+    "qualityStandards": {
+      "title": "Kalite Standartları",
+      "steel": {
+        "label": "Çelik",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Paslanmaz Çelik",
+        "value": "A2, A4"
+      },
+      "thread": {
+        "label": "Diş",
+        "value": "6g"
+      }
+    },
+    "coatings": {
+      "title": "Mevcut Kaplamalar",
+      "description": "Çinko kaplama, PTFE kaplamalar veya başka herhangi bir yüzey işlemine ihtiyacınız olsun, her şeyi karşılıyoruz. Bunlar gibi: Çinko kaplama, Çinko-Nikel kaplama, Geomet, Dörken, Magni, Corundum gibi Çinko-Flake kaplamalar, Xylan, Xylar gibi PTFE kaplamalar, Lubo yağlama, Sıcak daldırma galvanizleme, HDG, Sherardizasyon, Pasifleştirme, Antifricor, Toz boyama, Mekanik Çinko, Çinko-Demir... vb."
+    },
+    "gallery": {
+      "title": "Ürün Galerisi"
+    },
+    "weightChart": {
+      "title": "Ağırlık Tablosu",
+      "alt": "Ağırlık Tablosu"
+    }
   }
 }

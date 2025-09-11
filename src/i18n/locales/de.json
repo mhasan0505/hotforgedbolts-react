@@ -480,5 +480,46 @@
       "description": "Arbeiten Sie mit uns zusammen für überlegene warmgeschmiedete Komponenten, die Ihren exakten Spezifikationen entsprechen",
       "viewAllServices": "Alle Dienstleistungen anzeigen"
     }
+  },
+  "boltsPage": {
+    "header": {
+      "title": "Innensechskantschrauben",
+      "subtitle": "DIN 912 ZYLINDERKOPFSCHRAUBE MIT INNENSECHSKANT"
+    },
+    "overview": {
+      "title": "DIN 912 ZYLINDERKOPFSCHRAUBE MIT INNENSECHSKANT",
+      "description": "DIN 912/ISO 4762/UNI5931 Zylinderkopfschrauben mit Innensechskant besitzen hohe Zugfestigkeit und haben auch gute verschleiß- und korrosionsbeständige Eigenschaften. Diese Eigenschaften machen sie für den Einsatz in extremen Bereichen und in anspruchsvollen Anwendungen geeignet. Außerdem sind Schrauben in verschiedenen Größen und aus verschiedenen Materialien erhältlich, um die Bedürfnisse der Kunden zu erfüllen.",
+      "imageAlt": "DIN 912 Innensechskantschraube"
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "diagramAlt": "DIN 912 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": {
+        "label": "Stahl",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Edelstahl",
+        "value": "A2, A4"
+      },
+      "thread": {
+        "label": "Gewinde",
+        "value": "6g"
+      }
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, mechanische Verzinkung, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }

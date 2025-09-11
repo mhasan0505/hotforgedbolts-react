@@ -471,5 +471,46 @@
       "description": "Asóciese con nosotros para componentes forjados en caliente superiores que cumplan sus especificaciones exactas",
       "viewAllServices": "Ver Todos los Servicios"
     }
+  },
+  "boltsPage": {
+    "header": {
+      "title": "Tornillos Allen",
+      "subtitle": "DIN 912 TORNILLO DE CABEZA CILÍNDRICA CON HEXÁGONO INTERIOR"
+    },
+    "overview": {
+      "title": "DIN 912 TORNILLO DE CABEZA CILÍNDRICA CON HEXÁGONO INTERIOR",
+      "description": "Los tornillos de cabeza cilíndrica con hexágono interior DIN 912/ISO 4762/UNI5931 poseen alta resistencia a la tracción y también tienen buenas características de resistencia al desgaste y la corrosión. Estos atributos los hacen adecuados para su uso en áreas extremas y en aplicaciones exigentes. Además, los tornillos están disponibles en diferentes tamaños y de diferentes materiales para satisfacer las necesidades de los clientes.",
+      "imageAlt": "Tornillo Allen DIN 912"
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "diagramAlt": "Diagrama Técnico DIN 912"
+    },
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": {
+        "label": "Acero",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Acero Inoxidable",
+        "value": "A2, A4"
+      },
+      "thread": {
+        "label": "Rosca",
+        "value": "6g"
+      }
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos de PTFE o cualquier otro tratamiento superficial, lo tenemos cubierto. Tales como: Galvanizado de zinc, Galvanizado de zinc-níquel, Recubrimientos de zinc-flake como Geomet, Dörken, Magni, Corundum, Recubrimientos de PTFE como Xylan, Xylar, Lubricación Lubo, Galvanizado en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-hierro... etc."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Pesos",
+      "alt": "Tabla de Pesos"
+    }
   }
 }

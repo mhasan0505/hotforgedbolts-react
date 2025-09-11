@@ -470,5 +470,46 @@
       "description": "Collabora con noi per componenti forgiati a caldo superiori che soddisfano le tue specifiche esatte",
       "viewAllServices": "Visualizza Tutti i Servizi"
     }
+  },
+  "boltsPage": {
+    "header": {
+      "title": "Viti Allen",
+      "subtitle": "DIN 912 VITE A TESTA CILINDRICA CON ESAGONO INCASSATO"
+    },
+    "overview": {
+      "title": "DIN 912 VITE A TESTA CILINDRICA CON ESAGONO INCASSATO",
+      "description": "Le viti a testa cilindrica con esagono incassato DIN 912/ISO 4762/UNI5931 possiedono alta resistenza alla trazione e hanno anche buone caratteristiche di resistenza all'usura e alla corrosione. Questi attributi le rendono adatte per l'uso in aree estreme e in applicazioni impegnative. Inoltre, le viti sono disponibili in diverse dimensioni e di diversi materiali per soddisfare le esigenze dei clienti.",
+      "imageAlt": "Vite Allen DIN 912"
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "diagramAlt": "Diagramma Tecnico DIN 912"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": {
+        "label": "Acciaio",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Acciaio Inossidabile",
+        "value": "A2, A4"
+      },
+      "thread": {
+        "label": "Filettatura",
+        "value": "6g"
+      }
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo tutto coperto. Come ad esempio: Zincatura, Zincatura zinco-nichel, Rivestimenti zinco-flake come Geomet, Dörken, Magni, Corundum, Rivestimenti PTFE come Xylan, Xylar, Lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-ferro... ecc."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella Pesi",
+      "alt": "Tabella Pesi"
+    }
   }
 }
