@@ -695,5 +695,39 @@
       "title": "Ağırlık Tablosu",
       "altText": "Ağırlık Tablosu"
     }
+  },
+  "Hexdin931": {
+    "header": {
+      "title": "Altıgen Başlı Cıvata",
+      "subtitle": "DIN 931 ISO 4014 KISMEN DİŞLİ ALTIgen BAŞLI CıVATA"
+    },
+    "overview": {
+      "title": "DIN 931 ISO 4014 KISMEN DİŞLİ ALTIgen BAŞLI CıVATA",
+      "description": "DIN 931 ISO 4014 UNI 5737 kısmen dişli altıgen başlı cıvatalar, makine ve ekipman montajında, yapısal çelik işlerinde, otomotiv ve ağır sanayide kullanılır; burada dişsiz kısmın kesme mukavemeti önemlidir."
+    },
+    "technicalSpecs": {
+      "title": "Teknik Özellikler",
+      "altText": "DIN 931 ISO 4014 Teknik Diyagram"
+    },
+    "qualityStandards": {
+      "title": "Kalite Standartları",
+      "steel": "Çelik:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Paslanmaz Çelik:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Diş:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Mevcut Kaplamalar",
+      "description": "Çinko kaplama, PTFE kaplamalar veya başka bir yüzey işlemi ihtiyacınız olsun, size çözüm sunuyoruz. Örneğin: Çinko kaplama, Çinko-Nikel kaplama, Geomet, Dörken, Magni, Corundum gibi Çinko-Pul kaplamalar, Xylan, Xylar gibi PTFE kaplamalar, Lubo yağlama, Sıcak daldırma galvaniz, HDG, Sherardizasyon, Pasivasyon, Antifricor, Toz kaplama, Mekanik Çinko, Çinko-Demir... vb."
+    },
+    "gallery": {
+      "title": "Ürün Galerisi"
+    },
+    "weightChart": {
+      "title": "Ağırlık Tablosu",
+      "altText": "Ağırlık Tablosu"
+    }
   }
 }

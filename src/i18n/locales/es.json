@@ -719,5 +719,39 @@
       "title": "Tabla de Pesos",
       "altText": "Tabla de Pesos"
     }
+  },
+  "Hexdin931": {
+    "header": {
+      "title": "Tornillo de Cabeza Hexagonal",
+      "subtitle": "DIN 931 ISO 4014 TORNILLO DE CABEZA HEXAGONAL PARCIALMENTE ROSCADO"
+    },
+    "overview": {
+      "title": "DIN 931 ISO 4014 TORNILLO DE CABEZA HEXAGONAL PARCIALMENTE ROSCADO",
+      "description": "Los tornillos de cabeza hexagonal parcialmente roscados DIN 931 ISO 4014 UNI 5737 se utilizan en el ensamblaje de maquinaria y equipos, en estructuras de acero, en la industria automotriz y en la industria pesada, donde la resistencia al corte en la porción no roscada es importante."
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "altText": "Diagrama Técnico DIN 931 ISO 4014"
+    },
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acero Inoxidable:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Rosca:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite recubrimiento de zinc, recubrimientos de PTFE u otro tratamiento de superficie, lo tenemos cubierto. Por ejemplo: Recubrimiento de zinc, recubrimiento de zinc-níquel, recubrimientos de escamas de zinc como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado en caliente, HDG, sherardizado, pasivado, Antifricor, recubrimiento en polvo, zinc mecánico, zinc-hierro... etc."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Pesos",
+      "altText": "Tabla de Pesos"
+    }
   }
 }

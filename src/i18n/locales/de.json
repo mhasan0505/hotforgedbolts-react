@@ -721,5 +721,39 @@
       "title": "Gewichtstabelle",
       "altText": "Gewichtstabelle"
     }
+  },
+  "Hexdin931": {
+    "header": {
+      "title": "Sechskantschraube",
+      "subtitle": "DIN 931 ISO 4014 TEILGEWINDE SECHSKANTKOPFSCHRAUBE"
+    },
+    "overview": {
+      "title": "DIN 931 ISO 4014 TEILGEWINDE SECHSKANTKOPFSCHRAUBE",
+      "description": "DIN 931 ISO 4014 UNI 5737 Teilgewinde Sechskantkopfschrauben werden im Maschinen- und Gerätebau, im Stahlbau, in der Automobilindustrie und in der Schwerindustrie eingesetzt, wo die Scherfestigkeit im gewindelosen Bereich wichtig ist."
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 931 ISO 4014 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "altText": "Gewichtstabelle"
+    }
   }
 }

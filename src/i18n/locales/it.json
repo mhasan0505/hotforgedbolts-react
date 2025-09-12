@@ -710,5 +710,39 @@
       "title": "Tabella dei Pesi",
       "altText": "Tabella dei Pesi"
     }
+  },
+  "Hexdin931": {
+    "header": {
+      "title": "Vite a Testa Esagonale",
+      "subtitle": "DIN 931 ISO 4014 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA"
+    },
+    "overview": {
+      "title": "DIN 931 ISO 4014 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA",
+      "description": "Le viti a testa esagonale parzialmente filettate DIN 931 ISO 4014 UNI 5737 sono utilizzate nell'assemblaggio di macchinari e attrezzature, nelle strutture in acciaio, nell'industria automobilistica e nell'industria pesante, dove la resistenza al taglio nella parte non filettata è importante."
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "altText": "Diagramma Tecnico DIN 931 ISO 4014"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Filettatura:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella dei Pesi",
+      "altText": "Tabella dei Pesi"
+    }
   }
 }
