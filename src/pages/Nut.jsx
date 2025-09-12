@@ -1,6 +1,8 @@
 import ASME from "@/components/Nuts/ASME";
 import DIN934 from '@/components/Nuts/DIN934';
 import DIN6915 from '@/components/Nuts/DIN6915';
+import DIN935 from '@/components/Nuts/DIN935';
+import DIN936 from '@/components/Nuts/DIN936';
 
 const Nut = () => {
   return (
@@ -8,6 +10,8 @@ const Nut = () => {
       <ASME />
       <DIN934/>
       <DIN6915/>
+      <DIN935/>
+      <DIN936/>
     </div>
   );
 };
