@@ -823,5 +823,39 @@
       "title": "Gewichtstabelle",
       "altText": "Gewichtstabelle"
     }
+  },
+  "din262": {
+    "header": {
+      "title": "Vierkantschraube",
+      "subtitle": "DIN 262 ISO 4032 EN 14399-3 VIERKANTSCHRAUBE"
+    },
+    "overview": {
+      "title": "DIN 262 ISO 4032 EN 14399-3 VIERKANTSCHRAUBE",
+      "description": "DIN 262 ISO 4032 EN 14399-3 Vierkantschrauben sind für Anwendungen konzipiert, bei denen ein Vierkantkopf besseren Halt bietet und ein Verdrehen während der Montage verhindert. Diese Schrauben werden häufig im Bauwesen, im Maschinenbau und in Eisenbahnanwendungen eingesetzt."
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 262 ISO 4032 EN 14399-3 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "altText": "Gewichtstabelle"
+    }
   }
 }

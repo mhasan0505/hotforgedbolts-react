@@ -812,5 +812,39 @@
       "title": "Tabella dei Pesi",
       "altText": "Tabella dei Pesi"
     }
+  },
+  "din262": {
+    "header": {
+      "title": "Vite a Testa Quadrata",
+      "subtitle": "DIN 262 ISO 4032 EN 14399-3 VITE A TESTA QUADRATA"
+    },
+    "overview": {
+      "title": "DIN 262 ISO 4032 EN 14399-3 VITE A TESTA QUADRATA",
+      "description": "Le viti a testa quadrata DIN 262 ISO 4032 EN 14399-3 sono progettate per applicazioni in cui una testa quadrata offre una migliore presa e impedisce la rotazione durante l'installazione. Queste viti sono comunemente utilizzate in edilizia, macchinari e applicazioni ferroviarie."
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "altText": "Diagramma Tecnico DIN 262 ISO 4032 EN 14399-3"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Filettatura:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella dei Pesi",
+      "altText": "Tabella dei Pesi"
+    }
   }
 }

@@ -821,5 +821,39 @@
       "title": "Tabla de Pesos",
       "altText": "Tabla de Pesos"
     }
+  },
+  "din262": {
+    "header": {
+      "title": "Tornillo de Cabeza Cuadrada",
+      "subtitle": "DIN 262 ISO 4032 EN 14399-3 TORNILLO DE CABEZA CUADRADA"
+    },
+    "overview": {
+      "title": "DIN 262 ISO 4032 EN 14399-3 TORNILLO DE CABEZA CUADRADA",
+      "description": "El tornillo de cabeza cuadrada DIN 262 ISO 4032 EN 14399-3 está diseñado para aplicaciones donde una cabeza cuadrada proporciona mejor agarre y evita la rotación durante la instalación. Estos tornillos se utilizan comúnmente en construcción, maquinaria y aplicaciones ferroviarias."
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "altText": "Diagrama Técnico DIN 262 ISO 4032 EN 14399-3"
+    },
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acero Inoxidable:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Rosca:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite recubrimiento de zinc, recubrimientos de PTFE u otro tratamiento de superficie, lo tenemos cubierto. Por ejemplo: Recubrimiento de zinc, recubrimiento de zinc-níquel, recubrimientos de escamas de zinc como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado en caliente, HDG, sherardizado, pasivado, Antifricor, recubrimiento en polvo, zinc mecánico, zinc-hierro... etc."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Pesos",
+      "altText": "Tabla de Pesos"
+    }
   }
 }
