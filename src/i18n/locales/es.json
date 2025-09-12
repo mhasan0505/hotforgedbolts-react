@@ -688,16 +688,16 @@
   },
   "Hexdin7990": {
     "header": {
-      "title": "Perno de Cabeza Hexagonal",
-      "subtitle": "DIN 7990-ISO 4032- EN 14399-3 PERNO DE CABEZA HEXAGONAL"
+      "title": "Tornillo de Cabeza Hexagonal",
+      "subtitle": "DIN 7990-ISO 4032-EN 14399-3 TORNILLO DE CABEZA HEXAGONAL"
     },
     "overview": {
-      "title": "DIN 7990-ISO 4032- EN 14399-3 PERNO DE CABEZA HEXAGONAL",
-      "description": "DIN 7990 ISO 4032 EN 14399-3 UNI 5712 Perno de Cabeza Hexagonal se utiliza en construcción de acero, particularmente para conexiones atornilladas estructurales no pretensadas."
+      "title": "DIN 7990-ISO 4032-EN 14399-3 TORNILLO DE CABEZA HEXAGONAL",
+      "description": "El tornillo de cabeza hexagonal DIN 7990 ISO 4032 EN 14399-3 UNI 5712 se utiliza en la construcción de acero, particularmente para conexiones estructurales atornilladas no precargadas."
     },
     "technicalSpecs": {
       "title": "Especificaciones Técnicas",
-      "altText": "DIN 7990 ISO 4032 EN 14399-3 Diagrama Técnico"
+      "altText": "Diagrama Técnico DIN 7990 ISO 4032 EN 14399-3"
     },
     "qualityStandards": {
       "title": "Estándares de Calidad",
@@ -710,14 +710,14 @@
     },
     "coatings": {
       "title": "Recubrimientos Disponibles",
-      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos de PTFE, o cualquier otro tratamiento superficial, lo tenemos cubierto. Tales como: Galvanizado de zinc, galvanizado de zinc-níquel, recubrimientos de zinc-escamas como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc."
+      "description": "Ya sea que necesite recubrimiento de zinc, recubrimientos de PTFE u otro tratamiento de superficie, lo tenemos cubierto. Por ejemplo: Recubrimiento de zinc, recubrimiento de zinc-níquel, recubrimientos de escamas de zinc como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado en caliente, HDG, sherardizado, pasivado, Antifricor, recubrimiento en polvo, zinc mecánico, zinc-hierro... etc."
     },
     "gallery": {
       "title": "Galería de Productos"
     },
     "weightChart": {
-      "title": "Tabla de Peso",
-      "altText": "Tabla de Peso"
+      "title": "Tabla de Pesos",
+      "altText": "Tabla de Pesos"
     }
   }
 }
