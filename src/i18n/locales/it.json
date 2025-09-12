@@ -778,5 +778,39 @@
       "title": "Tabella dei Pesi",
       "altText": "Tabella dei Pesi"
     }
+  },
+  "Hexdin6914": {
+    "header": {
+      "title": "Vite a Testa Esagonale",
+      "subtitle": "DIN 6914 VITI A TESTA ESAGONALE AD ALTA RESISTENZA"
+    },
+    "overview": {
+      "title": "DIN 6914 VITI A TESTA ESAGONALE AD ALTA RESISTENZA",
+      "description": "Le viti a testa esagonale ad alta resistenza DIN 6914 sono utilizzate in particolare in connessioni strutturali in acciaio ad alta resistenza, come ponti, edifici e progetti di costruzione pesante."
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "altText": "Diagramma Tecnico DIN 6914"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Filettatura:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella dei Pesi",
+      "altText": "Tabella dei Pesi"
+    }
   }
 }

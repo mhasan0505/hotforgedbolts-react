@@ -11,9 +11,9 @@ const Din262 = () => {
       {/* Header */}
       <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-          {t('squareBoltPage.din262.header.title')}
+          {t('din262.header.title')}
         </h1>
-        <p className="text-violet-100 text-lg">{t('squareBoltPage.din262.header.subtitle')}</p>
+        <p className="text-violet-100 text-lg">{t('din262.header.subtitle')}</p>
       </div>
       {/* Main Content */}
       <div className="p-6 sm:p-8">
@@ -22,10 +22,10 @@ const Din262 = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                {t('squareBoltPage.din262.overview.title')}
+                {t('din262.overview.title')}
               </h2>
               <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                {t('squareBoltPage.din262.overview.description')}
+                {t('din262.overview.description')}
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Din262 = () => {
             <div className="bg-gray-50 rounded-lg p-4 max-w-md">
               <img
                 src={SquareBoltsDin262.mainImage}
-                alt="DIN 262 ISO 4032 EN 14399-3 Bolt"
+                alt={t('din262.overview.title')}
                 className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
             </div>
@@ -43,12 +43,12 @@ const Din262 = () => {
         {/* Technical Diagram */}
         <div className="mb-12">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-            {t('squareBoltPage.din262.technicalSpecs.title')}
+            {t('din262.technicalSpecs.title')}
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
               src={SquareBoltsDin262.diagram}
-              alt={t('squareBoltPage.din262.technicalSpecs.altText')}
+              alt={t('din262.technicalSpecs.altText')}
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>
@@ -60,18 +60,18 @@ const Din262 = () => {
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
               <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                {t('squareBoltPage.din262.qualityStandards.title')}
+                {t('din262.qualityStandards.title')}
               </h3>
             </div>
             <div className="space-y-2 text-green-700">
               <p>
-                <span className="font-semibold">{t('squareBoltPage.din262.qualityStandards.steel')}</span> {t('squareBoltPage.din262.qualityStandards.steelGrades')}
+                <span className="font-semibold">{t('din262.qualityStandards.steel')}</span> {t('din262.qualityStandards.steelGrades')}
               </p>
               <p>
-                <span className="font-semibold">{t('squareBoltPage.din262.qualityStandards.stainlessSteel')}</span> {t('squareBoltPage.din262.qualityStandards.stainlessGrades')}
+                <span className="font-semibold">{t('din262.qualityStandards.stainlessSteel')}</span> {t('din262.qualityStandards.stainlessGrades')}
               </p>
               <p>
-                <span className="font-semibold">{t('squareBoltPage.din262.qualityStandards.thread')}</span> {t('squareBoltPage.din262.qualityStandards.threadSpec')}
+                <span className="font-semibold">{t('din262.qualityStandards.thread')}</span> {t('din262.qualityStandards.threadSpec')}
               </p>
             </div>
           </div>
@@ -80,11 +80,11 @@ const Din262 = () => {
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
               <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                {t('squareBoltPage.din262.coatings.title')}
+                {t('din262.coatings.title')}
               </h3>
             </div>
             <p className="text-violet-700 leading-relaxed">
-              {t('squareBoltPage.din262.coatings.description')}
+              {t('din262.coatings.description')}
             </p>
           </div>
         </div>
@@ -92,17 +92,17 @@ const Din262 = () => {
         {/* Image Gallery */}
         <ImageGallery
           images={SquareBoltsDin262.gallery}
-          title={t('squareBoltPage.din262.gallery.title')}
+          title={t('din262.gallery.title')}
         />
         {/* Weight Chart */}
         <div className="mb-8">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-            {t('squareBoltPage.din262.weightChart.title')}
+            {t('din262.weightChart.title')}
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
               src={SquareBoltsDin262.weightChart}
-              alt={t('squareBoltPage.din262.weightChart.altText')}
+              alt={t('din262.weightChart.altText')}
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>

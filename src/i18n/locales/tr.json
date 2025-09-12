@@ -763,5 +763,39 @@
       "title": "Ağırlık Tablosu",
       "altText": "Ağırlık Tablosu"
     }
+  },
+  "Hexdin6914": {
+    "header": {
+      "title": "Altıgen Başlı Cıvata",
+      "subtitle": "DIN 6914 YÜKSEK MUKAVEMETLİ ALTIgen BAŞLI CıVATALAR"
+    },
+    "overview": {
+      "title": "DIN 6914 YÜKSEK MUKAVEMETLİ ALTIgen BAŞLI CıVATALAR",
+      "description": "DIN 6914 yüksek mukavemetli altıgen başlı cıvatalar, özellikle yüksek mukavemetli yapısal çelik bağlantılarında, örneğin köprülerde, binalarda ve ağır inşaat projelerinde kullanılır."
+    },
+    "technicalSpecs": {
+      "title": "Teknik Özellikler",
+      "altText": "DIN 6914 Teknik Diyagram"
+    },
+    "qualityStandards": {
+      "title": "Kalite Standartları",
+      "steel": "Çelik:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Paslanmaz Çelik:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Diş:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Mevcut Kaplamalar",
+      "description": "Çinko kaplama, PTFE kaplamalar veya başka bir yüzey işlemi ihtiyacınız olsun, size çözüm sunuyoruz. Örneğin: Çinko kaplama, Çinko-Nikel kaplama, Geomet, Dörken, Magni, Corundum gibi Çinko-Pul kaplamalar, Xylan, Xylar gibi PTFE kaplamalar, Lubo yağlama, Sıcak daldırma galvaniz, HDG, Sherardizasyon, Pasivasyon, Antifricor, Toz kaplama, Mekanik Çinko, Çinko-Demir... vb."
+    },
+    "gallery": {
+      "title": "Ürün Galerisi"
+    },
+    "weightChart": {
+      "title": "Ağırlık Tablosu",
+      "altText": "Ağırlık Tablosu"
+    }
   }
 }

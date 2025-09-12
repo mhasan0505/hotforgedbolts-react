@@ -724,5 +724,39 @@
       "title": "Weight Chart",
       "altText": "Weight Chart"
     }
+  },
+   "din262": {
+    "header": {
+      "title": "Square Head Bolt",
+      "subtitle": "DIN 262 ISO 4032 EN 14399-3 SQUARE HEAD BOLT"
+    },
+    "overview": {
+      "title": "DIN 262 ISO 4032 EN 14399-3 SQUARE HEAD BOLT",
+      "description": "DIN 262 ISO 4032 EN 14399-3 Square Head Bolt is designed for applications where a square head provides better grip and prevents rotation during installation. These bolts are commonly used in construction, machinery, and structural applications."
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "altText": "DIN 262 ISO 4032 EN 14399-3 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Stainless Steel:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Thread:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "altText": "Weight Chart"
+    }
   }
 }

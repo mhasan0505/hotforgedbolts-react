@@ -789,5 +789,39 @@
       "title": "Gewichtstabelle",
       "altText": "Gewichtstabelle"
     }
+  },
+  "Hexdin6914": {
+    "header": {
+      "title": "Sechskantschraube",
+      "subtitle": "DIN 6914 HOCHFESTE SECHSKANTKOPFSCHRAUBEN"
+    },
+    "overview": {
+      "title": "DIN 6914 HOCHFESTE SECHSKANTKOPFSCHRAUBEN",
+      "description": "DIN 6914 hochfeste Sechskantkopfschrauben werden insbesondere in hochfesten strukturellen Stahlverbindungen eingesetzt, beispielsweise in Brücken, Gebäuden und schweren Bauprojekten."
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 6914 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "altText": "Gewichtstabelle"
+    }
   }
 }

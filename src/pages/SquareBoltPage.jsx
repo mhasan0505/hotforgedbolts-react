@@ -1,6 +1,6 @@
 import BoltNavigator from "@/components/BoltNavigator";
-import Din262 from "@/components/DIIN/Din262";
-import Din480 from "@/components/DIIN/Din480";
+import Din262 from "../components/DIIN/SquareBolts/Din262";
+import Din480 from "../components/DIIN/SquareBolts/Din480";
 
 const SquareBoltPage = () => {
   return (
