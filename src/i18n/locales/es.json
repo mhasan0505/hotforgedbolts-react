@@ -855,5 +855,40 @@
       "title": "Tabla de Pesos",
       "altText": "Tabla de Pesos"
     }
+  },
+  "din480": {
+    "header": {
+      "title": "Tornillos de Cabeza Cuadrada",
+      "subtitle": "DIN 480 TORNILLO DE CABEZA CUADRADA"
+    },
+    "overview": {
+      "title": "DIN 480 TORNILLO DE CABEZA CUADRADA",
+      "description": "Los tornillos de cabeza cuadrada DIN 480 con un vástago largo están diseñados principalmente para su uso en la construcción de acero, maquinaria y uniones de servicio pesado.",
+      "altText": "DIN 480 TORNILLO DE CABEZA CUADRADA"
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "altText": "Diagrama Técnico DIN 480 TORNILLO DE CABEZA CUADRADA"
+    },
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acero Inoxidable:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Rosca:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite recubrimiento de zinc, recubrimientos de PTFE u otro tratamiento de superficie, lo tenemos cubierto. Por ejemplo: Recubrimiento de zinc, recubrimiento de zinc-níquel, recubrimientos de escamas de zinc como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado en caliente, HDG, sherardizado, pasivado, Antifricor, recubrimiento en polvo, zinc mecánico, zinc-hierro... etc."
+    },
+    "gallery": {
+      "title": "Galería de TORNILLO DE CABEZA CUADRADA DIN 480"
+    },
+    "weightChart": {
+      "title": "Tabla de Pesos",
+      "altText": "Tabla de Pesos DIN 480 TORNILLO DE CABEZA CUADRADA"
+    }
   }
 }

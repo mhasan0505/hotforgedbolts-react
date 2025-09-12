@@ -857,5 +857,40 @@
       "title": "Gewichtstabelle",
       "altText": "Gewichtstabelle"
     }
+  },
+  "din480": {
+    "header": {
+      "title": "Vierkantschrauben",
+      "subtitle": "DIN 480 VIERKANTSCHRAUBE"
+    },
+    "overview": {
+      "title": "DIN 480 VIERKANTSCHRAUBE",
+      "description": "DIN 480 Vierkantschrauben mit langem Schaft sind speziell für den Einsatz im Stahlbau, im Maschinenbau und in schweren Verbindungen konzipiert.",
+      "altText": "DIN 480 VIERKANTSCHRAUBE"
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 480 VIERKANTSCHRAUBE Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "DIN 480 VIERKANTSCHRAUBE Galerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "altText": "DIN 480 VIERKANTSCHRAUBE Gewichtstabelle"
+    }
   }
 }
