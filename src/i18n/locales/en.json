@@ -483,11 +483,11 @@
   "boltsPage": {
     "header": {
       "title": "Allen Bolts",
-      "subtitle": "DIN 912 HEXAGON SOCKET HEAD CAP"
+      "subtitle": "DIN 912 SOCKET HEAD CAP SCREW"
     },
     "overview": {
-      "title": "DIN 912 HEXAGON SOCKET HEAD CAP",
-      "description": "DIN 912/ISO 4762/UNI5931 Hexagon Socket Head Cap Screws possess high tensile strength and also have good wear and corrosion resistant features. These attributes make them suitable for use in areas that are extreme and in applications that are demanding. Also, screws are of different sizes and of different materials to meet the needs of the customers as well.",
+      "title": "DIN 912 SOCKET HEAD CAP SCREW",
+      "description": "DIN 912/ISO 4762/UNI5931 socket head cap screws have high tensile strength and also have good wear and corrosion resistance characteristics. These attributes make them suitable for use in extreme areas and demanding applications. Additionally, the screws are available in different sizes and from different materials to meet customer needs.",
       "imageAlt": "DIN 912 Allen Bolt"
     },
     "technicalSpecs": {
@@ -518,20 +518,55 @@
     },
     "weightChart": {
       "title": "Weight Chart",
-      "alt": "Weight Chart"
+      "altText": "Weight Chart"
     }
   },
-  "counterSunkPage": {
+  "Hexdin960": {
     "header": {
-      "title": "Counter Sunk Allen Bolts",
-      "subtitle": "DIN 7991 COUNTERSUNK ALLEN BOLT"
+      "title": "Hex Head Bolt",
+      "subtitle": "DIN 960 ISO 8765 PARTIALLY THREADED HEX CAP SCREW"
     },
     "overview": {
-      "title": "DIN 7991 COUNTERSUNK ALLEN BOLT",
-      "description": "ISO-10642-DIN-7991-UNI5933 Hexalobular Socket Countersunk Head Bolt Used when a flush surface is needed after installation.These attributes make them suitable for use in areas that are common in machinery, automotive, furniture, electronics, and structural assemblies"
+      "title": "DIN 960 ISO 8765 PARTIALLY THREADED HEX CAP SCREW",
+      "description": "DIN 960 ISO 8765 UNI 5738 Partially Threaded Hex Cap Screw high-precision applications where a fine pitch is required for tight fitment, better adjustment, or higher tensioning accuracy."
     },
     "technicalSpecs": {
-      "title": "Technical Specifications"
+      "title": "Technical Specifications",
+      "altText": "DIN 960 ISO 8765 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Stainless Steel:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Thread:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc.And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "altText": "Weight Chart"
+    }
+  },
+  "Hexdin961": {
+    "header": {
+      "title": "Hex Head Bolt",
+      "subtitle": "DIN 961 ISO 8765 HEXAGON HEAD BOLT"
+    },
+    "overview": {
+      "title": "DIN 961 ISO 8765 HEXAGON HEAD BOLT",
+      "description": "DIN 961 ISO 8765 UNI 5740 Hexagon head boltis a fully threaded hexagon head bolt with fine pitch metric thread.These attributes make them suitable for use in areas that are applications requiring precise thread engagement and high clamping force."
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "altText": "DIN 961 ISO 8765 Technical Diagram"
     },
     "qualityStandards": {
       "title": "Quality Standards",
@@ -550,70 +585,144 @@
       "title": "Product Gallery"
     },
     "weightChart": {
-      "title": "Weight Chart"
+      "title": "Weight Chart",
+      "altText": "Weight Chart"
     }
   },
-  "eyeBoltPage": {
-    "din444": {
-      "header": {
-        "title": "Eye Bolts & Lifting Bolts",
-        "subtitle": "DIN 444 EYE BOLTS"
-      },
-      "overview": {
-        "title": "DIN 444 EYE BOLTS",
-        "description": "DIN 444 UNI 6058 eye bolt is used in mechanical linkages, lifting applications, and as connecting elements"
-      },
-      "technicalSpecs": {
-        "title": "Technical Specifications"
-      },
-      "qualityStandards": {
-        "title": "Quality Standards",
-        "steel": "Steel:",
-        "steelGrades": "8.8, 10.9, 12.9",
-        "stainlessSteel": "Stainless Steel:",
-        "stainlessGrades": "A2, A4",
-        "thread": "Thread:",
-        "threadSpec": "6g"
-      },
-      "coatings": {
-        "title": "Available Coatings",
-        "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
-      },
-      "gallery": {
-        "title": "Product Gallery"
-      }
+  "Hexdin7990": {
+    "header": {
+      "title": "Hex Head Bolt",
+      "subtitle": "DIN 7990-ISO 4032- EN 14399-3 HEXAGON HEAD BOLT"
     },
-    "din580": {
-      "header": {
-        "title": "Eye Bolts & Lifting Bolts",
-        "subtitle": "DIN 580 LIFTING EYE BOLT"
-      },
-      "overview": {
-        "title": "DIN 580 LIFTING EYE BOLT",
-        "description": "DIN 580 ISO 3266 UNI 2947 lifting eye bolt is used in lifting and hoisting heavy loads in a safe and standardized way."
-      },
-      "technicalSpecs": {
-        "title": "Technical Specifications"
-      },
-      "qualityStandards": {
-        "title": "Quality Standards",
-        "steel": "Steel:",
-        "steelGrades": "8.8, 10.9, 12.9",
-        "stainlessSteel": "Stainless Steel:",
-        "stainlessGrades": "A2, A4",
-        "thread": "Thread:",
-        "threadSpec": "6g"
-      },
-      "coatings": {
-        "title": "Available Coatings",
-        "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
-      },
-      "gallery": {
-        "title": "Product Gallery"
-      },
-      "weightChart": {
-        "title": "Weight Chart"
-      }
+    "overview": {
+      "title": "DIN 7990-ISO 4032- EN 14399-3 HEXAGON HEAD BOLT",
+      "description": "DIN 7990 ISO 4032 EN 14399-3 UNI 5712 Hexagon Head Bolt is used in steel construction, particularly for non-preloaded structural bolted connections."
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "altText": "DIN 7990 ISO 4032 EN 14399-3 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Stainless Steel:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Thread:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "altText": "Weight Chart"
+    }
+  },
+  "Hexdin931": {
+    "header": {
+      "title": "Hex Head Bolt",
+      "subtitle": "DIN 931 ISO 4014 PARTIALLY THREADED HEXAGON HEAD BOLT"
+    },
+    "overview": {
+      "title": "DIN 931 ISO 4014 PARTIALLY THREADED HEXAGON HEAD BOLT",
+      "description": "DIN 931 ISO 4014 UNI 5737 partially threaded hexagon head bolts is used in machinery and equipment assembly,structural steelwork,automotive and heavy industry,where shear strength is important in the unthreaded portion"
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "altText": "DIN 7990 ISO 4032 EN 14399-3 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Stainless Steel:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Thread:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "altText": "Weight Chart"
+    }
+  },
+  "Hexdin933": {
+    "header": {
+      "title": "Hex Head Bolt",
+      "subtitle": "DIN 933 ISO 4017 HEXAGON HEAD BOLTS WITH FULL THREADS"
+    },
+    "overview": {
+      "title": "DIN 933 ISO 4017 HEXAGON HEAD BOLTS WITH FULL THREADS",
+      "description": "DIN 933 ISO 4017 UNI 5739 hexagon head bolts with full threads is used in fastening components where full thread engagement is needed,sheet metal assemblies,light and medium-duty machinery"
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "altText": "DIN 7990 ISO 4032 EN 14399-3 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Stainless Steel:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Thread:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "altText": "Weight Chart"
+    }
+  },
+  "Hexdin6914": {
+    "header": {
+      "title": "Hex Head Bolt",
+      "subtitle": "DIN 6914 ISO 4017 HEXAGON HEAD BOLTS WITH FULL THREADS"
+    },
+    "overview": {
+      "title": "DIN 933 ISO 4017 HEXAGON HEAD BOLTS WITH FULL THREADS",
+      "description": "DIN 933 ISO 4017 UNI 5739 hexagon head bolts with full threads is used in fastening components where full thread engagement is needed,sheet metal assemblies,light and medium-duty machinery"
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "altText": "DIN 7990 ISO 4032 EN 14399-3 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Stainless Steel:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Thread:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "altText": "Weight Chart"
     }
   }
 }

@@ -1,18 +1,16 @@
-import { hexHeadBoltImages931 } from '@/assets/Bolts/images';
+import { SquareBoltsDin480 } from '@/assets/Bolts/images';
 import React from 'react'
-import ImageGallery from '../ImageGallery';
+import ImageGallery from '../../ImageGallery';
 
-const Din931 = () => {
+const Din480 = () => {
   return (
     <div>
       {/* Header */}
       <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-          Hex Head Bolt
+          Square & T-Head Bolts
         </h1>
-        <p className="text-violet-100 text-lg">
-          DIN 931 ISO 4014 PARTIALLY THREADED HEXAGON HEAD BOLT
-        </p>
+        <p className="text-violet-100 text-lg">DIN 480 SQUARE HEAD BOLT </p>
       </div>
       {/* Main Content */}
       <div className="p-6 sm:p-8">
@@ -21,21 +19,20 @@ const Din931 = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                DIN 931 ISO 4014 PARTIALLY THREADED HEXAGON HEAD BOLT
+                DIN 480 SQUARE HEAD BOLT
               </h2>
               <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                DIN 931 ISO 4014 UNI 5737 partially threaded hexagon head bolts
-                is used in machinery and equipment assembly,structural
-                steelwork,automotive and heavy industry,where shear strength is
-                important in the unthreaded portion
+                DIN 480 square head bolts with a long neck (shank), intended
+                primarily for use in steel construction, machinery, and
+                heavy-duty joints.
               </p>
             </div>
           </div>
           <div className="flex justify-center lg:justify-end">
             <div className="bg-gray-50 rounded-lg p-4 max-w-md">
               <img
-                src={hexHeadBoltImages931.mainImage}
-                alt="DIN 931 ISO 4032 EN 14399-3 Hexagon Head Bolt"
+                src={SquareBoltsDin480.mainImage}
+                alt="DIN 480 SQUARE HEAD BOLT"
                 className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
             </div>
@@ -49,8 +46,8 @@ const Din931 = () => {
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
-              src={hexHeadBoltImages931.diagram}
-              alt="DIN 7990 ISO 4032 EN 14399-3 Technical Diagram"
+              src={SquareBoltsDin480.diagram}
+              alt="DIN 480 SQUARE HEAD BOLT Technical Diagram"
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>
@@ -98,8 +95,8 @@ const Din931 = () => {
 
         {/* Image Gallery */}
         <ImageGallery
-          images={hexHeadBoltImages931.gallery}
-          title="Product Gallery"
+          images={SquareBoltsDin480.gallery}
+          title="DIN 480 SQUARE HEAD BOLT Gallery"
         />
         {/* Weight Chart */}
         <div className="mb-8">
@@ -108,8 +105,8 @@ const Din931 = () => {
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
-              src={hexHeadBoltImages931.weightChart}
-              alt="Weight Chart"
+              src={SquareBoltsDin480.weightChart}
+              alt="DIN 480 SQUARE HEAD BOLT Weight Chart"
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>
@@ -119,4 +116,4 @@ const Din931 = () => {
   );
 }
 
-export default Din931
+export default Din480

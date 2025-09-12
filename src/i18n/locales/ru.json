@@ -538,7 +538,8 @@
         "description": "Рым-болт DIN 444 UNI 6058 используется в механических соединениях, подъемных применениях и как соединительные элементы"
       },
       "technicalSpecs": {
-        "title": "Технические Характеристики"
+        "title": "Технические Характеристики",
+        "altText": "DIN 960 ISO 8765 Техническая диаграмма"
       },
       "qualityStandards": {
         "title": "Стандарты Качества",
@@ -588,6 +589,74 @@
       "weightChart": {
         "title": "Таблица Веса"
       }
+    }
+  },
+  "Hexdin960": {
+    "header": {
+      "title": "Vite a Testa Esagonale",
+      "subtitle": "DIN 960 ISO 8765 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA"
+    },
+    "overview": {
+      "title": "DIN 960 ISO 8765 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA",
+      "description": "Vite a testa esagonale parzialmente filettata DIN 960 ISO 8765 UNI 5738 per applicazioni ad alta precisione dove è richiesto un passo fine per un adattamento stretto, una migliore regolazione o una maggiore precisione di tensionamento."
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "altText": "Diagramma Tecnico DIN 960 ISO 8765"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Filettatura:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in stock, pronte a soddisfare la vostra domanda."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella dei Pesi",
+      "altText": "Tabella dei Pesi"
+    }
+  },
+  "Hexdin961": {
+    "header": {
+      "title": "Болт с шестигранной головкой",
+      "subtitle": "DIN 961 ISO 8765 ВИНТ С ШЕСТИГРАННОЙ ГОЛОВКОЙ"
+    },
+    "overview": {
+      "title": "DIN 961 ISO 8765 ВИНТ С ШЕСТИГРАННОЙ ГОЛОВКОЙ",
+      "description": "Винт с шестигранной головкой DIN 961 ISO 8765 UNI 5740 — это полностью резьбовой винт с мелкой метрической резьбой. Эти характеристики делают их подходящими для применений, требующих точного зацепления резьбы и высокой силы зажима."
+    },
+    "technicalSpecs": {
+      "title": "Технические характеристики",
+      "altText": "Техническая схема DIN 961 ISO 8765"
+    },
+    "qualityStandards": {
+      "title": "Стандарты качества",
+      "steel": "Сталь:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Нержавеющая сталь:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Резьба:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Доступные покрытия",
+      "description": "Нужны ли вам цинковое покрытие, покрытия PTFE или другие виды обработки поверхности, мы готовы помочь. Например: цинковое покрытие, цинк-никелевое покрытие, цинковые чешуйчатые покрытия, такие как Geomet, Dörken, Magni, Corundum, покрытия PTFE, такие как Xylan, Xylar, смазка Lubo, горячее цинкование, HDG, шеррардизация, пассивация, Antifricor, порошковое покрытие, механический цинк, цинк-железо... и т.д."
+    },
+    "gallery": {
+      "title": "Галерея продукции"
+    },
+    "weightChart": {
+      "title": "Таблица весов",
+      "altText": "Таблица весов"
     }
   }
 }

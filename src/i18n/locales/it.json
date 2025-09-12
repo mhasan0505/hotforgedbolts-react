@@ -522,7 +522,8 @@
       "description": "ISO-10642-DIN-7991-UNI5933 Hexalobular Socket Countersunk Head Bolt Used when a flush surface is needed after installation.These attributes make them suitable for use in areas that are common in machinery, automotive, furniture, electronics, and structural assemblies"
     },
     "technicalSpecs": {
-      "title": "Specifiche Tecniche"
+      "title": "Specifiche Tecniche",
+      "altText": "DIN 960 ISO 8765 Diagramma Tecnico"
     },
     "qualityStandards": {
       "title": "Standard di Qualità",
@@ -606,6 +607,74 @@
       "weightChart": {
         "title": "Tabella Peso"
       }
+    }
+  },
+  "Hexdin960": {
+    "header": {
+      "title": "Vite a Testa Esagonale",
+      "subtitle": "DIN 960 ISO 8765 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA"
+    },
+    "overview": {
+      "title": "DIN 960 ISO 8765 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA",
+      "description": "Vite a testa esagonale parzialmente filettata DIN 960 ISO 8765 UNI 5738 per applicazioni ad alta precisione dove è richiesto un passo fine per un adattamento stretto, una migliore regolazione o una maggiore precisione di tensionamento."
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "altText": "Diagramma Tecnico DIN 960 ISO 8765"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Filettatura:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in stock, pronte a soddisfare la vostra domanda."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella dei Pesi",
+      "altText": "Tabella dei Pesi"
+    }
+  },
+  "Hexdin961": {
+    "header": {
+      "title": "Vite a Testa Esagonale",
+      "subtitle": "DIN 961 ISO 8765 VITE A TESTA ESAGONALE"
+    },
+    "overview": {
+      "title": "DIN 961 ISO 8765 VITE A TESTA ESAGONALE",
+      "description": "La vite a testa esagonale DIN 961 ISO 8765 UNI 5740 è una vite completamente filettata con filettatura metrica a passo fine. Queste caratteristiche la rendono adatta per applicazioni che richiedono un impegno preciso della filettatura e un'elevata forza di serraggio."
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "altText": "Diagramma Tecnico DIN 961 ISO 8765"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Filettatura:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella dei Pesi",
+      "altText": "Tabella dei Pesi"
     }
   }
 }

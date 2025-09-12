@@ -532,7 +532,8 @@
       "description": "ISO-10642-DIN-7991-UNI5933 Hexalobular Socket Countersunk Head Bolt Used when a flush surface is needed after installation.These attributes make them suitable for use in areas that are common in machinery, automotive, furniture, electronics, and structural assemblies"
     },
     "technicalSpecs": {
-      "title": "Technische Spezifikationen"
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 7991 Technical Diagram"
     },
     "qualityStandards": {
       "title": "Qualitätsstandards",
@@ -566,7 +567,8 @@
         "description": "DIN 444 UNI 6058 Augenschraube wird in mechanischen Verbindungen, Hebeanwendungen und als Verbindungselemente verwendet"
       },
       "technicalSpecs": {
-        "title": "Technische Spezifikationen"
+        "title": "Technische Spezifikationen",
+        "altText": "DIN 444 ISO 8765 Technisches Diagramm"
       },
       "qualityStandards": {
         "title": "Qualitätsstandards",
@@ -616,6 +618,74 @@
       "weightChart": {
         "title": "Gewichtstabelle"
       }
+    }
+  },
+  "Hexdin960": {
+    "header": {
+      "title": "Sechskantschraube",
+      "subtitle": "DIN 960 ISO 8765 TEILGEWINDE SECHSKANTKOPFSCHRAUBE"
+    },
+    "overview": {
+      "title": "DIN 960 ISO 8765 TEILGEWINDE SECHSKANTKOPFSCHRAUBE",
+      "description": "DIN 960 ISO 8765 UNI 5738 Teilgewinde Sechskantkopfschraube für hochpräzise Anwendungen, bei denen ein feines Gewinde für enge Passung, bessere Einstellung oder höhere Spannungsgenauigkeit erforderlich ist."
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 960 ISO 8765 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben eine Vielzahl von Optionen auf Lager, um Ihre Nachfrage zu erfüllen."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "altText": "Gewichtstabelle"
+    }
+  },
+  "Hexdin961": {
+    "header": {
+      "title": "Sechskantschraube",
+      "subtitle": "DIN 961 ISO 8765 SECHSKANTKOPFSCHRAUBE"
+    },
+    "overview": {
+      "title": "DIN 961 ISO 8765 SECHSKANTKOPFSCHRAUBE",
+      "description": "DIN 961 ISO 8765 UNI 5740 Sechskantkopfschraube ist eine vollgewinde Sechskantschraube mit feinem metrischem Gewinde. Diese Eigenschaften machen sie geeignet für Anwendungen, die präzise Gewindeeingriffe und hohe Klemmkraft erfordern."
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 961 ISO 8765 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "altText": "Gewichtstabelle"
     }
   }
 }

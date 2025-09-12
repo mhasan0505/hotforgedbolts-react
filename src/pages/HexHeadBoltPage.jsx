@@ -1,9 +1,10 @@
-import Din7990 from "@/components/DIIN/Din7990";
-import Din961 from "@/components/DIIN/Din961";
 import BoltNavigator from "../components/BoltNavigator";
-import Din931 from "../components/DIIN/Din931";
-import Din933 from "../components/DIIN/Din933";
-import Din960 from "../components/DIIN/Din960";
+import DIN6914 from "../components/HexHeadBolts/DIN6914";
+import Din7990 from "../components/HexHeadBolts/Din7990";
+import Din931 from "../components/HexHeadBolts/Din931";
+import Din933 from "../components/HexHeadBolts/Din933";
+import Din960 from "../components/HexHeadBolts/Din960";
+import Din961 from "../components/HexHeadBolts/Din961";
 
 const HexHeadBoltPage = () => {
   return (
@@ -26,6 +27,9 @@ const HexHeadBoltPage = () => {
 
           <div className="bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden mt-12">
             <Din933 />
+          </div>
+          <div>
+            <DIN6914 />
           </div>
         </div>
       </div>

@@ -565,7 +565,8 @@
         "description": "El perno de ojo DIN 444 UNI 6058 se utiliza en enlaces mecánicos, aplicaciones de elevación y como elementos de conexión"
       },
       "technicalSpecs": {
-        "title": "Especificaciones Técnicas"
+        "title": "Especificaciones Técnicas",
+        "altText": "DIN 960 ISO 8765 Diagrama Técnico"
       },
       "qualityStandards": {
         "title": "Estándares de Calidad",
@@ -615,6 +616,108 @@
       "weightChart": {
         "title": "Tabla de Peso"
       }
+    }
+  },
+  "Hexdin961": {
+    "header": {
+      "title": "Perno de Cabeza Hexagonal",
+      "subtitle": "DIN 961 ISO 8765 PERNO DE CABEZA HEXAGONAL"
+    },
+    "overview": {
+      "title": "DIN 961 ISO 8765 PERNO DE CABEZA HEXAGONAL",
+      "description": "DIN 961 ISO 8765 UNI 5740 Perno de cabeza hexagonal es un perno de cabeza hexagonal completamente roscado con rosca métrica de paso fino. Estos atributos los hacen adecuados para uso en áreas que son aplicaciones que requieren enganche de rosca preciso y alta fuerza de sujeción."
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "altText": "DIN 961 ISO 8765 Diagrama Técnico"
+    },
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acero Inoxidable:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Rosca:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos de PTFE, o cualquier otro tratamiento superficial, lo tenemos cubierto. Tales como: Galvanizado de zinc, galvanizado de zinc-níquel, recubrimientos de zinc-escamas como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Peso",
+      "altText": "Tabla de Peso"
+    }
+  },
+  "Hexdin960": {
+    "header": {
+      "title": "Tornillo de cabeza hexagonal",
+      "subtitle": "DIN 960 ISO 8765 TORNILLO DE CABEZA HEXAGONAL PARCIALMENTE ROSCADO"
+    },
+    "overview": {
+      "title": "DIN 960 ISO 8765 TORNILLO DE CABEZA HEXAGONAL PARCIALMENTE ROSCADO",
+      "description": "El tornillo de cabeza hexagonal parcialmente roscado DIN 960 ISO 8765 UNI 5738 es adecuado para aplicaciones de alta precisión donde se requiere un paso fino para un ajuste perfecto, mejor ajuste o mayor precisión de tensado."
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones técnicas",
+      "altText": "DIN 7991 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Estándares de calidad",
+      "steel": "Acero:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acero inoxidable:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Rosca:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Recubrimientos disponibles",
+      "description": "Ya sea que necesite galvanizado en zinc, recubrimientos de PTFE u otro tratamiento de superficie, lo tenemos cubierto. Por ejemplo: galvanizado en zinc, recubrimiento de zinc-níquel, recubrimientos de escamas de zinc como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado en caliente, HDG, sherardización, pasivación, Antifricor, recubrimiento en polvo, zinc mecánico, zinc-hierro... etc. ¿Y lo mejor? Ofrecemos precios competitivos y tenemos una variedad de opciones en stock, listas para satisfacer su demanda."
+    },
+    "gallery": {
+      "title": "Galería de productos"
+    },
+    "weightChart": {
+      "title": "Tabla de pesos",
+      "altText": "Weight Chart"
+    }
+  },
+  "Hexdin7990": {
+    "header": {
+      "title": "Perno de Cabeza Hexagonal",
+      "subtitle": "DIN 7990-ISO 4032- EN 14399-3 PERNO DE CABEZA HEXAGONAL"
+    },
+    "overview": {
+      "title": "DIN 7990-ISO 4032- EN 14399-3 PERNO DE CABEZA HEXAGONAL",
+      "description": "DIN 7990 ISO 4032 EN 14399-3 UNI 5712 Perno de Cabeza Hexagonal se utiliza en construcción de acero, particularmente para conexiones atornilladas estructurales no pretensadas."
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "altText": "DIN 7990 ISO 4032 EN 14399-3 Diagrama Técnico"
+    },
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acero Inoxidable:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Rosca:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos de PTFE, o cualquier otro tratamiento superficial, lo tenemos cubierto. Tales como: Galvanizado de zinc, galvanizado de zinc-níquel, recubrimientos de zinc-escamas como Geomet, Dörken, Magni, Corundum, recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Peso",
+      "altText": "Tabla de Peso"
     }
   }
 }
