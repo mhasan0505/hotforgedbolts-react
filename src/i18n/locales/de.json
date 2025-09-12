@@ -755,5 +755,39 @@
       "title": "Gewichtstabelle",
       "altText": "Gewichtstabelle"
     }
+  },
+  "Hexdin933": {
+    "header": {
+      "title": "Sechskantschraube",
+      "subtitle": "DIN 933 ISO 4017 VOLLGEWINDE SECHSKANTKOPFSCHRAUBEN"
+    },
+    "overview": {
+      "title": "DIN 933 ISO 4017 VOLLGEWINDE SECHSKANTKOPFSCHRAUBEN",
+      "description": "DIN 933 ISO 4017 UNI 5739 Vollgewinde Sechskantkopfschrauben werden in Befestigungsanwendungen eingesetzt, bei denen ein vollständiger Gewindeeingriff erforderlich ist, sowie in Blechmontagen, leichten und mittelschweren Maschinen."
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "altText": "DIN 933 ISO 4017 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Gewinde:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "altText": "Gewichtstabelle"
+    }
   }
 }

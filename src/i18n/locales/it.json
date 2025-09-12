@@ -744,5 +744,39 @@
       "title": "Tabella dei Pesi",
       "altText": "Tabella dei Pesi"
     }
+  },
+  "Hexdin933": {
+    "header": {
+      "title": "Vite a Testa Esagonale",
+      "subtitle": "DIN 933 ISO 4017 VITI A TESTA ESAGONALE A FILETTATURA COMPLETA"
+    },
+    "overview": {
+      "title": "DIN 933 ISO 4017 VITI A TESTA ESAGONALE A FILETTATURA COMPLETA",
+      "description": "Le viti a testa esagonale a filettatura completa DIN 933 ISO 4017 UNI 5739 sono utilizzate in applicazioni di fissaggio dove è necessario un pieno impegno della filettatura, nell'assemblaggio di lamiere, macchinari leggeri e di media portata."
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "altText": "Diagramma Tecnico DIN 933 ISO 4017"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio:",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessGrades": "A2, A4",
+      "thread": "Filettatura:",
+      "threadSpec": "6g"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella dei Pesi",
+      "altText": "Tabella dei Pesi"
+    }
   }
 }
