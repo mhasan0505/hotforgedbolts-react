@@ -1001,5 +1001,39 @@
       "title": "Weight Chart",
       "alt": "Weight Chart"
     }
+  }, "StudDIN976": {
+    "header": {
+      "title": "STUD BOLTS DIN 976",
+      "subtitle": "DIN 976 DOUBLE-END STUD BOLT"
+    },
+    "productOverview": {
+      "title": "DIN 976 FULLY THREADED RODS",
+      "description": "DIN 976 Fully Threaded Stud Bolt is used in Construction ,Steel structure assembly,Mechanical and industrial equipment,Temporary or permanent joints where nuts are used on both sides.",
+      "imageAlt": "DIN 976 Fully Threaded Stud Bolt"
+    },
+    "technicalSpecifications": {
+      "title": "Technical Specifications",
+      "diagramAlt": "DIN 976 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel",
+      "stainlessSteel": "Stainless Steel",
+      "grade": "Grade",
+      "maxLength": "Max Length",
+      "maxLengthValue": "Up to 15000mm"
+    },
+    "availableCoatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "productGallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "alt": "Weight Chart"
+    }
   }
 }
+

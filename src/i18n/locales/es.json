@@ -1108,5 +1108,39 @@
       "title": "Tabla de Peso",
       "alt": "Tabla de Peso"
     }
+  },
+  "StudDIN976": {
+    "header": {
+      "title": "PERNOS PRISIONEROS DIN 976",
+      "subtitle": "DIN 976 PERNO PRISIONERO DE DOBLE EXTREMO"
+    },
+    "productOverview": {
+      "title": "DIN 976 VARILLAS COMPLETAMENTE ROSCADAS",
+      "description": "El Perno Prisionero Completamente Roscado DIN 976 se utiliza en Construcción, montaje de estructuras de acero, equipos mecánicos e industriales, juntas temporales o permanentes donde se utilizan tuercas en ambos lados.",
+      "imageAlt": "Perno Prisionero Completamente Roscado DIN 976"
+    },
+    "technicalSpecifications": {
+      "title": "Especificaciones Técnicas",
+      "diagramAlt": "Diagrama Técnico DIN 976"
+    },
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero",
+      "stainlessSteel": "Acero Inoxidable",
+      "grade": "Grado",
+      "maxLength": "Longitud Máxima",
+      "maxLengthValue": "Hasta 15000mm"
+    },
+    "availableCoatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos de PTFE, o cualquier otro tratamiento de superficie, lo tenemos cubierto. Tales como: Galvanizado de zinc, Galvanizado de Zinc-Níquel, Recubrimientos de Zinc-Flake como Geomet, Dörken, Magni, Corundum, Recubrimientos de PTFE como Xylan, Xylar, lubricación Lubo, Galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc Mecánico, Zinc-Hierro... etc. ¿Y la mejor parte? Ofrecemos precios competitivos y tenemos una variedad de opciones en stock, listas para satisfacer su demanda."
+    },
+    "productGallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Peso",
+      "alt": "Tabla de Peso"
+    }
   }
 }

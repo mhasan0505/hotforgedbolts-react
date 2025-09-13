@@ -947,5 +947,39 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "StudDIN976": {
+    "header": {
+      "title": "STIFTSCHRAUBEN DIN 976",
+      "subtitle": "DIN 976 DOPPELENDIGE STIFTSCHRAUBE"
+    },
+    "productOverview": {
+      "title": "DIN 976 VOLLGEWINDESTANGEN",
+      "description": "DIN 976 Vollgewindestiftschraube wird im Bauwesen, bei der Montage von Stahlkonstruktionen, mechanischen und industriellen Geräten, temporären oder permanenten Verbindungen verwendet, bei denen Muttern auf beiden Seiten verwendet werden.",
+      "imageAlt": "DIN 976 Vollgewindestiftschraube"
+    },
+    "technicalSpecifications": {
+      "title": "Technische Spezifikationen",
+      "diagramAlt": "DIN 976 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl",
+      "stainlessSteel": "Edelstahl",
+      "grade": "Klasse",
+      "maxLength": "Maximale Länge",
+      "maxLengthValue": "Bis zu 15000mm"
+    },
+    "availableCoatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben Sie abgedeckt. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben eine Vielzahl von Optionen auf Lager, bereit, Ihre Nachfrage zu erfüllen."
+    },
+    "productGallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }

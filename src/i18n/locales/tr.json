@@ -1030,7 +1030,8 @@
       "title": "Ağırlık Tablosu",
       "alt": "Ağırlık Tablosu"
     }
-  }, "StudDIN529": {
+  },
+  "StudDIN529": {
     "title": "STUD DIN 529 ANKRAJ BULONU",
     "description": "DIN 529, kolon, çelik çerçeve ve makine gibi yapısal bileşenleri sabitlemek için betona gömülen çeşitli ankraj bulonu türlerini (temel bulonları olarak da adlandırılır) tanımlayan bir Alman standardıdır.",
     "qualityStandards": {
@@ -1049,7 +1050,8 @@
       "title": "Boyut Tablosu",
       "alt": "DIN 529 Boyut Tablosu"
     }
-  }, "StudDIN939": {
+  },
+  "StudDIN939": {
     "header": {
       "title": "STUD BULONLAR",
       "subtitle": "DIN 939 ÇİFT UÇLU STUD BULON"
@@ -1062,6 +1064,40 @@
     "technicalSpecifications": {
       "title": "Teknik Özellikler",
       "diagramAlt": "DIN 939 Teknik Diyagram"
+    },
+    "qualityStandards": {
+      "title": "Kalite Standartları",
+      "steel": "Çelik",
+      "stainlessSteel": "Paslanmaz Çelik",
+      "grade": "Sınıf",
+      "maxLength": "Maksimum Uzunluk",
+      "maxLengthValue": "15000mm'ye kadar"
+    },
+    "availableCoatings": {
+      "title": "Mevcut Kaplamalar",
+      "description": "Çinko kaplama, PTFE kaplamalar veya başka herhangi bir yüzey işlemine ihtiyacınız olsun, size yardımcı olabiliriz. Bunlar gibi: Çinko kaplama, Çinko-Nikel kaplama, Geomet, Dörken, Magni, Corundum gibi Çinko-Flake kaplamalar, Xylan, Xylar, Lubo yağlama gibi PTFE kaplamalar, Sıcak daldırma galvanizleme, HDG, Sherardising, Pasifleştirme, Antifricor, Toz boyama, Mekanik Çinko, Çinko-Demir... vb. Ve en iyi yanı? Rekabetçi fiyatlar sunuyoruz ve talebinizi karşılamaya hazır çeşitli seçeneklerimiz stokta bulunuyor."
+    },
+    "productGallery": {
+      "title": "Ürün Galerisi"
+    },
+    "weightChart": {
+      "title": "Ağırlık Tablosu",
+      "alt": "Ağırlık Tablosu"
+    }
+  },
+  "StudDIN976": {
+    "header": {
+      "title": "STUD BULONLAR DIN 976",
+      "subtitle": "DIN 976 ÇİFT UÇLU STUD BULON"
+    },
+    "productOverview": {
+      "title": "DIN 976 TAM DİŞLİ ÇUBUKLAR",
+      "description": "DIN 976 Tam Dişli Stud Bulon, İnşaat, Çelik yapı montajı, Mekanik ve endüstriyel ekipman, Her iki tarafta somunların kullanıldığı geçici veya kalıcı bağlantılarda kullanılır.",
+      "imageAlt": "DIN 976 Tam Dişli Stud Bulon"
+    },
+    "technicalSpecifications": {
+      "title": "Teknik Özellikler",
+      "diagramAlt": "DIN 976 Teknik Diyagram"
     },
     "qualityStandards": {
       "title": "Kalite Standartları",

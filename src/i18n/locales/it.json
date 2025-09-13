@@ -1099,5 +1099,39 @@
       "title": "Tabella Peso",
       "alt": "Tabella Peso"
     }
+  },
+  "StudDIN976": {
+    "header": {
+      "title": "PRIGIONIERI DIN 976",
+      "subtitle": "DIN 976 PRIGIONIERO A DOPPIA ESTREMITÀ"
+    },
+    "productOverview": {
+      "title": "DIN 976 ASTE COMPLETAMENTE FILETTATE",
+      "description": "Il Prigioniero Completamente Filettato DIN 976 è utilizzato in Costruzioni, assemblaggio di strutture in acciaio, attrezzature meccaniche e industriali, giunti temporanei o permanenti dove vengono utilizzati dadi su entrambi i lati.",
+      "imageAlt": "Prigioniero Completamente Filettato DIN 976"
+    },
+    "technicalSpecifications": {
+      "title": "Specifiche Tecniche",
+      "diagramAlt": "Diagramma Tecnico DIN 976"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio",
+      "stainlessSteel": "Acciaio Inossidabile",
+      "grade": "Grado",
+      "maxLength": "Lunghezza Massima",
+      "maxLengthValue": "Fino a 15000mm"
+    },
+    "availableCoatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE, o qualsiasi altro trattamento superficiale, ti abbiamo coperto. Come ad esempio: Zincatura, Zincatura Zinco-Nichel, Rivestimenti Zinco-Flake come Geomet, Dörken, Magni, Corundum, Rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco Meccanico, Zinco-Ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in magazzino, pronte a soddisfare la tua domanda."
+    },
+    "productGallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella Peso",
+      "alt": "Tabella Peso"
+    }
   }
 }
