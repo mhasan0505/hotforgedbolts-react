@@ -1142,5 +1142,44 @@
       "title": "Tabla de Peso",
       "alt": "Tabla de Peso"
     }
+  },
+  "StudDIN2510": {
+    "header": {
+      "title": "PERNOS PRISIONEROS DIN 2510",
+      "subtitle": "DIN 2510 PERNO PRISIONERO Y TUERCAS"
+    },
+    "overview": {
+      "heading": "DIN 976 VARILLAS COMPLETAMENTE ROSCADAS",
+      "description": "DIN 2510 son pernos prisioneros y tuercas utilizados para conexiones de bridas de alta presión, particularmente en tuberías, plantas petroquímicas, refinerías y sistemas de generación de energía."
+    },
+    "technical": {
+      "heading": "Especificaciones Técnicas"
+    },
+    "quality": {
+      "heading": "Estándares de Calidad",
+      "steel": "Acero",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acero Inoxidable",
+      "stainlessStandards": "ASTM A193,ASTM A320,ASTM A453",
+      "grade": "Grado",
+      "gradeValues": "B7, B16,B7M,L7,L7M,B8,B8M",
+      "maxLength": "Longitud Máxima",
+      "maxLengthValue": "Hasta 15000mm"
+    },
+    "coatings": {
+      "heading": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos PTFE o cualquier otro tratamiento superficial, tenemos lo que necesita. Tales como: Galvanizado de zinc, galvanizado Zinc-Níquel, recubrimientos Zinc-Flake como Geomet, Dörken, Magni, Corundum, recubrimientos PTFE como Xylan, Xylar, lubricación Lubo, Galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc. ¿Y la mejor parte? Ofrecemos precios competitivos y tenemos una variedad de opciones en stock, listas para satisfacer su demanda."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "heading": "Tabla de Pesos"
+    },
+    "images": {
+      "mainImageAlt": "Perno Prisionero DIN 2510",
+      "diagramAlt": "Diagrama Técnico DIN 2510",
+      "weightChartAlt": "Tabla de Pesos"
+    }
   }
 }

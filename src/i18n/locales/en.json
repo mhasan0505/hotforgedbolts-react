@@ -1001,7 +1001,8 @@
       "title": "Weight Chart",
       "alt": "Weight Chart"
     }
-  }, "StudDIN976": {
+  },
+  "StudDIN976": {
     "header": {
       "title": "STUD BOLTS DIN 976",
       "subtitle": "DIN 976 DOUBLE-END STUD BOLT"
@@ -1034,6 +1035,44 @@
       "title": "Weight Chart",
       "alt": "Weight Chart"
     }
+  },
+  "StudDIN2510": {
+    "header": {
+      "title": "STUD BOLTS DIN 2510",
+      "subtitle": "DIN 2510 STUD BOLT & NUTS"
+    },
+    "overview": {
+      "heading": "DIN 976 FULLY THREADED RODS",
+      "description": "DIN 2510 is a stud bolts and nuts used for high-pressure flange connections, particularly in pipelines, petrochemical plants, refineries, and power generation systems."
+    },
+    "technical": {
+      "heading": "Technical Specifications"
+    },
+    "quality": {
+      "heading": "Quality Standards",
+      "steel": "Steel",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Stainless Steel",
+      "stainlessStandards": "ASTM A193,ASTM A320,ASTM A453",
+      "grade": "Grade",
+      "gradeValues": "B7, B16,B7M,L7,L7M,B8,B8M",
+      "maxLength": "Max Length",
+      "maxLengthValue": "Up to 15000mm"
+    },
+    "coatings": {
+      "heading": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "heading": "Weight Chart"
+    },
+    "images": {
+      "mainImageAlt": "DIN 2510 Stud Bolt",
+      "diagramAlt": "DIN 2510 Technical Diagram",
+      "weightChartAlt": "Weight Chart"
+    }
   }
 }
-

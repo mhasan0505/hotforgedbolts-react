@@ -1118,5 +1118,44 @@
       "title": "Ağırlık Tablosu",
       "alt": "Ağırlık Tablosu"
     }
+  },
+  "StudDIN2510": {
+    "header": {
+      "title": "STUD CIVALARI DIN 2510",
+      "subtitle": "DIN 2510 STUD CIVASI VE SOMUNLARI"
+    },
+    "overview": {
+      "heading": "DIN 976 TAM DİŞLİ ÇUBUKLAR",
+      "description": "DIN 2510, özellikle boru hatları, petrokimya tesisleri, rafineriler ve enerji üretim sistemlerinde yüksek basınçlı flanş bağlantıları için kullanılan stud cıvalar ve somunlardır."
+    },
+    "technical": {
+      "heading": "Teknik Özellikler"
+    },
+    "quality": {
+      "heading": "Kalite Standartları",
+      "steel": "Çelik",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Paslanmaz Çelik",
+      "stainlessStandards": "ASTM A193,ASTM A320,ASTM A453",
+      "grade": "Sınıf",
+      "gradeValues": "B7, B16,B7M,L7,L7M,B8,B8M",
+      "maxLength": "Maksimum Uzunluk",
+      "maxLengthValue": "15000mm'ye kadar"
+    },
+    "coatings": {
+      "heading": "Mevcut Kaplamalar",
+      "description": "Çinko kaplama, PTFE kaplamalar veya başka herhangi bir yüzey işlemi ihtiyacınız olsun, size uygun çözümümüz var. Örneğin: Çinko kaplama, Çinko-Nikel kaplama, Geomet, Dörken, Magni, Corundum gibi Çinko-Flake kaplamalar, Xylan, Xylar, Lubo yağlama gibi PTFE kaplamalar, Sıcak daldırma galvanizleme, HDG, Sherardising, Pasifleştirme, Antifricor, Toz boyama, Mekanik Çinko, Çinko-Demir... vb. En iyi yanı? Rekabetçi fiyatlar sunuyoruz ve talebinizi karşılamaya hazır çeşitli seçeneklerimiz stokta bulunuyor."
+    },
+    "gallery": {
+      "title": "Ürün Galerisi"
+    },
+    "weightChart": {
+      "heading": "Ağırlık Tablosu"
+    },
+    "images": {
+      "mainImageAlt": "DIN 2510 Stud Cıvası",
+      "diagramAlt": "DIN 2510 Teknik Diyagram",
+      "weightChartAlt": "Ağırlık Tablosu"
+    }
   }
 }

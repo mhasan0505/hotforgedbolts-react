@@ -1133,5 +1133,44 @@
       "title": "Tabella Peso",
       "alt": "Tabella Peso"
     }
+  },
+  "StudDIN2510": {
+    "header": {
+      "title": "PRIGIONIERI DIN 2510",
+      "subtitle": "DIN 2510 PRIGIONIERO E DADI"
+    },
+    "overview": {
+      "heading": "DIN 976 BARRE COMPLETAMENTE FILETTATE",
+      "description": "DIN 2510 sono prigionieri e dadi utilizzati per connessioni a flangia ad alta pressione, particolarmente in tubazioni, impianti petrolchimici, raffinerie e sistemi di generazione di energia."
+    },
+    "technical": {
+      "heading": "Specifiche Tecniche"
+    },
+    "quality": {
+      "heading": "Standard di Qualità",
+      "steel": "Acciaio",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Acciaio Inossidabile",
+      "stainlessStandards": "ASTM A193,ASTM A320,ASTM A453",
+      "grade": "Grado",
+      "gradeValues": "B7, B16,B7M,L7,L7M,B8,B8M",
+      "maxLength": "Lunghezza Massima",
+      "maxLengthValue": "Fino a 15000mm"
+    },
+    "coatings": {
+      "heading": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo quello che fa per te. Come ad esempio: Zincatura, zincatura Zinco-Nichel, rivestimenti Zinco-Flake come Geomet, Dörken, Magni, Corundum, rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-Ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in magazzino, pronte a soddisfare la tua domanda."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "heading": "Tabella Pesi"
+    },
+    "images": {
+      "mainImageAlt": "Prigioniero DIN 2510",
+      "diagramAlt": "Diagramma Tecnico DIN 2510",
+      "weightChartAlt": "Tabella Pesi"
+    }
   }
 }

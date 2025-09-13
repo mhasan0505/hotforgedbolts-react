@@ -981,5 +981,44 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "StudDIN2510": {
+    "header": {
+      "title": "STIFTSCHRAUBEN DIN 2510",
+      "subtitle": "DIN 2510 STIFTSCHRAUBE & MUTTERN"
+    },
+    "overview": {
+      "heading": "DIN 976 VOLLGEWINDESTANGEN",
+      "description": "DIN 2510 sind Stiftschrauben und Muttern für Hochdruck-Flanschverbindungen, insbesondere in Rohrleitungen, petrochemischen Anlagen, Raffinerien und Energieerzeugungssystemen."
+    },
+    "technical": {
+      "heading": "Technische Spezifikationen"
+    },
+    "quality": {
+      "heading": "Qualitätsstandards",
+      "steel": "Stahl",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "stainlessSteel": "Edelstahl",
+      "stainlessStandards": "ASTM A193,ASTM A320,ASTM A453",
+      "grade": "Güte",
+      "gradeValues": "B7, B16,B7M,L7,L7M,B8,B8M",
+      "maxLength": "Max. Länge",
+      "maxLengthValue": "Bis zu 15000mm"
+    },
+    "coatings": {
+      "heading": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben die passende Lösung. Wie z.B.: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, mechanisches Zink, Zink-Eisen... usw. Das Beste daran? Wir bieten wettbewerbsfähige Preise und haben verschiedene Optionen auf Lager, um Ihren Bedarf zu decken."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "heading": "Gewichtstabelle"
+    },
+    "images": {
+      "mainImageAlt": "DIN 2510 Stiftschraube",
+      "diagramAlt": "DIN 2510 Technisches Diagramm",
+      "weightChartAlt": "Gewichtstabelle"
+    }
   }
 }
