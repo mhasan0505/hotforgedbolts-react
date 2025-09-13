@@ -1191,5 +1191,24 @@
       "mainImageAlt": "Bullone_J",
       "chartAlt": "Diagramma Tecnico Bullone_J"
     }
+  },
+  "lBolt": {
+    "header": {
+      "title": "BULLONE DI ANCORAGGIO L",
+      "description": "Un bullone L è un tipo di bullone di ancoraggio piegato a forma della lettera \"L\". Viene utilizzato per fissare elementi strutturali al calcestruzzo."
+    },
+    "quality": {
+      "heading": "Standard di Qualità",
+      "steel": "Acciaio",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Lunghezza Massima",
+      "maxLengthValue": "Fino a 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Immagine Prodotto",
+      "diagramHeading": "Diagramma",
+      "mainImageAlt": "Bullone_L",
+      "chartAlt": "Diagramma Tecnico Bullone_L"
+    }
   }
 }

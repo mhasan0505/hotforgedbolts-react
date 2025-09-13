@@ -1093,5 +1093,24 @@
       "mainImageAlt": "J_Bolt",
       "chartAlt": "J_Bolt Technical Chart"
     }
+  },
+  "lBolt": {
+    "header": {
+      "title": "L BOLT ANCHOR",
+      "description": "An L-bolt is a type of anchor bolt that is bent in the shape of the letter \"L\". It is used to secure structural elements to concrete."
+    },
+    "quality": {
+      "heading": "Quality Standards",
+      "steel": "Steel",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Max Length",
+      "maxLengthValue": "Up to 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Product Image",
+      "diagramHeading": "Diagram",
+      "mainImageAlt": "L_Bolt",
+      "chartAlt": "L_Bolt Technical Chart"
+    }
   }
 }

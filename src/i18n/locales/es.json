@@ -1200,5 +1200,24 @@
       "mainImageAlt": "Perno_J",
       "chartAlt": "Diagrama Técnico Perno_J"
     }
+  },
+  "lBolt": {
+    "header": {
+      "title": "PERNO DE ANCLAJE L",
+      "description": "Un perno L es un tipo de perno de anclaje que se dobla en forma de la letra \"L\". Se utiliza para asegurar elementos estructurales al concreto."
+    },
+    "quality": {
+      "heading": "Estándares de Calidad",
+      "steel": "Acero",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Longitud Máxima",
+      "maxLengthValue": "Hasta 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Imagen del Producto",
+      "diagramHeading": "Diagrama",
+      "mainImageAlt": "Perno_L",
+      "chartAlt": "Diagrama Técnico Perno_L"
+    }
   }
 }

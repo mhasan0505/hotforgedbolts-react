@@ -1,7 +1,10 @@
 import { Package } from 'lucide-react';
 import { L_Bolt_image } from "./StudImage";
+import { useTranslation } from 'react-i18next';
 
 const L_Bolt = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container mx-auto max-w-7xl mt-24 p-4">
       <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
@@ -10,12 +13,11 @@ const L_Bolt = () => {
           <div className="flex items-center mb-2">
             <Package className="w-6 h-6 mr-3" />
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-              L BOLT ANCHOR
+              {t('lBolt.header.title')}
             </h1>
           </div>
           <p className="text-violet-100 text-lg">
-            An L-bolt is a type of anchor bolt that is bent in the shape of the
-            letter "L". It is used to secure structural elements to concrete.
+            {t('lBolt.header.description')}
           </p>
         </div>
 
@@ -29,18 +31,16 @@ const L_Bolt = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                    Quality Standards
+                    {t('lBolt.quality.heading')}
                   </h3>
                 </div>
                 <div className="space-y-2 text-green-700">
                   <p>
-                    <span className="font-semibold">Steel:</span> 8.8, 10.9,
-                    12.9
+                    <span className="font-semibold">{t('lBolt.quality.steel')}:</span> {t('lBolt.quality.steelGrades')}
                   </p>
 
                   <p>
-                    <span className="font-semibold">Max Length:</span> Up to
-                    15000mm
+                    <span className="font-semibold">{t('lBolt.quality.maxLength')}:</span> {t('lBolt.quality.maxLengthValue')}
                   </p>
                 </div>
               </div>
@@ -51,12 +51,12 @@ const L_Bolt = () => {
               {/* Main Product Image */}
               <div className="bg-gray-50 rounded-lg p-4">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4 text-center">
-                  Product Image
+                  {t('lBolt.images.productImageHeading')}
                 </h3>
                 <div className="aspect-square bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                   <img
                     src={L_Bolt_image.main}
-                    alt="L_Bolt"
+                    alt={t('lBolt.images.mainImageAlt')}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
@@ -65,12 +65,12 @@ const L_Bolt = () => {
               {/* Technical Chart */}
               <div className="bg-gray-50 rounded-lg p-4">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4 text-center">
-                  Diagram
+                  {t('lBolt.images.diagramHeading')}
                 </h3>
                 <div className="aspect-video bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                   <img
                     src={L_Bolt_image.chart}
-                    alt="L_Bolt Technical Chart"
+                    alt={t('lBolt.images.chartAlt')}
                     className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                   />
                 </div>

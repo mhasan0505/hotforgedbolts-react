@@ -1176,5 +1176,24 @@
       "mainImageAlt": "J_Cıvası",
       "chartAlt": "J_Cıvası Teknik Şeması"
     }
+  },
+  "lBolt": {
+    "header": {
+      "title": "L ANKRAJ CIVASI",
+      "description": "L-cıvası, \"L\" harfi şeklinde bükülen bir ankraj cıvası türüdür. Yapısal elemanları betona sabitlemek için kullanılır."
+    },
+    "quality": {
+      "heading": "Kalite Standartları",
+      "steel": "Çelik",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Maksimum Uzunluk",
+      "maxLengthValue": "15000mm'ye kadar"
+    },
+    "images": {
+      "productImageHeading": "Ürün Resmi",
+      "diagramHeading": "Diyagram",
+      "mainImageAlt": "L_Cıvası",
+      "chartAlt": "L_Cıvası Teknik Şeması"
+    }
   }
 }

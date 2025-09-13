@@ -1039,5 +1039,24 @@
       "mainImageAlt": "J_Bolzen",
       "chartAlt": "J_Bolzen Technisches Diagramm"
     }
+  },
+  "lBolt": {
+    "header": {
+      "title": "L-ANKERBOLZEN",
+      "description": "Ein L-Bolzen ist eine Art Ankerbolzen, der in Form des Buchstabens \"L\" gebogen ist. Er wird verwendet, um Strukturelemente an Beton zu befestigen."
+    },
+    "quality": {
+      "heading": "Qualitätsstandards",
+      "steel": "Stahl",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Max. Länge",
+      "maxLengthValue": "Bis zu 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Produktbild",
+      "diagramHeading": "Diagramm",
+      "mainImageAlt": "L_Bolzen",
+      "chartAlt": "L_Bolzen Technisches Diagramm"
+    }
   }
 }
