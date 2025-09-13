@@ -33,7 +33,17 @@
     "loading": "Cargando...",
     "error": "Error",
     "success": "Éxito",
-    "language": "Idioma"
+    "language": "Idioma",
+    "technicalSpecifications": "Especificaciones Técnicas",
+    "qualityStandards": "Estándares de Calidad",
+    "AvailableCoating": "Recubrimiento Disponible",
+    "weightChart": "Tabla de Peso",
+    "productImage": "Imagen del Producto",
+    "productGallery": "Galería de Productos",
+    "diameterrange": "Rango de Diámetro",
+    "materialGrades": "Grados de Material",
+    "dimensionalChart": "Tabla Dimensional",
+    "fastenersGallery": "Galería de Sujetadores"
   },
   "boltNavigator": {
     "badge": "Descubre nuestros productos",
@@ -889,6 +899,30 @@
     "weightChart": {
       "title": "Tabla de Pesos",
       "altText": "Tabla de Pesos DIN 480 TORNILLO DE CABEZA CUADRADA"
+    }
+  },
+  "nutASME": {
+    "header": {
+      "title": "TUERCA ASME",
+      "subtitle": "Estándar ASME B18.2.2"
+    },
+    "specifications": {
+      "diameter": {
+        "metric": "M 20 – M 72",
+        "imperial": "(7/8\" – 3\")"
+      },
+      "grades": {
+        "title": "Cantidad/Grados",
+        "value": "5-6-8-10-12-ASTM A194 2H-ASTM A194 Gr8-A563"
+      }
+    },
+    "images": {
+      "main": {
+        "alt": "Tuerca Hexagonal Pesada ASME"
+      },
+      "diagram": {
+        "alt": "Tabla Dimensional ASME"
+      }
     }
   }
 }

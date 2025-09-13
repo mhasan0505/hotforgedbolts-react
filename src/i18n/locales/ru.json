@@ -33,7 +33,17 @@
     "loading": "Загрузка...",
     "error": "Ошибка",
     "success": "Успех",
-    "language": "Язык"
+    "language": "Язык",
+    "technicalSpecifications": "Технические Характеристики",
+    "qualityStandards": "Стандарты Качества",
+    "AvailableCoating": "Доступное Покрытие",
+    "weightChart": "Таблица Весов",
+    "productImage": "Изображение Продукта",
+    "productGallery": "Галерея Продуктов",
+    "diameterrange": "Диапазон Диаметров",
+    "materialGrades": "Марки Материалов",
+    "dimensionalChart": "Размерная Таблица",
+    "fastenersGallery": "Галерея Крепежных Изделий"
   },
   "boltNavigator": {
     "badge": "Узнайте Наши Продукты",
@@ -862,6 +872,30 @@
     "weightChart": {
       "title": "Таблица весов",
       "altText": "Таблица весов DIN 480 ВИНТ С КВАДРАТНОЙ ГОЛОВКОЙ"
+    }
+  },
+  "nutASME": {
+    "header": {
+      "title": "ГАЙКА ASME",
+      "subtitle": "Стандарт ASME B18.2.2"
+    },
+    "specifications": {
+      "diameter": {
+        "metric": "M 20 – M 72",
+        "imperial": "(7/8\" – 3\")"
+      },
+      "grades": {
+        "title": "Количество/Классы",
+        "value": "5-6-8-10-12-ASTM A194 2H-ASTM A194 Gr8-A563"
+      }
+    },
+    "images": {
+      "main": {
+        "alt": "Тяжелая шестигранная гайка ASME"
+      },
+      "diagram": {
+        "alt": "Таблица размеров ASME"
+      }
     }
   }
 }

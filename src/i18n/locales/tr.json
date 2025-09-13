@@ -33,7 +33,17 @@
     "loading": "Yükleniyor...",
     "error": "Hata",
     "success": "Başarılı",
-    "language": "Dil"
+    "language": "Dil",
+    "technicalSpecifications": "Teknik Özellikler",
+    "qualityStandards": "Kalite Standartları",
+    "AvailableCoating": "Mevcut Kaplama",
+    "weightChart": "Ağırlık Tablosu",
+    "productImage": "Ürün Resmi",
+    "productGallery": "Ürün Galerisi",
+    "diameterrange": "Çap Aralığı",
+    "materialGrades": "Malzeme Sınıfları",
+    "dimensionalChart": "Boyutsal Tablo",
+    "fastenersGallery": "Bağlantı Elemanları Galerisi"
   },
   "boltNavigator": {
     "badge": "Keşfedin",
@@ -865,6 +875,30 @@
     "weightChart": {
       "title": "Ağırlık Tablosu",
       "altText": "DIN 480 KARE BAŞLI CıVATA Ağırlık Tablosu"
+    }
+  },
+  "nutASME": {
+    "header": {
+      "title": "MUTTER ASME",
+      "subtitle": "ASME B18.2.2 Standard"
+    },
+    "specifications": {
+      "diameter": {
+        "metric": "M 20 – M 72",
+        "imperial": "(7/8\" – 3\")"
+      },
+      "grades": {
+        "title": "Menge/Qualitäten",
+        "value": "5-6-8-10-12-ASTM A194 2H-ASTM A194 Gr8-A563"
+      }
+    },
+    "images": {
+      "main": {
+        "alt": "ASME Schwere Sechskantmutter"
+      },
+      "diagram": {
+        "alt": "ASME Maßtabelle"
+      }
     }
   }
 }

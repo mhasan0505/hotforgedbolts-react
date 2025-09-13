@@ -66,7 +66,17 @@
     "loading": "Caricamento...",
     "error": "Errore",
     "success": "Successo",
-    "language": "Lingua"
+    "language": "Lingua",
+    "technicalSpecifications": "Specifiche Tecniche",
+    "qualityStandards": "Standard di Qualità",
+    "AvailableCoating": "Rivestimento Disponibile",
+    "weightChart": "Tabella dei Pesi",
+    "productImage": "Immagine del Prodotto",
+    "productGallery": "Galleria Prodotti",
+    "diameterrange": "Gamma di Diametri",
+    "materialGrades": "Gradi di Materiale",
+    "dimensionalChart": "Tabella Dimensionale",
+    "fastenersGallery": "Galleria Elementi di Fissaggio"
   },
   "production": {
     "header": {
@@ -880,6 +890,30 @@
     "weightChart": {
       "title": "Tabella dei Pesi",
       "altText": "Tabella dei Pesi DIN 480 VITE A TESTA QUADRATA"
+    }
+  },
+  "nutASME": {
+    "header": {
+      "title": "DADO ASME",
+      "subtitle": "Standard ASME B18.2.2"
+    },
+    "specifications": {
+      "diameter": {
+        "metric": "M 20 – M 72",
+        "imperial": "(7/8\" – 3\")"
+      },
+      "grades": {
+        "title": "Quantità/Gradi",
+        "value": "5-6-8-10-12-ASTM A194 2H-ASTM A194 Gr8-A563"
+      }
+    },
+    "images": {
+      "main": {
+        "alt": "Dado Esagonale Pesante ASME"
+      },
+      "diagram": {
+        "alt": "Tabella Dimensionale ASME"
+      }
     }
   }
 }

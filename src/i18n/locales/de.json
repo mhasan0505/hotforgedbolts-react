@@ -29,6 +29,22 @@
     "learnMore": "Mehr Erfahren",
     "viewAll": "Alle Produkte Anzeigen"
   },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "language": "Sprache",
+    "technicalSpecifications": "Technische Spezifikationen",
+    "qualityStandards": "Qualitätsstandards",
+    "AvailableCoating": "Verfügbare Beschichtung",
+    "weightChart": "Gewichtstabelle",
+    "productImage": "Produktbild",
+    "productGallery": "Produktgalerie",
+    "diameterrange": "Durchmesserbereich",
+    "materialGrades": "Materialqualitäten",
+    "dimensionalChart": "Maßtabelle",
+    "fastenersGallery": "Befestigungselemente Galerie"
+  },
   "boltNavigator": {
     "badge": "Entdecken Sie unsere Produkte",
     "title": "Schraubenkategorien",
@@ -721,6 +737,30 @@
       "weightChart": {
         "title": "Gewichtstabelle",
         "altText": "Gewichtstabelle"
+      }
+    }
+  },
+  "nutASME": {
+    "header": {
+      "title": "MUTTER ASME",
+      "subtitle": "ASME B18.2.2 Standard"
+    },
+    "specifications": {
+      "diameter": {
+        "metric": "M 20 – M 72",
+        "imperial": "(7/8\" – 3\")"
+      },
+      "grades": {
+        "title": "Menge/Qualitäten",
+        "value": "5-6-8-10-12-ASTM A194 2H-ASTM A194 Gr8-A563"
+      }
+    },
+    "images": {
+      "main": {
+        "alt": "ASME Schwere Sechskantmutter"
+      },
+      "diagram": {
+        "alt": "ASME Maßtabelle"
       }
     }
   }
