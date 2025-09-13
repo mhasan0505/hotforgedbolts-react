@@ -16,17 +16,66 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ["react", "react-dom"],
-          router: ["react-router-dom"],
-          i18n: [
-            "i18next",
-            "react-i18next",
-            "i18next-browser-languagedetector",
-          ],
-          ui: ["lucide-react", "clsx"],
-          swiper: ["swiper"],
-          aos: ["aos"],
+        manualChunks: (id) => {
+          // Core React libraries - keep together
+          if (id.includes('node_modules/react') ||
+              id.includes('node_modules/react-dom') ||
+              id.includes('node_modules/scheduler')) {
+            return 'react-vendor';
+          }
+
+          // Routing
+          if (id.includes('node_modules/react-router-dom')) {
+            return 'router';
+          }
+
+          // Internationalization
+          if (id.includes('node_modules/i18next') ||
+              id.includes('node_modules/react-i18next') ||
+              id.includes('node_modules/i18next-browser-languagedetector')) {
+            return 'i18n';
+          }
+
+          // UI and styling libraries
+          if (id.includes('node_modules/lucide-react') || id.includes('node_modules/clsx')) {
+            return 'ui';
+          }
+
+          // Animation and interaction libraries - don't separate from React
+          if (id.includes('node_modules/swiper')) {
+            return 'swiper';
+          }
+
+          if (id.includes('node_modules/aos')) {
+            return 'aos';
+          }
+
+          // Email functionality
+          if (id.includes('node_modules/@emailjs/browser') || id.includes('node_modules/emailjs')) {
+            return 'email';
+          }
+
+          // Other vendor libraries
+          if (id.includes('node_modules/')) {
+            return 'vendor';
+          }
+
+          // Split pages into separate chunks for better lazy loading
+          if (id.includes('src/pages/')) {
+            const pageName = id.split('/').pop()?.replace('.jsx', '');
+            return `page-${pageName}`;
+          }
+
+          // Split components by category
+          if (id.includes('src/components/') && !id.includes('src/components/shared/')) {
+            if (id.includes('HexHeadBolts') || id.includes('Nuts') || id.includes('Stud_Bolts')) {
+              return 'product-components';
+            }
+            return 'common-components';
+          }
+
+          // Default chunk for other modules
+          return undefined;
         },
       },
     },
@@ -38,7 +87,7 @@ export default defineConfig({
         pure_funcs: ["console.log", "console.info"],
       },
     },
-    chunkSizeWarningLimit: 500,
+    chunkSizeWarningLimit: 800, // Increased from 500 to reduce warnings
     target: "esnext",
     sourcemap: false,
   },

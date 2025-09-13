@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useTranslation, Trans } from "react-i18next";
+import emailjs from '@emailjs/browser';
+import { emailjsConfig } from '../config/emailjs';
 import {
   Mail,
   Phone,
@@ -87,7 +89,26 @@ const ContactPage = () => {
     setSubmitStatus(null);
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      // Prepare template parameters for EmailJS
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        company: formData.company || 'Not provided',
+        phone: formData.phone || 'Not provided',
+        subject: formData.subject || 'Contact Form Submission',
+        message: formData.message,
+        to_email: 'info@hotforgedbolts.com', // Your company email
+        reply_to: formData.email,
+      };
+
+      // Send email using EmailJS
+      await emailjs.send(
+        emailjsConfig.serviceId,
+        emailjsConfig.templateId,
+        templateParams,
+        emailjsConfig.publicKey
+      );
+
       setSubmitStatus("success");
       setFormData({
         name: "",
@@ -97,8 +118,8 @@ const ContactPage = () => {
         subject: "",
         message: "",
       });
-    // eslint-disable-next-line no-unused-vars
-    } catch (_error) {
+    } catch (error) {
+      console.error('EmailJS Error:', error);
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);

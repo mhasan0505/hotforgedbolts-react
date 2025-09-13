@@ -7,9 +7,9 @@
 // 5. Replace the values below with your actual EmailJS credentials
 
 export const emailjsConfig = {
-  serviceId: 'service_hotforged', // Replace with your EmailJS service ID
-  templateId: 'template_contact', // Replace with your EmailJS template ID
-  publicKey: 'YOUR_PUBLIC_KEY', // Replace with your EmailJS public key
+  serviceId: "service_6js0yru", // Replace with your EmailJS service ID
+  templateId: "template_cj6jgma", // Replace with your EmailJS template ID
+  publicKey: "5lYEaGpogQ0S8iulR", // Replace with your EmailJS public key
 };
 
 // Example EmailJS template variables that should be configured in your EmailJS template:
@@ -21,18 +21,18 @@ export const emailjsConfig = {
 
 // Sample EmailJS template content:
 // Subject: New Contact Form Submission from {{from_name}}
-// 
+//
 // Hello,
-// 
+//
 // You have received a new message from your website contact form:
-// 
+//
 // Name: {{from_name}}
 // Email: {{from_email}}
-// 
+//
 // Message:
 // {{message}}
-// 
+//
 // Please reply to: {{reply_to}}
-// 
+//
 // Best regards,
 // Hot Forged Bolts Website
