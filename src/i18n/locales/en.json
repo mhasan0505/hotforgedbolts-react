@@ -1074,5 +1074,24 @@
       "diagramAlt": "DIN 2510 Technical Diagram",
       "weightChartAlt": "Weight Chart"
     }
+  },
+  "jBolt": {
+    "header": {
+      "title": "J TYPE ANCHOR BOLT",
+      "description": "A J anchor bolt is a type of fastener shaped like the letter \"J\", commonly used in construction and structural applications"
+    },
+    "quality": {
+      "heading": "Quality Standards",
+      "steel": "Steel",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Max Length",
+      "maxLengthValue": "Up to 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Product Image",
+      "diagramHeading": "Diagram",
+      "mainImageAlt": "J_Bolt",
+      "chartAlt": "J_Bolt Technical Chart"
+    }
   }
 }

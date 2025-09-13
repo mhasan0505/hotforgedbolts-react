@@ -1172,5 +1172,24 @@
       "diagramAlt": "Diagramma Tecnico DIN 2510",
       "weightChartAlt": "Tabella Pesi"
     }
+  },
+  "jBolt": {
+    "header": {
+      "title": "BULLONE DI ANCORAGGIO TIPO J",
+      "description": "Un bullone di ancoraggio J è un tipo di elemento di fissaggio a forma di lettera \"J\", comunemente utilizzato in applicazioni costruttive e strutturali"
+    },
+    "quality": {
+      "heading": "Standard di Qualità",
+      "steel": "Acciaio",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Lunghezza Massima",
+      "maxLengthValue": "Fino a 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Immagine Prodotto",
+      "diagramHeading": "Diagramma",
+      "mainImageAlt": "Bullone_J",
+      "chartAlt": "Diagramma Tecnico Bullone_J"
+    }
   }
 }

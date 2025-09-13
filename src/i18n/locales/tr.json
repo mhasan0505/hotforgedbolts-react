@@ -1157,5 +1157,24 @@
       "diagramAlt": "DIN 2510 Teknik Diyagram",
       "weightChartAlt": "Ağırlık Tablosu"
     }
+  },
+  "jBolt": {
+    "header": {
+      "title": "J TİPİ ANKRAJ CIVASI",
+      "description": "J ankraj cıvası, \"J\" harfi şeklinde olan ve inşaat ile yapısal uygulamalarda yaygın olarak kullanılan bir bağlantı elemanı türüdür"
+    },
+    "quality": {
+      "heading": "Kalite Standartları",
+      "steel": "Çelik",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Maksimum Uzunluk",
+      "maxLengthValue": "15000mm'ye kadar"
+    },
+    "images": {
+      "productImageHeading": "Ürün Resmi",
+      "diagramHeading": "Diyagram",
+      "mainImageAlt": "J_Cıvası",
+      "chartAlt": "J_Cıvası Teknik Şeması"
+    }
   }
 }

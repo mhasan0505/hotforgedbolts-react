@@ -1020,5 +1020,24 @@
       "diagramAlt": "DIN 2510 Technisches Diagramm",
       "weightChartAlt": "Gewichtstabelle"
     }
+  },
+  "jBolt": {
+    "header": {
+      "title": "J-TYP ANKERBOLZEN",
+      "description": "Ein J-Ankerbolzen ist eine Art Befestigungselement in Form des Buchstabens \"J\", das häufig in Bau- und Strukturanwendungen verwendet wird"
+    },
+    "quality": {
+      "heading": "Qualitätsstandards",
+      "steel": "Stahl",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Max. Länge",
+      "maxLengthValue": "Bis zu 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Produktbild",
+      "diagramHeading": "Diagramm",
+      "mainImageAlt": "J_Bolzen",
+      "chartAlt": "J_Bolzen Technisches Diagramm"
+    }
   }
 }

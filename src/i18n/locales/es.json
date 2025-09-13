@@ -1181,5 +1181,24 @@
       "diagramAlt": "Diagrama Técnico DIN 2510",
       "weightChartAlt": "Tabla de Pesos"
     }
+  },
+  "jBolt": {
+    "header": {
+      "title": "PERNO DE ANCLAJE TIPO J",
+      "description": "Un perno de anclaje J es un tipo de sujetador con forma de letra \"J\", comúnmente utilizado en aplicaciones de construcción y estructurales"
+    },
+    "quality": {
+      "heading": "Estándares de Calidad",
+      "steel": "Acero",
+      "steelGrades": "8.8, 10.9, 12.9",
+      "maxLength": "Longitud Máxima",
+      "maxLengthValue": "Hasta 15000mm"
+    },
+    "images": {
+      "productImageHeading": "Imagen del Producto",
+      "diagramHeading": "Diagrama",
+      "mainImageAlt": "Perno_J",
+      "chartAlt": "Diagrama Técnico Perno_J"
+    }
   }
 }
