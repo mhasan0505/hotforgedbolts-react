@@ -35,6 +35,7 @@ const DIN939 = () => {
                 src={StudImageDin939.mainImage}
                 alt="DIN 262 ISO 4032 EN 14399-3 Bolt"
                 className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                srcset=""
               />
             </div>
           </div>

@@ -620,277 +620,108 @@
       }
     }
   },
-  "Hexdin960": {
-    "header": {
-      "title": "Sechskantschraube",
-      "subtitle": "DIN 960 ISO 8765 TEILGEWINDE SECHSKANTKOPFSCHRAUBE"
+  "hexHeadBoltPage": {
+    "din961": {
+      "header": {
+        "title": "Sechskantschraube",
+        "subtitle": "DIN 961 ISO 8765 SECHSKANT-KOPFSCHRAUBE"
+      },
+      "overview": {
+        "title": "DIN 961 ISO 8765 SECHSKANT-KOPFSCHRAUBE",
+        "description": "DIN 961 ISO 8765 UNI 5740 Sechskant-Kopfschraube ist eine vollständig gewindete Sechskant-Kopfschraube mit metrischem Feingewinde. Diese Eigenschaften machen sie geeignet für Anwendungen, die präzise Gewindeeingriffe und hohe Klemmkraft erfordern."
+      },
+      "technicalSpecs": {
+        "title": "Technische Spezifikationen",
+        "altText": "DIN 961 ISO 8765 Technisches Diagramm"
+      },
+      "qualityStandards": {
+        "title": "Qualitätsstandards",
+        "steel": "Stahl:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Edelstahl:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Gewinde:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Verfügbare Beschichtungen",
+        "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, mechanische Verzinkung, Zink-Eisen... usw."
+      },
+      "gallery": {
+        "title": "Produktgalerie"
+      },
+      "weightChart": {
+        "title": "Gewichtstabelle",
+        "altText": "Gewichtstabelle"
+      }
     },
-    "overview": {
-      "title": "DIN 960 ISO 8765 TEILGEWINDE SECHSKANTKOPFSCHRAUBE",
-      "description": "DIN 960 ISO 8765 UNI 5738 Teilgewinde Sechskantkopfschraube für hochpräzise Anwendungen, bei denen ein feines Gewinde für enge Passung, bessere Einstellung oder höhere Spannungsgenauigkeit erforderlich ist."
+    "din960": {
+      "header": {
+        "title": "Sechskantschraube",
+        "subtitle": "DIN 960 ISO 8765 TEILGEWINDE SECHSKANTSCHRAUBE"
+      },
+      "overview": {
+        "title": "DIN 960 ISO 8765 TEILGEWINDE SECHSKANTSCHRAUBE",
+        "description": "DIN 960 ISO 8765 UNI 5738 Teilgewinde Sechskantschraube für hochpräzise Anwendungen, bei denen ein feines Gewinde für eine enge Passung, bessere Einstellung oder höhere Spannungsgenauigkeit erforderlich ist."
+      },
+      "technicalSpecs": {
+        "title": "Technische Spezifikationen",
+        "altText": "DIN 7991 Technical Diagram"
+      },
+      "qualityStandards": {
+        "title": "Qualitätsstandards",
+        "steel": "Stahl:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Edelstahl:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Gewinde:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Verfügbare Beschichtungen",
+        "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben alles im Angebot. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Schuppenbeschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, mechanisches Zink, Zink-Eisen... usw. Und das Beste? Wir bieten wettbewerbsfähige Preise und haben eine Vielzahl von Optionen auf Lager, bereit, Ihre Nachfrage zu erfüllen."
+      },
+      "gallery": {
+        "title": "Produktgalerie"
+      },
+      "weightChart": {
+        "title": "Gewichtstabelle",
+        "altText": "Weight Chart"
+      }
     },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 960 ISO 8765 Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben eine Vielzahl von Optionen auf Lager, um Ihre Nachfrage zu erfüllen."
-    },
-    "gallery": {
-      "title": "Produktgalerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "Gewichtstabelle"
-    }
-  },
-  "Hexdin961": {
-    "header": {
-      "title": "Sechskantschraube",
-      "subtitle": "DIN 961 ISO 8765 SECHSKANTKOPFSCHRAUBE"
-    },
-    "overview": {
-      "title": "DIN 961 ISO 8765 SECHSKANTKOPFSCHRAUBE",
-      "description": "DIN 961 ISO 8765 UNI 5740 Sechskantkopfschraube ist eine vollgewinde Sechskantschraube mit feinem metrischem Gewinde. Diese Eigenschaften machen sie geeignet für Anwendungen, die präzise Gewindeeingriffe und hohe Klemmkraft erfordern."
-    },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 961 ISO 8765 Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
-    },
-    "gallery": {
-      "title": "Produktgalerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "Gewichtstabelle"
-    }
-  },
-  "Hexdin7990": {
-    "header": {
-      "title": "Sechskantschraube",
-      "subtitle": "DIN 7990-ISO 4032-EN 14399-3 SECHSKANTKOPFSCHRAUBE"
-    },
-    "overview": {
-      "title": "DIN 7990-ISO 4032-EN 14399-3 SECHSKANTKOPFSCHRAUBE",
-      "description": "DIN 7990 ISO 4032 EN 14399-3 UNI 5712 Sechskantkopfschraube wird im Stahlbau verwendet, insbesondere für nicht-vorgespannte strukturelle Schraubverbindungen."
-    },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 7990 ISO 4032 EN 14399-3 Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
-    },
-    "gallery": {
-      "title": "Produktgalerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "Gewichtstabelle"
-    }
-  },
-  "Hexdin931": {
-    "header": {
-      "title": "Sechskantschraube",
-      "subtitle": "DIN 931 ISO 4014 TEILGEWINDE SECHSKANTKOPFSCHRAUBE"
-    },
-    "overview": {
-      "title": "DIN 931 ISO 4014 TEILGEWINDE SECHSKANTKOPFSCHRAUBE",
-      "description": "DIN 931 ISO 4014 UNI 5737 Teilgewinde Sechskantkopfschrauben werden im Maschinen- und Gerätebau, im Stahlbau, in der Automobilindustrie und in der Schwerindustrie eingesetzt, wo die Scherfestigkeit im gewindelosen Bereich wichtig ist."
-    },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 931 ISO 4014 Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
-    },
-    "gallery": {
-      "title": "Produktgalerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "Gewichtstabelle"
-    }
-  },
-  "Hexdin933": {
-    "header": {
-      "title": "Sechskantschraube",
-      "subtitle": "DIN 933 ISO 4017 VOLLGEWINDE SECHSKANTKOPFSCHRAUBEN"
-    },
-    "overview": {
-      "title": "DIN 933 ISO 4017 VOLLGEWINDE SECHSKANTKOPFSCHRAUBEN",
-      "description": "DIN 933 ISO 4017 UNI 5739 Vollgewinde Sechskantkopfschrauben werden in Befestigungsanwendungen eingesetzt, bei denen ein vollständiger Gewindeeingriff erforderlich ist, sowie in Blechmontagen, leichten und mittelschweren Maschinen."
-    },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 933 ISO 4017 Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
-    },
-    "gallery": {
-      "title": "Produktgalerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "Gewichtstabelle"
-    }
-  },
-  "Hexdin6914": {
-    "header": {
-      "title": "Sechskantschraube",
-      "subtitle": "DIN 6914 HOCHFESTE SECHSKANTKOPFSCHRAUBEN"
-    },
-    "overview": {
-      "title": "DIN 6914 HOCHFESTE SECHSKANTKOPFSCHRAUBEN",
-      "description": "DIN 6914 hochfeste Sechskantkopfschrauben werden insbesondere in hochfesten strukturellen Stahlverbindungen eingesetzt, beispielsweise in Brücken, Gebäuden und schweren Bauprojekten."
-    },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 6914 Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
-    },
-    "gallery": {
-      "title": "Produktgalerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "Gewichtstabelle"
-    }
-  },
-  "din262": {
-    "header": {
-      "title": "Vierkantschraube",
-      "subtitle": "DIN 262 ISO 4032 EN 14399-3 VIERKANTSCHRAUBE"
-    },
-    "overview": {
-      "title": "DIN 262 ISO 4032 EN 14399-3 VIERKANTSCHRAUBE",
-      "description": "DIN 262 ISO 4032 EN 14399-3 Vierkantschrauben sind für Anwendungen konzipiert, bei denen ein Vierkantkopf besseren Halt bietet und ein Verdrehen während der Montage verhindert. Diese Schrauben werden häufig im Bauwesen, im Maschinenbau und in Eisenbahnanwendungen eingesetzt."
-    },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 262 ISO 4032 EN 14399-3 Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
-    },
-    "gallery": {
-      "title": "Produktgalerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "Gewichtstabelle"
-    }
-  },
-  "din480": {
-    "header": {
-      "title": "Vierkantschrauben",
-      "subtitle": "DIN 480 VIERKANTSCHRAUBE"
-    },
-    "overview": {
-      "title": "DIN 480 VIERKANTSCHRAUBE",
-      "description": "DIN 480 Vierkantschrauben mit langem Schaft sind speziell für den Einsatz im Stahlbau, im Maschinenbau und in schweren Verbindungen konzipiert.",
-      "altText": "DIN 480 VIERKANTSCHRAUBE"
-    },
-    "technicalSpecs": {
-      "title": "Technische Spezifikationen",
-      "altText": "DIN 480 VIERKANTSCHRAUBE Technisches Diagramm"
-    },
-    "qualityStandards": {
-      "title": "Qualitätsstandards",
-      "steel": "Stahl:",
-      "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Edelstahl:",
-      "stainlessGrades": "A2, A4",
-      "thread": "Gewinde:",
-      "threadSpec": "6g"
-    },
-    "coatings": {
-      "title": "Verfügbare Beschichtungen",
-      "description": "Ob Sie Zinkbeschichtung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben die passende Lösung. Zum Beispiel: Zinkbeschichtung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisieren, Passivieren, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw."
-    },
-    "gallery": {
-      "title": "DIN 480 VIERKANTSCHRAUBE Galerie"
-    },
-    "weightChart": {
-      "title": "Gewichtstabelle",
-      "altText": "DIN 480 VIERKANTSCHRAUBE Gewichtstabelle"
+    "din7990": {
+      "header": {
+        "title": "Sechskantschraube",
+        "subtitle": "DIN 7990-ISO 4032- EN 14399-3 SECHSKANT-KOPFSCHRAUBE"
+      },
+      "overview": {
+        "title": "DIN 7990-ISO 4032- EN 14399-3 SECHSKANT-KOPFSCHRAUBE",
+        "description": "DIN 7990 ISO 4032 EN 14399-3 UNI 5712 Sechskant-Kopfschraube wird im Stahlbau verwendet, insbesondere für nicht vorgespannte strukturelle Schraubverbindungen."
+      },
+      "technicalSpecs": {
+        "title": "Technische Spezifikationen",
+        "altText": "DIN 7990 ISO 4032 EN 14399-3 Technisches Diagramm"
+      },
+      "qualityStandards": {
+        "title": "Qualitätsstandards",
+        "steel": "Stahl:",
+        "steelGrades": "8.8, 10.9, 12.9",
+        "stainlessSteel": "Edelstahl:",
+        "stainlessGrades": "A2, A4",
+        "thread": "Gewinde:",
+        "threadSpec": "6g"
+      },
+      "coatings": {
+        "title": "Verfügbare Beschichtungen",
+        "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, mechanische Verzinkung, Zink-Eisen... usw."
+      },
+      "gallery": {
+        "title": "Produktgalerie"
+      },
+      "weightChart": {
+        "title": "Gewichtstabelle",
+        "altText": "Gewichtstabelle"
+      }
     }
   }
 }

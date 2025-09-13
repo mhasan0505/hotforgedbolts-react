@@ -6,7 +6,7 @@ import DIN936 from '@/components/Nuts/DIN936';
 
 const Nut = () => {
   return (
-    <div>
+    <div className="bg-[#F5F5F5] ">
       <ASME />
       <DIN934/>
       <DIN6915/>

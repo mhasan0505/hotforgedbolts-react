@@ -1,5 +1,5 @@
 import { Package, Ruler } from "lucide-react";
-import { ASME_image } from "./NutImage";
+import { ASME_image } from "../../assets/Nuts/NutImage";
 
 const ASME = () => {
   return (
@@ -10,7 +10,7 @@ const ASME = () => {
           <div className="flex items-center mb-2">
             <Package className="w-6 h-6 mr-3" />
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-               Nuts
+              NUT ASME
             </h1>
           </div>
           <p className="text-violet-100 text-lg">ASME B18.2.2 Standard</p>
@@ -42,7 +42,7 @@ const ASME = () => {
                 <div className="flex items-center mb-4">
                   <Package className="w-5 h-5 text-blue-600 mr-3" />
                   <h3 className="text-xl font-bold text-gray-900">
-                    Material Grades
+                    Quantity/Grades
                   </h3>
                 </div>
                 <div className="bg-white rounded-lg p-4 shadow-sm">
@@ -76,7 +76,7 @@ const ASME = () => {
                 </h3>
                 <div className="aspect-video bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                   <img
-                    src={ASME_image.chart}
+                    src={ASME_image.diagram}
                     alt="ASME Dimensional Chart"
                     className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                   />
