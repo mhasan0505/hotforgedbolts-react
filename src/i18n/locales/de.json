@@ -893,5 +893,25 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "StudDIN529": {
+    "title": "STUD DIN 529 ANKERBOLZEN",
+    "description": "DIN 529 ist ein deutscher Standard, der verschiedene Arten von Ankerbolzen (auch Fundamentbolzen genannt) definiert, die in Beton eingebettet werden, um strukturelle Komponenten wie Säulen, Stahlrahmen und Maschinen zu befestigen.",
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl",
+      "stainlessSteel": "Edelstahl",
+      "grade": "Klasse",
+      "maxLength": "Maximale Länge",
+      "maxLengthValue": "Bis zu 15000mm"
+    },
+    "productImage": {
+      "title": "Produktbild",
+      "alt": "DIN 529 Ankerbolzen"
+    },
+    "dimensionalChart": {
+      "title": "Maßtabelle",
+      "alt": "DIN 529 Maßtabelle"
+    }
   }
 }

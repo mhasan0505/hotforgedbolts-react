@@ -1030,5 +1030,24 @@
       "title": "Ağırlık Tablosu",
       "alt": "Ağırlık Tablosu"
     }
+  }, "StudDIN529": {
+    "title": "STUD DIN 529 ANKRAJ BULONU",
+    "description": "DIN 529, kolon, çelik çerçeve ve makine gibi yapısal bileşenleri sabitlemek için betona gömülen çeşitli ankraj bulonu türlerini (temel bulonları olarak da adlandırılır) tanımlayan bir Alman standardıdır.",
+    "qualityStandards": {
+      "title": "Kalite Standartları",
+      "steel": "Çelik",
+      "stainlessSteel": "Paslanmaz Çelik",
+      "grade": "Sınıf",
+      "maxLength": "Maksimum Uzunluk",
+      "maxLengthValue": "15000mm'ye kadar"
+    },
+    "productImage": {
+      "title": "Ürün Resmi",
+      "alt": "DIN 529 Ankraj Bulonu"
+    },
+    "dimensionalChart": {
+      "title": "Boyut Tablosu",
+      "alt": "DIN 529 Boyut Tablosu"
+    }
   }
 }

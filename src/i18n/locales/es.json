@@ -1054,5 +1054,25 @@
       "title": "Tabla de Pesos",
       "alt": "Tabla de Pesos"
     }
+  },
+  "StudDIN529": {
+    "title": "STUD DIN 529 PERNO DE ANCLAJE",
+    "description": "DIN 529 es un estándar alemán que define varios tipos de pernos de anclaje (también llamados pernos de cimentación), que se utilizan para empotrar en concreto para asegurar componentes estructurales como columnas, marcos de acero y maquinaria.",
+    "qualityStandards": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero",
+      "stainlessSteel": "Acero Inoxidable",
+      "grade": "Grado",
+      "maxLength": "Longitud Máxima",
+      "maxLengthValue": "Hasta 15000mm"
+    },
+    "productImage": {
+      "title": "Imagen del Producto",
+      "alt": "Perno de Anclaje DIN 529"
+    },
+    "dimensionalChart": {
+      "title": "Tabla Dimensional",
+      "alt": "Tabla Dimensional DIN 529"
+    }
   }
 }

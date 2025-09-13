@@ -947,5 +947,25 @@
       "title": "Weight Chart",
       "alt": "Weight Chart"
     }
+  },
+  "StudDIN529": {
+    "title": "STUD DIN 529 ANCHOR BOLT",
+    "description": "DIN 529 is a German standard that defines various types of anchor bolts (also called foundation bolts), which are used to embed in concrete for securing structural components such as columns, steel frames, and machinery.",
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel",
+      "stainlessSteel": "Stainless Steel",
+      "grade": "Grade",
+      "maxLength": "Max Length",
+      "maxLengthValue": "Up to 15000mm"
+    },
+    "productImage": {
+      "title": "Product Image",
+      "alt": "DIN 529 Anchor Bolt"
+    },
+    "dimensionalChart": {
+      "title": "Dimensional Chart",
+      "alt": "DIN 529 Dimensional Chart"
+    }
   }
 }

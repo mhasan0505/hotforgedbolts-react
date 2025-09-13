@@ -1045,5 +1045,24 @@
       "title": "Tabella Pesi",
       "alt": "Tabella Pesi"
     }
+  }, "StudDIN529": {
+    "title": "STUD DIN 529 BULLONE DI ANCORAGGIO",
+    "description": "DIN 529 è uno standard tedesco che definisce vari tipi di bulloni di ancoraggio (chiamati anche bulloni di fondazione), che vengono utilizzati per incorporare nel calcestruzzo per fissare componenti strutturali come colonne, telai in acciaio e macchinari.",
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio",
+      "stainlessSteel": "Acciaio Inossidabile",
+      "grade": "Grado",
+      "maxLength": "Lunghezza Massima",
+      "maxLengthValue": "Fino a 15000mm"
+    },
+    "productImage": {
+      "title": "Immagine del Prodotto",
+      "alt": "Bullone di Ancoraggio DIN 529"
+    },
+    "dimensionalChart": {
+      "title": "Tabella Dimensionale",
+      "alt": "Tabella Dimensionale DIN 529"
+    }
   }
 }
