@@ -800,5 +800,42 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "nutDIN6915": {
+    "header": {
+      "title": "MUTTERN DIN 6915",
+      "subtitle": "DIN 6915 ISO7414 SCHWERE SECHSKANTMUTTER"
+    },
+    "overview": {
+      "title": "DIN 6915 ISO7414 SCHWERE SECHSKANTMUTTER",
+      "description": "DIN 6915 ISO7414/UNI5713/EN 14399-4 schwere Sechskantmuttern für den Einsatz in hochfesten Strukturschraubenverbindungen — insbesondere mit DIN 6914 Schrauben und DIN 6916 Scheiben.",
+      "imageAlt": "DIN 6915 ISO7414 SCHWERE SECHSKANTMUTTER"
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "diagramAlt": "DIN 6915 ISO7414 SCHWERE SECHSKANTMUTTER Technisches Diagramm"
+    },
+    "quality": {
+      "title": "Qualitätsstandards",
+      "steel": {
+        "label": "Stahl",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Edelstahl",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkverzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben die passende Lösung. Wie zum Beispiel: Zinkverzinkung, Zink-Nickel-Verzinkung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben verschiedene Optionen auf Lager, bereit für Ihren Bedarf."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }

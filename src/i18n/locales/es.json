@@ -961,5 +961,42 @@
       "title": "Tabla de Pesos",
       "alt": "Tabla de Pesos"
     }
+  },
+  "nutDIN6915": {
+    "header": {
+      "title": "TUERCAS DIN 6915",
+      "subtitle": "DIN 6915 ISO7414 TUERCA HEXAGONAL PESADA"
+    },
+    "overview": {
+      "title": "DIN 6915 ISO7414 TUERCA HEXAGONAL PESADA",
+      "description": "DIN 6915 ISO7414/UNI5713/EN 14399-4 tuercas hexagonales pesadas diseñadas para uso en ensamblajes de pernos estructurales de alta resistencia — particularmente con pernos DIN 6914 y arandelas DIN 6916.",
+      "imageAlt": "DIN 6915 ISO7414 TUERCA HEXAGONAL PESADA"
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "diagramAlt": "DIN 6915 ISO7414 TUERCA HEXAGONAL PESADA Diagrama Técnico"
+    },
+    "quality": {
+      "title": "Estándares de Calidad",
+      "steel": {
+        "label": "Acero",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Acero Inoxidable",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos PTFE o cualquier otro tratamiento superficial, tenemos la solución. Tales como: Galvanizado de zinc, Galvanizado Zinc-Níquel, Recubrimientos Zinc-Flake como Geomet, Dörken, Magni, Corundum, Recubrimientos PTFE como Xylan, Xylar, lubricación Lubo, Galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc. ¿Y la mejor parte? Ofrecemos precios competitivos y tenemos una variedad de opciones en stock, listas para satisfacer su demanda."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Pesos",
+      "alt": "Tabla de Pesos"
+    }
   }
 }

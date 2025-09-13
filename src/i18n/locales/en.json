@@ -854,5 +854,42 @@
       "title": "Weight Chart",
       "alt": "Weight Chart"
     }
+  },
+  "nutDIN6915": {
+    "header": {
+      "title": "NUTS DIN 6915",
+      "subtitle": "DIN 6915 ISO7414 HEAVY HEX NUT"
+    },
+    "overview": {
+      "title": "DIN 6915 ISO7414 HEAVY HEX NUT",
+      "description": "DIN 6915 ISO7414/UNI5713/EN 14399-4 heavy hex nuts designed for use in high-strength structural bolting assemblies — particularly with DIN 6914 bolts and DIN 6916 washers.",
+      "imageAlt": "DIN 6915 ISO7414 HEAVY HEX NUT"
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "diagramAlt": "DIN 6915 ISO7414 HEAVY HEX NUT Technical Diagram"
+    },
+    "quality": {
+      "title": "Quality Standards",
+      "steel": {
+        "label": "Steel",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Stainless Steel",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "alt": "Weight Chart"
+    }
   }
 }

@@ -1,15 +1,19 @@
 import { NutImagesDin6915 } from "../../assets/Nuts/NutImage";
 import ImageGallery from "../ImageGallery";
+import { useTranslation } from 'react-i18next';
+
 const DIN6915 = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container mx-auto max-w-7xl mt-24 p-4">
       {/* Header */}
       <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-          NUTS DIN 6915
+          {t('nutDIN6915.header.title')}
         </h1>
         <p className="text-white text-lg  p-2 rounded-md">
-          DIN 6915 ISO7414 HEAVY HEX NUT
+          {t('nutDIN6915.header.subtitle')}
         </p>
       </div>
       {/* Main Content */}
@@ -19,12 +23,10 @@ const DIN6915 = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                DIN 6915 ISO7414 HEAVY HEX NUT
+                {t('nutDIN6915.overview.title')}
               </h2>
               <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                DIN 6915 ISO7414/UNI5713/EN 14399-4 heavy hex nuts designed for
-                use in high-strength structural bolting assemblies —
-                particularly with DIN 6914 bolts and DIN 6916 washers.
+                {t('nutDIN6915.overview.description')}
               </p>
             </div>
           </div>
@@ -32,7 +34,7 @@ const DIN6915 = () => {
             <div className="bg-gray-50 rounded-lg p-4 max-w-md">
               <img
                 src={NutImagesDin6915.mainImage}
-                alt="DIN 934 HEXAGON NUT WITH METRIC THREAD"
+                alt={t('nutDIN6915.overview.imageAlt')}
                 className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
             </div>
@@ -42,12 +44,12 @@ const DIN6915 = () => {
         {/* Technical Diagram */}
         <div className="mb-12">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-            Technical Specifications
+            {t('nutDIN6915.technicalSpecs.title')}
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
               src={NutImagesDin6915.diagram}
-              alt="DIN 934 HEXAGON NUT WITH METRIC THREAD Technical Diagram"
+              alt={t('nutDIN6915.technicalSpecs.diagramAlt')}
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>
@@ -59,15 +61,15 @@ const DIN6915 = () => {
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
               <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                Quality Standards
+                {t('nutDIN6915.quality.title')}
               </h3>
             </div>
             <div className="space-y-2 text-green-700">
               <p>
-                <span className="font-semibold">Steel:</span> 8.8, 10.9, 12.9
+                <span className="font-semibold">{t('nutDIN6915.quality.steel.label')}:</span> {t('nutDIN6915.quality.steel.value')}
               </p>
               <p>
-                <span className="font-semibold">Stainless Steel:</span> A2,A4
+                <span className="font-semibold">{t('nutDIN6915.quality.stainlessSteel.label')}:</span> {t('nutDIN6915.quality.stainlessSteel.value')}
               </p>
             </div>
           </div>
@@ -76,18 +78,11 @@ const DIN6915 = () => {
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
               <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                Available Coatings
+                {t('nutDIN6915.coatings.title')}
               </h3>
             </div>
             <p className="text-violet-700 leading-relaxed">
-              Whether you need Zinc plating, PTFE coatings, or any other surface
-              treatment, we've got you covered. Such as: Zinc plating,
-              Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken,
-              Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo
-              lubrication, Hot dip galvanising, HDG, Sherardising, Passivating,
-              Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And
-              the best part? We offer competitive prices and have a variety of
-              options in stock, ready to meet your demand.
+              {t('nutDIN6915.coatings.description')}
             </p>
           </div>
         </div>
@@ -95,17 +90,17 @@ const DIN6915 = () => {
         {/* Image Gallery */}
         <ImageGallery
           images={NutImagesDin6915.gallery}
-          title="Product Gallery"
+          title={t('nutDIN6915.gallery.title')}
         />
         {/* Weight Chart */}
         <div className="mb-8">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-            Weight Chart
+            {t('nutDIN6915.weightChart.title')}
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
               src={NutImagesDin6915.weightChart}
-              alt="Weight Chart"
+              alt={t('nutDIN6915.weightChart.alt')}
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>

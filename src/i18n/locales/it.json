@@ -952,5 +952,42 @@
       "title": "Tabella Pesi",
       "alt": "Tabella Pesi"
     }
+  },
+  "nutDIN6915": {
+    "header": {
+      "title": "DADI DIN 6915",
+      "subtitle": "DIN 6915 ISO7414 DADO ESAGONALE PESANTE"
+    },
+    "overview": {
+      "title": "DIN 6915 ISO7414 DADO ESAGONALE PESANTE",
+      "description": "DIN 6915 ISO7414/UNI5713/EN 14399-4 dadi esagonali pesanti progettati per l'uso in assemblaggi di bullonatura strutturale ad alta resistenza — particolarmente con bulloni DIN 6914 e rondelle DIN 6916.",
+      "imageAlt": "DIN 6915 ISO7414 DADO ESAGONALE PESANTE"
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "diagramAlt": "DIN 6915 ISO7414 DADO ESAGONALE PESANTE Diagramma Tecnico"
+    },
+    "quality": {
+      "title": "Standard di Qualità",
+      "steel": {
+        "label": "Acciaio",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Acciaio Inossidabile",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo la soluzione giusta. Come ad esempio: Zincatura, Zincatura Zinco-Nichel, Rivestimenti Zinco-Flake come Geomet, Dörken, Magni, Corundum, Rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-Ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in magazzino, pronte per soddisfare la tua richiesta."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella Pesi",
+      "alt": "Tabella Pesi"
+    }
   }
 }
