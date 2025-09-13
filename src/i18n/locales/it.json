@@ -428,8 +428,12 @@
     "hero": {
       "subtitle": "Forgiatura a Caldo",
       "title": "Eccellenza nella Forgiatura a Caldo",
-      "description": "Processi di forgiatura a caldo all'avanguardia che offrono resistenza, durata e precisione superiori. Le nostre tecniche avanzate garantiscono un flusso di grano ottimale e proprietà meccaniche eccezionali.",
+      "description": "La forgiatura a caldo è un processo di formatura dei metalli condotto a temperature elevate, tipicamente tra 700°C e 1200°C, dove il materiale viene deformato plasticamente utilizzando presse meccaniche o idrauliche. L'ambiente ad alta temperatura riduce l'omogeneità. Topçesan supporta questo processo con un portafoglio completo di attrezzature per forgiatura e competenza ingegneristica avanzata.",
       "imageAlt": "Processo di Forgiatura a Caldo"
+    },
+    "company": {
+      "title": "Riguardo BRK Forging",
+      "description": "Presso Brk Forging, ci specializziamo nella produzione di componenti forgiati in una vasta gamma di geometrie e dimensioni, da 0,10 kg a 100 kg. Utilizzando 13 linee di produzione attive e un set completo di macchinari ausiliari, produciamo ogni parte con un impegno verso i più alti standard di qualità ed efficienza operativa."
     },
     "processes": {
       "title": "Il Nostro Processo di Forgiatura",
@@ -444,7 +448,7 @@
       },
       "qualityControl": {
         "title": "Controllo Qualità",
-        "description": "Test e ispezioni rigorose in ogni fase"
+        "description": "Test e ispezione rigorosi in ogni fase"
       }
     },
     "capabilities": {
@@ -455,25 +459,31 @@
       },
       "weightRange": {
         "label": "Gamma di Peso",
-        "value": "0,1 kg a 50 kg per pezzo"
+        "value": "0,1 kg a 100 kg per pezzo"
       },
       "temperatureRange": {
         "label": "Gamma di Temperatura",
         "value": "950°C a 1250°C"
       },
       "productionCapacity": {
-        "label": "Capacità Produttiva",
-        "value": "10.000+ pezzi al mese"
+        "label": "Capacità di Produzione",
+        "value": "13 linee di produzione attive"
       }
     },
     "advantages": {
       "title": "Vantaggi Chiave",
       "superiorMechanical": "Proprietà meccaniche superiori",
-      "enhancedGrainFlow": "Struttura del flusso di grano migliorata",
-      "reducedWaste": "Riduzione degli sprechi di materiale",
+      "enhancedGrainFlow": "Struttura di flusso del grano migliorata",
+      "reducedWaste": "Spreco di materiale ridotto",
       "costEffective": "Produzione conveniente",
       "improvedFatigue": "Resistenza alla fatica migliorata",
-      "consistentQuality": "Qualità costante in uscita"
+      "consistentQuality": "Uscita di qualità consistente"
+    },
+    "gallery": {
+      "galleryTitle": "Galleria Forgiatura a Caldo",
+      "alt1": "Processo di Forgiatura a Caldo 1",
+      "alt2": "Processo di Forgiatura a Caldo 2",
+      "alt3": "Processo di Forgiatura a Caldo 3"
     },
     "cta": {
       "title": "Sperimenta l'Eccellenza nella Forgiatura a Caldo",

@@ -429,8 +429,12 @@
     "hero": {
       "subtitle": "Sıcak Dövme",
       "title": "Sıcak Dövme Mükemmelliği",
-      "description": "Üstün mukavemet, dayanıklılık ve hassasiyet sağlayan son teknoloji sıcak dövme işlemleri. Gelişmiş tekniklerimiz optimal tane akışı ve olağanüstü mekanik özellikler garanti eder.",
+      "description": "Sıcak dövme, tipik olarak 700°C ile 1200°C arasında değişen yüksek sıcaklıklarda gerçekleştirilen, malzemenin mekanik veya hidrolik presler kullanılarak plastik olarak deforme edildiği bir metal şekillendirme işlemidir. Yüksek sıcaklık ortamı homojenliği azaltır. Topçesan bu süreci kapsamlı dövme ekipmanları portföyü ve gelişmiş mühendislik uzmanlığı ile destekler.",
       "imageAlt": "Sıcak Dövme Süreci"
+    },
+    "company": {
+      "title": "BRK Forging Hakkında",
+      "description": "Brk Forging olarak, 0,10 kg'dan 100 kg'a kadar geniş bir geometri ve boyut yelpazesinde dövme bileşenlerin üretiminde uzmanlaşmış durumdayız. 13 aktif üretim hattı ve kapsamlı yardımcı makine seti kullanarak, her parçayı en yüksek kalite standartları ve operasyonel verimlilik taahhüdü ile üretiyoruz."
     },
     "processes": {
       "title": "Dövme Sürecimiz",
@@ -456,7 +460,7 @@
       },
       "weightRange": {
         "label": "Ağırlık Aralığı",
-        "value": "Parça başına 0,1 kg ile 50 kg arası"
+        "value": "Parça başına 0,1 kg ile 100 kg arası"
       },
       "temperatureRange": {
         "label": "Sıcaklık Aralığı",
@@ -464,7 +468,7 @@
       },
       "productionCapacity": {
         "label": "Üretim Kapasitesi",
-        "value": "Ayda 10.000+ parça"
+        "value": "13 aktif üretim hattı"
       }
     },
     "advantages": {
@@ -476,9 +480,15 @@
       "improvedFatigue": "Gelişmiş yorulma direnci",
       "consistentQuality": "Tutarlı kalite çıktısı"
     },
+    "gallery": {
+      "galleryTitle": "Sıcak Dövme Galerisi",
+      "alt1": "Sıcak Dövme Süreci 1",
+      "alt2": "Sıcak Dövme Süreci 2",
+      "alt3": "Sıcak Dövme Süreci 3"
+    },
     "cta": {
       "title": "Sıcak Dövme Mükemmelliğini Deneyimleyin",
-      "description": "Tam spesifikasyonlarınıza uygun üstün sıcak dövme bileşenleri için bizimle ortaklık yapın",
+      "description": "Tam spesifikasyonlarınızı karşılayan üstün sıcak dövme bileşenleri için bizimle ortaklık kurun",
       "viewAllServices": "Tüm Hizmetleri Görüntüle"
     }
   },

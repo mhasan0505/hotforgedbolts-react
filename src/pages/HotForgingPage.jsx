@@ -1,56 +1,71 @@
-import React from 'react';
-import { ChevronRight, Zap, Thermometer, Hammer, Target, CheckCircle } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import hotForging from '../assets/Hotforging.webp';
+import {
+  CheckCircle,
+  ChevronRight,
+  Hammer,
+  Target,
+  Thermometer,
+  Zap,
+} from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import hotForging1 from "../assets/Hot Forging/Gallery 1.jpg";
+import hotForging2 from "../assets/Hot Forging/Gallery 2.jpg";
+import hotForging3 from "../assets/Hot Forging/gallery 3.webp";
+import hotForging from "../assets/Hot Forging/hero.jpg";
+import ImageGallery from "../components/ImageGallery";
 
 const HotForgingPage = () => {
   const { t } = useTranslation();
+  const hotForgingImage = [
+    { src: hotForging1, alt: t("hotForgingPage.gallery.alt1") },
+    { src: hotForging2, alt: t("hotForgingPage.gallery.alt2") },
+    { src: hotForging3, alt: t("hotForgingPage.gallery.alt3") },
+  ];
 
   const processes = [
     {
       icon: Thermometer,
-      title: t('hotForgingPage.processes.controlledHeating.title'),
-      description: t('hotForgingPage.processes.controlledHeating.description')
+      title: t("hotForgingPage.processes.controlledHeating.title"),
+      description: t("hotForgingPage.processes.controlledHeating.description"),
     },
     {
       icon: Hammer,
-      title: t('hotForgingPage.processes.closedDieForging.title'),
-      description: t('hotForgingPage.processes.closedDieForging.description')
+      title: t("hotForgingPage.processes.closedDieForging.title"),
+      description: t("hotForgingPage.processes.closedDieForging.description"),
     },
     {
       icon: Target,
-      title: t('hotForgingPage.processes.qualityControl.title'),
-      description: t('hotForgingPage.processes.qualityControl.description')
-    }
+      title: t("hotForgingPage.processes.qualityControl.title"),
+      description: t("hotForgingPage.processes.qualityControl.description"),
+    },
   ];
 
   const advantages = [
-    t('hotForgingPage.advantages.superiorMechanical'),
-    t('hotForgingPage.advantages.enhancedGrainFlow'),
-    t('hotForgingPage.advantages.reducedWaste'),
-    t('hotForgingPage.advantages.costEffective'),
-    t('hotForgingPage.advantages.improvedFatigue'),
-    t('hotForgingPage.advantages.consistentQuality')
+    t("hotForgingPage.advantages.superiorMechanical"),
+    t("hotForgingPage.advantages.enhancedGrainFlow"),
+    t("hotForgingPage.advantages.reducedWaste"),
+    t("hotForgingPage.advantages.costEffective"),
+    t("hotForgingPage.advantages.improvedFatigue"),
+    t("hotForgingPage.advantages.consistentQuality"),
   ];
 
   const capabilities = [
     {
-      label: t('hotForgingPage.capabilities.materialTypes.label'),
-      value: t('hotForgingPage.capabilities.materialTypes.value')
+      label: t("hotForgingPage.capabilities.materialTypes.label"),
+      value: t("hotForgingPage.capabilities.materialTypes.value"),
     },
     {
-      label: t('hotForgingPage.capabilities.weightRange.label'),
-      value: t('hotForgingPage.capabilities.weightRange.value')
+      label: t("hotForgingPage.capabilities.weightRange.label"),
+      value: t("hotForgingPage.capabilities.weightRange.value"),
     },
     {
-      label: t('hotForgingPage.capabilities.temperatureRange.label'),
-      value: t('hotForgingPage.capabilities.temperatureRange.value')
+      label: t("hotForgingPage.capabilities.temperatureRange.label"),
+      value: t("hotForgingPage.capabilities.temperatureRange.value"),
     },
     {
-      label: t('hotForgingPage.capabilities.productionCapacity.label'),
-      value: t('hotForgingPage.capabilities.productionCapacity.value')
-    }
+      label: t("hotForgingPage.capabilities.productionCapacity.label"),
+      value: t("hotForgingPage.capabilities.productionCapacity.value"),
+    },
   ];
 
   return (
@@ -63,30 +78,44 @@ const HotForgingPage = () => {
               <div className="flex items-center gap-3 mb-6">
                 <Zap className="w-8 h-8" />
                 <span className="text-gray-600 font-medium">
-                  {t('hotForgingPage.hero.subtitle')}
+                  {t("hotForgingPage.hero.subtitle")}
                 </span>
               </div>
               <h1 className="text-5xl font-bold mb-6">
-                {t('hotForgingPage.hero.title')}
+                {t("hotForgingPage.hero.title")}
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                {t('hotForgingPage.hero.description')}
+                {t("hotForgingPage.hero.description")}
               </p>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
               >
-                {t('buttons.getQuote')}
+                {t("buttons.getQuote")}
                 <ChevronRight className="w-5 h-5" />
               </Link>
             </div>
             <div className="relative">
               <img
                 src={hotForging}
-                alt={t('hotForgingPage.hero.imageAlt')}
+                alt={t("hotForgingPage.hero.imageAlt")}
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Description Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center">
+            <h2 className="text-4xl font-bold text-gray-900 mb-8">
+              {t("hotForgingPage.company.title")}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              {t("hotForgingPage.company.description")}
+            </p>
           </div>
         </div>
       </section>
@@ -96,10 +125,10 @@ const HotForgingPage = () => {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              {t('hotForgingPage.processes.title')}
+              {t("hotForgingPage.processes.title")}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('hotForgingPage.processes.description')}
+              {t("hotForgingPage.processes.description")}
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -130,7 +159,7 @@ const HotForgingPage = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                {t('hotForgingPage.capabilities.title')}
+                {t("hotForgingPage.capabilities.title")}
               </h2>
               <div className="space-y-6">
                 {capabilities.map((capability, index) => (
@@ -148,7 +177,7 @@ const HotForgingPage = () => {
             </div>
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                {t('hotForgingPage.advantages.title')}
+                {t("hotForgingPage.advantages.title")}
               </h2>
               <div className="space-y-4">
                 {advantages.map((advantage, index) => (
@@ -162,29 +191,35 @@ const HotForgingPage = () => {
           </div>
         </div>
       </section>
+      <div className="container mx-auto px-4 max-w-7xl">
+        <ImageGallery
+          images={hotForgingImage}
+          title={t("hotForgingPage.gallery.galleryTitle")}
+        />
+      </div>
 
       {/* CTA Section */}
       <section className="py-20 bg-gray-700 text-black">
         <div className="container mx-auto px-4 max-w-7xl text-center">
           <h2 className="text-4xl font-bold mb-6 text-white">
-            {t('hotForgingPage.cta.title')}
+            {t("hotForgingPage.cta.title")}
           </h2>
           <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
-            {t('hotForgingPage.cta.description')}
+            {t("hotForgingPage.cta.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
               className="inline-flex items-center gap-2 bg-white text-orange-600 px-8 py-3 rounded-full hover:bg-orange-50 transition-all duration-300 transform hover:scale-105 shadow-lg font-medium"
             >
-              {t('buttons.contactUs')}
+              {t("buttons.contactUs")}
               <ChevronRight className="w-5 h-5" />
             </Link>
             <Link
               to="/production"
               className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-orange-600 transition-all duration-300 transform hover:scale-105 font-medium"
             >
-              {t('hotForgingPage.cta.viewAllServices')}
+              {t("hotForgingPage.cta.viewAllServices")}
             </Link>
           </div>
         </div>

@@ -309,8 +309,12 @@
     "hero": {
       "subtitle": "Hot Forging",
       "title": "Hot Forging Excellence",
-      "description": "State-of-the-art hot forging processes that deliver superior strength, durability, and precision. Our advanced techniques ensure optimal grain flow and exceptional mechanical properties.",
+      "description": "Hot forging is a metal forming process conducted at elevated temperatures, typically ranging from 700°C to 1200°C, where the material is plastically deformed using mechanical or hydraulic presses. The high-temperature environment reduces homogeneity. Topçesan supports this process with a comprehensive portfolio of forging equipment and advanced engineering expertise.",
       "imageAlt": "Hot Forging Process"
+    },
+    "company": {
+      "title": "About BRK Forging",
+      "description": "At Brk Forging, we specialize in the production of forged components in a wide range of geometries and sizes, from 0.10 kg to 100 kg. Utilizing 13 active production lines and a comprehensive set of auxiliary machinery, we manufacture each part with a commitment to the highest standards of quality and operational efficiency."
     },
     "processes": {
       "title": "Our Forging Process",
@@ -336,7 +340,7 @@
       },
       "weightRange": {
         "label": "Weight Range",
-        "value": "0.1 kg to 50 kg per piece"
+        "value": "0.1 kg to 100 kg per piece"
       },
       "temperatureRange": {
         "label": "Temperature Range",
@@ -344,7 +348,7 @@
       },
       "productionCapacity": {
         "label": "Production Capacity",
-        "value": "10,000+ pieces per month"
+        "value": "13 active production lines"
       }
     },
     "advantages": {
@@ -355,6 +359,12 @@
       "costEffective": "Cost-effective production",
       "improvedFatigue": "Improved fatigue resistance",
       "consistentQuality": "Consistent quality output"
+    },
+    "gallery": {
+      "galleryTitle": "Hot Forging Gallery",
+      "alt1": "Hot Forging Process 1",
+      "alt2": "Hot Forging Process 2",
+      "alt3": "Hot Forging Process 3"
     },
     "cta": {
       "title": "Experience Hot Forging Excellence",

@@ -442,14 +442,18 @@
   },
   "hotForgingPage": {
     "hero": {
-      "subtitle": "Warmschmieden",
-      "title": "Warmschmiede-Exzellenz",
-      "description": "Modernste Warmschmiedeprozesse, die überlegene Festigkeit, Haltbarkeit und Präzision liefern. Unsere fortschrittlichen Techniken gewährleisten optimalen Kornfluss und außergewöhnliche mechanische Eigenschaften.",
-      "imageAlt": "Warmschmiedeprozess"
+      "subtitle": "Warmumformung",
+      "title": "Exzellenz in der Warmumformung",
+      "description": "Warmumformung ist ein Metallumformverfahren, das bei erhöhten Temperaturen durchgeführt wird, typischerweise zwischen 700°C und 1200°C, bei dem das Material mit mechanischen oder hydraulischen Pressen plastisch verformt wird. Die Hochtemperaturumgebung reduziert die Homogenität. Topçesan unterstützt diesen Prozess mit einem umfassenden Portfolio an Schmiedeausrüstung und fortschrittlicher Ingenieursexpertise.",
+      "imageAlt": "Warmumformungsprozess"
+    },
+    "company": {
+      "title": "Über BRK Forging",
+      "description": "Bei Brk Forging spezialisieren wir uns auf die Herstellung von geschmiedeten Komponenten in einer breiten Palette von Geometrien und Größen, von 0,10 kg bis 100 kg. Mit 13 aktiven Produktionslinien und einem umfassenden Satz von Hilfsmaschinen fertigen wir jedes Teil mit dem Engagement für höchste Qualitätsstandards und operative Effizienz."
     },
     "processes": {
       "title": "Unser Schmiedeprozess",
-      "description": "Fortschrittliche Warmschmiedetechniken für überlegene Bauteilleistung",
+      "description": "Fortschrittliche Warmumformungstechniken für überlegene Komponentenleistung",
       "controlledHeating": {
         "title": "Kontrollierte Erwärmung",
         "description": "Präzise Temperaturkontrolle für optimale Materialeigenschaften"
@@ -471,7 +475,7 @@
       },
       "weightRange": {
         "label": "Gewichtsbereich",
-        "value": "0,1 kg bis 50 kg pro Stück"
+        "value": "0,1 kg bis 100 kg pro Stück"
       },
       "temperatureRange": {
         "label": "Temperaturbereich",
@@ -479,7 +483,7 @@
       },
       "productionCapacity": {
         "label": "Produktionskapazität",
-        "value": "10.000+ Stück pro Monat"
+        "value": "13 aktive Produktionslinien"
       }
     },
     "advantages": {
@@ -491,9 +495,15 @@
       "improvedFatigue": "Verbesserte Ermüdungsbeständigkeit",
       "consistentQuality": "Konsistente Qualitätsausgabe"
     },
+    "gallery": {
+      "galleryTitle": "Warmumformungs-Galerie",
+      "alt1": "Warmumformungsprozess 1",
+      "alt2": "Warmumformungsprozess 2",
+      "alt3": "Warmumformungsprozess 3"
+    },
     "cta": {
-      "title": "Erleben Sie Warmschmiede-Exzellenz",
-      "description": "Arbeiten Sie mit uns zusammen für überlegene warmgeschmiedete Komponenten, die Ihren exakten Spezifikationen entsprechen",
+      "title": "Erleben Sie Warmumformungsexzellenz",
+      "description": "Partnern Sie mit uns für überlegene warmumgeformte Komponenten, die Ihre exakten Spezifikationen erfüllen",
       "viewAllServices": "Alle Dienstleistungen anzeigen"
     }
   },

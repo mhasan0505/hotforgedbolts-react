@@ -429,12 +429,16 @@
     "hero": {
       "subtitle": "Forja en Caliente",
       "title": "Excelencia en Forja en Caliente",
-      "description": "Procesos de forja en caliente de última generación que ofrecen resistencia, durabilidad y precisión superiores. Nuestras técnicas avanzadas aseguran un flujo de grano óptimo y propiedades mecánicas excepcionales.",
+      "description": "La forja en caliente es un proceso de conformado de metales realizado a temperaturas elevadas, típicamente entre 700°C y 1200°C, donde el material se deforma plásticamente usando prensas mecánicas o hidráulicas. El ambiente de alta temperatura reduce la homogeneidad. Topçesan apoya este proceso con un portafolio integral de equipos de forja y experiencia avanzada en ingeniería.",
       "imageAlt": "Proceso de Forja en Caliente"
+    },
+    "company": {
+      "title": "Acerca de BRK Forging",
+      "description": "En Brk Forging, nos especializamos en la producción de componentes forjados en una amplia gama de geometrías y tamaños, desde 0,10 kg hasta 100 kg. Utilizando 13 líneas de producción activas y un conjunto integral de maquinaria auxiliar, fabricamos cada pieza con un compromiso con los más altos estándares de calidad y eficiencia operacional."
     },
     "processes": {
       "title": "Nuestro Proceso de Forja",
-      "description": "Técnicas avanzadas de forja en caliente para un rendimiento superior de componentes",
+      "description": "Técnicas avanzadas de forja en caliente para rendimiento superior de componentes",
       "controlledHeating": {
         "title": "Calentamiento Controlado",
         "description": "Control preciso de temperatura para propiedades óptimas del material"
@@ -456,7 +460,7 @@
       },
       "weightRange": {
         "label": "Rango de Peso",
-        "value": "0,1 kg a 50 kg por pieza"
+        "value": "0,1 kg a 100 kg por pieza"
       },
       "temperatureRange": {
         "label": "Rango de Temperatura",
@@ -464,17 +468,23 @@
       },
       "productionCapacity": {
         "label": "Capacidad de Producción",
-        "value": "10,000+ piezas por mes"
+        "value": "13 líneas de producción activas"
       }
     },
     "advantages": {
       "title": "Ventajas Clave",
       "superiorMechanical": "Propiedades mecánicas superiores",
       "enhancedGrainFlow": "Estructura de flujo de grano mejorada",
-      "reducedWaste": "Reducción de desperdicio de material",
+      "reducedWaste": "Desperdicio de material reducido",
       "costEffective": "Producción rentable",
       "improvedFatigue": "Resistencia a la fatiga mejorada",
       "consistentQuality": "Salida de calidad consistente"
+    },
+    "gallery": {
+      "galleryTitle": "Galería de Forja en Caliente",
+      "alt1": "Proceso de Forja en Caliente 1",
+      "alt2": "Proceso de Forja en Caliente 2",
+      "alt3": "Proceso de Forja en Caliente 3"
     },
     "cta": {
       "title": "Experimente la Excelencia en Forja en Caliente",

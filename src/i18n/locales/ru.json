@@ -425,63 +425,73 @@
       "viewAllServices": "Посмотреть все услуги"
     }
   },
-  "hotForgingPage": {
-    "hero": {
-      "subtitle": "Горячая Ковка",
-      "title": "Превосходство в Горячей Ковке",
-      "description": "Современные процессы горячей ковки, обеспечивающие превосходную прочность, долговечность и точность. Наши передовые технологии гарантируют оптимальный поток зерна и исключительные механические свойства.",
-      "imageAlt": "Процесс Горячей Ковки"
+ "hotForgingPage": {
+  "hero": {
+    "subtitle": "Горячая Ковка",
+    "title": "Превосходство в Горячей Ковке",
+    "description": "Горячая ковка - это процесс формовки металла, проводимый при повышенных температурах, обычно в диапазоне от 700°C до 1200°C, где материал пластически деформируется с использованием механических или гидравлических прессов. Высокотемпературная среда снижает однородность. Topçesan поддерживает этот процесс с помощью комплексного портфолио кузнечного оборудования и передовой инженерной экспертизы.",
+    "imageAlt": "Процесс Горячей Ковки"
+  },
+  "company": {
+    "title": "О BRK Forging",
+    "description": "В Brk Forging мы специализируемся на производстве кованых компонентов в широком диапазоне геометрий и размеров, от 0,10 кг до 100 кг. Используя 13 активных производственных линий и комплексный набор вспомогательного оборудования, мы изготавливаем каждую деталь с приверженностью к высочайшим стандартам качества и операционной эффективности."
+  },
+  "processes": {
+    "title": "Наш Процесс Ковки",
+    "description": "Передовые технологии горячей ковки для превосходной производительности компонентов",
+    "controlledHeating": {
+      "title": "Контролируемый Нагрев",
+      "description": "Точный контроль температуры для оптимальных свойств материала"
     },
-    "processes": {
-      "title": "Наш Процесс Ковки",
-      "description": "Передовые технологии горячей ковки для превосходной производительности компонентов",
-      "controlledHeating": {
-        "title": "Контролируемый Нагрев",
-        "description": "Точный контроль температуры для оптимальных свойств материала"
-      },
-      "closedDieForging": {
-        "title": "Ковка в Закрытых Штампах",
-        "description": "Передовая технология штампов для сложных геометрий"
-      },
-      "qualityControl": {
-        "title": "Контроль Качества",
-        "description": "Строгое тестирование и инспекция на каждом этапе"
-      }
+    "closedDieForging": {
+      "title": "Ковка в Закрытых Штампах",
+      "description": "Передовая технология штампов для сложных геометрий"
     },
-    "capabilities": {
-      "title": "Производственные Возможности",
-      "materialTypes": {
-        "label": "Типы Материалов",
-        "value": "Углеродистая Сталь, Легированная Сталь, Нержавеющая Сталь"
-      },
-      "weightRange": {
-        "label": "Диапазон Веса",
-        "value": "0,1 кг до 50 кг за штуку"
-      },
-      "temperatureRange": {
-        "label": "Диапазон Температур",
-        "value": "950°C до 1250°C"
-      },
-      "productionCapacity": {
-        "label": "Производственная Мощность",
-        "value": "10 000+ штук в месяц"
-      }
-    },
-    "advantages": {
-      "title": "Ключевые Преимущества",
-      "superiorMechanical": "Превосходные механические свойства",
-      "enhancedGrainFlow": "Улучшенная структура потока зерна",
-      "reducedWaste": "Сокращение отходов материала",
-      "costEffective": "Экономически эффективное производство",
-      "improvedFatigue": "Улучшенная усталостная прочность",
-      "consistentQuality": "Стабильное качество продукции"
-    },
-    "cta": {
-      "title": "Испытайте Превосходство Горячей Ковки",
-      "description": "Сотрудничайте с нами для получения превосходных кованых компонентов, которые соответствуют вашим точным спецификациям",
-      "viewAllServices": "Посмотреть Все Услуги"
+    "qualityControl": {
+      "title": "Контроль Качества",
+      "description": "Строгое тестирование и инспекция на каждом этапе"
     }
   },
+  "capabilities": {
+    "title": "Производственные Возможности",
+    "materialTypes": {
+      "label": "Типы Материалов",
+      "value": "Углеродистая Сталь, Легированная Сталь, Нержавеющая Сталь"
+    },
+    "weightRange": {
+      "label": "Диапазон Веса",
+      "value": "От 0,1 кг до 100 кг за деталь"
+    },
+    "temperatureRange": {
+      "label": "Диапазон Температур",
+      "value": "От 950°C до 1250°C"
+    },
+    "productionCapacity": {
+      "label": "Производственная Мощность",
+      "value": "13 активных производственных линий"
+    }
+  },
+  "advantages": {
+    "title": "Ключевые Преимущества",
+    "superiorMechanical": "Превосходные механические свойства",
+    "enhancedGrainFlow": "Улучшенная структура потока зерна",
+    "reducedWaste": "Сокращенные отходы материала",
+    "costEffective": "Экономически эффективное производство",
+    "improvedFatigue": "Улучшенная усталостная прочность",
+    "consistentQuality": "Стабильное качество продукции"
+  },
+  "gallery": {
+    "galleryTitle": "Галерея Горячей Ковки",
+    "alt1": "Процесс Горячей Ковки 1",
+    "alt2": "Процесс Горячей Ковки 2",
+    "alt3": "Процесс Горячей Ковки 3"
+  },
+  "cta": {
+    "title": "Испытайте Превосходство Горячей Ковки",
+    "description": "Сотрудничайте с нами для получения превосходных горячекованых компонентов, которые соответствуют вашим точным спецификациям",
+    "viewAllServices": "Просмотреть Все Услуги"
+  }
+},
   "boltsPage": {
     "header": {
       "title": "Винты с шестигранным углублением",
@@ -603,36 +613,36 @@
   },
   "Hexdin960": {
     "header": {
-      "title": "Vite a Testa Esagonale",
-      "subtitle": "DIN 960 ISO 8765 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA"
+      "title": "Болт с Шестигранной Головкой",
+      "subtitle": "DIN 960 ISO 8765 БОЛТ С ШЕСТИГРАННОЙ ГОЛОВКОЙ ЧАСТИЧНО РЕЗЬБОВОЙ"
     },
     "overview": {
-      "title": "DIN 960 ISO 8765 VITE A TESTA ESAGONALE PARZIALMENTE FILETTATA",
-      "description": "Vite a testa esagonale parzialmente filettata DIN 960 ISO 8765 UNI 5738 per applicazioni ad alta precisione dove è richiesto un passo fine per un adattamento stretto, una migliore regolazione o una maggiore precisione di tensionamento."
+      "title": "DIN 960 ISO 8765 БОЛТ С ШЕСТИГРАННОЙ ГОЛОВКОЙ ЧАСТИЧНО РЕЗЬБОВОЙ",
+      "description": "Болт с шестигранной головкой частично резьбовой DIN 960 ISO 8765 UNI 5738 для высокоточных применений, где требуется мелкий шаг для плотной посадки, лучшей регулировки или большей точности затяжки."
     },
     "technicalSpecs": {
-      "title": "Specifiche Tecniche",
-      "altText": "Diagramma Tecnico DIN 960 ISO 8765"
+      "title": "Технические Характеристики",
+      "altText": "Техническая Диаграмма DIN 960 ISO 8765"
     },
     "qualityStandards": {
-      "title": "Standard di Qualità",
-      "steel": "Acciaio:",
+      "title": "Стандарты Качества",
+      "steel": "Сталь:",
       "steelGrades": "8.8, 10.9, 12.9",
-      "stainlessSteel": "Acciaio Inossidabile:",
+      "stainlessSteel": "Нержавеющая Сталь:",
       "stainlessGrades": "A2, A4",
-      "thread": "Filettatura:",
+      "thread": "Резьба:",
       "threadSpec": "6g"
     },
     "coatings": {
-      "title": "Rivestimenti Disponibili",
-      "description": "Che si tratti di zincatura, rivestimenti in PTFE o qualsiasi altro trattamento superficiale, abbiamo ciò che fa per voi. Ad esempio: zincatura, zincatura al nichel, rivestimenti in scaglie di zinco come Geomet, Dörken, Magni, Corundum, rivestimenti in PTFE come Xylan, Xylar, lubrificazione Lubo, zincatura a caldo, HDG, sherardizzazione, passivazione, Antifricor, verniciatura a polvere, zinco meccanico, zinco-ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in stock, pronte a soddisfare la vostra domanda."
+      "title": "Доступные Покрытия",
+      "description": "Будь то цинкование, PTFE покрытия или любая другая обработка поверхности, у нас есть то, что вам нужно. Например: цинкование, цинк-никелевое покрытие, цинк-флейк покрытия как Geomet, Dörken, Magni, Corundum, PTFE покрытия как Xylan, Xylar, смазка Lubo, горячее цинкование, HDG, шерардизация, пассивация, Antifricor, порошковая покраска, механическое цинкование, цинк-железо... и т.д. И самое лучшее? Мы предлагаем конкурентные цены и имеем различные варианты на складе, готовые удовлетворить ваш спрос."
     },
     "gallery": {
-      "title": "Galleria Prodotti"
+      "title": "Галерея Продукции"
     },
     "weightChart": {
-      "title": "Tabella dei Pesi",
-      "altText": "Tabella dei Pesi"
+      "title": "Таблица Весов",
+      "altText": "Таблица Весов"
     }
   },
   "Hexdin961": {
