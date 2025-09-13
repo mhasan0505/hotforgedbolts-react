@@ -967,5 +967,39 @@
       "title": "Dimensional Chart",
       "alt": "DIN 529 Dimensional Chart"
     }
+  },
+  "StudDIN939": {
+    "header": {
+      "title": "STUD BOLTS",
+      "subtitle": "DIN 939 DOUBLE-END STUD BOLT"
+    },
+    "productOverview": {
+      "title": "DIN 939 DOUBLE-END STUD BOLT",
+      "description": "DIN 939 is a double-end stud bolts with equal thread lengths on both ends and an unthreaded center portion (shank). They are commonly used in applications where high strength and secure fastening are required, such as in flanged connections, machinery assembly, and structural applications.",
+      "imageAlt": "DIN 939 Double-End Stud Bolt"
+    },
+    "technicalSpecifications": {
+      "title": "Technical Specifications",
+      "diagramAlt": "DIN 939 Technical Diagram"
+    },
+    "qualityStandards": {
+      "title": "Quality Standards",
+      "steel": "Steel",
+      "stainlessSteel": "Stainless Steel",
+      "grade": "Grade",
+      "maxLength": "Max Length",
+      "maxLengthValue": "Up to 15000mm"
+    },
+    "availableCoatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "productGallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "alt": "Weight Chart"
+    }
   }
 }

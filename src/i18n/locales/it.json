@@ -1045,7 +1045,8 @@
       "title": "Tabella Pesi",
       "alt": "Tabella Pesi"
     }
-  }, "StudDIN529": {
+  },
+  "StudDIN529": {
     "title": "STUD DIN 529 BULLONE DI ANCORAGGIO",
     "description": "DIN 529 è uno standard tedesco che definisce vari tipi di bulloni di ancoraggio (chiamati anche bulloni di fondazione), che vengono utilizzati per incorporare nel calcestruzzo per fissare componenti strutturali come colonne, telai in acciaio e macchinari.",
     "qualityStandards": {
@@ -1063,6 +1064,40 @@
     "dimensionalChart": {
       "title": "Tabella Dimensionale",
       "alt": "Tabella Dimensionale DIN 529"
+    }
+  },
+  "StudDIN939": {
+    "header": {
+      "title": "PRIGIONIERI",
+      "subtitle": "DIN 939 PRIGIONIERO A DOPPIA ESTREMITÀ"
+    },
+    "productOverview": {
+      "title": "DIN 939 PRIGIONIERO A DOPPIA ESTREMITÀ",
+      "description": "DIN 939 è un prigioniero a doppia estremità con lunghezze di filettatura uguali su entrambe le estremità e una porzione centrale non filettata (gambo). Sono comunemente utilizzati in applicazioni dove sono richieste alta resistenza e fissaggio sicuro, come nelle connessioni flangiate, assemblaggio di macchinari e applicazioni strutturali.",
+      "imageAlt": "Prigioniero a Doppia Estremità DIN 939"
+    },
+    "technicalSpecifications": {
+      "title": "Specifiche Tecniche",
+      "diagramAlt": "Diagramma Tecnico DIN 939"
+    },
+    "qualityStandards": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio",
+      "stainlessSteel": "Acciaio Inossidabile",
+      "grade": "Grado",
+      "maxLength": "Lunghezza Massima",
+      "maxLengthValue": "Fino a 15000mm"
+    },
+    "availableCoatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE, o qualsiasi altro trattamento superficiale, ti abbiamo coperto. Come ad esempio: Zincatura, Zincatura Zinco-Nichel, Rivestimenti Zinco-Flake come Geomet, Dörken, Magni, Corundum, Rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco Meccanico, Zinco-Ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in magazzino, pronte a soddisfare la tua domanda."
+    },
+    "productGallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella Peso",
+      "alt": "Tabella Peso"
     }
   }
 }

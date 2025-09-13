@@ -913,5 +913,39 @@
       "title": "Maßtabelle",
       "alt": "DIN 529 Maßtabelle"
     }
+  },
+  "StudDIN939": {
+    "header": {
+      "title": "STIFTSCHRAUBEN",
+      "subtitle": "DIN 939 DOPPELENDIGE STIFTSCHRAUBE"
+    },
+    "productOverview": {
+      "title": "DIN 939 DOPPELENDIGE STIFTSCHRAUBE",
+      "description": "DIN 939 ist eine doppelendige Stiftschraube mit gleichen Gewindelängen an beiden Enden und einem ungewindeten Mittelteil (Schaft). Sie werden häufig in Anwendungen eingesetzt, bei denen hohe Festigkeit und sichere Befestigung erforderlich sind, wie z.B. bei Flanschverbindungen, Maschinenmontage und strukturellen Anwendungen.",
+      "imageAlt": "DIN 939 Doppelendige Stiftschraube"
+    },
+    "technicalSpecifications": {
+      "title": "Technische Spezifikationen",
+      "diagramAlt": "DIN 939 Technisches Diagramm"
+    },
+    "qualityStandards": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl",
+      "stainlessSteel": "Edelstahl",
+      "grade": "Klasse",
+      "maxLength": "Maximale Länge",
+      "maxLengthValue": "Bis zu 15000mm"
+    },
+    "availableCoatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder eine andere Oberflächenbehandlung benötigen, wir haben Sie abgedeckt. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben eine Vielzahl von Optionen auf Lager, bereit, Ihre Nachfrage zu erfüllen."
+    },
+    "productGallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }
