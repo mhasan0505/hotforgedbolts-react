@@ -817,5 +817,42 @@
         "alt": "ASME Dimensional Chart"
       }
     }
+  },
+  "nutDIN934": {
+    "header": {
+      "title": "NUTS DIN 934",
+      "subtitle": "DIN 934 HEXAGON NUT WITH METRIC THREAD"
+    },
+    "overview": {
+      "title": "DIN 934 HEXAGON NUT WITH METRIC THREAD",
+      "description": "DIN 934/ISO 4032/UNI5588 Hexagon nut with metric thread. These attributes make them suitable for use in areas that are general mechanical assemblies, Construction and steel structures, automotive and machinery",
+      "imageAlt": "DIN 934 HEXAGON NUT WITH METRIC THREAD"
+    },
+    "technicalSpecs": {
+      "title": "Technical Specifications",
+      "diagramAlt": "DIN 934 HEXAGON NUT WITH METRIC THREAD Technical Diagram"
+    },
+    "quality": {
+      "title": "Quality Standards",
+      "steel": {
+        "label": "Steel",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Stainless Steel",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "alt": "Weight Chart"
+    }
   }
 }

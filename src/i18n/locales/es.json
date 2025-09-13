@@ -924,5 +924,42 @@
         "alt": "Tabla Dimensional ASME"
       }
     }
+  },
+  "nutDIN934": {
+    "header": {
+      "title": "TUERCAS DIN 934",
+      "subtitle": "DIN 934 TUERCA HEXAGONAL CON ROSCA MÉTRICA"
+    },
+    "overview": {
+      "title": "DIN 934 TUERCA HEXAGONAL CON ROSCA MÉTRICA",
+      "description": "DIN 934/ISO 4032/UNI5588 Tuerca hexagonal con rosca métrica. Estos atributos las hacen adecuadas para uso en ensamblajes mecánicos generales, construcción y estructuras de acero, automotriz y maquinaria",
+      "imageAlt": "DIN 934 TUERCA HEXAGONAL CON ROSCA MÉTRICA"
+    },
+    "technicalSpecs": {
+      "title": "Especificaciones Técnicas",
+      "diagramAlt": "DIN 934 TUERCA HEXAGONAL CON ROSCA MÉTRICA Diagrama Técnico"
+    },
+    "quality": {
+      "title": "Estándares de Calidad",
+      "steel": {
+        "label": "Acero",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Acero Inoxidable",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos PTFE o cualquier otro tratamiento superficial, tenemos la solución. Tales como: Galvanizado de zinc, Galvanizado Zinc-Níquel, Recubrimientos Zinc-Flake como Geomet, Dörken, Magni, Corundum, Recubrimientos PTFE como Xylan, Xylar, lubricación Lubo, Galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc. ¿Y la mejor parte? Ofrecemos precios competitivos y tenemos una variedad de opciones en stock, listas para satisfacer su demanda."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Pesos",
+      "alt": "Tabla de Pesos"
+    }
   }
 }

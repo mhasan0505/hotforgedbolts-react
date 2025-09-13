@@ -915,5 +915,42 @@
         "alt": "Tabella Dimensionale ASME"
       }
     }
+  },
+  "nutDIN934": {
+    "header": {
+      "title": "DADI DIN 934",
+      "subtitle": "DIN 934 DADO ESAGONALE CON FILETTATURA METRICA"
+    },
+    "overview": {
+      "title": "DIN 934 DADO ESAGONALE CON FILETTATURA METRICA",
+      "description": "DIN 934/ISO 4032/UNI5588 Dado esagonale con filettatura metrica. Questi attributi li rendono adatti per l'uso in assemblaggi meccanici generali, costruzioni e strutture in acciaio, settore automobilistico e macchinari",
+      "imageAlt": "DIN 934 DADO ESAGONALE CON FILETTATURA METRICA"
+    },
+    "technicalSpecs": {
+      "title": "Specifiche Tecniche",
+      "diagramAlt": "DIN 934 DADO ESAGONALE CON FILETTATURA METRICA Diagramma Tecnico"
+    },
+    "quality": {
+      "title": "Standard di Qualità",
+      "steel": {
+        "label": "Acciaio",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Acciaio Inossidabile",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo la soluzione giusta. Come ad esempio: Zincatura, Zincatura Zinco-Nichel, Rivestimenti Zinco-Flake come Geomet, Dörken, Magni, Corundum, Rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-Ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in magazzino, pronte per soddisfare la tua richiesta."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella Pesi",
+      "alt": "Tabella Pesi"
+    }
   }
 }

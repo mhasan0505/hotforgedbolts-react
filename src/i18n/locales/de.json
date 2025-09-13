@@ -763,5 +763,42 @@
         "alt": "ASME Maßtabelle"
       }
     }
+  },
+  "nutDIN934": {
+    "header": {
+      "title": "MUTTERN DIN 934",
+      "subtitle": "DIN 934 SECHSKANTMUTTER MIT METRISCHEM GEWINDE"
+    },
+    "overview": {
+      "title": "DIN 934 SECHSKANTMUTTER MIT METRISCHEM GEWINDE",
+      "description": "DIN 934/ISO 4032/UNI5588 Sechskantmutter mit metrischem Gewinde. Diese Eigenschaften machen sie für den Einsatz in allgemeinen mechanischen Baugruppen, Bau- und Stahlkonstruktionen, Automobil- und Maschinenbau geeignet",
+      "imageAlt": "DIN 934 SECHSKANTMUTTER MIT METRISCHEM GEWINDE"
+    },
+    "technicalSpecs": {
+      "title": "Technische Spezifikationen",
+      "diagramAlt": "DIN 934 SECHSKANTMUTTER MIT METRISCHEM GEWINDE Technisches Diagramm"
+    },
+    "quality": {
+      "title": "Qualitätsstandards",
+      "steel": {
+        "label": "Stahl",
+        "value": "8.8, 10.9, 12.9"
+      },
+      "stainlessSteel": {
+        "label": "Edelstahl",
+        "value": "A2, A4"
+      }
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Zinkverzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben die passende Lösung. Wie zum Beispiel: Zinkverzinkung, Zink-Nickel-Verzinkung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben verschiedene Optionen auf Lager, bereit für Ihren Bedarf."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }
