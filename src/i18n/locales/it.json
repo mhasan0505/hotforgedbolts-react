@@ -1018,5 +1018,32 @@
       "title": "Tabella Pesi",
       "alt": "Tabella Pesi"
     }
+  },
+  "nutDIN936": {
+    "title": "DADI DIN 936",
+    "subtitle": "DIN 936 ISO4035 DADO ESAGONALE BASSO",
+    "overview": {
+      "title": "DIN 936 ISO4035 DADO ESAGONALE BASSO",
+      "description1": "Dado esagonale basso DIN 936 ISO4035/UNI5589 progettato per essere utilizzato tipicamente come controdado, abbinato a un dado di altezza standard per prevenire l'allentamento dovuto a vibrazioni o coppia.",
+      "description2": "Utilizzato anche in applicazioni con limitazioni di spazio dove un dado standard sarebbe troppo alto.",
+      "imageAlt": "DIN 936 ISO4035 DADO ESAGONALE BASSO"
+    },
+    "technical": {
+      "title": "Specifiche Tecniche",
+      "diagramAlt": "Diagramma Tecnico DIN 936 ISO4035 DADO ESAGONALE BASSO"
+    },
+    "quality": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio",
+      "stainlessSteel": "Acciaio Inossidabile"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo quello che fa per te. Come ad esempio: Zincatura, Zincatura Zinco-Nichel, Rivestimenti Zinco-Flake come Geomet, Dörken, Magni, Corundum, Rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-Ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in magazzino, pronte a soddisfare la tua richiesta."
+    },
+    "weightChart": {
+      "title": "Tabella Pesi",
+      "alt": "Tabella Pesi"
+    }
   }
 }

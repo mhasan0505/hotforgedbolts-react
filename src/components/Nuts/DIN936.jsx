@@ -1,15 +1,19 @@
+import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { DIN936_image } from "../../assets/Nuts/NutImage";
 
 const DIN936 = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container mx-auto max-w-7xl mt-24 p-4">
       {/* Header */}
       <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-          NUTS DIN 936
+          {t('nutDIN936.title')}
         </h1>
         <p className="text-white text-lg  p-2 rounded-md">
-          DIN 936 ISO4035 LOW HEXAGON NUT
+          {t('nutDIN936.subtitle')}
         </p>
       </div>
       {/* Main Content */}
@@ -19,16 +23,13 @@ const DIN936 = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                DIN 936 ISO4035 LOW HEXAGON NUT
+                {t('nutDIN936.overview.title')}
               </h2>
               <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                DIN 936 ISO4035/UNI5589 Low hexagon nut designed to be used
-                typically used as a locknut, paired with a standard-height nut
-                to prevent loosening due to vibration or torque.
+                {t('nutDIN936.overview.description1')}
               </p>
               <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                Also used in space-limited applications where a standard nut
-                would be too tall.
+                {t('nutDIN936.overview.description2')}
               </p>
             </div>
           </div>
@@ -36,7 +37,7 @@ const DIN936 = () => {
             <div className="bg-gray-50 rounded-lg p-4 max-w-md">
               <img
                 src={DIN936_image.main}
-                alt="DIN 936 ISO4035 LOW HEXAGON NUT"
+                alt={t('nutDIN936.overview.imageAlt')}
                 className="w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
             </div>
@@ -46,12 +47,12 @@ const DIN936 = () => {
         {/* Technical Diagram */}
         <div className="mb-12">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-            Technical Specifications
+            {t('nutDIN936.technical.title')}
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
               src={DIN936_image.diagram}
-              alt="DIN 935 ISO7035 HEXAGON CASTLE NUT Technical Diagram"
+              alt={t('nutDIN936.technical.diagramAlt')}
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>
@@ -63,15 +64,15 @@ const DIN936 = () => {
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
               <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                Quality Standards
+                {t('nutDIN936.quality.title')}
               </h3>
             </div>
             <div className="space-y-2 text-green-700">
               <p>
-                <span className="font-semibold">Steel:</span> 8.8, 10.9, 12.9
+                <span className="font-semibold">{t('nutDIN936.quality.steel')}:</span> 8.8, 10.9, 12.9
               </p>
               <p>
-                <span className="font-semibold">Stainless Steel:</span> A2,A4
+                <span className="font-semibold">{t('nutDIN936.quality.stainlessSteel')}:</span> A2,A4
               </p>
             </div>
           </div>
@@ -80,18 +81,11 @@ const DIN936 = () => {
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
               <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                Available Coatings
+                {t('nutDIN936.coatings.title')}
               </h3>
             </div>
             <p className="text-violet-700 leading-relaxed">
-              Whether you need Zinc plating, PTFE coatings, or any other surface
-              treatment, we've got you covered. Such as: Zinc plating,
-              Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken,
-              Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo
-              lubrication, Hot dip galvanising, HDG, Sherardising, Passivating,
-              Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And
-              the best part? We offer competitive prices and have a variety of
-              options in stock, ready to meet your demand.
+              {t('nutDIN936.coatings.description')}
             </p>
           </div>
         </div>
@@ -99,12 +93,12 @@ const DIN936 = () => {
         {/* Weight Chart */}
         <div className="mb-8">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-            Weight Chart
+            {t('nutDIN936.weightChart.title')}
           </h3>
           <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
             <img
               src={DIN936_image.weightChart}
-              alt="Weight Chart"
+              alt={t('nutDIN936.weightChart.alt')}
               className="w-full h-auto max-w-4xl mx-auto rounded-lg shadow-md"
             />
           </div>

@@ -1003,5 +1003,32 @@
       "title": "Ağırlık Tablosu",
       "alt": "Ağırlık Tablosu"
     }
+  },
+  "nutDIN936": {
+    "title": "SOMUN DIN 936",
+    "subtitle": "DIN 936 ISO4035 ALÇAK ALTIGEN SOMUN",
+    "overview": {
+      "title": "DIN 936 ISO4035 ALÇAK ALTIGEN SOMUN",
+      "description1": "DIN 936 ISO4035/UNI5589 Alçak altıgen somun, genellikle titreşim veya tork nedeniyle gevşemeyi önlemek için standart yükseklikte bir somun ile eşleştirilen bir kilit somunu olarak kullanılmak üzere tasarlanmıştır.",
+      "description2": "Ayrıca standart bir somunun çok uzun olacağı alan kısıtlı uygulamalarda da kullanılır.",
+      "imageAlt": "DIN 936 ISO4035 ALÇAK ALTIGEN SOMUN"
+    },
+    "technical": {
+      "title": "Teknik Özellikler",
+      "diagramAlt": "DIN 936 ISO4035 ALÇAK ALTIGEN SOMUN Teknik Diyagramı"
+    },
+    "quality": {
+      "title": "Kalite Standartları",
+      "steel": "Çelik",
+      "stainlessSteel": "Paslanmaz Çelik"
+    },
+    "coatings": {
+      "title": "Mevcut Kaplamalar",
+      "description": "Çinko kaplama, PTFE kaplamalar veya başka herhangi bir yüzey işlemine ihtiyacınız olsun, size yardımcı olabiliriz. Örneğin: Çinko kaplama, Çinko-Nikel kaplama, Geomet, Dörken, Magni, Corundum gibi Çinko-Flake kaplamalar, Xylan, Xylar, Lubo yağlama gibi PTFE kaplamalar, Sıcak daldırma galvanizleme, HDG, Sherardizasyon, Pasifleştirme, Antifricor, Toz boyama, Mekanik Çinko, Çinko-Demir... vb. Ve en güzel yanı? Rekabetçi fiyatlar sunuyoruz ve talebinizi karşılamaya hazır çeşitli seçeneklerimiz stokta bulunuyor."
+    },
+    "weightChart": {
+      "title": "Ağırlık Tablosu",
+      "alt": "Ağırlık Tablosu"
+    }
   }
 }

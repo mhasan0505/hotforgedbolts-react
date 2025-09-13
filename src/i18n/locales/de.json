@@ -866,5 +866,32 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "nutDIN936": {
+    "title": "MUTTERN DIN 936",
+    "subtitle": "DIN 936 ISO4035 NIEDRIGE SECHSKANTMUTTER",
+    "overview": {
+      "title": "DIN 936 ISO4035 NIEDRIGE SECHSKANTMUTTER",
+      "description1": "DIN 936 ISO4035/UNI5589 Niedrige Sechskantmutter, die typischerweise als Kontermutter verwendet wird, gepaart mit einer Mutter in Standardhöhe, um Lockerung durch Vibration oder Drehmoment zu verhindern.",
+      "description2": "Wird auch in platzbegrenzten Anwendungen verwendet, wo eine Standardmutter zu hoch wäre.",
+      "imageAlt": "DIN 936 ISO4035 NIEDRIGE SECHSKANTMUTTER"
+    },
+    "technical": {
+      "title": "Technische Spezifikationen",
+      "diagramAlt": "DIN 936 ISO4035 NIEDRIGE SECHSKANTMUTTER Technisches Diagramm"
+    },
+    "quality": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl",
+      "stainlessSteel": "Edelstahl"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben eine Vielzahl von Optionen auf Lager, bereit, Ihren Bedarf zu decken."
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }

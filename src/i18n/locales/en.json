@@ -920,5 +920,32 @@
       "title": "Weight Chart",
       "alt": "Weight Chart"
     }
+  },
+  "nutDIN936": {
+    "title": "NUTS DIN 936",
+    "subtitle": "DIN 936 ISO4035 LOW HEXAGON NUT",
+    "overview": {
+      "title": "DIN 936 ISO4035 LOW HEXAGON NUT",
+      "description1": "DIN 936 ISO4035/UNI5589 Low hexagon nut designed to be used typically used as a locknut, paired with a standard-height nut to prevent loosening due to vibration or torque.",
+      "description2": "Also used in space-limited applications where a standard nut would be too tall.",
+      "imageAlt": "DIN 936 ISO4035 LOW HEXAGON NUT"
+    },
+    "technical": {
+      "title": "Technical Specifications",
+      "diagramAlt": "DIN 936 ISO4035 LOW HEXAGON NUT Technical Diagram"
+    },
+    "quality": {
+      "title": "Quality Standards",
+      "steel": "Steel",
+      "stainlessSteel": "Stainless Steel"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "alt": "Weight Chart"
+    }
   }
 }
