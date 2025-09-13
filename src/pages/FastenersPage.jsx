@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { fastenerImage } from "../assets/fastening/image";
-import ImageGallery from "../components/ImageGallery";
 import { useTranslation } from "react-i18next";
 
 const FastenersPage = () => {
@@ -159,9 +158,7 @@ const FastenersPage = () => {
           </div>
         </div>
       </section>
-      <div className="container mx-auto px-4 max-w-7xl">
-        <ImageGallery images={fastenerImage.gallery} title={t("fastenersPage.gallery.title")} />
-      </div>
+
 
       {/* CTA Section */}
       <section className="py-20 bg-violet-400 text-white">
