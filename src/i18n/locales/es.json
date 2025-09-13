@@ -998,5 +998,34 @@
       "title": "Tabla de Pesos",
       "alt": "Tabla de Pesos"
     }
+  },
+  "nutDIN935": {
+    "title": "TUERCAS DIN 935",
+    "subtitle": "DIN 935 ISO7035 TUERCA HEXAGONAL ALMENADA",
+    "overview": {
+      "title": "DIN 935 ISO7035 TUERCA HEXAGONAL ALMENADA",
+      "description": "Tuerca hexagonal almenada DIN 935 ISO7035/UNI5593 diseñada para ser utilizada principalmente junto con un pasador partido (pasador de chaveta) para prevenir la rotación o aflojamiento.",
+      "imageAlt": "DIN 935 ISO7035 TUERCA HEXAGONAL ALMENADA"
+    },
+    "technical": {
+      "title": "Especificaciones Técnicas",
+      "diagramAlt": "Diagrama Técnico DIN 935 ISO7035 TUERCA HEXAGONAL ALMENADA"
+    },
+    "quality": {
+      "title": "Estándares de Calidad",
+      "steel": "Acero",
+      "stainlessSteel": "Acero Inoxidable"
+    },
+    "coatings": {
+      "title": "Recubrimientos Disponibles",
+      "description": "Ya sea que necesite galvanizado de zinc, recubrimientos PTFE o cualquier otro tratamiento superficial, lo tenemos cubierto. Tales como: Galvanizado de zinc, Galvanizado Zinc-Níquel, Recubrimientos Zinc-Flake como Geomet, Dörken, Magni, Corundum, Recubrimientos PTFE como Xylan, Xylar, lubricación Lubo, Galvanizado por inmersión en caliente, HDG, Sherardización, Pasivado, Antifricor, Recubrimiento en polvo, Zinc mecánico, Zinc-Hierro... etc. ¿Y la mejor parte? Ofrecemos precios competitivos y tenemos una variedad de opciones en stock, listas para satisfacer su demanda."
+    },
+    "gallery": {
+      "title": "Galería de Productos"
+    },
+    "weightChart": {
+      "title": "Tabla de Pesos",
+      "alt": "Tabla de Pesos"
+    }
   }
 }

@@ -989,5 +989,34 @@
       "title": "Tabella Pesi",
       "alt": "Tabella Pesi"
     }
+  },
+  "nutDIN935": {
+    "title": "DADI DIN 935",
+    "subtitle": "DIN 935 ISO7035 DADO ESAGONALE CASTELLATO",
+    "overview": {
+      "title": "DIN 935 ISO7035 DADO ESAGONALE CASTELLATO",
+      "description": "Dado esagonale castellato DIN 935 ISO7035/UNI5593 progettato per essere utilizzato principalmente insieme a una spina spaccata (spina a copiglia) per prevenire la rotazione o l'allentamento.",
+      "imageAlt": "DIN 935 ISO7035 DADO ESAGONALE CASTELLATO"
+    },
+    "technical": {
+      "title": "Specifiche Tecniche",
+      "diagramAlt": "Diagramma Tecnico DIN 935 ISO7035 DADO ESAGONALE CASTELLATO"
+    },
+    "quality": {
+      "title": "Standard di Qualità",
+      "steel": "Acciaio",
+      "stainlessSteel": "Acciaio Inossidabile"
+    },
+    "coatings": {
+      "title": "Rivestimenti Disponibili",
+      "description": "Che tu abbia bisogno di zincatura, rivestimenti PTFE o qualsiasi altro trattamento superficiale, abbiamo quello che fa per te. Come ad esempio: Zincatura, Zincatura Zinco-Nichel, Rivestimenti Zinco-Flake come Geomet, Dörken, Magni, Corundum, Rivestimenti PTFE come Xylan, Xylar, lubrificazione Lubo, Zincatura a caldo, HDG, Sherardizzazione, Passivazione, Antifricor, Verniciatura a polvere, Zinco meccanico, Zinco-Ferro... ecc. E la parte migliore? Offriamo prezzi competitivi e abbiamo una varietà di opzioni in magazzino, pronte a soddisfare la tua richiesta."
+    },
+    "gallery": {
+      "title": "Galleria Prodotti"
+    },
+    "weightChart": {
+      "title": "Tabella Pesi",
+      "alt": "Tabella Pesi"
+    }
   }
 }

@@ -974,5 +974,34 @@
       "title": "Ağırlık Tablosu",
       "alt": "Ağırlık Tablosu"
     }
+  },
+  "nutDIN935": {
+    "title": "SOMUN DIN 935",
+    "subtitle": "DIN 935 ISO7035 ALTIGEN BURGULU SOMUN",
+    "overview": {
+      "title": "DIN 935 ISO7035 ALTIGEN BURGULU SOMUN",
+      "description": "DIN 935 ISO7035/UNI5593 altıgen burgulu somun, öncelikle dönmeyi veya gevşemeyi önlemek için bir yarık pim (kotter pim) ile birlikte kullanılmak üzere tasarlanmıştır.",
+      "imageAlt": "DIN 935 ISO7035 ALTIGEN BURGULU SOMUN"
+    },
+    "technical": {
+      "title": "Teknik Özellikler",
+      "diagramAlt": "DIN 935 ISO7035 ALTIGEN BURGULU SOMUN Teknik Diyagramı"
+    },
+    "quality": {
+      "title": "Kalite Standartları",
+      "steel": "Çelik",
+      "stainlessSteel": "Paslanmaz Çelik"
+    },
+    "coatings": {
+      "title": "Mevcut Kaplamalar",
+      "description": "Çinko kaplama, PTFE kaplamalar veya başka herhangi bir yüzey işlemine ihtiyacınız olsun, size yardımcı olabiliriz. Örneğin: Çinko kaplama, Çinko-Nikel kaplama, Geomet, Dörken, Magni, Corundum gibi Çinko-Flake kaplamalar, Xylan, Xylar, Lubo yağlama gibi PTFE kaplamalar, Sıcak daldırma galvanizleme, HDG, Sherardizasyon, Pasifleştirme, Antifricor, Toz boyama, Mekanik Çinko, Çinko-Demir... vb. Ve en güzel yanı? Rekabetçi fiyatlar sunuyoruz ve talebinizi karşılamaya hazır çeşitli seçeneklerimiz stokta bulunuyor."
+    },
+    "gallery": {
+      "title": "Ürün Galerisi"
+    },
+    "weightChart": {
+      "title": "Ağırlık Tablosu",
+      "alt": "Ağırlık Tablosu"
+    }
   }
 }

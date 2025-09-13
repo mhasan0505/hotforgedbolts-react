@@ -891,5 +891,34 @@
       "title": "Weight Chart",
       "alt": "Weight Chart"
     }
+  },
+  "nutDIN935": {
+    "title": "NUTS DIN 935",
+    "subtitle": "DIN 935 ISO7035 HEXAGON CASTLE NUT",
+    "overview": {
+      "title": "DIN 935 ISO7035 HEXAGON CASTLE NUT",
+      "description": "DIN 935 ISO7035/UNI5593 hexagon castle nut designed to be used primarily in conjunction with a split pin (cotter pin) to prevent rotation or loosening.",
+      "imageAlt": "DIN 935 ISO7035 HEXAGON CASTLE NUT"
+    },
+    "technical": {
+      "title": "Technical Specifications",
+      "diagramAlt": "DIN 935 ISO7035 HEXAGON CASTLE NUT Technical Diagram"
+    },
+    "quality": {
+      "title": "Quality Standards",
+      "steel": "Steel",
+      "stainlessSteel": "Stainless Steel"
+    },
+    "coatings": {
+      "title": "Available Coatings",
+      "description": "Whether you need Zinc plating, PTFE coatings, or any other surface treatment, we've got you covered. Such as: Zinc plating, Zinc-Nickel plating, Zinc-Flake coatings like Geomet, Dörken, Magni, Corundum, PTFE coatings like Xylan, Xylar, Lubo lubrication, Hot dip galvanising, HDG, Sherardising, Passivating, Antifricor, Powdercoating, Mechanical Zinc, Zinc-Iron... etc. And the best part? We offer competitive prices and have a variety of options in stock, ready to meet your demand."
+    },
+    "gallery": {
+      "title": "Product Gallery"
+    },
+    "weightChart": {
+      "title": "Weight Chart",
+      "alt": "Weight Chart"
+    }
   }
 }

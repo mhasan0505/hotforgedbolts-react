@@ -837,5 +837,34 @@
       "title": "Gewichtstabelle",
       "alt": "Gewichtstabelle"
     }
+  },
+  "nutDIN935": {
+    "title": "MUTTERN DIN 935",
+    "subtitle": "DIN 935 ISO7035 SECHSKANT-KRONENMUTTER",
+    "overview": {
+      "title": "DIN 935 ISO7035 SECHSKANT-KRONENMUTTER",
+      "description": "DIN 935 ISO7035/UNI5593 Sechskant-Kronenmutter, die hauptsächlich in Verbindung mit einem Splint verwendet wird, um Drehung oder Lockerung zu verhindern.",
+      "imageAlt": "DIN 935 ISO7035 SECHSKANT-KRONENMUTTER"
+    },
+    "technical": {
+      "title": "Technische Spezifikationen",
+      "diagramAlt": "DIN 935 ISO7035 SECHSKANT-KRONENMUTTER Technisches Diagramm"
+    },
+    "quality": {
+      "title": "Qualitätsstandards",
+      "steel": "Stahl",
+      "stainlessSteel": "Edelstahl"
+    },
+    "coatings": {
+      "title": "Verfügbare Beschichtungen",
+      "description": "Ob Sie Verzinkung, PTFE-Beschichtungen oder andere Oberflächenbehandlungen benötigen, wir haben alles für Sie. Wie zum Beispiel: Verzinkung, Zink-Nickel-Beschichtung, Zink-Flake-Beschichtungen wie Geomet, Dörken, Magni, Corundum, PTFE-Beschichtungen wie Xylan, Xylar, Lubo-Schmierung, Feuerverzinkung, HDG, Sherardisierung, Passivierung, Antifricor, Pulverbeschichtung, Mechanisches Zink, Zink-Eisen... usw. Und das Beste daran? Wir bieten wettbewerbsfähige Preise und haben eine Vielzahl von Optionen auf Lager, bereit, Ihren Bedarf zu decken."
+    },
+    "gallery": {
+      "title": "Produktgalerie"
+    },
+    "weightChart": {
+      "title": "Gewichtstabelle",
+      "alt": "Gewichtstabelle"
+    }
   }
 }

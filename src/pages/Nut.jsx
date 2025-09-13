@@ -9,9 +9,9 @@ const Nut = () => {
     <div className="bg-[#F5F5F5] ">
       <ASME />
       <DIN934/>
-      <DIN6915/>
       <DIN935/>
       <DIN936/>
+      <DIN6915/>
     </div>
   );
 };
