@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
   Wrench,
@@ -13,6 +13,7 @@ import {
 
 const BoltNavigator = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const boltTypes = [
     {
@@ -21,6 +22,7 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.allen.description'),
       icon: Wrench,
       path: '/bolts',
+      anchor: '#allen-bolts',
       color: 'violet',
       gradient: 'from-violet-500 to-purple-600'
     },
@@ -30,6 +32,7 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.countersunk.description'),
       icon: Zap,
       path: '/bolts/countersunk-bolts',
+      anchor: '#countersunk-header',
       color: 'violet',
       gradient: 'from-violet-500 to-purple-600'
     },
@@ -39,6 +42,7 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.eye.description'),
       icon: Eye,
       path: '/bolts/eye-bolts',
+      anchor: '#eye-header',
       color: 'violet',
       gradient: 'from-violet-500 to-pink-600'
     },
@@ -48,6 +52,7 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.hex.description'),
       icon: Hexagon,
       path: '/bolts/hex-head-bolts',
+      anchor: '#hex-header',
       color: 'violet',
       gradient: 'from-violet-500 to-cyan-600'
     },
@@ -57,10 +62,23 @@ const BoltNavigator = () => {
       description: t('boltNavigator.boltTypes.square.description'),
       icon: Square,
       path: '/bolts/square-bolts',
+      anchor: '#square-header',
       color: 'violet',
       gradient: 'from-violet-500 to-green-600'
     }
   ];
+
+  const handleNavigation = (bolt) => {
+    // Navigate to the page first
+    navigate(bolt.path);
+    // Then scroll to the specific section after a short delay
+    setTimeout(() => {
+      const element = document.querySelector(bolt.anchor);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
 
   return (
     <section className="py-16 px-4 bg-gradient-to-br from-slate-50 via-white to-violet-50">
@@ -88,10 +106,10 @@ const BoltNavigator = () => {
           {boltTypes.map((bolt, index) => {
             const IconComponent = bolt.icon;
             return (
-              <Link
+              <div
                 key={bolt.id}
-                to={bolt.path}
-                className="group block animate-slide-up"
+                onClick={() => handleNavigation(bolt)}
+                className="group block animate-slide-up cursor-pointer"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="relative h-full bg-white/80 backdrop-blur-sm rounded-2xl border border-white/20 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden">
@@ -129,7 +147,7 @@ const BoltNavigator = () => {
                   {/* Hover Border Effect */}
                   <div className={`absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-${bolt.color}-200 transition-all duration-300`}></div>
                 </div>
-              </Link>
+              </div>
             );
           })}
         </div>

@@ -13,7 +13,7 @@ function Bolts() {
       <BoltNavigator />
 
       {/* Allen Bolts Section */}
-      <div className="container mx-auto max-w-7xl">
+      <div id='allen-bolts' className="container mx-auto max-w-7xl">
         <div className="bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden">
           {/* Header */}
           <div className="bg-gradient-to-r from-violet-500 to-violet-600 text-white p-6 sm:p-8">

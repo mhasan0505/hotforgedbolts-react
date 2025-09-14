@@ -10,6 +10,7 @@ const Header = memo(() => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProductionDropdownOpen, setIsProductionDropdownOpen] = useState(false);
+  const [dropdownTimeout, setDropdownTimeout] = useState(null);
   const location = useLocation();
   const { t } = useTranslation();
 
@@ -37,9 +38,28 @@ const Header = memo(() => {
     setIsProductionDropdownOpen(prev => !prev);
   }, []);
 
-  const closeDropdown = useCallback(() => {
-    setIsProductionDropdownOpen(false);
+  const handleMouseEnter = useCallback(() => {
+    if (dropdownTimeout) {
+      clearTimeout(dropdownTimeout);
+      setDropdownTimeout(null);
+    }
+    setIsProductionDropdownOpen(true);
+  }, [dropdownTimeout]);
+
+  const handleMouseLeave = useCallback(() => {
+    const timeout = setTimeout(() => {
+      setIsProductionDropdownOpen(false);
+    }, 150); // 150ms delay
+    setDropdownTimeout(timeout);
   }, []);
+
+  const closeDropdown = useCallback(() => {
+    if (dropdownTimeout) {
+      clearTimeout(dropdownTimeout);
+      setDropdownTimeout(null);
+    }
+    setIsProductionDropdownOpen(false);
+  }, [dropdownTimeout]);
 
   const productionItems = [
     { name: 'Fastening', path: '/fasteners' },
@@ -71,9 +91,14 @@ const Header = memo(() => {
 
               if (link.name === 'Production') {
                 return (
-                  <div key={link.name} className="relative">
-                    <button
-                      onClick={toggleProductionDropdown}
+                  <div
+                    key={link.name}
+                    className="relative"
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    <Link
+                      to={link.path}
                       className={`font-medium transition-colors duration-200 flex items-center space-x-1 ${
                         isActive || productionItems.some(item => location.pathname === item.path)
                           ? isScrolled
@@ -88,17 +113,21 @@ const Header = memo(() => {
                       <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${
                         isProductionDropdownOpen ? 'rotate-180' : ''
                       }`} />
-                    </button>
+                    </Link>
 
                     {/* Dropdown Menu */}
                     {isProductionDropdownOpen && (
-                      <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                      <div
+                        className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                      >
                         {productionItems.map((item) => (
                           <Link
                             key={item.name}
                             to={item.path}
-                            onClick={closeDropdown}
                             className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-500 transition-colors duration-200"
+                            onClick={closeDropdown}
                           >
                             {item.name}
                           </Link>
@@ -172,19 +201,29 @@ const Header = memo(() => {
                 if (link.name === 'Production') {
                   return (
                     <div key={link.name} className="px-4">
-                      <button
-                        onClick={toggleProductionDropdown}
-                        className={`font-medium transition-colors duration-200 py-2 rounded-lg flex items-center justify-between w-full ${
-                          isActive || productionItems.some(item => location.pathname === item.path)
-                            ? "text-orange-500 bg-orange-50"
-                            : "text-gray-700 hover:text-orange-500 hover:bg-gray-50"
-                        }`}
-                      >
-                        <span>{t(`nav.${link.name.toLowerCase()}`)}</span>
-                        <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${
-                          isProductionDropdownOpen ? 'rotate-180' : ''
-                        }`} />
-                      </button>
+                      <div className="flex flex-col">
+                        <Link
+                          to={link.path}
+                          onClick={() => setIsMobileMenuOpen(false)}
+                          className={`font-medium transition-colors duration-200 py-2 rounded-lg flex items-center justify-between ${
+                            isActive || productionItems.some(item => location.pathname === item.path)
+                              ? "text-orange-500 bg-orange-50"
+                              : "text-gray-700 hover:text-orange-500 hover:bg-gray-50"
+                          }`}
+                        >
+                          <span>{t(`nav.${link.name.toLowerCase()}`)}</span>
+                        </Link>
+
+                        <button
+                          onClick={toggleProductionDropdown}
+                          className="text-sm text-gray-500 hover:text-orange-500 py-1 flex items-center justify-center"
+                        >
+                          <span>View Categories</span>
+                          <ChevronDown className={`w-3 h-3 ml-1 transition-transform duration-200 ${
+                            isProductionDropdownOpen ? 'rotate-180' : ''
+                          }`} />
+                        </button>
+                      </div>
 
                       {/* Mobile Dropdown */}
                       {isProductionDropdownOpen && (

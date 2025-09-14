@@ -1,7 +1,7 @@
-import { eyeBoltImages, liftingEyeBoltImages } from '@/assets/Bolts/images';
-import ImageGallery from '@/components/ImageGallery';
-import BoltNavigator from '@/components/BoltNavigator';
-import { useTranslation } from 'react-i18next';
+import { eyeBoltImages, liftingEyeBoltImages } from "@/assets/Bolts/images";
+import BoltNavigator from "@/components/BoltNavigator";
+import ImageGallery from "@/components/ImageGallery";
+import { useTranslation } from "react-i18next";
 
 const EyeBoltPage = () => {
   const { t } = useTranslation();
@@ -9,14 +9,16 @@ const EyeBoltPage = () => {
   return (
     <div className="mt-28 px-4 sm:px-6 lg:px-8">
       <BoltNavigator />
-      <div className="container mx-auto max-w-7xl">
+      <div id="eye-header" className="container mx-auto max-w-7xl">
         <div className="bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden mt-12">
           {/* Header */}
           <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-              {t('eyeBoltPage.din444.header.title')}
+              {t("eyeBoltPage.din444.header.title")}
             </h1>
-            <p className="text-violet-100 text-lg">{t('eyeBoltPage.din444.header.subtitle')}</p>
+            <p className="text-violet-100 text-lg">
+              {t("eyeBoltPage.din444.header.subtitle")}
+            </p>
           </div>
 
           {/* Main Content */}
@@ -26,10 +28,10 @@ const EyeBoltPage = () => {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                    {t('eyeBoltPage.din444.overview.title')}
+                    {t("eyeBoltPage.din444.overview.title")}
                   </h2>
                   <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                    {t('eyeBoltPage.din444.overview.description')}
+                    {t("eyeBoltPage.din444.overview.description")}
                   </p>
                 </div>
               </div>
@@ -47,7 +49,7 @@ const EyeBoltPage = () => {
             {/* Technical Diagram */}
             <div className="mb-12">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                {t('eyeBoltPage.din444.technicalSpecs.title')}
+                {t("eyeBoltPage.din444.technicalSpecs.title")}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img
@@ -64,18 +66,27 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                    {t('eyeBoltPage.din444.qualityStandards.title')}
+                    {t("eyeBoltPage.din444.qualityStandards.title")}
                   </h3>
                 </div>
                 <div className="space-y-2 text-green-700">
                   <p>
-                    <span className="font-semibold">{t('eyeBoltPage.din444.qualityStandards.steel')}</span> {t('eyeBoltPage.din444.qualityStandards.steelGrades')}
+                    <span className="font-semibold">
+                      {t("eyeBoltPage.din444.qualityStandards.steel")}
+                    </span>{" "}
+                    {t("eyeBoltPage.din444.qualityStandards.steelGrades")}
                   </p>
                   <p>
-                    <span className="font-semibold">{t('eyeBoltPage.din444.qualityStandards.stainlessSteel')}</span> {t('eyeBoltPage.din444.qualityStandards.stainlessGrades')}
+                    <span className="font-semibold">
+                      {t("eyeBoltPage.din444.qualityStandards.stainlessSteel")}
+                    </span>{" "}
+                    {t("eyeBoltPage.din444.qualityStandards.stainlessGrades")}
                   </p>
                   <p>
-                    <span className="font-semibold">{t('eyeBoltPage.din444.qualityStandards.thread')}</span> {t('eyeBoltPage.din444.qualityStandards.threadSpec')}
+                    <span className="font-semibold">
+                      {t("eyeBoltPage.din444.qualityStandards.thread")}
+                    </span>{" "}
+                    {t("eyeBoltPage.din444.qualityStandards.threadSpec")}
                   </p>
                 </div>
               </div>
@@ -84,11 +95,11 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                    {t('eyeBoltPage.din444.coatings.title')}
+                    {t("eyeBoltPage.din444.coatings.title")}
                   </h3>
                 </div>
                 <p className="text-violet-700 leading-relaxed">
-                  {t('eyeBoltPage.din444.coatings.description')}
+                  {t("eyeBoltPage.din444.coatings.description")}
                 </p>
               </div>
             </div>
@@ -96,7 +107,7 @@ const EyeBoltPage = () => {
             {/* Image Gallery */}
             <ImageGallery
               images={eyeBoltImages.gallery}
-              title={t('eyeBoltPage.din444.gallery.title')}
+              title={t("eyeBoltPage.din444.gallery.title")}
             />
           </div>
         </div>
@@ -106,10 +117,10 @@ const EyeBoltPage = () => {
           {/* Header */}
           <div className="bg-gradient-to-r from-violet-600 to-violet-700 text-white p-6 sm:p-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
-              {t('eyeBoltPage.din580.header.title')}
+              {t("eyeBoltPage.din580.header.title")}
             </h1>
             <p className="text-violet-100 text-lg underline-offset-2">
-              {t('eyeBoltPage.din580.header.subtitle')}
+              {t("eyeBoltPage.din580.header.subtitle")}
             </p>
           </div>
 
@@ -120,10 +131,10 @@ const EyeBoltPage = () => {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                    {t('eyeBoltPage.din580.overview.title')}
+                    {t("eyeBoltPage.din580.overview.title")}
                   </h2>
                   <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
-                    {t('eyeBoltPage.din580.overview.description')}
+                    {t("eyeBoltPage.din580.overview.description")}
                   </p>
                 </div>
               </div>
@@ -141,7 +152,7 @@ const EyeBoltPage = () => {
             {/* Technical Diagram */}
             <div className="mb-12">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                {t('eyeBoltPage.din580.technicalSpecs.title')}
+                {t("eyeBoltPage.din580.technicalSpecs.title")}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img
@@ -158,18 +169,27 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-green-800">
-                    {t('eyeBoltPage.din580.qualityStandards.title')}
+                    {t("eyeBoltPage.din580.qualityStandards.title")}
                   </h3>
                 </div>
                 <div className="space-y-2 text-green-700">
                   <p>
-                    <span className="font-semibold">{t('eyeBoltPage.din580.qualityStandards.steel')}</span> {t('eyeBoltPage.din580.qualityStandards.steelGrades')}
+                    <span className="font-semibold">
+                      {t("eyeBoltPage.din580.qualityStandards.steel")}
+                    </span>{" "}
+                    {t("eyeBoltPage.din580.qualityStandards.steelGrades")}
                   </p>
                   <p>
-                    <span className="font-semibold">{t('eyeBoltPage.din580.qualityStandards.stainlessSteel')}</span> {t('eyeBoltPage.din580.qualityStandards.stainlessGrades')}
+                    <span className="font-semibold">
+                      {t("eyeBoltPage.din580.qualityStandards.stainlessSteel")}
+                    </span>{" "}
+                    {t("eyeBoltPage.din580.qualityStandards.stainlessGrades")}
                   </p>
                   <p>
-                    <span className="font-semibold">{t('eyeBoltPage.din580.qualityStandards.thread')}</span> {t('eyeBoltPage.din580.qualityStandards.threadSpec')}
+                    <span className="font-semibold">
+                      {t("eyeBoltPage.din580.qualityStandards.thread")}
+                    </span>{" "}
+                    {t("eyeBoltPage.din580.qualityStandards.threadSpec")}
                   </p>
                 </div>
               </div>
@@ -178,11 +198,11 @@ const EyeBoltPage = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
                   <h3 className="text-xl sm:text-2xl font-bold text-violet-800">
-                    {t('eyeBoltPage.din580.coatings.title')}
+                    {t("eyeBoltPage.din580.coatings.title")}
                   </h3>
                 </div>
                 <p className="text-violet-700 leading-relaxed">
-                  {t('eyeBoltPage.din580.coatings.description')}
+                  {t("eyeBoltPage.din580.coatings.description")}
                 </p>
               </div>
             </div>
@@ -190,13 +210,13 @@ const EyeBoltPage = () => {
             {/* Image Gallery */}
             <ImageGallery
               images={liftingEyeBoltImages.gallery}
-              title={t('eyeBoltPage.din580.gallery.title')}
+              title={t("eyeBoltPage.din580.gallery.title")}
             />
 
             {/* Weight Chart */}
             <div className="mb-8">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6">
-                {t('eyeBoltPage.din580.weightChart.title')}
+                {t("eyeBoltPage.din580.weightChart.title")}
               </h3>
               <div className="bg-gray-50 rounded-lg p-4 sm:p-6">
                 <img
